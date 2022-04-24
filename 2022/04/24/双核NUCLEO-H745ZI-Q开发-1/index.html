@@ -20,23 +20,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"goupos.top","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="个人博客">
-<meta property="og:url" content="http://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.html">
+    <meta property="og:type" content="article">
+<meta property="og:title" content="双核NUCLEO-H745ZI-Q开发(1)">
+<meta property="og:url" content="http://goupos.top/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/index.html">
 <meta property="og:site_name" content="个人博客">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://goupos.top/STM32/H745ZIT6.jpg">
+<meta property="article:published_time" content="2022-04-24T06:01:28.000Z">
+<meta property="article:modified_time" content="2022-04-24T07:20:43.104Z">
 <meta property="article:author" content="xgm">
+<meta property="article:tag" content="STM32H745ZIT6">
+<meta property="article:tag" content="双核">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://goupos.top/STM32/H745ZIT6.jpg">
 
 
-<link rel="canonical" href="http://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">
+<link rel="canonical" href="http://goupos.top/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"tags/GoupOS嵌入式实时操作系统/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://goupos.top/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/","path":"2022/04/24/双核NUCLEO-H745ZI-Q开发-1/","title":"双核NUCLEO-H745ZI-Q开发(1)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>标签: GoupOS嵌入式实时操作系统 | 个人博客</title>
+<title>双核NUCLEO-H745ZI-Q开发(1) | 个人博客</title>
   
 
 
@@ -179,50 +185,122 @@
 </noscript>
 
 
-    <div class="main-inner tag posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">GoupOS嵌入式实时操作系统
-          <small>标签</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://goupos.top/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
+      <meta itemprop="name" content="xgm">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="个人博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="双核NUCLEO-H745ZI-Q开发(1) | 个人博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          双核NUCLEO-H745ZI-Q开发(1)
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+
+      <time title="创建时间：2022-04-24 14:01:28 / 修改时间：15:20:43" itemprop="dateCreated datePublished" datetime="2022-04-24T14:01:28+08:00">2022-04-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/STM32H745ZIT6/" itemprop="url" rel="index"><span itemprop="name">STM32H745ZIT6</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <span id="more"></span>
+
+<p><img src="/STM32/H745ZIT6.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-24T11:02:22+08:00"
-              content="2022-04-24">
-          04-24
-        </time>
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div></div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.png" alt="xgm 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="xgm 支付宝">
+        <span>支付宝</span>
       </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" itemprop="url">
-            <span itemprop="name">GoupOS嵌入式实时操作系统介绍</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-    </div>
   </div>
-  
-  
-  
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/STM32H745ZIT6/" rel="tag"># STM32H745ZIT6</a>
+              <a href="/tags/%E5%8F%8C%E6%A0%B8/" rel="tag"># 双核</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" rel="prev" title="GoupOS嵌入式实时操作系统介绍">
+                  <i class="fa fa-chevron-left"></i> GoupOS嵌入式实时操作系统介绍
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
 
 </div>
   </main>
