@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
-    <url>/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
-    <content><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span>
-
-<p><img src="/STM32/H745ZIT6.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
-]]></content>
-      <categories>
-        <category>STM32H745ZIT6</category>
-      </categories>
-      <tags>
-        <tag>STM32H745ZIT6</tag>
-        <tag>双核</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/04/22/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -43,7 +28,7 @@
 </blockquote>
 <ul>
 <li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#x33;&#x35;&#55;&#x32;&#49;&#x31;&#57;&#x33;&#x33;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#109;">&#50;&#x33;&#x35;&#55;&#x32;&#49;&#x31;&#57;&#x33;&#x33;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#109;</a>；将第一时间修复操作系统；</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#51;&#53;&#55;&#50;&#49;&#49;&#57;&#x33;&#x33;&#x40;&#x71;&#113;&#46;&#x63;&#x6f;&#x6d;">&#50;&#51;&#53;&#55;&#50;&#49;&#49;&#57;&#x33;&#x33;&#x40;&#x71;&#113;&#46;&#x63;&#x6f;&#x6d;</a>；将第一时间修复操作系统；</li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
 </ul>
@@ -62,15 +47,37 @@
     <url>/2022/04/24/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[ <!-- <center> <font face="宋体"  size="6">关于git命令 </font></center> -->
 
-<h1 id="ssh验证"><a href="#ssh验证" class="headerlink" title="ssh验证"></a>ssh验证</h1><span id="more"></span>
+<h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><span id="more"></span>
 
-<p>验证本地生成的ssh，github或者gitee端密钥是否添加成功，输入如下命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@gitee.com </span><br></pre></td></tr></table></figure>
-<p>如果添加成功就会显示如下语句</p>
+<ol>
+<li><p>在本地打开 git bash 命令行窗口，输入以下命令<br><code>cd ~/.ssh</code></p>
+</li>
+<li><p>如果没有，显示<br><code>bash: cd: /c/Users/Administrator/.ssh: No such file or directory</code></p>
+</li>
+<li><p>否则表示本地以创建 SSH key 了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">id_rsa  id_rsa.pub  known_hosts</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="创建-SSH-key"><a href="#创建-SSH-key" class="headerlink" title="创建 SSH key"></a>创建 SSH key</h1><!-- more -->
+
+<ol>
+<li>最后一个参数替换为自己的 <a href="gitee.com">Gitee</a> || <a href="github.com">Github</a> 注册邮箱<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br></pre></td></tr></table></figure></li>
+<li>接下来会提示输入生成的key存放的路径，不设置直接回车的话会默认创建在C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter file in which to save the key (/c/Users/Him/.ssh/id_rsa):</span><br><span class="line">Created directory &#x27;/c/Users/userpath/.ssh&#x27;.</span><br></pre></td></tr></table></figure></li>
+<li>再接下来会提示你输入密码，这个密码是用来每次提交的时候输入确认，可以不设置，直接回车两次<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></li>
+<li>最后成功后会看到类似如下的输出，表示成功生成SSH key了，可以到C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下查看<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Your identification has been saved in /c/Users/Him/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /c/Users/Him/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:RwvBINgH8CEt2KniltmykeyDsOseUYcwMzehFeyT86s xxxxxx@qq.com</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+---[RSA 2048]----+</span><br><span class="line">| o+%OO+o.        |</span><br><span class="line">|..=+%*+ ..       |</span><br><span class="line">| ..+o+o.. .      |</span><br><span class="line">|o.  o=.  o .     |</span><br><span class="line">|o oolalala S o      |</span><br><span class="line">| +.+.. . .       |</span><br><span class="line">|. .o    .        |</span><br><span class="line">|  . .  .         |</span><br><span class="line">|   . E.          |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="SSH验证"><a href="#SSH验证" class="headerlink" title="SSH验证"></a>SSH验证</h1><!-- more -->
+
+<ol>
+<li><p>验证本地生成的ssh，github或者gitee端密钥是否添加成功，输入如下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@gitee.com </span><br></pre></td></tr></table></figure></li>
+<li><p>如果添加成功就会显示如下语句</p>
 <blockquote>
 <p>Hi Username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Hi Username! You’ve successfully authenticated, but GITEE.COM does not provide shell access.</p>
 </blockquote>
-<p>Username:是你的在git端的名称</p>
+</li>
+<li><p>Username:是你的在git端的名称</p>
+</li>
+</ol>
 <hr>
 ]]></content>
       <categories>
@@ -106,6 +113,21 @@
       <tags>
         <tag>导航</tag>
         <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
+    <url>/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
+    <content><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span>
+
+<p><img src="/STM32/H745ZIT6.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
+]]></content>
+      <categories>
+        <category>STM32H745ZIT6</category>
+      </categories>
+      <tags>
+        <tag>STM32H745ZIT6</tag>
+        <tag>双核</tag>
       </tags>
   </entry>
 </search>
