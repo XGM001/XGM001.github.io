@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>GoupOS嵌入式实时操作系统介绍</title>
+    <url>/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
+
+<blockquote>
+<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
+</blockquote>
+<ul>
+<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#x33;&#53;&#55;&#x32;&#x31;&#49;&#x39;&#51;&#51;&#64;&#x71;&#113;&#x2e;&#x63;&#111;&#109;">&#50;&#x33;&#53;&#55;&#x32;&#x31;&#49;&#x39;&#51;&#51;&#64;&#x71;&#113;&#x2e;&#x63;&#111;&#109;</a>；将第一时间修复操作系统；</li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>GoupOS嵌入式实时操作系统</category>
+      </categories>
+      <tags>
+        <tag>嵌入式实时操作系统</tag>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/04/22/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -19,27 +43,18 @@
 ]]></content>
   </entry>
   <entry>
-    <title>GoupOS嵌入式实时操作系统介绍</title>
-    <url>/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
+    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
+    <url>/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
+    <content><![CDATA[<h4 id="标签-test"><a href="#标签-test" class="headerlink" title="标签 test"></a>标签 test</h4><span id="more"></span>
 
-<blockquote>
-<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
-</blockquote>
-<ul>
-<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#51;&#53;&#55;&#50;&#x31;&#x31;&#x39;&#x33;&#51;&#x40;&#113;&#x71;&#46;&#x63;&#111;&#x6d;">&#50;&#51;&#53;&#55;&#50;&#x31;&#x31;&#x39;&#x33;&#51;&#x40;&#113;&#x71;&#46;&#x63;&#111;&#x6d;</a>；将第一时间修复操作系统；</li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
-</ul>
+<p><img src="/STM32/H745ZIT6.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
 ]]></content>
       <categories>
-        <category>GoupOS嵌入式实时操作系统</category>
+        <category>STM32H745ZIT6</category>
       </categories>
       <tags>
-        <tag>嵌入式实时操作系统</tag>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
+        <tag>STM32H745ZIT6</tag>
+        <tag>双核</tag>
       </tags>
   </entry>
   <entry>
@@ -67,21 +82,6 @@
       <tags>
         <tag>导航</tag>
         <tag>分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
-    <url>/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
-    <content><![CDATA[<h4 id="标签-test"><a href="#标签-test" class="headerlink" title="标签 test"></a>标签 test</h4><span id="more"></span>
-
-<p><img src="/STM32/H745ZIT6.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
-]]></content>
-      <categories>
-        <category>STM32H745ZIT6</category>
-      </categories>
-      <tags>
-        <tag>STM32H745ZIT6</tag>
-        <tag>双核</tag>
       </tags>
   </entry>
   <entry>
