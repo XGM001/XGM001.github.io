@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>个人博客</title>
+  
+  
+  <link href="http://goupos.top/atom.xml" rel="self"/>
+  
+  <link href="http://goupos.top/"/>
+  <updated>2022-04-30T15:34:14.004Z</updated>
+  <id>http://goupos.top/</id>
+  
+  <author>
+    <name>xgm</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>管理服务器</title>
+    <link href="http://goupos.top/2022/04/30/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://goupos.top/2022/04/30/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
+    <published>2022-04-30T12:47:01.000Z</published>
+    <updated>2022-04-30T15:34:14.004Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="229d9862cac849f752ed9b8f963297ea1f884f21cfc29be761a8d67229ff85ad">6347daf711dfb81fc22167a188af0e33d3bcb6e9abef9937802803ce13d2a936a0523c8410dd3ce110a8ac0baf92c1a2de0e1d343840bb62f34fa6b744844f7436514b3aa42fc88c0c192b2c528b956e7cc2c6790f9d755dcb7d1f01143025ad0d0c7b90b1503f067dc531efa58dc4062d632dea46b8f4c1ad4eb2a810138ee6364250b70e24c6d83abf46bb7abd6cfefe40f5846bf5347bced92b959ca4ae4e</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-flip">      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这里是加密的内容，需要密码才能继续阅读。</summary>
+    
+    
+    
+    <category term="服务器" scheme="http://goupos.top/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+    <category term="个人服务器" scheme="http://goupos.top/tags/%E4%B8%AA%E4%BA%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客作者个人简历</title>
+    <link href="http://goupos.top/2022/04/28/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
+    <id>http://goupos.top/2022/04/28/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</id>
+    <published>2022-04-28T09:53:25.000Z</published>
+    <updated>2022-04-30T15:42:47.921Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="87adba22c7bc32f255af8b8d9abc611ae37c14a33d1cda33881146d05991ebc5">6fcd3dd035c2356f6198931ed1c99dce8fb96a5e8858332ab4ab8fb2d896a5087bf61cf872ef8a02d3fd90415cd2ee8c29ea4b54ac0b9c53dcd678ba023aafa39b23c14b2d628b07185a103e4690e4485343a1a6bb8535b11f18704b64085e0d49af375239cad545f08bb48a89f52bcb33245e182f72489a2259ddc19d2474eb5586247ca617d9c6ce4a7021550eba24a10778c38103fe7183d32e1ff9d67c94a6b5b835822782fe495341ce4252f0591fabfdc04cb657b36eeef09e320504f1f957e943d1bc5019f360a1dca4a8c703655f7a6bcae753a292506bd398b954cd44d4025faf82db364fbca814c5febaa2849faa6008894f31a77ef55f16836325</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-flip">      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这里是加密的内容，需要密码才能继续阅读。</summary>
+    
+    
+    
+    <category term="简历" scheme="http://goupos.top/categories/%E7%AE%80%E5%8E%86/"/>
+    
+    
+    <category term="个人简历" scheme="http://goupos.top/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一台电脑上的git同时使用两个github账户</title>
+    <link href="http://goupos.top/2022/04/27/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/"/>
+    <id>http://goupos.top/2022/04/27/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</id>
+    <published>2022-04-27T15:37:13.000Z</published>
+    <updated>2022-04-28T10:10:21.757Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote><p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;同一台电脑有两个github账号&quot;&gt;&lt;a href=&quot;#同一台电脑有两个github账号&quot; class=&quot;headerlink&quot; title=&quot;同一台电脑有两个github账号&quot;&gt;&lt;/a&gt;同一台电脑有两个github账号&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;本</summary>
+      
+    
+    
+    
+    
+    <category term="git" scheme="http://goupos.top/tags/git/"/>
+    
+    <category term="双Github账号同时存在" scheme="http://goupos.top/tags/%E5%8F%8CGithub%E8%B4%A6%E5%8F%B7%E5%90%8C%E6%97%B6%E5%AD%98%E5%9C%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
+    <link href="http://goupos.top/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/"/>
+    <id>http://goupos.top/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</id>
+    <published>2022-04-24T06:01:28.000Z</published>
+    <updated>2022-04-30T19:17:54.432Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span><p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="STM32H745ZIT6图片 | 400x0"><br><img data-src="https://s2.loli.net/2022/05/01/LicNoMsu2W9qda8.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>]]></content>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;标签&quot;&gt;&lt;a href=&quot;#标签&quot; class=&quot;headerlink&quot; title=&quot;标签&quot;&gt;&lt;/a&gt;标签&lt;/h4&gt;</summary>
+    
+    
+    
+    <category term="STM32H745ZIT6" scheme="http://goupos.top/categories/STM32H745ZIT6/"/>
+    
+    
+    <category term="STM32H745ZIT6" scheme="http://goupos.top/tags/STM32H745ZIT6/"/>
+    
+    <category term="双核" scheme="http://goupos.top/tags/%E5%8F%8C%E6%A0%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GoupOS嵌入式实时操作系统介绍</title>
+    <link href="http://goupos.top/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://goupos.top/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
+    <published>2022-04-24T03:02:22.000Z</published>
+    <updated>2022-04-24T04:16:43.220Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#x33;&#53;&#x37;&#x32;&#49;&#x31;&#57;&#x33;&#51;&#64;&#113;&#x71;&#x2e;&#x63;&#x6f;&#109;">&#50;&#x33;&#53;&#x37;&#x32;&#49;&#x31;&#57;&#x33;&#51;&#64;&#113;&#x71;&#x2e;&#x63;&#x6f;&#109;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="GoupOS嵌入式实时操作系统" scheme="http://goupos.top/categories/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="嵌入式实时操作系统" scheme="http://goupos.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="GoupOS嵌入式实时操作系统" scheme="http://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="RTOS" scheme="http://goupos.top/tags/RTOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于git命令</title>
+    <link href="http://goupos.top/2022/04/24/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/"/>
+    <id>http://goupos.top/2022/04/24/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</id>
+    <published>2022-04-23T22:05:35.000Z</published>
+    <updated>2022-04-30T15:42:24.474Z</updated>
+    
+    <content type="html"><![CDATA[ <!-- <center> <font face="宋体"  size="6">关于git命令 </font></center> --><h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><span id="more"></span><ol><li><p>在本地打开 git bash 命令行窗口，输入以下命令<br><code>cd ~/.ssh</code></p></li><li><p>如果没有，显示<br><code>bash: cd: /c/Users/Administrator/.ssh: No such file or directory</code></p></li><li><p>否则表示本地以创建 SSH key 了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">id_rsa  id_rsa.pub  known_hosts</span><br></pre></td></tr></table></figure></li></ol><h1 id="创建-SSH-key"><a href="#创建-SSH-key" class="headerlink" title="创建 SSH key"></a>创建 SSH key</h1><!-- more --><ol><li>最后一个参数替换为自己的 <a href="gitee.com">Gitee</a> || <a href="github.com">Github</a> 注册邮箱<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br></pre></td></tr></table></figure></li><li>接下来会提示输入生成的key存放的路径，不设置直接回车的话会默认创建在C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter file in which to save the key (/c/Users/Him/.ssh/id_rsa):</span><br><span class="line">Created directory &#x27;/c/Users/userpath/.ssh&#x27;.</span><br></pre></td></tr></table></figure></li><li>再接下来会提示你输入密码，这个密码是用来每次提交的时候输入确认，可以不设置，直接回车两次<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></li><li>最后成功后会看到类似如下的输出，表示成功生成SSH key了，可以到C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下查看<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">Your identification has been saved in /c/Users/Him/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /c/Users/Him/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:RwvBINgH8CEt2KniltmykeyDsOseUYcwMzehFeyT86s xxxxxx@qq.com</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+---[RSA 2048]----+</span><br><span class="line">| o+%OO+o.        |</span><br><span class="line">|..=+%*+ ..       |</span><br><span class="line">| ..+o+o.. .      |</span><br><span class="line">|o.  o=.  o .     |</span><br><span class="line">|o oolalala S o      |</span><br><span class="line">| +.+.. . .       |</span><br><span class="line">|. .o    .        |</span><br><span class="line">|  . .  .         |</span><br><span class="line">|   . E.          |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure></li></ol><h1 id="SSH验证"><a href="#SSH验证" class="headerlink" title="SSH验证"></a>SSH验证</h1><!-- more --><ol><li><p>验证本地生成的ssh，github或者gitee端密钥是否添加成功，输入如下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@gitee.com </span><br></pre></td></tr></table></figure></li><li><p>如果添加成功就会显示如下语句</p><blockquote><p>Hi Username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Hi Username! You’ve successfully authenticated, but GITEE.COM does not provide shell access.</p></blockquote></li><li><p>Username:是你的在git端的名称</p></li></ol><hr>]]></content>
+    
+    
+    <summary type="html">&lt;!-- &lt;center&gt; &lt;font face=&quot;宋体&quot;  size=&quot;6&quot;&gt;关于git命令 &lt;/font&gt;&lt;/center&gt; --&gt;
+
+&lt;h1 id=&quot;查看本地是否已有SSH&quot;&gt;&lt;a href=&quot;#查看本地是否已有SSH&quot; class=&quot;headerlink&quot; title=&quot;查看本地是否已有SSH&quot;&gt;&lt;/a&gt;查看本地是否已有SSH&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="git" scheme="http://goupos.top/categories/git/"/>
+    
+    
+    <category term="git" scheme="http://goupos.top/tags/git/"/>
+    
+    <category term="git命令" scheme="http://goupos.top/tags/git%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="http://goupos.top/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://goupos.top/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2022-04-22T22:06:12.000Z</published>
+    <updated>2022-04-23T19:06:29.572Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第一级标题"><a href="#第一级标题" class="headerlink" title="第一级标题"></a>第一级标题</h1><h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="这个是三级标题"><a href="#这个是三级标题" class="headerlink" title="这个是三级标题"></a>这个是三级标题</h3> <span id="more"></span><ul><li>列表1</li><li>列表2<br>  a 子列表1<br>  b 子列表2</li><li>列表3<br><a href="https://gitee.com/">gitee</a><br><img data-src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F113020142315%2F201130142315-1-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653257802&t=c93e7ceaa0b5c91564e5be1bbdc969b1" alt="图片测试"></li></ul><p><em><strong>字体加粗变斜</strong></em></p><p><code>&lt;html&gt;&lt;/html&gt;</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;标题&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><blockquote><p>引用</p></blockquote><hr><hr>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;第一级标题&quot;&gt;&lt;a href=&quot;#第一级标题&quot; class=&quot;headerlink&quot; title=&quot;第一级标题&quot;&gt;&lt;/a&gt;第一级标题&lt;/h1&gt;&lt;h2 id=&quot;第一篇文章&quot;&gt;&lt;a href=&quot;#第一篇文章&quot; class=&quot;headerlink&quot; title=&quot;第一篇文章&quot;&gt;&lt;/a&gt;第一篇文章&lt;/h2&gt;&lt;h3 id=&quot;这个是三级标题&quot;&gt;&lt;a href=&quot;#这个是三级标题&quot; class=&quot;headerlink&quot; title=&quot;这个是三级标题&quot;&gt;&lt;/a&gt;这个是三级标题&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="测试分类" scheme="http://goupos.top/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
+    
+    
+    <category term="导航" scheme="http://goupos.top/tags/%E5%AF%BC%E8%88%AA/"/>
+    
+    <category term="分享" scheme="http://goupos.top/tags/%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://goupos.top/2022/04/22/hello-world/"/>
+    <id>http://goupos.top/2022/04/22/hello-world/</id>
+    <published>2022-04-22T15:41:06.513Z</published>
+    <updated>2022-04-22T15:41:06.513Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
