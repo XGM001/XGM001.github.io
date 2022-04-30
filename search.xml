@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一台电脑上的git同时使用两个github账户</title>
-    <url>/2022/04/27/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
-    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
-<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>git</tag>
-        <tag>双Github账号同时存在</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoupOS嵌入式实时操作系统介绍</title>
-    <url>/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
-
-<blockquote>
-<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
-</blockquote>
-<ul>
-<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x32;&#x33;&#53;&#x37;&#50;&#49;&#49;&#57;&#51;&#51;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#109;">&#x32;&#x33;&#53;&#x37;&#50;&#49;&#49;&#57;&#51;&#51;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#109;</a>；将第一时间修复操作系统；</li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>GoupOS嵌入式实时操作系统</category>
-      </categories>
-      <tags>
-        <tag>嵌入式实时操作系统</tag>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/04/22/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -53,6 +17,64 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>GoupOS嵌入式实时操作系统介绍</title>
+    <url>/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
+
+<blockquote>
+<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
+</blockquote>
+<ul>
+<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#x33;&#x35;&#55;&#50;&#x31;&#49;&#57;&#x33;&#51;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">&#50;&#x33;&#x35;&#55;&#50;&#x31;&#49;&#57;&#x33;&#51;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;</a>；将第一时间修复操作系统；</li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>GoupOS嵌入式实时操作系统</category>
+      </categories>
+      <tags>
+        <tag>嵌入式实时操作系统</tag>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一台电脑上的git同时使用两个github账户</title>
+    <url>/2022/04/27/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
+    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
+<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>git</tag>
+        <tag>双Github账号同时存在</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客作者个人简历</title>
+    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="87adba22c7bc32f255af8b8d9abc611ae37c14a33d1cda33881146d05991ebc5">6fcd3dd035c2356f6198931ed1c99dce8fb96a5e8858332ab4ab8fb2d896a5087bf61cf872ef8a02d3fd90415cd2ee8c29ea4b54ac0b9c53dcd678ba023aafa39b23c14b2d628b07185a103e4690e4485343a1a6bb8535b11f18704b64085e0d49af375239cad545f08bb48a89f52bcb33245e182f72489a2259ddc19d2474eb5586247ca617d9c6ce4a7021550eba24a10778c38103fe7183d32e1ff9d67c94a6b5b835822782fe495341ce4252f0591fabfdc04cb657b36eeef09e320504f1f957e943d1bc5019f360a1dca4a8c703655f7a6bcae753a292506bd398b954cd44d4025faf82db364fbca814c5febaa2849faa6008894f31a77ef55f16836325</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>简历</category>
+      </categories>
+      <tags>
+        <tag>个人简历</tag>
+      </tags>
   </entry>
   <entry>
     <title>关于git命令</title>
@@ -101,10 +123,10 @@
       </tags>
   </entry>
   <entry>
-    <title>博客作者个人简历</title>
-    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
+    <title>管理服务器</title>
+    <url>/2022/04/30/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="87adba22c7bc32f255af8b8d9abc611ae37c14a33d1cda33881146d05991ebc5">6fcd3dd035c2356f6198931ed1c99dce8fb96a5e8858332ab4ab8fb2d896a5087bf61cf872ef8a02d3fd90415cd2ee8c29ea4b54ac0b9c53dcd678ba023aafa39b23c14b2d628b07185a103e4690e4485343a1a6bb8535b11f18704b64085e0d49af375239cad545f08bb48a89f52bcb33245e182f72489a2259ddc19d2474eb5586247ca617d9c6ce4a7021550eba24a10778c38103fe7183d32e1ff9d67c94a6b5b835822782fe495341ce4252f0591fabfdc04cb657b36eeef09e320504f1f957e943d1bc5019f360a1dca4a8c703655f7a6bcae753a292506bd398b954cd44d4025faf82db364fbca814c5febaa2849faa6008894f31a77ef55f16836325</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="229d9862cac849f752ed9b8f963297ea1f884f21cfc29be761a8d67229ff85ad">6347daf711dfb81fc22167a188af0e33d3bcb6e9abef9937802803ce13d2a936a0523c8410dd3ce110a8ac0baf92c1a2de0e1d343840bb62f34fa6b744844f7436514b3aa42fc88c0c192b2c528b956e7cc2c6790f9d755dcb7d1f01143025ad0d0c7b90b1503f067dc531efa58dc4062d632dea46b8f4c1ad4eb2a810138ee6364250b70e24c6d83abf46bb7abd6cfefe40f5846bf5347bced92b959ca4ae4e</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-flip">
       <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
@@ -115,8 +137,11 @@
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>服务器</category>
+      </categories>
       <tags>
-        <tag>个人简历</tag>
+        <tag>个人服务器</tag>
       </tags>
   </entry>
   <entry>
@@ -127,7 +152,7 @@
 <ul>
 <li>列表1</li>
 <li>列表2<br>  a 子列表1<br>  b 子列表2</li>
-<li>列表3<br><a href="https://gitee.com/">gitee</a><br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F113020142315%2F201130142315-1-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653257802&t=c93e7ceaa0b5c91564e5be1bbdc969b1" alt="图片测试"></li>
+<li>列表3<br><a href="https://gitee.com/">gitee</a><br><img data-src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F113020142315%2F201130142315-1-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653257802&t=c93e7ceaa0b5c91564e5be1bbdc969b1" alt="图片测试"></li>
 </ul>
 <p><em><strong>字体加粗变斜</strong></em></p>
 <p><code>&lt;html&gt;&lt;/html&gt;</code></p>
@@ -151,7 +176,7 @@
     <url>/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
     <content><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span>
 
-<p><img src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
+<p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
 ]]></content>
       <categories>
         <category>STM32H745ZIT6</category>
