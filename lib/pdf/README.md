@@ -59,6 +59,7 @@ In order to embed PDF files in the article, you just need to create an `pdf` tag
 
 ## {% pdf /path/to/your/file.pdf %}
 
+
 ```
 Notice: Do not use cross-origin PDF files, it might be blocked by the CORS policy.
 
