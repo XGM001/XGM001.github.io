@@ -54,7 +54,7 @@ skip_render:
 ## Usage
 
 In order to embed PDF files in the article, you just need to create an `pdf` tag with the URL of your local PDF file, e.g.
-
+<!-- {% pdf /path/to/your/file.pdf %} -->
 ```
 
 ```
