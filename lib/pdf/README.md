@@ -56,7 +56,9 @@ skip_render:
 In order to embed PDF files in the article, you just need to create an `pdf` tag with the URL of your local PDF file, e.g.
 
 ```
-{% pdf /path/to/your/file.pdf %}
+
+## {% pdf /path/to/your/file.pdf %}
+
 ```
 Notice: Do not use cross-origin PDF files, it might be blocked by the CORS policy.
 
