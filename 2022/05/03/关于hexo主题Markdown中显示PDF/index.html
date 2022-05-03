@@ -23,23 +23,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"goupos.top","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="个人博客">
-<meta property="og:url" content="http://goupos.top/categories/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.html">
+    <meta name="description" content="本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于hexo主题Markdown中显示PDF">
+<meta property="og:url" content="http://goupos.top/2022/05/03/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/index.html">
 <meta property="og:site_name" content="个人博客">
+<meta property="og:description" content="本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-05-03T05:58:30.000Z">
+<meta property="article:modified_time" content="2022-05-03T06:26:21.777Z">
 <meta property="article:author" content="xgm">
+<meta property="article:tag" content="Markdown显示pdf">
+<meta property="article:tag" content="hexo显示pdf">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://goupos.top/categories/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">
+<link rel="canonical" href="http://goupos.top/2022/05/03/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"categories/GoupOS嵌入式实时操作系统/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://goupos.top/2022/05/03/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/","path":"2022/05/03/关于hexo主题Markdown中显示PDF/","title":"关于hexo主题Markdown中显示PDF"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: GoupOS嵌入式实时操作系统 | 个人博客</title>
+<title>关于hexo主题Markdown中显示PDF | 个人博客</title>
   
 
 
@@ -129,7 +135,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -142,6 +148,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A-%E5%A4%8D%E5%88%B6%E4%B8%8B%E9%9D%A2%E4%BB%A3%E7%A0%81%EF%BC%8C%E5%B0%86%E4%BB%A3%E7%A0%81%E4%B8%ADpdf%E5%9C%B0%E5%9D%80%E6%8D%A2%E6%88%90%E4%BD%A0%E7%9A%84%E5%9C%B0%E5%9D%80%E5%8D%B3%E5%8F%AF%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%BD%91%E9%A1%B5%E9%93%BE%E6%8E%A5%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%9C%AC%E5%9C%B0%E5%9C%B0%E5%9D%80"><span class="nav-number">1.</span> <span class="nav-text">方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A-%E5%A4%8D%E5%88%B6%E4%B8%8B%E9%9D%A2%E4%BB%A3%E7%A0%81%EF%BC%8C%E5%B0%86%E4%BB%A3%E7%A0%81%E4%B8%ADpdf%E5%9C%B0%E5%9D%80%E6%8D%A2%E6%88%90%E4%BD%A0%E7%9A%84%E5%9C%B0%E5%9D%80%E5%8D%B3%E5%8F%AF%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%BD%91%E9%A1%B5%E9%93%BE%E6%8E%A5%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%9C%AC%E5%9C%B0%E5%9C%B0%E5%9D%80"><span class="nav-number">2.</span> <span class="nav-text">方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%E6%95%88%E6%9E%9C%E5%9B%BE%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">方法一效果图：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%E6%95%88%E6%9E%9C%E5%9B%BE%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">方法二效果图：</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -229,50 +236,147 @@
 </noscript>
 
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">GoupOS嵌入式实时操作系统
-          <small>分类</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://goupos.top/2022/05/03/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
+      <meta itemprop="name" content="xgm">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="个人博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="关于hexo主题Markdown中显示PDF | 个人博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          关于hexo主题Markdown中显示PDF
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+
+      <time title="创建时间：2022-05-03 13:58:30 / 修改时间：14:26:21" itemprop="dateCreated datePublished" datetime="2022-05-03T13:58:30+08:00">2022-05-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E6%98%BE%E7%A4%BApdf%E6%96%87%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">关于hexo主题Markdown显示pdf文件</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.1k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <blockquote>
+<p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p>
+</blockquote>
+<span id="more"></span>
+
+<p>此处主要解决不能显示pdf的方法：</p>
+<h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">	&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p>
+<h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">
+    <embed src="/PDF/stm32h745zi.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+<h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+</iframe>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-24T11:02:22+08:00"
-              content="2022-04-24">
-          04-24
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" itemprop="url">
-            <span itemprop="name">GoupOS嵌入式实时操作系统介绍</span>
-          </a>
-      </div>
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Markdown%E6%98%BE%E7%A4%BApdf/" rel="tag"><i class="fa fa-tag"></i> Markdown显示pdf</a>
+              <a href="/tags/hexo%E6%98%BE%E7%A4%BApdf/" rel="tag"><i class="fa fa-tag"></i> hexo显示pdf</a>
+          </div>
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/04/30/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="prev" title="管理服务器">
+                  <i class="fa fa-chevron-left"></i> 管理服务器
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+
+  <div style="text-align:center;color: #ccc;font-size:16px;">-------------本文结束 <i class="fa fa-heart"></i> 感谢阅读-------------</div>
+
+
 
 </div>
   </main>

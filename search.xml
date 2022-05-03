@@ -23,6 +23,38 @@
       </tags>
   </entry>
   <entry>
+    <title>关于hexo主题Markdown中显示PDF</title>
+    <url>/2022/05/03/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</url>
+    <content><![CDATA[<blockquote>
+<p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p>
+</blockquote>
+<span id="more"></span>
+
+<p>此处主要解决不能显示pdf的方法：</p>
+<h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">	&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p>
+<h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">
+    <embed src="/PDF/stm32h745zi.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+<h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+</iframe>
+]]></content>
+      <categories>
+        <category>关于hexo主题Markdown显示pdf文件</category>
+      </categories>
+      <tags>
+        <tag>Markdown显示pdf</tag>
+        <tag>hexo显示pdf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>管理服务器</title>
     <url>/2022/04/30/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
@@ -93,7 +125,7 @@
 </blockquote>
 <ul>
 <li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#51;&#53;&#55;&#x32;&#x31;&#x31;&#x39;&#51;&#x33;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;">&#50;&#51;&#53;&#55;&#x32;&#x31;&#x31;&#x39;&#51;&#x33;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;</a>；将第一时间修复操作系统；</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#51;&#53;&#55;&#x32;&#x31;&#x31;&#x39;&#x33;&#51;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#109;">&#50;&#51;&#53;&#55;&#x32;&#x31;&#x31;&#x39;&#x33;&#51;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#109;</a>；将第一时间修复操作系统；</li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
 </ul>
