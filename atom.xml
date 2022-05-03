@@ -111,9 +111,9 @@
     <link href="http://goupos.top/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/"/>
     <id>http://goupos.top/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</id>
     <published>2022-04-24T06:01:28.000Z</published>
-    <updated>2022-05-02T08:50:38.587Z</updated>
+    <updated>2022-05-03T08:18:31.904Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span><p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="STM32H745ZIT6图片 | 400x0"><br><img data-src="https://s2.loli.net/2022/05/01/LicNoMsu2W9qda8.jpg" alt="STM32H745ZIT6图片 | 400x0"></p><div class="pdf-container" data-target="https://maifile.cn/pdf/k79068802398.pdf" data-height="800px"></div><br><p>在线阅读</p><div class="pdf-container" data-target="https://maifile.cn/pdf/d71520810153.pdf" data-height="800px"></div><br>]]></content>
+    <content type="html"><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span><p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="STM32H745ZIT6图片 | 400x0"><br><img data-src="https://s2.loli.net/2022/05/01/LicNoMsu2W9qda8.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>]]></content>
     
     
     <summary type="html">&lt;h4 id=&quot;标签&quot;&gt;&lt;a href=&quot;#标签&quot; class=&quot;headerlink&quot; title=&quot;标签&quot;&gt;&lt;/a&gt;标签&lt;/h4&gt;</summary>
@@ -136,7 +136,7 @@
     <published>2022-04-24T03:02:22.000Z</published>
     <updated>2022-04-24T04:16:43.220Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#51;&#53;&#55;&#x32;&#x31;&#49;&#57;&#x33;&#x33;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;">&#50;&#51;&#53;&#55;&#x32;&#x31;&#49;&#57;&#x33;&#x33;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x32;&#x33;&#x35;&#x37;&#50;&#x31;&#49;&#x39;&#x33;&#x33;&#64;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;">&#x32;&#x33;&#x35;&#x37;&#50;&#x31;&#49;&#x39;&#x33;&#x33;&#64;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul>]]></content>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;</summary>
