@@ -1,22 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/04/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>博客作者个人简历</title>
+    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="4a19ffff87db07ded9b445bb10b0aabde96960a2e825884c4c25758bf88d2d6d">33b6c39d002ebceceb3e747ef576ef82efd06357e8f183a69e435032de79e80d472ffa5747c886765ba8745f4bb62fa67a1a991fdf8931c9dac47ed1ad2294db8b7b001c19bdc633d36b1199b4787c2bd3a18f52802ccd85d804043d725d86fabb9b35ba21b05c09b8f34fbc70e598be4514d2d77b3ef0df28e0d233cca23faaa8bca178e5db7e4238f9115c95fd42fb3339e7cb849ed20d5aedb3b25e3bde7cebc71c48c953ffc93cf73775f3ccb78b38abe9cd5cbfbfdee3c6612e5d33bdb4c8d8b714f59d87eaa6cc02d6a11fc85534a6cfad0d334b91a63544143929dfe36c02fd17045bc8132d45f00d0655b524980517fa5df664b51364f95192681827a3c99082527cbaf98298e162a12c3651aa2b0dce91816381e25c2e6a28b6048056b2fb7864c969f8ffead37b2e59fae61cf90a349967ea76784464f26faa762c518365c39a187c9f70740c3c0172a236a4b05d6c16ee1ba4fed0121066fa051d2839711c6ff031fa029edbcc24634eb82d4ac43f5830d8add7d1f1cd78b9790ec435a84ca730feff619ba2b6783a44b9b913823dd9ffb9f3b01bbd41cb8b32ef0f5da7526cedb59f04ae944aa14567a2d80c47d731460fba98dc9308c2342e72bb5b7ce57b4ea98bf7072bf9177f072a06dbfb05915b4b136d4bec192b80bb5b0bb6f1327336f79fffd6ea144bbe1c03db76076c23c75d801a6a6d6951878e282024508d1ddcdb327bf1ae5db27f80e50d725c077134cde0210095e0babb5180e1d0662cb1cf6192d7fef9a94005502759d3f3506b00767f09eb7099ff30133ef8b4c8d87fb27d674791ec542f1e98c00ac1acfb23898d953471ddac6a5c8fa772572c4d2b0577c187ae5a515e4f04507fcebed8cd39cf644e420785c4ff37727f60e82eb954d00d8f10ea4faa06eafd07c98cd89ef09794bd565d01f2137e77425c924ec7dc736b4a83af1838aba70a556d34acc61abccd574b1872143b1cb8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>简历</category>
+      </categories>
+      <tags>
+        <tag>个人简历</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于hexo主题Markdown中显示PDF</title>
+    <url>/2022/05/03/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</url>
+    <content><![CDATA[<blockquote>
+<p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p>
+</blockquote>
+<span id="more"></span>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>此处主要解决不能显示pdf的方法：</p>
+<h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">	&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p>
+<h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">
+    <embed src="/PDF/stm32h745zi.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+</iframe>
 ]]></content>
+      <categories>
+        <category>关于hexo主题Markdown显示pdf文件</category>
+      </categories>
+      <tags>
+        <tag>Markdown显示pdf</tag>
+        <tag>hexo显示pdf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>管理服务器</title>
+    <url>/2022/04/30/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="229d9862cac849f752ed9b8f963297ea1f884f21cfc29be761a8d67229ff85ad">6347daf711dfb81fc22167a188af0e33d3bcb6e9abef9937802803ce13d2a936a0523c8410dd3ce110a8ac0baf92c1a2de0e1d343840bb62f34fa6b744844f7436514b3aa42fc88c0c192b2c528b956e7cc2c6790f9d755dcb7d1f01143025ad0d0c7b90b1503f067dc531efa58dc4062d632dea46b8f4c1ad4eb2a810138ee6364250b70e24c6d83abf46bb7abd6cfefe40f5846bf5347bced92b959ca4ae4e</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>服务器</category>
+      </categories>
+      <tags>
+        <tag>个人服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一台电脑上的git同时使用两个github账户</title>
+    <url>/2022/04/27/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
+    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
+<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>git</tag>
+        <tag>双Github账号同时存在</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
+    <url>/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
+    <content><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span>
+
+<p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="STM32H745ZIT6图片 | 400x0"><br><img data-src="https://s2.loli.net/2022/05/01/LicNoMsu2W9qda8.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
+<div class="pdf-container" data-target="https://maifile.cn/pdf/k79068802398.pdf" data-height="800px"></div>
+
+<br>
+
+<p>在线阅读</p>
+<div class="pdf-container" data-target="https://maifile.cn/pdf/d71520810153.pdf" data-height="800px"></div>
+
+<br>
+
+
+
+
+]]></content>
+      <categories>
+        <category>STM32H745ZIT6</category>
+      </categories>
+      <tags>
+        <tag>STM32H745ZIT6</tag>
+        <tag>双核</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GoupOS嵌入式实时操作系统介绍</title>
+    <url>/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
+
+<blockquote>
+<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
+</blockquote>
+<ul>
+<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#51;&#53;&#55;&#x32;&#x31;&#x31;&#x39;&#x33;&#51;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#109;">&#50;&#51;&#53;&#55;&#x32;&#x31;&#x31;&#x39;&#x33;&#51;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#109;</a>；将第一时间修复操作系统；</li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>GoupOS嵌入式实时操作系统</category>
+      </categories>
+      <tags>
+        <tag>嵌入式实时操作系统</tag>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
+      </tags>
   </entry>
   <entry>
     <title>关于git命令</title>
@@ -65,64 +186,6 @@
       </tags>
   </entry>
   <entry>
-    <title>GoupOS嵌入式实时操作系统介绍</title>
-    <url>/2022/04/24/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
-
-<blockquote>
-<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
-</blockquote>
-<ul>
-<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#50;&#51;&#53;&#55;&#x32;&#x31;&#x31;&#x39;&#x33;&#51;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#109;">&#50;&#51;&#53;&#55;&#x32;&#x31;&#x31;&#x39;&#x33;&#51;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#109;</a>；将第一时间修复操作系统；</li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>GoupOS嵌入式实时操作系统</category>
-      </categories>
-      <tags>
-        <tag>嵌入式实时操作系统</tag>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一台电脑上的git同时使用两个github账户</title>
-    <url>/2022/04/27/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
-    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
-<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>git</tag>
-        <tag>双Github账号同时存在</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客作者个人简历</title>
-    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="4a19ffff87db07ded9b445bb10b0aabde96960a2e825884c4c25758bf88d2d6d">33b6c39d002ebceceb3e747ef576ef82efd06357e8f183a69e435032de79e80d472ffa5747c886765ba8745f4bb62fa67a1a991fdf8931c9dac47ed1ad2294db8b7b001c19bdc633d36b1199b4787c2bd3a18f52802ccd85d804043d725d86fabb9b35ba21b05c09b8f34fbc70e598be4514d2d77b3ef0df28e0d233cca23faaa8bca178e5db7e4238f9115c95fd42fb3339e7cb849ed20d5aedb3b25e3bde7cebc71c48c953ffc93cf73775f3ccb78b38abe9cd5cbfbfdee3c6612e5d33bdb4c8d8b714f59d87eaa6cc02d6a11fc85534a6cfad0d334b91a63544143929dfe36c02fd17045bc8132d45f00d0655b524980517fa5df664b51364f95192681827a3c99082527cbaf98298e162a12c3651aa2b0dce91816381e25c2e6a28b6048056b2fb7864c969f8ffead37b2e59fae61cf90a349967ea76784464f26faa762c518365c39a187c9f70740c3c0172a236a4b05d6c16ee1ba4fed0121066fa051d2839711c6ff031fa029edbcc24634eb82d4ac43f5830d8add7d1f1cd78b9790ec435a84ca730feff619ba2b6783a44b9b913823dd9ffb9f3b01bbd41cb8b32ef0f5da7526cedb59f04ae944aa14567a2d80c47d731460fba98dc9308c2342e72bb5b7ce57b4ea98bf7072bf9177f072a06dbfb05915b4b136d4bec192b80bb5b0bb6f1327336f79fffd6ea144bbe1c03db76076c23c75d801a6a6d6951878e282024508d1ddcdb327bf1ae5db27f80e50d725c077134cde0210095e0babb5180e1d0662cb1cf6192d7fef9a94005502759d3f3506b00767f09eb7099ff30133ef8b4c8d87fb27d674791ec542f1e98c00ac1acfb23898d953471ddac6a5c8fa772572c4d2b0577c187ae5a515e4f04507fcebed8cd39cf644e420785c4ff37727f60e82eb954d00d8f10ea4faa06eafd07c98cd89ef09794bd565d01f2137e77425c924ec7dc736b4a83af1838aba70a556d34acc61abccd574b1872143b1cb8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>简历</category>
-      </categories>
-      <tags>
-        <tag>个人简历</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>第一篇文章</title>
     <url>/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<h1 id="第一级标题"><a href="#第一级标题" class="headerlink" title="第一级标题"></a>第一级标题</h1><h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="这个是三级标题"><a href="#这个是三级标题" class="headerlink" title="这个是三级标题"></a>这个是三级标题</h3> <span id="more"></span>
@@ -150,84 +213,21 @@
       </tags>
   </entry>
   <entry>
-    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
-    <url>/2022/04/24/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
-    <content><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span>
+    <title>Hello World</title>
+    <url>/2022/04/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="STM32H745ZIT6图片 | 400x0"><br><img data-src="https://s2.loli.net/2022/05/01/LicNoMsu2W9qda8.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
-<div class="pdf-container" data-target="https://maifile.cn/pdf/k79068802398.pdf" data-height="800px"></div>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<br>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>在线阅读</p>
-<div class="pdf-container" data-target="https://maifile.cn/pdf/d71520810153.pdf" data-height="800px"></div>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<br>
-
-
-
-
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>STM32H745ZIT6</category>
-      </categories>
-      <tags>
-        <tag>STM32H745ZIT6</tag>
-        <tag>双核</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>管理服务器</title>
-    <url>/2022/04/30/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="229d9862cac849f752ed9b8f963297ea1f884f21cfc29be761a8d67229ff85ad">6347daf711dfb81fc22167a188af0e33d3bcb6e9abef9937802803ce13d2a936a0523c8410dd3ce110a8ac0baf92c1a2de0e1d343840bb62f34fa6b744844f7436514b3aa42fc88c0c192b2c528b956e7cc2c6790f9d755dcb7d1f01143025ad0d0c7b90b1503f067dc531efa58dc4062d632dea46b8f4c1ad4eb2a810138ee6364250b70e24c6d83abf46bb7abd6cfefe40f5846bf5347bced92b959ca4ae4e</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>服务器</category>
-      </categories>
-      <tags>
-        <tag>个人服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于hexo主题Markdown中显示PDF</title>
-    <url>/2022/05/03/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</url>
-    <content><![CDATA[<blockquote>
-<p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p>
-</blockquote>
-<span id="more"></span>
-
-<p>此处主要解决不能显示pdf的方法：</p>
-<h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure>
-
-<h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">	&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
-
-<p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p>
-<h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">
-    <embed src="/PDF/stm32h745zi.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
-<h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">
-    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
-</iframe>
-]]></content>
-      <categories>
-        <category>关于hexo主题Markdown显示pdf文件</category>
-      </categories>
-      <tags>
-        <tag>Markdown显示pdf</tag>
-        <tag>hexo显示pdf</tag>
-      </tags>
   </entry>
 </search>
