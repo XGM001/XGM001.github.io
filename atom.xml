@@ -6,7 +6,7 @@
   <link href="http://goupos.top/atom.xml" rel="self"/>
   
   <link href="http://goupos.top/"/>
-  <updated>2022-05-04T18:47:21.734Z</updated>
+  <updated>2022-05-05T05:50:29.315Z</updated>
   <id>http://goupos.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于next博客主题设置和加速</title>
+    <link href="http://goupos.top/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/"/>
+    <id>http://goupos.top/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/</id>
+    <published>2022-05-05T05:40:35.000Z</published>
+    <updated>2022-05-05T05:50:29.315Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>这里就不写博客的介绍了，关于next主题修改可以参考以下这些博客，可能版本不相同，但是配置大致相似。</p></blockquote><span id="more"></span><h2 id="1-NexT主题进阶配置"><a href="#1-NexT主题进阶配置" class="headerlink" title="1. NexT主题进阶配置"></a>1. <a href="https://wylu.me/posts/e0424f3f/">NexT主题进阶配置</a></h2><h2 id="2-提升Hexo-NexT主题加载速度"><a href="#2-提升Hexo-NexT主题加载速度" class="headerlink" title="2. 提升Hexo NexT主题加载速度"></a>2. <a href="https://finisky.github.io/responsivehexonext/">提升Hexo NexT主题加载速度</a></h2><h2 id="3-Hexo-博客-静态网站目录文件介绍"><a href="#3-Hexo-博客-静态网站目录文件介绍" class="headerlink" title="3. Hexo 博客 静态网站目录文件介绍"></a>3. <a href="https://www.cnblogs.com/baiqiantao/p/10538926.html">Hexo 博客 静态网站目录文件介绍</a></h2>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这里就不写博客的介绍了，关于next主题修改可以参考以下这些博客，可能版本不相同，但是配置大致相似。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="next主题设置与加速" scheme="http://goupos.top/categories/next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%8A%A0%E9%80%9F/"/>
+    
+    
+    <category term="next主题设置" scheme="http://goupos.top/tags/next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>在线找女朋友</title>
@@ -176,7 +199,7 @@
     <published>2022-04-24T03:02:22.000Z</published>
     <updated>2022-04-24T04:16:43.220Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x32;&#x33;&#x35;&#55;&#x32;&#49;&#49;&#x39;&#51;&#x33;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;">&#x32;&#x33;&#x35;&#55;&#x32;&#49;&#49;&#x39;&#51;&#x33;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x32;&#51;&#53;&#55;&#50;&#x31;&#x31;&#x39;&#x33;&#x33;&#x40;&#x71;&#113;&#x2e;&#x63;&#111;&#109;">&#x32;&#51;&#53;&#55;&#50;&#x31;&#x31;&#x39;&#x33;&#x33;&#x40;&#x71;&#113;&#x2e;&#x63;&#111;&#109;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul>]]></content>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;</summary>
