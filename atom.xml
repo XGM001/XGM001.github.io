@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-05-06T06:17:26.273Z</updated>
+  <updated>2022-05-06T14:41:33.709Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GoupOS内核基础</title>
+    <link href="https://goupos.top/2022/05/06/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/"/>
+    <id>https://goupos.top/2022/05/06/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/</id>
+    <published>2022-05-06T14:41:33.000Z</published>
+    <updated>2022-05-06T14:41:33.709Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GoupOS嵌入式实时系统文件以及说明</title>
+    <link href="https://goupos.top/2022/05/06/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/"/>
+    <id>https://goupos.top/2022/05/06/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/</id>
+    <published>2022-05-06T07:58:10.000Z</published>
+    <updated>2022-05-06T07:58:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>GoupOS嵌入式实时系统文件以及说明</p></blockquote><span id="more"></span><h2 id="1-GoupOS操作系统软件框架"><a href="#1-GoupOS操作系统软件框架" class="headerlink" title="1. GoupOS操作系统软件框架"></a>1. GoupOS操作系统软件框架</h2><p><img data-src="https://s2.loli.net/2022/05/06/4mnPZYu8ciEBXrC.png" alt="GoupOS V1.111版本软件框架.png"></p><h2 id="2-嵌入式实时操作系统GoupOS文件夹说明文档"><a href="#2-嵌入式实时操作系统GoupOS文件夹说明文档" class="headerlink" title="2. 嵌入式实时操作系统GoupOS文件夹说明文档"></a>2. 嵌入式实时操作系统GoupOS文件夹说明文档</h2><p><img data-src="https://s2.loli.net/2022/05/06/7zqBgpnaSXIC581.png" alt="GoupOS操作系统文件目录说明.png"></p><h2 id="3-嵌入式实时操作系统GoupOS硬件平台"><a href="#3-嵌入式实时操作系统GoupOS硬件平台" class="headerlink" title="3. 嵌入式实时操作系统GoupOS硬件平台"></a>3. 嵌入式实时操作系统GoupOS硬件平台</h2><ol><li>目前GoupOS只搭载在Cortex-M3、M4、M7内核的STM32系列上运行，其他平台芯片暂时没平台，未搭载测试，后续将搭载在不同平台测试。</li><li>GoupOS嵌入式实时操作系统支持Cortex内核开启FPU功能。移植到其他芯片需要注意硬件平台是否支持FPU功能，不支持需要软件关闭关闭该功能，该配置在GoupOSconfig.h文件中进行配置。</li></ol><h2 id="4-嵌入式实时操作系统GoupOS软件平台"><a href="#4-嵌入式实时操作系统GoupOS软件平台" class="headerlink" title="4. 嵌入式实时操作系统GoupOS软件平台"></a>4. 嵌入式实时操作系统GoupOS软件平台</h2><p>目前该操作系统编译运行的平台为keil软件平台，编译软件版本号V5.36.0.0;软件安装略，希望大家支持正版。学生或兴趣爱好者，网络提供其他方法参考。</p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;GoupOS嵌入式实时系统文件以及说明&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="GoupOS" scheme="https://goupos.top/categories/GoupOS/"/>
+    
+    <category term="GoupOS设计与实现" scheme="https://goupos.top/categories/GoupOS/GoupOS%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/"/>
+    
+    
+    <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="RTOS" scheme="https://goupos.top/tags/RTOS/"/>
+    
+  </entry>
   
   <entry>
     <title>关于next博客主题设置和加速</title>
@@ -197,23 +237,25 @@
     <link href="https://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     <id>https://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
     <published>2022-04-24T03:02:22.000Z</published>
-    <updated>2022-05-06T07:02:09.607Z</updated>
+    <updated>2022-05-06T13:57:06.827Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#x67;&#x6d;&#99;&#x72;&#101;&#x61;&#116;&#x65;&#x40;&#102;&#x6f;&#120;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#120;&#x67;&#x6d;&#99;&#x72;&#101;&#x61;&#116;&#x65;&#x40;&#102;&#x6f;&#120;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul><p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#x67;&#109;&#x63;&#114;&#x65;&#x61;&#x74;&#x65;&#64;&#102;&#x6f;&#120;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#120;&#x67;&#109;&#x63;&#114;&#x65;&#x61;&#x74;&#x65;&#64;&#102;&#x6f;&#120;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul><p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>]]></content>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;</summary>
     
     
     
-    <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/categories/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <category term="GoupOS" scheme="https://goupos.top/categories/GoupOS/"/>
     
+    <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/categories/GoupOS/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
-    <category term="嵌入式实时操作系统" scheme="https://goupos.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
     <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
     <category term="RTOS" scheme="https://goupos.top/tags/RTOS/"/>
+    
+    <category term="嵌入式实时操作系统" scheme="https://goupos.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
