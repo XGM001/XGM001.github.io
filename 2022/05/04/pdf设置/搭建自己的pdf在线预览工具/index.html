@@ -25,7 +25,7 @@
     <meta name="description" content="说明:关于该功能，测试发现部分浏览器不支持显示，如果遇到浏览器不显示，请直接换一个浏览器；浏览器Microsoft Edge可以支持显示（请文明上网）">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建自己的pdf在线预览工具(pdf.js)">
-<meta property="og:url" content="http://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/index.html">
+<meta property="og:url" content="https://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/index.html">
 <meta property="og:site_name" content="个人博客">
 <meta property="og:description" content="说明:关于该功能，测试发现部分浏览器不支持显示，如果遇到浏览器不显示，请直接换一个浏览器；浏览器Microsoft Edge可以支持显示（请文明上网）">
 <meta property="og:locale" content="zh_CN">
@@ -42,11 +42,11 @@
 <meta name="twitter:image" content="https://s2.loli.net/2022/05/04/m6KDd48Naeck7TW.png">
 
 
-<link rel="canonical" href="http://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/">
+<link rel="canonical" href="https://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/","path":"2022/05/04/pdf设置/搭建自己的pdf在线预览工具/","title":"搭建自己的pdf在线预览工具(pdf.js)"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/","path":"2022/05/04/pdf设置/搭建自己的pdf在线预览工具/","title":"搭建自己的pdf在线预览工具(pdf.js)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>搭建自己的pdf在线预览工具(pdf.js) | 个人博客</title>
@@ -95,7 +95,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -152,7 +152,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E4%BD%BF%E7%94%A8gitee%E5%92%8Cpdf-js%E6%90%AD%E5%BB%BApdf%E5%9C%A8%E7%BA%BF%E6%B5%8F%E8%A7%88%E5%B7%A5%E5%85%B7"><span class="nav-number">1.</span> <span class="nav-text">1. 使用gitee和pdf.js搭建pdf在线浏览工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E4%B8%8B%E8%BD%BDpdf-js%E6%BA%90%E7%A0%81%E5%88%B0%E8%A7%A3%E5%8E%8B%E5%88%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%AD"><span class="nav-number">2.</span> <span class="nav-text">2. 下载pdf.js源码到解压到本地仓库中</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E7%82%B9%E5%87%BBgitee%E7%9A%84Npdf%E4%BB%93%E5%BA%93%E4%B8%AD%E9%80%89%E6%8B%A9Service%E4%B8%8B%E7%9A%84Gitee-Pages-%E8%BF%9B%E5%85%A5%E9%80%89%E6%8B%A9%E5%88%9B%E5%BB%BAPages%EF%BC%9B%E5%A6%82%E6%9E%9C%E4%BD%BF%E7%94%A8github%E6%97%A0%E6%AD%A4%E6%93%8D%E4%BD%9C%E3%80%82"><span class="nav-number">3.</span> <span class="nav-text">3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E6%9C%80%E7%BB%88%E5%8F%AF%E4%BB%A5%E7%94%9F%E6%88%90%E5%A6%82%E4%B8%8B%E5%86%85%E5%AE%B9-%E9%83%A8%E7%BD%B2%E6%88%90%E5%8A%9F"><span class="nav-number">4.</span> <span class="nav-text">4. 最终可以生成如下内容(部署成功)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E4%BD%A0%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E5%A6%82%E4%B8%8B%E9%93%BE%E6%8E%A5-%E6%89%93%E5%BC%80%E4%B9%8B%E5%89%8D%E6%94%BE%E5%85%A5web%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E7%9A%84pdf%E6%96%87%E4%BB%B6"><span class="nav-number">5.</span> <span class="nav-text">5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E6%9B%B4%E6%96%B0PDF%E6%96%87%E4%BB%B6%E6%88%96%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%9A%84PDF%E6%96%87%E4%BB%B6"><span class="nav-number">6.</span> <span class="nav-text">6. 更新PDF文件或添加新的PDF文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E5%8F%82%E8%80%83%E8%BF%9E%E6%8E%A5"><span class="nav-number">7.</span> <span class="nav-text">7. 参考连接</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E4%BD%BF%E7%94%A8gitee%E5%92%8Cpdf-js%E6%90%AD%E5%BB%BApdf%E5%9C%A8%E7%BA%BF%E6%B5%8F%E8%A7%88%E5%B7%A5%E5%85%B7"><span class="nav-text">1. 使用gitee和pdf.js搭建pdf在线浏览工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E4%B8%8B%E8%BD%BDpdf-js%E6%BA%90%E7%A0%81%E5%88%B0%E8%A7%A3%E5%8E%8B%E5%88%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%AD"><span class="nav-text">2. 下载pdf.js源码到解压到本地仓库中</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E7%82%B9%E5%87%BBgitee%E7%9A%84Npdf%E4%BB%93%E5%BA%93%E4%B8%AD%E9%80%89%E6%8B%A9Service%E4%B8%8B%E7%9A%84Gitee-Pages-%E8%BF%9B%E5%85%A5%E9%80%89%E6%8B%A9%E5%88%9B%E5%BB%BAPages%EF%BC%9B%E5%A6%82%E6%9E%9C%E4%BD%BF%E7%94%A8github%E6%97%A0%E6%AD%A4%E6%93%8D%E4%BD%9C%E3%80%82"><span class="nav-text">3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E6%9C%80%E7%BB%88%E5%8F%AF%E4%BB%A5%E7%94%9F%E6%88%90%E5%A6%82%E4%B8%8B%E5%86%85%E5%AE%B9-%E9%83%A8%E7%BD%B2%E6%88%90%E5%8A%9F"><span class="nav-text">4. 最终可以生成如下内容(部署成功)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E4%BD%A0%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E5%A6%82%E4%B8%8B%E9%93%BE%E6%8E%A5-%E6%89%93%E5%BC%80%E4%B9%8B%E5%89%8D%E6%94%BE%E5%85%A5web%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E7%9A%84pdf%E6%96%87%E4%BB%B6"><span class="nav-text">5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E6%9B%B4%E6%96%B0PDF%E6%96%87%E4%BB%B6%E6%88%96%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%9A%84PDF%E6%96%87%E4%BB%B6"><span class="nav-text">6. 更新PDF文件或添加新的PDF文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E5%8F%82%E8%80%83%E8%BF%9E%E6%8E%A5"><span class="nav-text">7. 参考连接</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -251,7 +251,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/">
+    <link itemprop="mainEntityOfPage" href="https://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
@@ -444,10 +444,8 @@
     </span>
 </div>
 
-<!--
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
-  </div>
--->
+
+
 
     </div>
   </footer>

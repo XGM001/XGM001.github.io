@@ -3,11 +3,11 @@
   <title>个人博客</title>
   
   
-  <link href="http://goupos.top/atom.xml" rel="self"/>
+  <link href="https://goupos.top/atom.xml" rel="self"/>
   
-  <link href="http://goupos.top/"/>
-  <updated>2022-05-05T05:50:29.315Z</updated>
-  <id>http://goupos.top/</id>
+  <link href="https://goupos.top/"/>
+  <updated>2022-05-06T06:17:26.273Z</updated>
+  <id>https://goupos.top/</id>
   
   <author>
     <name>xgm</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>关于next博客主题设置和加速</title>
-    <link href="http://goupos.top/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/"/>
-    <id>http://goupos.top/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/</id>
+    <link href="https://goupos.top/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/"/>
+    <id>https://goupos.top/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/</id>
     <published>2022-05-05T05:40:35.000Z</published>
-    <updated>2022-05-05T05:50:29.315Z</updated>
+    <updated>2022-05-06T06:17:26.273Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>这里就不写博客的介绍了，关于next主题修改可以参考以下这些博客，可能版本不相同，但是配置大致相似。</p></blockquote><span id="more"></span><h2 id="1-NexT主题进阶配置"><a href="#1-NexT主题进阶配置" class="headerlink" title="1. NexT主题进阶配置"></a>1. <a href="https://wylu.me/posts/e0424f3f/">NexT主题进阶配置</a></h2><h2 id="2-提升Hexo-NexT主题加载速度"><a href="#2-提升Hexo-NexT主题加载速度" class="headerlink" title="2. 提升Hexo NexT主题加载速度"></a>2. <a href="https://finisky.github.io/responsivehexonext/">提升Hexo NexT主题加载速度</a></h2><h2 id="3-Hexo-博客-静态网站目录文件介绍"><a href="#3-Hexo-博客-静态网站目录文件介绍" class="headerlink" title="3. Hexo 博客 静态网站目录文件介绍"></a>3. <a href="https://www.cnblogs.com/baiqiantao/p/10538926.html">Hexo 博客 静态网站目录文件介绍</a></h2>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>这里就不写博客的介绍了，关于next主题修改可以参考以下这些博客，可能版本不相同，但是配置大致相似。</p></blockquote><span id="more"></span><h2 id="1-NexT主题进阶配置"><a href="#1-NexT主题进阶配置" class="headerlink" title="1. NexT主题进阶配置"></a>1. <a href="https://wylu.me/posts/e0424f3f/">NexT主题进阶配置</a></h2><h2 id="2-提升Hexo-NexT主题加载速度"><a href="#2-提升Hexo-NexT主题加载速度" class="headerlink" title="2. 提升Hexo NexT主题加载速度"></a>2. <a href="https://finisky.github.io/responsivehexonext/">提升Hexo NexT主题加载速度</a></h2><h2 id="3-Hexo-博客-静态网站目录文件介绍"><a href="#3-Hexo-博客-静态网站目录文件介绍" class="headerlink" title="3. Hexo 博客 静态网站目录文件介绍"></a>3. <a href="https://www.cnblogs.com/baiqiantao/p/10538926.html">Hexo 博客 静态网站目录文件介绍</a></h2><h2 id="4-hexo-个人博客基于-NexT-主题"><a href="#4-hexo-个人博客基于-NexT-主题" class="headerlink" title="4. hexo 个人博客基于 NexT 主题"></a>4. <a href="https://choubin.site/2019/12/30/CustomBlogTheme/">hexo 个人博客基于 NexT 主题</a></h2>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -32,17 +32,17 @@
     
     
     
-    <category term="next主题设置与加速" scheme="http://goupos.top/categories/next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%8A%A0%E9%80%9F/"/>
+    <category term="next主题设置与加速" scheme="https://goupos.top/categories/next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%8A%A0%E9%80%9F/"/>
     
     
-    <category term="next主题设置" scheme="http://goupos.top/tags/next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/"/>
+    <category term="next主题设置" scheme="https://goupos.top/tags/next%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>在线找女朋友</title>
-    <link href="http://goupos.top/2022/05/05/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E5%9C%A8%E7%BA%BF%E6%89%BE%E5%A5%B3%E6%9C%8B%E5%8F%8B/"/>
-    <id>http://goupos.top/2022/05/05/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E5%9C%A8%E7%BA%BF%E6%89%BE%E5%A5%B3%E6%9C%8B%E5%8F%8B/</id>
+    <link href="https://goupos.top/2022/05/05/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E5%9C%A8%E7%BA%BF%E6%89%BE%E5%A5%B3%E6%9C%8B%E5%8F%8B/"/>
+    <id>https://goupos.top/2022/05/05/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E5%9C%A8%E7%BA%BF%E6%89%BE%E5%A5%B3%E6%9C%8B%E5%8F%8B/</id>
     <published>2022-05-04T18:34:24.000Z</published>
     <updated>2022-05-04T18:47:21.734Z</updated>
     
@@ -58,8 +58,8 @@
   
   <entry>
     <title>搭建自己的pdf在线预览工具(pdf.js)</title>
-    <link href="http://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/"/>
-    <id>http://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/</id>
+    <link href="https://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/"/>
+    <id>https://goupos.top/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/</id>
     <published>2022-05-03T19:15:52.000Z</published>
     <updated>2022-05-04T18:39:17.189Z</updated>
     
@@ -72,17 +72,17 @@
     
     
     
-    <category term="搭建在线浏览PDF" scheme="http://goupos.top/categories/%E6%90%AD%E5%BB%BA%E5%9C%A8%E7%BA%BF%E6%B5%8F%E8%A7%88PDF/"/>
+    <category term="搭建在线浏览PDF" scheme="https://goupos.top/categories/%E6%90%AD%E5%BB%BA%E5%9C%A8%E7%BA%BF%E6%B5%8F%E8%A7%88PDF/"/>
     
     
-    <category term="搭建pdf.js" scheme="http://goupos.top/tags/%E6%90%AD%E5%BB%BApdf-js/"/>
+    <category term="搭建pdf.js" scheme="https://goupos.top/tags/%E6%90%AD%E5%BB%BApdf-js/"/>
     
   </entry>
   
   <entry>
     <title>关于hexo主题Markdown中显示PDF</title>
-    <link href="http://goupos.top/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/"/>
-    <id>http://goupos.top/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</id>
+    <link href="https://goupos.top/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/"/>
+    <id>https://goupos.top/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</id>
     <published>2022-05-03T05:58:30.000Z</published>
     <updated>2022-05-03T07:25:08.464Z</updated>
     
@@ -93,19 +93,19 @@
     
     
     
-    <category term="关于hexo主题Markdown显示pdf文件" scheme="http://goupos.top/categories/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E6%98%BE%E7%A4%BApdf%E6%96%87%E4%BB%B6/"/>
+    <category term="关于hexo主题Markdown显示pdf文件" scheme="https://goupos.top/categories/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E6%98%BE%E7%A4%BApdf%E6%96%87%E4%BB%B6/"/>
     
     
-    <category term="Markdown显示pdf" scheme="http://goupos.top/tags/Markdown%E6%98%BE%E7%A4%BApdf/"/>
+    <category term="Markdown显示pdf" scheme="https://goupos.top/tags/Markdown%E6%98%BE%E7%A4%BApdf/"/>
     
-    <category term="hexo显示pdf" scheme="http://goupos.top/tags/hexo%E6%98%BE%E7%A4%BApdf/"/>
+    <category term="hexo显示pdf" scheme="https://goupos.top/tags/hexo%E6%98%BE%E7%A4%BApdf/"/>
     
   </entry>
   
   <entry>
     <title>管理服务器</title>
-    <link href="http://goupos.top/2022/04/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>http://goupos.top/2022/04/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
+    <link href="https://goupos.top/2022/04/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>https://goupos.top/2022/04/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
     <published>2022-04-30T12:47:01.000Z</published>
     <updated>2022-04-30T15:34:14.004Z</updated>
     
@@ -116,17 +116,17 @@
     
     
     
-    <category term="服务器" scheme="http://goupos.top/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <category term="服务器" scheme="https://goupos.top/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     
-    <category term="个人服务器" scheme="http://goupos.top/tags/%E4%B8%AA%E4%BA%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <category term="个人服务器" scheme="https://goupos.top/tags/%E4%B8%AA%E4%BA%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>博客作者个人简历</title>
-    <link href="http://goupos.top/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
-    <id>http://goupos.top/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</id>
+    <link href="https://goupos.top/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
+    <id>https://goupos.top/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</id>
     <published>2022-04-28T09:53:25.000Z</published>
     <updated>2022-05-03T06:05:01.345Z</updated>
     
@@ -137,17 +137,17 @@
     
     
     
-    <category term="简历" scheme="http://goupos.top/categories/%E7%AE%80%E5%8E%86/"/>
+    <category term="简历" scheme="https://goupos.top/categories/%E7%AE%80%E5%8E%86/"/>
     
     
-    <category term="个人简历" scheme="http://goupos.top/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
+    <category term="个人简历" scheme="https://goupos.top/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
     
   </entry>
   
   <entry>
     <title>一台电脑上的git同时使用两个github账户</title>
-    <link href="http://goupos.top/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/"/>
-    <id>http://goupos.top/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</id>
+    <link href="https://goupos.top/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/"/>
+    <id>https://goupos.top/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</id>
     <published>2022-04-27T15:37:13.000Z</published>
     <updated>2022-04-28T10:10:21.757Z</updated>
     
@@ -163,16 +163,16 @@
     
     
     
-    <category term="git" scheme="http://goupos.top/tags/git/"/>
+    <category term="git" scheme="https://goupos.top/tags/git/"/>
     
-    <category term="双Github账号同时存在" scheme="http://goupos.top/tags/%E5%8F%8CGithub%E8%B4%A6%E5%8F%B7%E5%90%8C%E6%97%B6%E5%AD%98%E5%9C%A8/"/>
+    <category term="双Github账号同时存在" scheme="https://goupos.top/tags/%E5%8F%8CGithub%E8%B4%A6%E5%8F%B7%E5%90%8C%E6%97%B6%E5%AD%98%E5%9C%A8/"/>
     
   </entry>
   
   <entry>
     <title>双核NUCLEO-H745ZI-Q开发(1)</title>
-    <link href="http://goupos.top/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/"/>
-    <id>http://goupos.top/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</id>
+    <link href="https://goupos.top/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/"/>
+    <id>https://goupos.top/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</id>
     <published>2022-04-24T06:01:28.000Z</published>
     <updated>2022-05-04T00:28:36.990Z</updated>
     
@@ -183,44 +183,44 @@
     
     
     
-    <category term="STM32H745ZIT6" scheme="http://goupos.top/categories/STM32H745ZIT6/"/>
+    <category term="STM32H745ZIT6" scheme="https://goupos.top/categories/STM32H745ZIT6/"/>
     
     
-    <category term="STM32H745ZIT6" scheme="http://goupos.top/tags/STM32H745ZIT6/"/>
+    <category term="STM32H745ZIT6" scheme="https://goupos.top/tags/STM32H745ZIT6/"/>
     
-    <category term="双核" scheme="http://goupos.top/tags/%E5%8F%8C%E6%A0%B8/"/>
+    <category term="双核" scheme="https://goupos.top/tags/%E5%8F%8C%E6%A0%B8/"/>
     
   </entry>
   
   <entry>
     <title>GoupOS嵌入式实时操作系统介绍</title>
-    <link href="http://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    <id>http://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
+    <link href="https://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
     <published>2022-04-24T03:02:22.000Z</published>
-    <updated>2022-05-05T06:50:46.474Z</updated>
+    <updated>2022-05-06T07:02:09.607Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#x67;&#x6d;&#x63;&#x72;&#x65;&#x61;&#x74;&#x65;&#x40;&#x66;&#x6f;&#x78;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x78;&#x67;&#x6d;&#x63;&#x72;&#x65;&#x61;&#x74;&#x65;&#x40;&#x66;&#x6f;&#x78;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul><p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#x67;&#x6d;&#99;&#x72;&#101;&#x61;&#116;&#x65;&#x40;&#102;&#x6f;&#120;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#120;&#x67;&#x6d;&#99;&#x72;&#101;&#x61;&#116;&#x65;&#x40;&#102;&#x6f;&#120;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul><p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>]]></content>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;</summary>
     
     
     
-    <category term="GoupOS嵌入式实时操作系统" scheme="http://goupos.top/categories/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/categories/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
     
-    <category term="嵌入式实时操作系统" scheme="http://goupos.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <category term="嵌入式实时操作系统" scheme="https://goupos.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
-    <category term="GoupOS嵌入式实时操作系统" scheme="http://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
-    <category term="RTOS" scheme="http://goupos.top/tags/RTOS/"/>
+    <category term="RTOS" scheme="https://goupos.top/tags/RTOS/"/>
     
   </entry>
   
   <entry>
     <title>关于git命令</title>
-    <link href="http://goupos.top/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/"/>
-    <id>http://goupos.top/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</id>
+    <link href="https://goupos.top/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/"/>
+    <id>https://goupos.top/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</id>
     <published>2022-04-23T22:05:35.000Z</published>
     <updated>2022-04-30T15:42:24.474Z</updated>
     
@@ -233,19 +233,19 @@
     
     
     
-    <category term="git" scheme="http://goupos.top/categories/git/"/>
+    <category term="git" scheme="https://goupos.top/categories/git/"/>
     
     
-    <category term="git" scheme="http://goupos.top/tags/git/"/>
+    <category term="git" scheme="https://goupos.top/tags/git/"/>
     
-    <category term="git命令" scheme="http://goupos.top/tags/git%E5%91%BD%E4%BB%A4/"/>
+    <category term="git命令" scheme="https://goupos.top/tags/git%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   
   <entry>
     <title>第一篇文章</title>
-    <link href="http://goupos.top/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://goupos.top/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="https://goupos.top/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://goupos.top/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2022-04-22T22:06:12.000Z</published>
     <updated>2022-04-23T19:06:29.572Z</updated>
     
@@ -256,19 +256,19 @@
     
     
     
-    <category term="测试分类" scheme="http://goupos.top/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
+    <category term="测试分类" scheme="https://goupos.top/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
     
     
-    <category term="导航" scheme="http://goupos.top/tags/%E5%AF%BC%E8%88%AA/"/>
+    <category term="导航" scheme="https://goupos.top/tags/%E5%AF%BC%E8%88%AA/"/>
     
-    <category term="分享" scheme="http://goupos.top/tags/%E5%88%86%E4%BA%AB/"/>
+    <category term="分享" scheme="https://goupos.top/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://goupos.top/2022/04/22/hello-world/"/>
-    <id>http://goupos.top/2022/04/22/hello-world/</id>
+    <link href="https://goupos.top/2022/04/22/hello-world/"/>
+    <id>https://goupos.top/2022/04/22/hello-world/</id>
     <published>2022-04-22T15:41:06.513Z</published>
     <updated>2022-04-22T15:41:06.513Z</updated>
     
