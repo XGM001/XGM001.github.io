@@ -46,18 +46,252 @@
 
 <p>其中uint32_t 	prio是线程创建时指定的线程优先级，它在线程运行过程中是不会改变的。</p>
 <h3 id="1-线程的属性"><a href="#1-线程的属性" class="headerlink" title="1. 线程的属性"></a>1. 线程的属性</h3><h4 id="1-线程栈"><a href="#1-线程栈" class="headerlink" title="1. 线程栈"></a>1. 线程栈</h4><p>GoupOS线程具有独立的栈，当进行线程切换时，会将当前线程的上下文保存在栈中，当线程要恢复运行时，再从栈中读取上下文信息进行恢复。<br>线程栈还用来存放函数中的局部变最：函数中的局部变量从线程栈空间中申请；函数中局部变量初始时从寄存器中分配(ARM架构)，当该函数再调用另一个函数时，这些局部变量将被放入栈中。<br>第一次运行线程时，可以以手工的方式构造上下文来设置一些初始环境：入口函数(PC寄存器）、入口参数(RO寄存器）、返回位置(LR寄存器）、当前机器运行状态(CPSR寄存器）。<br>线程栈的增长方向是与芯片构架密切相关的，目前版本均只支持栈由高地址向低地址增对千ARM Cortex M架构，线程栈的构造如右侧图所示。<br>线程栈大小可以这样设定：对于资源相对较大的MCU,可以设计较大的线程栈；也可以在初始时设置较大的栈。例如指定大小为1KB或2KB,可以根据系统提供的函数获取栈大概的使用率。<br><a><img data-src="https://s2.loli.net/2022/05/07/FtHJYEGkWmQdlbe.png" alt="线程栈的构造.png"></a></p>
-<h3 id="2-线程状态"><a href="#2-线程状态" class="headerlink" title="2. 线程状态"></a>2. 线程状态</h3><p>在线程运行过程中，同时间内只允许一个线程在处理器中运行。从运行的过程上划分，线程有多种不同的运行状态，如初始状态、挂起状态、就绪状态等。在GoupOS中，线程包含4种状态，操作系统会自动根据线程运行的情况来动态调整其状态。GoupOS中线程的4种状态如下表所示。<br><img data-src="https://s2.loli.net/2022/05/07/5QsbiJzohYL2UKX.png" alt="线程的4中状态.png"></p>
-<h3 id="3-线程优先级"><a href="#3-线程优先级" class="headerlink" title="3. 线程优先级"></a>3. 线程优先级</h3><p>GoupOS线程的优先级表示线程被调度的优先程度。每个线程都具有优先级， 线程越重要，被赋予的优先级就越高，该线程被调度的可能性就越大。<br>GoupOS最大支持32个线程优先级(0~32)，数值越小的优先级越高，0为最高优先级。对于ARM Cortex-M系列，普遍采用32个优先级。最低优先级默认分配给空。最低优先级默认分配给空闲线程使用，用户一般不使用。在系统中， 如果有比当前线程优先级更高的线程就绪时，当前线程将立刻被换出，高优先级线程抢占处理器运行。</p>
-<h3 id="4-时间片"><a href="#4-时间片" class="headerlink" title="4. 时间片"></a>4. 时间片</h3><p>每个线程都有时间片参数，但时间片仅对优先级相同的就绪状态线程有效。 当系统对优先级相同的就绪状态线程采用时间片轮转的调度方式进行调度时， 时间片起到约束线程单次运行时长的作用， 其单位是一个系统节拍(OS Tick)。 假设有2个优先级相同的就绪状态线程A与B, A线程的时间片设置为10, B线程的时间片设置为5, 那么当系统中不存在比A优先级高的就绪状态线程时，系统会在A、B线程间来回切换执行，并且每次对A线程执行10个节拍的时长， 对B线程执行5个节拍的时长，如下图所示。<br><img data-src="https://s2.loli.net/2022/05/07/87AzsDPXCj1v6FK.png" alt="相同优先级时间片轮转.png"></p>
-<h3 id="5-线程入口函数"><a href="#5-线程入口函数" class="headerlink" title="5. 线程入口函数"></a>5. 线程入口函数</h3><p>线程控制块中的task1Entry是线程的入口函数， 它是线程实现预期功能的函数。线程的入口函数有用户设计实现，一般有一下两种代码模式。<br>(1)无限循环模式：在实时系统中， 线程通常是被动式的。 这是由实时系统的特性所决定的， 实时系统通常总是等待外界事件的发生， 而后进行相应的服务。</p>
+<h4 id="2-线程状态"><a href="#2-线程状态" class="headerlink" title="2. 线程状态"></a>2. 线程状态</h4><p>在线程运行过程中，同时间内只允许一个线程在处理器中运行。从运行的过程上划分，线程有多种不同的运行状态，如初始状态、挂起状态、就绪状态等。在GoupOS中，线程包含4种状态，操作系统会自动根据线程运行的情况来动态调整其状态。GoupOS中线程的4种状态如下表所示。<br><img data-src="https://s2.loli.net/2022/05/07/5QsbiJzohYL2UKX.png" alt="线程的4中状态.png"></p>
+<h4 id="3-线程优先级"><a href="#3-线程优先级" class="headerlink" title="3. 线程优先级"></a>3. 线程优先级</h4><p>GoupOS线程的优先级表示线程被调度的优先程度。每个线程都具有优先级， 线程越重要，被赋予的优先级就越高，该线程被调度的可能性就越大。<br>GoupOS最大支持32个线程优先级(0~32)，数值越小的优先级越高，0为最高优先级。对于ARM Cortex-M系列，普遍采用32个优先级。最低优先级默认分配给空。最低优先级默认分配给空闲线程使用，用户一般不使用。在系统中， 如果有比当前线程优先级更高的线程就绪时，当前线程将立刻被换出，高优先级线程抢占处理器运行。</p>
+<h4 id="4-时间片"><a href="#4-时间片" class="headerlink" title="4. 时间片"></a>4. 时间片</h4><p>每个线程都有时间片参数，但时间片仅对优先级相同的就绪状态线程有效。 当系统对优先级相同的就绪状态线程采用时间片轮转的调度方式进行调度时， 时间片起到约束线程单次运行时长的作用， 其单位是一个系统节拍(OS Tick)。 假设有2个优先级相同的就绪状态线程A与B, A线程的时间片设置为10, B线程的时间片设置为5, 那么当系统中不存在比A优先级高的就绪状态线程时，系统会在A、B线程间来回切换执行，并且每次对A线程执行10个节拍的时长， 对B线程执行5个节拍的时长，如下图所示。<br><img data-src="https://s2.loli.net/2022/05/07/87AzsDPXCj1v6FK.png" alt="相同优先级时间片轮转.png"></p>
+<h4 id="5-线程入口函数"><a href="#5-线程入口函数" class="headerlink" title="5. 线程入口函数"></a>5. 线程入口函数</h4><p>线程控制块中的task1Entry是线程的入口函数， 它是线程实现预期功能的函数。线程的入口函数有用户设计实现，一般有一下两种代码模式。<br>(1)无限循环模式：在实时系统中， 线程通常是被动式的。 这是由实时系统的特性所决定的， 实时系统通常总是等待外界事件的发生， 而后进行相应的服务。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">void task1Entry(void *param)</span><br><span class="line">&#123;</span><br><span class="line">	for(;;)</span><br><span class="line">	&#123;</span><br><span class="line">		/*&lt;! User code */	</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>线程看似没有什么限制程序执行的因素，似乎所有的操作都可以执行。但是作为一个优先级明确的实时系统，如果一个线程中的程序陷入了死循环，那么比它优先级低的线程都将不能得到执行。所以在实时操作系统中必须注意的一点：线程中不能陷入死循环操作，必须要有让出CPU使用权的动作，如在循环中调用延时函数或者主动挂起。用户设计这种无限循环线程的目的，就是为了让该线程一直被系统循环调度运行，永不删除。<br>(2)顺序执行或有限次循环模式：简单的顺序语旬、do while()或for()循环等。</p>
-<h3 id="6-线程错误码"><a href="#6-线程错误码" class="headerlink" title="6. 线程错误码"></a>6. 线程错误码</h3><p>一个线程就是一个执行场景，错误码是与执行环境密切相关的，所以为每个线程配备了一个变量，用于保存错误码。线程的错误码有以下几种：</p>
+<h4 id="6-线程错误码"><a href="#6-线程错误码" class="headerlink" title="6. 线程错误码"></a>6. 线程错误码</h4><p>一个线程就是一个执行场景，错误码是与执行环境密切相关的，所以为每个线程配备了一个变量，用于保存错误码。线程的错误码有以下几种：</p>
 <figure class="highlight plaintext"><figcaption><span>os_tEventConBlock_h__</span></figcaption><table><tr><td class="code"><pre><span class="line">/**</span><br><span class="line"> * @brief (等待事件的)错误码</span><br><span class="line"> */</span><br><span class="line">typedef enum _tError</span><br><span class="line">&#123;</span><br><span class="line">	tErrorNoError				= 0,			/*&lt;!无错误*/</span><br><span class="line">	tErrorTimeout				= 1,			/*&lt;!任务超时*/</span><br><span class="line">	tErrorResourceUnavaliable 	= 2,          	/*&lt;!错误，资源不可用*/</span><br><span class="line">	tErrorDel 				 	= 3,			/*&lt;!信号量被删除 */</span><br><span class="line">	tErrorResourceFull			= 4,			/*&lt;!错误，资源不可用*/</span><br><span class="line">	tErrorOwner					= 5,			/*&lt;!拥有者错误*/</span><br><span class="line">&#125; tError;</span><br></pre></td></tr></table></figure>
 
+<h3 id="2-线程状态切换"><a href="#2-线程状态切换" class="headerlink" title="2. 线程状态切换"></a>2. 线程状态切换</h3><p>GoupOS提供一系列的操作系统调用接口，使得线程的状态在这几种状态之间来回切换。几种状态之间的转换关系如下图所示。<br><img data-src="https://s2.loli.net/2022/05/07/QmjcC3a9yXdZM5K.png" alt="程状态转换图.png"></p>
+<table border="1">
+    <caption>线程状态转换的基本函数</caption>
+    <tr>
+        <td>任务创建函数</td>
+        <td>tTaskInit()；</td>
+    </tr>
+    <tr>
+        <td>任务延时函数</td>
+        <td>tTaskDelay ()；</td>
+    </tr>
+    <tr>
+        <td>任务挂起函数</td>
+        <td>tTaskSuspend();</td>
+    </tr>
+    <tr>
+        <td>任务唤醒函数</td>
+        <td>tTaskwakeUp();</td>
+    </tr>
+    <tr>
+        <td>任务等待事件函数</td>
+        <td>tEventwait();</td>
+    </tr>
+    <tr>
+        <td>任务获取事件函数</td>
+        <td>tEventWakeUp();
+            <br>
+            tEventWakeUpTask();
+        </td>
+    </tr>
+    <tr>
+        <td>任务删除函数</td>
+        <td>
+            tTaskForceDelete();
+            <br>
+            tTaskRequestDelete();
+            <br>
+            tTaskIsRequestedDeleted();
+            <br>
+            tTaskDeleteSelf();
+        </td>
+    </tr>
+</table>
 
+<p>线程通过调用函数tTaskInit()进入初始状态；初始完成后进入就绪状态；就绪状态的线程被调度器调度后进入运行状态；当处于运行状态的线程调用tTaskDelay()、tSemWait()、tMutexChokeObtainlock()等函数或者获取不到资源时，将进入挂起状态；处于挂起状态 的线程，如果等待超时依然未能获得资源或由千其他线程释放了资源，它将返回到就绪状态。挂起状态的线程．，如果调用tSemDestroy()、tMutexTaskDelete()函数，将更改为关闭状态。<br>注意：GoupOS实际上线程并不存在运行状态，就绪状态和运行状态是等同的。</p>
+<h3 id="3-系统线程"><a href="#3-系统线程" class="headerlink" title="3. 系统线程"></a>3. 系统线程</h3><p>前文中已提到，系统线程是指由系统创建的线程，用户线程是由用户程序调用线程管理接口创建的线程，在GoupOS内核中的系统线程有空闪线程和主线程。</p>
+<h4 id="1-空闲线程"><a href="#1-空闲线程" class="headerlink" title="1. 空闲线程"></a>1. 空闲线程</h4><p>空闲线程是系统创建的最低优先级的线程，线程状态永远为就绪状态。当系统中无其就绪线程存在时，调度器将调度到空闲线程，它通常是一个死循环，且永远不能被挂起。另外，空闲线程在GoupOS中也有它的特殊用途。<br>空闲线程也提供了接口来运行用户设置的钩子函数在空闲线程运行时会调用该钩子函数，适合钩入功耗管理、看门狗、喂狗等工作。</p>
+<h2 id="4-线程的管理方式"><a href="#4-线程的管理方式" class="headerlink" title="4. 线程的管理方式"></a>4. 线程的管理方式</h2><p>程状态转换图描述了线程的相关操作，包括创建／初始化线程、启动线程、运行线程、删除线程。使用<code>tTaskInit()</code>初始化一个静态线程，静态线程由用户分配栈空间。</p>
+<h3 id="1-创建和删除线程"><a href="#1-创建和删除线程" class="headerlink" title="1. 创建和删除线程"></a>1. 创建和删除线程</h3><p>线程的初始化可以使用下面的函数接口完成， 它用于初始化线程对象，线程的线程句柄（或者说线程控制块指针）、线程栈由用户提供。线程控制块、线程运行栈一般都设置为全局变量， 在编译时就被确定和被分配处理， 内核不负责分配内存空间。需要注意的是,用户提供的栈首地址需进行系统对齐（例如ARM上需要进行4字节对齐）。线程创建接口的参数和返回值如下表所示。</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTask_h__</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTaskInit(	char *taskname,  uint16_t taskname_legnth,tTask* task,  void (*entry)(void *),void *param,uint32_t prio,tTaskStack *stack,uint32_t stacksize,uint32_t tTaskRTime);</span><br></pre></td></tr></table></figure>
 
+<table border="1">
+    <caption>任务初始化tTaskInit()的输入参数列表s</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>taskname</td>
+        <td>
+            线程的名称；线程名称的最大长度由GoupOSconfig.h中的宏OS_TASKNAME_LENGTH指定，多余部分会被自动截掉
+        </td>
+    </tr>
+    <tr>
+        <td>taskname_legnth</td>
+        <td>
+            任务名称长度，为了保证线程名称安全，当线程名称中有特殊字符时候，通过指定名称长度，保证特殊字符也再保存，超过名字宏OS_TASKNAME_LENGTH指定长度后，多余部分会被自动截断
+        </td>
+    </tr>
+    <tr>
+        <td>task</td>
+        <td>
+            线程对象，每个线程都有一个自己的线程对象管理线程数据(线程旬柄。线程旬柄由用户提供, 指向对应的线程控制块内存地址)
+        </td>
+    </tr>
+    <tr>
+        <td>entry</td>
+        <td>线程入口函数</td>
+    </tr>
+    <tr>
+        <td>param</td>
+        <td>线程入口函数参数</td>
+    </tr>
+    <tr>
+        <td>prio</td>
+        <td>
+            线程的优先级。优先级范围取决于系统配置情况(GoupOSconfig.h中的TINYOS_PRO_COUNT宏定义），目前支持1024个优先级，可以修改。数值越小优先级越高，0代表最高优先级
+        </td>
+    </tr>
+    <tr>
+        <td>stack</td>
+        <td>
+            线程栈起始地址，该地址为栈底地址；为数组的首地址
+        </td>
+    </tr>
+    <tr>
+        <td>stacksize</td>
+        <td>
+            线程栈大小，单位是系统位宽除以8（单位是字，32位系统中1个字等于4字节）；例如：32位/8则单位为4个字节为一个单位。
+        </td>
+    </tr>
+    <tr>
+        <td>tTaskRTime</td>
+        <td>
+            线程的时间片大小，时间片的单位时操作系统的时钟节拍。当系统中存在相同优先级的线程时，并且没有更高优先级任务，这个参数指定的线程一次调度能够运行的最大时间长度。这个时间片运行结束时，调度器自动选择下一个就绪状态的同优先级线程运行。
+        </td>
+    </tr>  
+</table>
 
+<p>线程通过该函数后，就会直接创建好，并且进入就绪态等待CPU的调用。</p>
+<h3 id="2-获取线程信息"><a href="#2-获取线程信息" class="headerlink" title="2. 获取线程信息"></a>2. 获取线程信息</h3><p>在程序运行过程中一段相同的代码可能会被多个线程执行，在执行的时候可以通过下面的函数接口获得当前执行的线程句柄（线程任务）如下表</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTask_h__</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTaskGetInfo(tTask* task,tTaskInfo * taskinfo);</span><br><span class="line">void tTaskGetCurrentInfo(tTaskInfo * taskinfo);</span><br></pre></td></tr></table></figure>
+
+<table border="1">
+    <caption>任务初始化tTaskInit()的输入参数列表s</caption>
+    <tr>
+        <th>返回数据</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>tTaskInfo * taskinfo</td>
+        <td>
+            线程信息结构体
+        </td>
+    </tr>
+</table>
+
+<h3 id="3-线程睡眠"><a href="#3-线程睡眠" class="headerlink" title="3. 线程睡眠"></a>3. 线程睡眠</h3><p>在实际应用中，我们有时需要让当前运行的线程延迟一段时间，即在指定的时间到达后重新运行，这就叫做“线程睡眠”,线程睡眠可以使用以下函数接口</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTime.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void  tTaskDelay (uint32_t delay);</span><br></pre></td></tr></table></figure>
+<p>调用它们可以使当前线程挂起一段指定的时间，当这个时间过后，线程会被唤醒并再次进入就绪状态。这个函数接受一个参数，该参数指定线程的休眠时间。 线程睡眠接口的参数如下表</p>
+<table border="1">
+    <caption>任务初始化tTaskInit()的输入参数列表</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>delay</td>
+        <td>
+            线程睡眠的时间，传入的参数睡眠(或延时)时间等于:delay*系统时钟节拍。具体时间，需要知道设置的时钟节拍最短时间是多少，然后乘上延时数。
+        </td>
+    </tr>
+</table>
+
+<h3 id="4-挂起和恢复线程"><a href="#4-挂起和恢复线程" class="headerlink" title="4. 挂起和恢复线程"></a>4. 挂起和恢复线程</h3><p>当线程调用<code>tTaskDelay()</code>时，线程将主动挂起；当调用<code>tMutexChokeObtainlock()、tSemWait()</code>等函数时，资源不可使用也将导致线程挂起。处于挂起状态的线程？如果其等待的资源超时（超过其设定的等待时间），那么该线程将不再等待这些资源，而是返回到就绪状态；而是返回到就绪状态，或者当其他线程释放掉该线程所等待的资源时，该线程也会返回到就绪状态。<br>线程挂起使用下面的函数接口：</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTask.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTaskSuspend(tTask * task);</span><br><span class="line">void CurrentTaskSuspend(void);</span><br></pre></td></tr></table></figure>
+
+<p>线程挂起接口的参数和返回值见下表</p>
+<table border="1">
+    <caption> tTaskSuspend()/CurrentTaskSuspend()的输入参数</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>task</td>
+        <td>
+            线程任务（线程句柄）
+        </td>
+    </tr>
+</table>
+
+<p>注意：通常不应该使用这个函数来挂起线程本身，如果确实需要采用<code>tTaskSuspend()、CurrentTaskSuspend()</code>函数挂起当前任务，需要再调用tTaskwakeUp()函数唤醒任务。用户只需要了解该接口的作用，不推荐使用该接口。<br>恢复线程就是让挂起的线程重新进入就绪状态，并将线程放入系统的就绪队列中；如果被恢复线程在所有就绪状态线程中位于最高优先级链表的第一位，那么系统将进行线程上下文的切换。线程恢复使用下面的函数接口：</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTask.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTaskwakeUp(tTask *task)</span><br></pre></td></tr></table></figure>
+
+<p>线程恢复接口的参数和返回值见下表</p>
+<table border="1">
+    <caption>tTaskwakeUp()的输入参数和返回值</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>task</td>
+        <td>
+            线程任务（线程句柄）
+        </td>
+    </tr>
+</table>
+
+<h3 id="5-设置和删除空闲钩子"><a href="#5-设置和删除空闲钩子" class="headerlink" title="5. 设置和删除空闲钩子"></a>5. 设置和删除空闲钩子</h3><p>空闲钩子函数是空闲线程的钩子函数，如果设置了空闲钩子函数，就可以在系统执行空闲线程时自动执行空闲钩子函数来做一些其他事情，比如系统指示灯。设置空闲任务钩子的接口：</p>
+<figure class="highlight plaintext"><figcaption><span>os_Hooks.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void Hooksidle(void)</span><br></pre></td></tr></table></figure>
+
+<p>向钩子函数内部添加函数功能。</p>
+<h3 id="6-设置调度锁钩子"><a href="#6-设置调度锁钩子" class="headerlink" title="6. 设置调度锁钩子"></a>6. 设置调度锁钩子</h3><p>在整个系统运行时，系统都处于线程运行、中断触发－响应中断、切换到其他线程，甚至是线程间的切换过程中，或者说系统的上下文切换是系统中最普遍的事件。有时用户可能会想知道在某个时刻发生了什么样的线程切换，可以通过调用下面的函数接口设置一个相应的钩子函数。在系统线程切换时，这个钩子函数将被调用：</p>
+<figure class="highlight plaintext"><figcaption><span>os_Hooks.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void HooksTaskSwitch(tTask * from,tTask * to);</span><br></pre></td></tr></table></figure>
+
+<p>设置调度器钩子函数的输入参数如下表所示。(该部分功能正在完善，此处暂时不要使用)</p>
+<table border="1">
+    <caption>HooksTaskSwitch()的输入参数和返回值</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td> </td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td> </td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <th>返回值</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td> </td>
+        <td>
+        </td>
+    </tr>
+</table>
+
+<h2 id="5-线程应用示例"><a href="#5-线程应用示例" class="headerlink" title="5. 线程应用示例"></a>5. 线程应用示例</h2><p>下面给出在Keil模拟器环境下的应用示例，所有应用示例均在Keil模拟器环境下运行。</p>
+<h3 id="1-创建线程示例"><a href="#1-创建线程示例" class="headerlink" title="1. 创建线程示例"></a>1. 创建线程示例</h3><p>下面的例子创建两个线程，代码示例：</p>
+<table border="1">
+    <caption>线程创建运行示例</caption>
+</table>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &quot;GoupOSinclude.h&quot;   //系统头文件</span><br><span class="line"></span><br><span class="line">tTaskStack task1Env[1024];   /*线程1的栈*/</span><br><span class="line">tTaskStack task2Env[1024];   /*线程2的栈*/</span><br><span class="line"></span><br><span class="line">tTask tTask1; /*线程1句柄*/</span><br><span class="line">tTask tTask2; /*线程2句柄*/</span><br><span class="line"></span><br><span class="line">int i = 0;</span><br><span class="line">int a = 0;</span><br><span class="line"></span><br><span class="line">/*&lt;!线程1*/</span><br><span class="line">void task1Entry(void *param)</span><br><span class="line">&#123;</span><br><span class="line">	 tSemInit(&quot;test&quot;,sizeof(&quot;test&quot;),&amp;sem,0,0);</span><br><span class="line">	for(;;)</span><br><span class="line">	&#123;	</span><br><span class="line">		i ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">		i ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">/*&lt;!线程2*/</span><br><span class="line">void task2Entry(void *param)</span><br><span class="line">&#123;</span><br><span class="line">	for(;;)</span><br><span class="line">	&#123;</span><br><span class="line">		a ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">		a ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*用户任务初始化程序*/</span><br><span class="line">void AppTaskInit(void)</span><br><span class="line">&#123;</span><br><span class="line">	tTaskInit(&quot;task1&quot;,sizeof(&quot;task1&quot;),&amp;tTask1,task1Entry,(void *)0,0,task1Env,1024,10);</span><br><span class="line">	tTaskInit(&quot;task2&quot;,sizeof(&quot;task2&quot;),&amp;tTask2,task2Entry,(void *)0,9,task2Env,1024,4);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">	Goup_os_Init();</span><br><span class="line">	/*&lt;!初始化APP相关配置*/</span><br><span class="line">	AppTaskInit();</span><br><span class="line">	/*&lt;!启动系统*/</span><br><span class="line">	 StartSystem();</span><br><span class="line">	while(1)</span><br><span class="line">	&#123;</span><br><span class="line">	&#125;</span><br><span class="line">//	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img data-src="https://s2.loli.net/2022/05/07/RSVq3NLfI9dB6iT.png" alt="程序运行效果.png"></p>
+<h3 id="2-线程时间片轮转调度示例"><a href="#2-线程时间片轮转调度示例" class="headerlink" title="2. 线程时间片轮转调度示例"></a>2. 线程时间片轮转调度示例</h3><p>下面的例子创建两个线程，示例如下，i和a按时间片的增加</p>
+<table border="1">
+    <caption>线程创建运行示例</caption>
+</table>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &quot;GoupOSinclude.h&quot;   //系统头文件</span><br><span class="line"></span><br><span class="line">tTaskStack task1Env[1024];   /*线程1的栈*/</span><br><span class="line">tTaskStack task2Env[1024];   /*线程2的栈*/</span><br><span class="line"></span><br><span class="line">tTask tTask1; /*线程1句柄*/</span><br><span class="line">tTask tTask2; /*线程2句柄*/</span><br><span class="line"></span><br><span class="line">int i = 0;</span><br><span class="line">int a = 0;</span><br><span class="line"></span><br><span class="line">/*&lt;!线程1*/</span><br><span class="line">void task1Entry(void *param)</span><br><span class="line">&#123;</span><br><span class="line">	 tSemInit(&quot;test&quot;,sizeof(&quot;test&quot;),&amp;sem,0,0);</span><br><span class="line">	for(;;)</span><br><span class="line">	&#123;	</span><br><span class="line">		i ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">		i ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">/*&lt;!线程2*/</span><br><span class="line">void task2Entry(void *param)</span><br><span class="line">&#123;</span><br><span class="line">	for(;;)</span><br><span class="line">	&#123;</span><br><span class="line">		a ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">		a ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*用户任务初始化程序*/</span><br><span class="line">void AppTaskInit(void)</span><br><span class="line">&#123;</span><br><span class="line">	tTaskInit(&quot;task1&quot;,sizeof(&quot;task1&quot;),&amp;tTask1,task1Entry,(void *)0,0,task1Env,1024,10);</span><br><span class="line">	tTaskInit(&quot;task2&quot;,sizeof(&quot;task2&quot;),&amp;tTask2,task2Entry,(void *)0,9,task2Env,1024,4);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">	Goup_os_Init();</span><br><span class="line">	/*&lt;!初始化APP相关配置*/</span><br><span class="line">	AppTaskInit();</span><br><span class="line">	/*&lt;!启动系统*/</span><br><span class="line">	 StartSystem();</span><br><span class="line">	while(1)</span><br><span class="line">	&#123;</span><br><span class="line">	&#125;</span><br><span class="line">//	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img data-src="https://s2.loli.net/2022/05/07/RSVq3NLfI9dB6iT.png" alt="程序运行效果.png"></p>
+<h3 id="3-线程调度器钩子示例"><a href="#3-线程调度器钩子示例" class="headerlink" title="3. 线程调度器钩子示例"></a>3. 线程调度器钩子示例</h3><p>在线程进行调度切换时，会执行调度，我们可以通过设置一个调度器钩子，在线程切换时做一些额外的事情，下面的例子是在调度器钩子函数中变量的增加，代码如下所示。</p>
+<table border="1">
+    <caption>调度器钩子函数使用示例</caption>
+</table>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &quot;GoupOSinclude.h&quot;   //系统头文件</span><br><span class="line"></span><br><span class="line">tTaskStack task1Env[1024];   /*线程1的栈*/</span><br><span class="line">tTaskStack task2Env[1024];   /*线程2的栈*/</span><br><span class="line"></span><br><span class="line">tTask tTask1; /*线程1句柄*/</span><br><span class="line">tTask tTask2; /*线程2句柄*/</span><br><span class="line"></span><br><span class="line">int i = 0;</span><br><span class="line">int a = 0;</span><br><span class="line"></span><br><span class="line">/*&lt;!线程1*/</span><br><span class="line">void task1Entry(void *param)</span><br><span class="line">&#123;</span><br><span class="line">	 tSemInit(&quot;test&quot;,sizeof(&quot;test&quot;),&amp;sem,0,0);</span><br><span class="line">	for(;;)</span><br><span class="line">	&#123;	</span><br><span class="line">		i ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">		i ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">/*&lt;!线程2*/</span><br><span class="line">void task2Entry(void *param)</span><br><span class="line">&#123;</span><br><span class="line">	for(;;)</span><br><span class="line">	&#123;</span><br><span class="line">		a ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">		a ++;</span><br><span class="line">		tTaskDelay(1);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 任务切换的钩子函数</span><br><span class="line"> * 函数只是定义在这里，具体实现需要用户实现</span><br><span class="line"> * @param from 任务结构体</span><br><span class="line"> * @param to </span><br><span class="line"> */</span><br><span class="line">void HooksTaskSwitch(tTask * from,tTask * to)</span><br><span class="line">&#123;</span><br><span class="line">    extern uint32_t hooksSwitch_count;</span><br><span class="line">    hooksSwitch_count++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*用户任务初始化程序*/</span><br><span class="line">void AppTaskInit(void)</span><br><span class="line">&#123;</span><br><span class="line">	tTaskInit(&quot;task1&quot;,sizeof(&quot;task1&quot;),&amp;tTask1,task1Entry,(void *)0,0,task1Env,1024,10);</span><br><span class="line">	tTaskInit(&quot;task2&quot;,sizeof(&quot;task2&quot;),&amp;tTask2,task2Entry,(void *)0,9,task2Env,1024,4);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">	Goup_os_Init();</span><br><span class="line">	/*&lt;!初始化APP相关配置*/</span><br><span class="line">	AppTaskInit();</span><br><span class="line">	/*&lt;!启动系统*/</span><br><span class="line">	 StartSystem();</span><br><span class="line">	while(1)</span><br><span class="line">	&#123;</span><br><span class="line">	&#125;</span><br><span class="line">//	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img data-src="https://s2.loli.net/2022/05/07/t42OabQ1oUshM7T.png" alt="调度器钩子函数使用示例.png"></p>
 ]]></content>
       <categories>
         <category>GoupOS</category>
@@ -280,7 +514,7 @@ test:
 </blockquote>
 <ul>
 <li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#x6d;&#99;&#114;&#x65;&#x61;&#116;&#x65;&#64;&#102;&#x6f;&#x78;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#x78;&#103;&#x6d;&#99;&#114;&#x65;&#x61;&#116;&#x65;&#64;&#102;&#x6f;&#x78;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a>；将第一时间修复操作系统；</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#x6d;&#99;&#114;&#x65;&#x61;&#x74;&#x65;&#x40;&#102;&#x6f;&#120;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x78;&#103;&#x6d;&#99;&#114;&#x65;&#x61;&#x74;&#x65;&#x40;&#102;&#x6f;&#120;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a>；将第一时间修复操作系统；</li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
 </ul>
