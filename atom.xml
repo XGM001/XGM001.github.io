@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-05-07T06:36:56.510Z</updated>
+  <updated>2022-05-07T07:44:01.233Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GoupOS嵌入式操作系统移植</title>
+    <link href="https://goupos.top/2022/05/07/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%A7%BB%E6%A4%8D/"/>
+    <id>https://goupos.top/2022/05/07/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%A7%BB%E6%A4%8D/</id>
+    <published>2022-05-07T06:54:16.000Z</published>
+    <updated>2022-05-07T07:44:01.233Z</updated>
+    
+    <content type="html"><![CDATA[<p>GoupOS嵌入式操作系统移植版本： V1.1</p><span id="more"></span><ol><li><p>首先找到os文件夹，然后拷贝os文件夹到自己的工程目录下，文件目录下有这些文件<br><img data-src="https://s2.loli.net/2022/05/07/KJT4MgzOBPsp3ur.png" alt="文件目录.png"><br>可以阅读当前文件下的README.txt文件，查看每个文件目录的作用；</p></li><li><p>在MDK中，C语言需要包含的头文件有：</p><table border="1"> <tr>     <td>..\os\Device\inc</td> </tr> <tr>     <td>..\os\GoupOSBasics\inc</td> </tr> <tr>     <td>..\os\GoupOSkernel\Cortex-Mx\GoupOSexternfile</td> </tr> <tr>     <td>..\os\GoupOSkernel\Cortex-Mx\inc</td> </tr> <tr>     <td>..\os\GoupOSkernel\Cortex-Mx</td> </tr> <tr>     <td>..\os\SystemComponents\inc</td> </tr> <tr>     <td>..\os\SystemMemManage\inc</td> </tr></table></li></ol><p>在MDK中，汇编语言需要包含的头文件有：</p><table border="1">    <tr>        <td>..\os\GoupOSkernel\Cortex-Mx</td>    </tr></table><ol start="3"><li>在MDK中，包含这些目录下的源文件：<table border="1"> <tr>     <td>.. \os\Device\src</td> </tr> <tr>     <td>..\os\GoupOSBasics\src</td> </tr> <tr>     <td>..\os\GoupOSkernel\Cortex-Mx\src</td> </tr> <tr>     <td>..\os\SystemComponents\src</td> </tr> <tr>     <td>..\os\SystemMemManage\src</td> </tr></table></li></ol><p>暂时屏蔽这两个源文:os_stdlib.c、os_object.c;<br>说明：Cortex-Mx，根据不同内核选择不同的内核文件，这样就完成了GoupOS的移植，下面是系统参数的修改。</p><ol start="4"><li><p>大部分文件夹下有README.txt文档，请阅读首先，请搜索总个工程中源文件，保证：SysTick_Handler函数只在tcpu.c文件中使用；tcpu.c文件存放位置在：..\os\GoupOSkernel\Cortex-Mx\src目录下；</p></li><li><p>修改GoupOS的系统配置文件中相关参数：GoupOSconfig.h;</p><table border="1"> <caption>修改系统运行参数，配置滴答</caption> <tr>     <td>#defineCPU_CLOCK_HZ</td>     <td>(180000000)</td>     <td>系统时钟</td> </tr> <tr>     <td>#define OS_1S_TICKS</td>     <td>(1000)</td>     <td>系统每秒钟滴答次数(该值可以默认)</td> </tr> <tr>     <td>#define OS_TIME_BASE</td>     <td>(CPU_CLOCK_HZ/OS_1S_TICKS)</td>     <td>系统时基</td> </tr> <tr>     <td>#define OS_SYSTICK_MS</td>     <td>(1)</td>     <td>系统最小时间单位</td> </tr> <tr>     <td>#define TICKS_PER_SEC</td>     <td>(1000/OS_SYSTICK_MS)</td>     <td>滴答次数</td> </tr></table></li></ol><p>系统优先级是可以支持配置的,考虑系统资源，优先级配置8-1024；修改：TINYOS_PRO_COUNT 宏的值；</p><p>芯片是否支持FPU可以通过配置：OS_ARM_FPU_ENABLE宏是否使能支持FPU功能，该宏支持两个选项 </p><table border="1">    <tr>        <td>#define OS_ARM_FPU_ENABLE           OS_ENABLE</td>        <td>支持FPU功能，开启FPU</td>    </tr>    <tr>        <td>#define OS_ARM_FPU_ENABLE           OS_DISABLE</td>        <td>不支持FPU功能，关闭FPU</td>    </tr></table><p>系统启动时候，输出调试信息，可以通过配置：OS_STARTUPINFO 宏，设置系统启动时候是否打印调试信息，启动调试信息包含系统说明，启动线程说明，设置为1时候，启动了调试信息，设置0关闭了调试信息。</p><table border="1">    <caption>系统模块的裁剪</caption>    <tr>        <td>#define GOUPOS_ENABLE_SEM</td>        <td>(1)</td>        <td>控制是否裁剪信号量功能模块</td>    </tr>    <tr>        <td>#define GOUPOS_ENABLE_MAILMSG</td>        <td>(1)</td>        <td>控制是否裁剪邮箱功能模块</td>    </tr>    <tr>        <td>#define GOUPOS_ENABLE_MEMBLOCK</td>        <td>(1)</td>        <td>控制是否裁剪内存功能模块</td>    </tr>    <tr>        <td>#define GOUPOS_ENABLE_EVENTFLAGGROUP</td>        <td>(1)</td>        <td>控制是否裁剪事件标志组功能模块</td>    </tr>    <tr>        <td>#define GOUPOS_ENABLE_MUTEX</td>        <td>(1)</td>        <td>控制是否裁剪互斥锁功能模块</td>    </tr>    <tr>        <td>#define GOUPOS_ENABLE_TIMER</td>        <td>(1)</td>        <td>控制是否裁剪定时器功能模块</td>    </tr>    <tr>        <td>#define GOUPOS_ENABLE_CPUUSAGE_STAT</td>        <td>(1)</td>        <td>控制是否裁剪CPU使用率功能模块</td>    </tr>    <tr>        <td>#define GOUPOS_ENABLE_HOOKS</td>        <td>(1)</td>        <td>控制是否裁剪钩子函数功能模块</td>    </tr></table><p>关于系统模块裁剪，该部分功能正在完善，可能裁剪某些特殊模块会出现编译不过问题，正在完善，但是只要编译通过，能正常仿真运行，那么裁剪基本没有问题，</p><ol start="6"><li><p>关于文件引用，由于系统需要使用滴答，所以系统会引用库文件去支持tcpu.c,GoupOSexternfile.h头文件中引用外部文件，例如GoupOSexternfile.h中包含 #include “stm32f4xx.h”</p></li><li><p>用户包含系统文件，只需要包含#include “GoupOSinclude.h”，就可以调用系统所有API函数接口。</p></li><li><p>需要添加一个app.h app.c文件该文件中主要添加一个函数：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/*用户任务初始化程序*/</span><br><span class="line">void AppTaskInit(void)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>该文件主要包含在os_tTask.c文件中，如果需要修改文件名，可以更改，同时需要在os_tTask.c中，将包含的头文件也修改;但是任务初始化函数不能修改。如上图，</p></li><li><p>配置工程中，需要去除相关函数后再移植操作系统</p><table border="1"> <tr>     <td>void PendSV_Handler(void)</td> </tr> <tr>     <td>void SysTick_Handler(void)</td> </tr></table></li><li><p>如果工程中需要打印函数，需要先初始化串口，然后配置<code>osdev_out(usart_putc);   //初始化打印函数底层</code><br>然后调用 ：<code>GoupOS_StartupRun();函数</code></p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;GoupOS嵌入式操作系统移植版本： V1.1&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="GoupOS" scheme="https://goupos.top/categories/GoupOS/"/>
+    
+    <category term="GoupOS系统移植" scheme="https://goupos.top/categories/GoupOS/GoupOS%E7%B3%BB%E7%BB%9F%E7%A7%BB%E6%A4%8D/"/>
+    
+    
+    <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="RTOS" scheme="https://goupos.top/tags/RTOS/"/>
+    
+  </entry>
   
   <entry>
     <title>GoupOS线程管理</title>
@@ -280,7 +305,7 @@
     <published>2022-04-24T03:02:22.000Z</published>
     <updated>2022-05-06T13:57:06.827Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#x67;&#x6d;&#99;&#114;&#x65;&#97;&#116;&#101;&#64;&#102;&#x6f;&#x78;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x78;&#x67;&#x6d;&#99;&#114;&#x65;&#97;&#116;&#101;&#64;&#102;&#x6f;&#x78;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul><p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#x67;&#109;&#99;&#114;&#101;&#x61;&#x74;&#x65;&#64;&#x66;&#x6f;&#120;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">&#x78;&#x67;&#109;&#99;&#114;&#101;&#x61;&#x74;&#x65;&#64;&#x66;&#x6f;&#120;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul><p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>]]></content>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;</summary>
