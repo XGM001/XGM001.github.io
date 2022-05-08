@@ -32,6 +32,22 @@
 ]]></content>
   </entry>
   <entry>
+    <title>关于华北、华东、华南、华中、西南、西北</title>
+    <url>/2022/05/08/%E5%9C%B0%E7%90%86%E5%8C%BA%E5%9F%9F%E5%88%92%E5%88%86/%E5%85%B3%E4%BA%8E%E5%8D%8E%E5%8C%97%E3%80%81%E5%8D%8E%E4%B8%9C%E3%80%81%E5%8D%8E%E5%8D%97%E3%80%81%E5%8D%8E%E4%B8%AD%E3%80%81%E8%A5%BF%E5%8D%97%E3%80%81%E8%A5%BF%E5%8C%97/</url>
+    <content><![CDATA[<p>关于华北、华东、华南、华中、西南、西北</p>
+<span id="more"></span>
+
+]]></content>
+      <categories>
+        <category>中国地理</category>
+        <category>大区</category>
+        <category>分区</category>
+      </categories>
+      <tags>
+        <tag>中国地理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GoupOS嵌入式操作系统移植</title>
     <url>/2022/05/07/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%A7%BB%E6%A4%8D/</url>
     <content><![CDATA[<p>GoupOS嵌入式操作系统移植版本： V1.1</p>
@@ -666,23 +682,11 @@
     <url>/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
     <content><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span>
 
-<p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="STM32H745ZIT6图片 | 400x0"><br><img data-src="https://s2.loli.net/2022/05/01/LicNoMsu2W9qda8.jpg" alt="STM32H745ZIT6图片 | 400x0"></p>
-<!--
-test:
-<div class="pdf-container" data-target="https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf" data-height="800px"></div>
-
-<p></script><br><object data="https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf" type="application/pdf" width="800" height="500"><br>    <embed src="https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf"><br>        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf">Download PDF</a>.</p><br>    </embed><br></object></p>
-<iframe id="myFrame" src="https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf" width="100%" height="500">
-    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf">Download PDF</a>.</p>
-</iframe>
-
-
-<p><img data-src="https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf" alt="pdf"></p>
-<p><a href="https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf">https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=stm32h745zi.pdf</a></p>
-<p>–&gt;</p>
+<p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="H745ZIT6.jpg"></p>
 ]]></content>
       <categories>
-        <category>STM32H745ZIT6</category>
+        <category>STM32</category>
+        <category>H745ZIT6</category>
       </categories>
       <tags>
         <tag>STM32H745ZIT6</tag>
@@ -699,7 +703,7 @@ test:
 </blockquote>
 <ul>
 <li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#x6d;&#x63;&#114;&#101;&#x61;&#x74;&#x65;&#x40;&#x66;&#111;&#120;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x78;&#103;&#x6d;&#x63;&#114;&#101;&#x61;&#x74;&#x65;&#x40;&#x66;&#111;&#120;&#109;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;</a>；将第一时间修复操作系统；</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#x6d;&#x63;&#114;&#101;&#97;&#x74;&#101;&#x40;&#102;&#x6f;&#x78;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x78;&#103;&#x6d;&#x63;&#114;&#101;&#97;&#x74;&#101;&#x40;&#102;&#x6f;&#x78;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a>；将第一时间修复操作系统；</li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
 </ul>
