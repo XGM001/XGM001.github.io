@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-05-08T18:10:22.099Z</updated>
+  <updated>2022-05-09T20:17:56.730Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -17,9 +17,76 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>GNU编译器关键字</title>
+    <link href="https://goupos.top/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/GNU%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    <id>https://goupos.top/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/GNU%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/</id>
+    <published>2022-05-09T19:05:04.000Z</published>
+    <updated>2022-05-09T20:17:56.730Z</updated>
+    
+    <content type="html"><![CDATA[<p>GUN编译器关键字 </p><span id="more"></span><h1 id="GNU-C编译器中的关键字"><a href="#GNU-C编译器中的关键字" class="headerlink" title="GNU C编译器中的关键字"></a>GNU C编译器中的关键字</h1><ol><li><p><code>__attribute__ ((__packed__))</code>取消字节对齐，紧凑排列占用内存的方式，</p><figure class="highlight plaintext"><figcaption><span>示例</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">struct test1 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;//占用8字节</span><br><span class="line"> </span><br><span class="line">struct __attribute__ ((__packed__)) test2 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;//占用5字节</span><br><span class="line"></span><br></pre></td></tr></table></figure></li><li><p>指定x字节对齐 <code>__align(x)</code></p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;GUN编译器关键字 &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="-[GUN ,编译器关键字]" scheme="https://goupos.top/categories/GUN-%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    
+    
+    <category term="编译器关键字" scheme="https://goupos.top/tags/%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode的部分基本操作</title>
+    <link href="https://goupos.top/2022/05/09/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/vscode%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    <id>https://goupos.top/2022/05/09/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/vscode%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
+    <published>2022-05-09T14:28:08.000Z</published>
+    <updated>2022-05-10T16:00:13.180Z</updated>
+    
+    <content type="html"><![CDATA[<p>vscode的部分基本操作</p><span id="more"></span><ol><li>同时选中多行 <code>shift</code> + <code>alt</code> + <code>鼠标左键</code> 向下向上拖动就可以同时选中多行</li><li>文章的前进和后退分别是 <code>alt</code> + <code>→</code> 和 <code>alt</code> + <code>←</code></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;vscode的部分基本操作&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="vscode" scheme="https://goupos.top/categories/vscode/"/>
+    
+    <category term="基础操作" scheme="https://goupos.top/categories/vscode/%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
+    
+    
+    <category term="vscode" scheme="https://goupos.top/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DAPlink源码分解</title>
+    <link href="https://goupos.top/2022/05/09/%E7%83%A7%E5%BD%95%E5%99%A8/DAPlink%E6%BA%90%E7%A0%81%E5%88%86%E8%A7%A3/"/>
+    <id>https://goupos.top/2022/05/09/%E7%83%A7%E5%BD%95%E5%99%A8/DAPlink%E6%BA%90%E7%A0%81%E5%88%86%E8%A7%A3/</id>
+    <published>2022-05-09T12:39:49.000Z</published>
+    <updated>2022-05-10T15:34:23.745Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="3b6e3a8987a883a95ed027c7f5ace84a74fccb4f6a2078fcb355e111951c66ef">dbefc7c589c75c7c2a455af83d8d69097a7bce44a64de51e997bc23b83265362a4bb51173161f331c8045ee9992a09f9d34560b6ecb29402732b6af8efafc29c0e03f981422aff6efbed1979cc0585df4dcc5ef2cb511f1dbb735fcced6b2b60b721a1719c116b82347205df084eb4742a1a0cd06f25545da15bf36c5837fc0f1ba7d095b7aed65b06aa30774cc7839ee2d345648e3936bc29bbffe7542cd206ce9eff1f33d8bc3b5dc5ff31f4570b3267f0767239770ca1e1d36e07bc6ecf2d638a953dff5a2a796d081d93ec67d0c7ee08909075ee9b8b91911ab5b241073002f5f76c2d5dbf32f703853d0c989b7ab8840091d8c366355dec9a5a8dee3837</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-flip">      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这里是加密的内容，需要密码才能继续阅读。</summary>
+    
+    
+    
+    <category term="DAP" scheme="https://goupos.top/categories/DAP/"/>
+    
+    <category term="LINK" scheme="https://goupos.top/categories/DAP/LINK/"/>
+    
+    
+    <category term="烧录器" scheme="https://goupos.top/tags/%E7%83%A7%E5%BD%95%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>GoupOS时钟管理</title>
-    <link href="https://goupos.top/2022/05/09/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E6%97%B6%E9%92%9F%E7%AE%A1%E7%90%86/"/>
-    <id>https://goupos.top/2022/05/09/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E6%97%B6%E9%92%9F%E7%AE%A1%E7%90%86/</id>
+    <link href="https://goupos.top/2022/05/09/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E6%97%B6%E9%92%9F%E7%AE%A1%E7%90%86/"/>
+    <id>https://goupos.top/2022/05/09/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E6%97%B6%E9%92%9F%E7%AE%A1%E7%90%86/</id>
     <published>2022-05-08T16:23:40.000Z</published>
     <updated>2022-05-08T18:10:22.099Z</updated>
     
@@ -70,8 +137,8 @@
   
   <entry>
     <title>GoupOS嵌入式操作系统移植</title>
-    <link href="https://goupos.top/2022/05/07/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%A7%BB%E6%A4%8D/"/>
-    <id>https://goupos.top/2022/05/07/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%A7%BB%E6%A4%8D/</id>
+    <link href="https://goupos.top/2022/05/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%A7%BB%E6%A4%8D/"/>
+    <id>https://goupos.top/2022/05/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%A7%BB%E6%A4%8D/</id>
     <published>2022-05-07T06:54:16.000Z</published>
     <updated>2022-05-07T07:44:01.233Z</updated>
     
@@ -95,8 +162,8 @@
   
   <entry>
     <title>GoupOS线程管理</title>
-    <link href="https://goupos.top/2022/05/07/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E7%BA%BF%E7%A8%8B%E7%AE%A1%E7%90%86/"/>
-    <id>https://goupos.top/2022/05/07/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E7%BA%BF%E7%A8%8B%E7%AE%A1%E7%90%86/</id>
+    <link href="https://goupos.top/2022/05/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E7%BA%BF%E7%A8%8B%E7%AE%A1%E7%90%86/"/>
+    <id>https://goupos.top/2022/05/07/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E7%BA%BF%E7%A8%8B%E7%AE%A1%E7%90%86/</id>
     <published>2022-05-06T18:50:01.000Z</published>
     <updated>2022-05-07T06:36:56.510Z</updated>
     
@@ -122,10 +189,10 @@
   
   <entry>
     <title>GoupOS内核基础</title>
-    <link href="https://goupos.top/2022/05/06/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/"/>
-    <id>https://goupos.top/2022/05/06/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/</id>
+    <link href="https://goupos.top/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/"/>
+    <id>https://goupos.top/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/</id>
     <published>2022-05-06T14:41:33.000Z</published>
-    <updated>2022-05-06T20:30:30.726Z</updated>
+    <updated>2022-05-09T19:35:47.998Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>GoupOS内核基础</p></blockquote><span id="more"></span><h2 id="1-内核简介"><a href="#1-内核简介" class="headerlink" title="1. 内核简介"></a>1. 内核简介</h2><p>内核是操作系统最基础也是最重要的部分。下图为GoupOS内核架构图，内核处于硬件层之上，内核部分包括内核库、实时内核实现。<br><img data-src="https://s2.loli.net/2022/05/06/MRfU9HDBcPlbYvS.png" alt="GoupOS内核架构图.png"><br>内核库是为了保证内核能够独立运行的一套小型的类似C库（c库：也叫C运行库(C Runtime Library)，它提供了类似strcpy、memcpy等函数，有些也会包括printf、scanf函数的实现。GoupOS内核用到的一小部分C库函数实现。）的函数实现子集。这部分根据编译器的不同，自带C库的情况也会有些不同，当使用GNU、GCC编译器时，会携带更多的标准C库实现。<br>实时内核的实现包括：对象管理、线程管理及调度器、线程间通信、时钟管理及内存管理等。</p><h3 id="1-线程调度"><a href="#1-线程调度" class="headerlink" title="1. 线程调度"></a>1. 线程调度</h3><p>线程是GoupOS操作系统中最小的调度单位，线程调度算法是基于优先级的全抢占式多线程调度算法，即在系统中除了中断处理函数、调度器上锁部分的代码和禁止中断的代码不可抢占之外，系统的其他部分都是可以抢占的，包括线程调度器自身。支待32个线程优先级，0优先级代表最高优先级，最低优先级留给空闲线程使用；同时它也支持创建多个具有相同优先级的线程，相同优先级的线程间采用时间片的轮转调度算法进行调度，使每个线程运行相同时间；另外调度器在寻找那些处于就绪状态的具有最高优先级的线程时，所经历的时间是恒定的，系统也不限制线程数量的多少，线程数目只和硬件平台的具体内存相关。</p><h3 id="2-时钟管理"><a href="#2-时钟管理" class="headerlink" title="2. 时钟管理"></a>2. 时钟管理</h3><p>GoupOS的时钟管理以时钟节拍为基础， 时钟节拍是操作系统中最小的时钟单位。GoupOS的定时器提供两类定时器机制：第一类是单次触发定时器， 这类定时器在启动后只会触发一次定时器事件， 然后定时器自动停止。 第二类是周期触发定时器，这类定时器会 周期性地触发定时器事件， 直到用户手动停止定时器， 否则将永远待续执行下去。<br>另外， 根据超时函数执行时所处的上下文环境，GoupOS的定时器 可以设置为HARD_TIMER模式或者SOFT_TIMER模式。<br>通常使用定时器定时回调函数（即超时函数）， 完成定时服务。 用户根据自己对定时处理的实时性要求选择合适类型的定时器。</p><h3 id="3-线程间同步"><a href="#3-线程间同步" class="headerlink" title="3. 线程间同步"></a>3. 线程间同步</h3><p>GoupOS采用信号量、互斥量与事件集实现线程间同步。 线程通过对信号量、互斥量的获取与释放进行同步；互斥量采用优先级继承的方式解决了实时系统常见的优先级翻转问题。 线程同步机制支持线程按优先级等待或按先进先出方式获取信号量或互斥量。 线程 通过对事件的发送与接收进行同步；事件集支待多事件的 ”或触发” 和 ”与触发”，适合线 程等待多个事件的情况。</p><h3 id="4-线程间通信"><a href="#4-线程间通信" class="headerlink" title="4. 线程间通信"></a>4. 线程间通信</h3><p>GoupOS目前只支持支持邮箱通信机制。 邮箱中一封邮件能够接收非固定长度的消息。并把邮件缓存在自己的内存空间中。邮箱的发送动作可安全用于中断服务例程中。 通信机制支持线程按优先级等待或按先进先出方式获取。</p><h3 id="5-内存管理"><a href="#5-内存管理" class="headerlink" title="5. 内存管理"></a>5. 内存管理</h3><p>GoupOS目前只支持静态内存池管理。当静态内存池具有可用内存时，系统对内存块分配的时间将是恒定的；当静态内存池为空时，系统将申请内存块的线程挂起或阻塞掉（即线程等待一段时间后仍未获得内存块就放弃申请并返回，或者立刻返回。等待的时间取决千申请内存块时设置的等待时间参数），当其他线程释放内存块到内存池时，如果有挂起的待分配内存块的线程存在的话，则系统会将这个线程唤醒。</p><h2 id="2-GoupOS启动流程"><a href="#2-GoupOS启动流程" class="headerlink" title="2. GoupOS启动流程"></a>2. GoupOS启动流程</h2><p>要了解一份代码大多从启动部分开始，这里也采用这种方式，先寻找启动的源头。以MDK-ARM为例，MDK-ARM的用户程序入口为main()函数，位于main.c文件中。系统启动后先从汇编代码startup_stm32f429_439xx.s开始运行，然后跳转到C代码，进行GoupOS系统功能初始化，最后进入用户程序入口main()。启动流程如下图所示。<br><img data-src="https://s2.loli.net/2022/05/07/Ch7HaRjqP1B2vJD.png" alt="GoupOS启动流程图1.png"><img data-src="https://s2.loli.net/2022/05/07/2dsfj4HMbQYIXrK.png" alt="GoupOS启动流程图2.png"><br>    这部分启动代码大致可以分为4个部分：<br>    (1)初始化与系统相关的硬件；<br>    (2)初始化系统内核对象，例如定时器、调度器、信号；<br>    (3)创建main线程，在main线程中对各类模块依次进行初始化；<br>    (4)初始化定时器线程、空闲线程，并启动调度器。</p><h2 id="3-GoupOS程序内存分布"><a href="#3-GoupOS程序内存分布" class="headerlink" title="3. GoupOS程序内存分布"></a>3. GoupOS程序内存分布</h2><p>一般MCU包含的存储空间有片内Flash与片内RAM,RAM相当于内存，Flash相当于硬盘。编译器会将一个程序分类为好几个部分，分别存储在MCU不同的存储区。<br>Keil工程在编译完之后，会有相应的程序所占用的空间提示信息，如下图<br><img data-src="https://s2.loli.net/2022/05/07/Ygo3H8ZQcTjJFmR.png" alt="GoupOS编译信息.png"><br>图中提到Program Size包含以下几部分：<br>(1) Code:代码段，存放程序的代码部分。<br>(2) RO-data:只读数据段，存放程序中定义的常量。<br>(3) RW-data:读写数据段，存放初始化为非0值的全局变最。<br>(4) ZI-data: 0数据段，存放未初始化的全局变最及初始化为0的变最。<br>程序编译完成后会生成一个．map文件，该文件说明了各个函数占用的尺寸和地址，在该文件的最后几行也说明了上面几个字段的关系：<br>Total RO  Size (Code + RO Data)                13840 (  13.52kB)<br>Total RW  Size (RW Data + ZI Data)             28272 (  27.61kB)<br>Total ROM Size (Code + RO Data + RW Data)      13964 (  13.64kB)<br>(1) RO Size包含了Code及RO-data,表示程序占用Flash空间的大小；<br>(2) RW Size包含了RW-data及ZI-data,表示运行时占用的RAM的大小；<br>(3) ROM Size包含了Code、ROData以及RWData,表示烧写程序所占用的Flash空间的大小。<br>程序运行之前，需要有文件实体被烧录到STM32的Flash中，一般是bin或者hex文件，该被烧录文件称为可执行映像文件。</p><h2 id="4-GoupOS内核对象管理架构"><a href="#4-GoupOS内核对象管理架构" class="headerlink" title="4. GoupOS内核对象管理架构"></a>4. GoupOS内核对象管理架构</h2><p>GoupOS采用内核对象管理系统来访问&#x2F;管理所有内核对象， 内核对象包含内核中绝大部分设施， 这些内核对象可以是静态分配的静态对象。<br>通过这种内核对象的设计方式，GoupOS做到了不依赖于具体的内存分配方式， 系统的灵活性得到了极大的提高。<br>GoupOS内核对象包括线程、信号景、互斥量、事件、邮箱、消息队列和定时器等。对象容器中包含每类内核对象的信息，包括对象类型、大小等。对象一个链表，所有的内核对象都被链接到该链表上，GoupOS的容器给每类内核对象分配了，目前该部分功能预留，未完成后续开发完成该功能。</p><h2 id="5-GoupOS内核配置示例"><a href="#5-GoupOS内核配置示例" class="headerlink" title="5. GoupOS内核配置示例"></a>5. GoupOS内核配置示例</h2><p>GoupOS的一个重要特性是高度可裁剪性，支待对内核进行精细调整，对组件进行灵活拆卸。其配置主要通过修改工程目录下的GoupOSconfig.h文件来进行，用户可以通过打开／关闭该文件中的宏定义来对代码进行条件编译，最终达到系统配置和裁剪的目的，如下所示。</p><ol><li>GoupOS内核部分。<figure class="highlight plaintext"><figcaption><span>GoupOSconfig.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br></pre></td><td class="code"><pre><span class="line">/*系统自述*/</span><br><span class="line">#define    OS_SPLITLINE             &quot;----------------------------------------------------------------------------------\n&quot;</span><br><span class="line">#define    OS_NAME                  &quot;本套嵌入式系统名称: GoupOS 、Goup_OS 、Goupos\n&quot;</span><br><span class="line">#define    OS_AUTHOR_MAIL           &quot;author：XGM    mailbox：xgmcreate@foxmail.com\n&quot;</span><br><span class="line">#define    OS_VERSION               &quot;version：V1.111(版本号说明主版本号、子版本号、修正版本号、开发版本号)\n&quot;</span><br><span class="line">#define    OS_INFO                  &quot;本嵌入式系统正在规模测试中，如果使用遇到任何问题，请发邮件到作者邮箱中，作者会及时解决\n&quot;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 定义预备，防止移植代码缺失该部分定义</span><br><span class="line"> *        关键字的宏定义，</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define     __IO    volatile                /*!&lt; Defines &#x27;read / write&#x27; permissions              */</span><br><span class="line">#define     weak    __attribute__((weak))   /*&lt;!弱定义宏*/</span><br><span class="line">/**</span><br><span class="line"> * @brief 系统的启动流程，以及任务信息</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define OS_STARTUPINFO  1</span><br><span class="line">/**</span><br><span class="line"> * @brief OS的使能与关闭</span><br><span class="line"> */</span><br><span class="line">#define OS_ENABLE                   (1)</span><br><span class="line">#define OS_DISABLE                  (0)</span><br><span class="line"></span><br><span class="line">/* System time base. to configure */</span><br><span class="line">/*&lt;!系统时钟*/</span><br><span class="line">#defineCPU_CLOCK_HZ(180000000)</span><br><span class="line">/*&lt;!系统每秒钟滴答次数*/</span><br><span class="line">#define OS_1S_TICKS                 (1000)                      </span><br><span class="line">/*&lt;!系统时基*/</span><br><span class="line">#define OS_TIME_BASE(CPU_CLOCK_HZ/OS_1S_TICKS)</span><br><span class="line">/*&lt;!系统最小时间单位*/</span><br><span class="line">#define OS_SYSTICK_MS(1)</span><br><span class="line">/*&lt;!滴答次数*/</span><br><span class="line">#define TICKS_PER_SEC(1000/OS_SYSTICK_MS)</span><br><span class="line"></span><br><span class="line">/* 系统内部配置区域 */</span><br><span class="line">//目前支持最大的优先级数量位图目前也只支持32</span><br><span class="line">#defineTINYOS_PRO_COUNT(32)        /*&lt;!优先级*/</span><br><span class="line">/*&lt;!关于优先级的宏定义，建议不要修改*/</span><br><span class="line">#define OS_PRI(0)        </span><br><span class="line">/*&lt;!0：不压缩系统 1：压缩系统（暂时不可使用）时间换空间*/</span><br><span class="line">#define SMALL_OS(0)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 判断芯片是否有FPU功能，如果有FPU功能：启动或者关闭FPU功能        </span><br><span class="line"> *        OS_ARM_FPU_ENABLE:    OS_ENABLE 启动FPU功能</span><br><span class="line"> *                               OS_DISABLE关闭FPU功能</span><br><span class="line"> * 启动FPU功能时，keil同时设置 Floating Point Hardware :Single Precision</span><br><span class="line"> */</span><br><span class="line">#define OS_ARM_FPU_ENABLE           OS_ENABLE</span><br><span class="line"></span><br><span class="line">/*&lt;!Thread FAULT off or on*/</span><br><span class="line">#define THREAD_FAULT(0)</span><br><span class="line">/*&lt;!delay mode select 0:独立保存延时时间，1：递增的延时队列（更快）*/</span><br><span class="line">#define DELAY_MODE(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*1:OS build add Security code;0:OS build do not add Security code*/</span><br><span class="line">#define OS_ADD_SECURITY_CODE(1)</span><br><span class="line">/**</span><br><span class="line"> * @brief 要求实时性高，那么只会启动部分安全代码；实时性要求不高，可以启动全部安全代码，也可以不全部启动</span><br><span class="line"> * 1：启动高实时性，部分安全代码关闭， </span><br><span class="line"> * 0：关闭高实时性但是添加全部安全代码，导致代码增大</span><br><span class="line"> */</span><br><span class="line">#define OS_HIGH_REAL_TIME           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 所有组件名称长度,默认情况下使用“OS_ALLNAME_LENGTH”宏，如果长度不够可自行定义</span><br><span class="line"> * 该部分宏定义，不能删除，否则可能系统出错</span><br><span class="line"> */</span><br><span class="line">#define OS_ALLNAME_LENGTH       (32)                         /*&lt;!待修改*/</span><br><span class="line"></span><br><span class="line">#define OS_SEMNAME_LENGTH       OS_ALLNAME_LENGTH           /*&lt;!信号量名称长度*/</span><br><span class="line">#define OS_TASKNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!任务名称长度*/</span><br><span class="line">#define OS_MAILNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_FLAGGROUP_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_MUTEX_LENGTH         OS_ALLNAME_LENGTH           /*&lt;!互斥信号量名长度*/</span><br><span class="line">#define OS_TIMERNAME_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!定时器名长度*/</span><br><span class="line">/**</span><br><span class="line">系统的空闲任务配置</span><br><span class="line">*/</span><br><span class="line">#defineOS_IDLETASK_STACK_SIZE(1024)</span><br><span class="line">/**</span><br><span class="line"> * @brief 定时器任务的线程栈</span><br><span class="line"> *        启动中断定时器</span><br><span class="line"> *        启动软件定时器</span><br><span class="line"> *        定时器任务优先级不能与空闲线程任务优先级相同,不然空闲定时器与空闲任务是在最低优先级运行而且是按照时间片运行</span><br><span class="line"> */</span><br><span class="line">#define OS_TIMERMODULE_INIT         (1)</span><br><span class="line">#define OS_STARTHARD_TIMER          (1)</span><br><span class="line">#define OS_STARTSOFT_TIMER          (1)</span><br><span class="line">#define OS_TIMERTASK_STACK_SIZE(1024)</span><br><span class="line">#define OS_TIMERTASK_PRIO           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 内核模块裁剪</span><br><span class="line"> * 1：打开相应的功能模块</span><br><span class="line"> * 0：关闭相应的功能模块</span><br><span class="line"> */</span><br><span class="line">/*&lt;!控制是否裁剪信号量功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_SEM               (1)             </span><br><span class="line">/*&lt;!控制是否裁剪邮箱功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MAILMSG           (1)            </span><br><span class="line">/*&lt;!控制是否裁剪内存功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MEMBLOCK          (1)             </span><br><span class="line">/*&lt;!控制是否裁剪事件标志组功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_EVENTFLAGGROUP    (1)             </span><br><span class="line">/*&lt;!控制是否裁剪互斥锁功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MUTEX             (1)            </span><br><span class="line">/*&lt;!控制是否裁剪定时器功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_TIMER             (1)             </span><br><span class="line">  /*&lt;!控制是否裁剪CPU使用率功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_CPUUSAGE_STAT     (1)           </span><br><span class="line">/*&lt;!控制是否裁剪钩子函数功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_HOOKS             (1)</span><br></pre></td></tr></table></figure></li></ol><h2 id="6-GoupOS常用宏定义说明"><a href="#6-GoupOS常用宏定义说明" class="headerlink" title="6. GoupOS常用宏定义说明"></a>6. GoupOS常用宏定义说明</h2><p>GoupOS实时操作系统暂时无该部分宏定义，后续可能扩展，保留当前章节。</p>]]></content>
     
@@ -149,8 +216,8 @@
   
   <entry>
     <title>GoupOS嵌入式实时系统文件以及说明</title>
-    <link href="https://goupos.top/2022/05/06/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/"/>
-    <id>https://goupos.top/2022/05/06/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/</id>
+    <link href="https://goupos.top/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/"/>
+    <id>https://goupos.top/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/</id>
     <published>2022-05-06T07:58:10.000Z</published>
     <updated>2022-05-06T07:58:10.000Z</updated>
     
@@ -354,12 +421,12 @@
   
   <entry>
     <title>GoupOS嵌入式实时操作系统介绍</title>
-    <link href="https://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    <id>https://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
+    <link href="https://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://goupos.top/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
     <published>2022-04-24T03:02:22.000Z</published>
     <updated>2022-05-06T13:57:06.827Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#103;&#x6d;&#x63;&#x72;&#x65;&#97;&#116;&#101;&#x40;&#102;&#x6f;&#120;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#120;&#103;&#x6d;&#x63;&#x72;&#x65;&#97;&#116;&#101;&#x40;&#102;&#x6f;&#120;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul><p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span><blockquote><p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p></blockquote><ul><li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li><li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#x67;&#109;&#x63;&#x72;&#101;&#97;&#116;&#101;&#64;&#102;&#x6f;&#120;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">&#120;&#x67;&#109;&#x63;&#x72;&#101;&#97;&#116;&#101;&#64;&#102;&#x6f;&#120;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;</a>；将第一时间修复操作系统；</li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li><li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li></ul><p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>]]></content>
     
     
     <summary type="html">&lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;</summary>
@@ -371,11 +438,11 @@
     <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/categories/GoupOS/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
     
+    <category term="嵌入式实时操作系统" scheme="https://goupos.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
     <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
     <category term="RTOS" scheme="https://goupos.top/tags/RTOS/"/>
-    
-    <category term="嵌入式实时操作系统" scheme="https://goupos.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
@@ -424,26 +491,6 @@
     <category term="导航" scheme="https://goupos.top/tags/%E5%AF%BC%E8%88%AA/"/>
     
     <category term="分享" scheme="https://goupos.top/tags/%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://goupos.top/2022/04/22/hello-world/"/>
-    <id>https://goupos.top/2022/04/22/hello-world/</id>
-    <published>2022-04-22T15:41:06.513Z</published>
-    <updated>2022-04-22T15:41:06.513Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   
