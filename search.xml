@@ -23,18 +23,72 @@
       </tags>
   </entry>
   <entry>
-    <title>在线找女朋友</title>
-    <url>/2022/05/05/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E5%9C%A8%E7%BA%BF%E6%89%BE%E5%A5%B3%E6%9C%8B%E5%8F%8B/</url>
-    <content><![CDATA[<p>可以通过此处邮箱联系，在线找挺急的；</p>
+    <title>Sublime Text的部分基本操作</title>
+    <url>/2022/05/11/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Sublime%20Text%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<p>Sublime Text的部分基本操作</p>
+</blockquote>
 <span id="more"></span>
 
-<p><img data-src="https://s2.loli.net/2022/05/05/pMFoI3BzuJXOd18.png" alt="展示"></p>
+<h1 id="1-Sublime-Text设置中文"><a href="#1-Sublime-Text设置中文" class="headerlink" title="1. Sublime Text设置中文"></a>1. Sublime Text设置中文</h1><ol>
+<li>在Sublime Text中，主菜单栏选择Tools-&gt;Command Palette，或快捷键Shift+Ctrl+P,弹出命令面板;</li>
+<li>输入install，点击Instal Package Control</li>
+<li>稍等几秒，弹出提示：安装成功，点击确定</li>
+<li>重新单开命令面板（快捷键Shift+Ctrl+P），输入install,点击第一行的Package Control:Install Package</li>
+<li>稍等几秒弹出插件包选择界面</li>
+<li>输入Chinese，点击第一个，自动安装：</li>
+<li>即为安装完成，可以看到菜单栏变成了中文。</li>
+<li>如果没有自动更换语言，重启软件，可以在主菜单的 帮助&#x2F;Language 子菜单来切换语言。 目前支持 简体中文 繁体中文 日本語 德语 法语 俄语等。 如果要换回英语不需要卸载插件，直接从菜单切换英文。</li>
+</ol>
+<ul>
+<li>步骤如果没有看懂 <a href="https://blog.csdn.net/LclLsh/article/details/123500847">请点击此地址</a></li>
+</ul>
 ]]></content>
+      <categories>
+        <category>开发软件基础操作</category>
+        <category>Sublime Text</category>
+      </categories>
+      <tags>
+        <tag>开发软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>全面的Cortex-M内核资源汇总</title>
+    <url>/2022/05/11/ARM%E5%86%85%E6%A0%B8/%E5%85%A8%E9%9D%A2%E7%9A%84Cortex-M%E5%86%85%E6%A0%B8%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<blockquote>
+<p>全面的Cortex-M内核资源汇总</p>
+</blockquote>
+<span id="more"></span>
+<ol>
+<li><p><a href="https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/cortex-m-resources">所有Cortex-M资源</a></p>
+</li>
+<li><p><a href="https://www.arm.com/resources/education/books/mve-reference-book">新:Arm Cortex-M处理器的Arm氦技术M-Profile矢量扩展(MVE )(参考书)</a></p>
+</li>
+</ol>
+<ul>
+<li><a href="https://www.armbbs.cn/forum.php?mod=viewthread&tid=94790&highlight=%CA%B7%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%C8%AB%EF%BF%BD%EF%BF%BD%EF%BF%BD">参考文档地址</a></li>
+</ul>
+<ol start="3">
+<li><p>主要查看这些数据手册: 数据手册(DS)：电器特性、内核；参考手册（RM）：包含所有外设；编程手册（PM）。</p>
+</li>
+<li><p><a href="https://github.com/ARM-software/CMSIS_5">ARM内核软件包</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>ARM</category>
+        <category>Cortex-M</category>
+      </categories>
+      <tags>
+        <tag>ARM内核</tag>
+      </tags>
   </entry>
   <entry>
     <title>GNU编译器关键字</title>
     <url>/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/GNU%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/</url>
-    <content><![CDATA[<p>GUN编译器关键字 </p>
+    <content><![CDATA[<blockquote>
+<p>GUN编译器关键字 </p>
+</blockquote>
 <span id="more"></span>
 
 <h1 id="GNU-C编译器中的关键字"><a href="#GNU-C编译器中的关键字" class="headerlink" title="GNU C编译器中的关键字"></a>GNU C编译器中的关键字</h1><ol>
@@ -54,9 +108,11 @@
       </tags>
   </entry>
   <entry>
-    <title>vscode的部分基本操作</title>
-    <url>/2022/05/09/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/vscode%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<p>vscode的部分基本操作</p>
+    <title>VsCode的部分基本操作</title>
+    <url>/2022/05/09/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/VsCode%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<p>vscode的部分基本操作</p>
+</blockquote>
 <span id="more"></span>
 
 <ol>
@@ -65,18 +121,18 @@
 </ol>
 ]]></content>
       <categories>
-        <category>vscode</category>
-        <category>基础操作</category>
+        <category>开发软件基础操作</category>
+        <category>VsCode</category>
       </categories>
       <tags>
-        <tag>vscode</tag>
+        <tag>开发软件</tag>
       </tags>
   </entry>
   <entry>
     <title>DAPlink源码分解</title>
     <url>/2022/05/09/%E7%83%A7%E5%BD%95%E5%99%A8/DAPlink%E6%BA%90%E7%A0%81%E5%88%86%E8%A7%A3/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="3b6e3a8987a883a95ed027c7f5ace84a74fccb4f6a2078fcb355e111951c66ef">dbefc7c589c75c7c2a455af83d8d69097a7bce44a64de51e997bc23b83265362a4bb51173161f331c8045ee9992a09f9d34560b6ecb29402732b6af8efafc29c0e03f981422aff6efbed1979cc0585df4dcc5ef2cb511f1dbb735fcced6b2b60b721a1719c116b82347205df084eb4742a1a0cd06f25545da15bf36c5837fc0f1ba7d095b7aed65b06aa30774cc7839ee2d345648e3936bc29bbffe7542cd206ce9eff1f33d8bc3b5dc5ff31f4570b3267f0767239770ca1e1d36e07bc6ecf2d638a953dff5a2a796d081d93ec67d0c7ee08909075ee9b8b91911ab5b241073002f5f76c2d5dbf32f703853d0c989b7ab8840091d8c366355dec9a5a8dee3837</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="c047cea25d6562ef412501fecb3bb51ca5693b2166d09b4220b7181084dde9bc">dbefc7c589c75c7c2a455af83d8d6909dd96b9447461a2966f2073d0e380903c3d02860855d6d7f4dc617e7c541346eaaf0e56a3e3e9d705f8d212bef35615f3e9f74e500ed877cfa73bd4eedfed67525e5801faa01a81c26fda65754372fe427344629a20376d0a64d9b3219f49c3edcd5f0c546c102c2cc6fe5cc9382949002d386ff42031dbedd9aa8a1a3d205864f673d2dde9a33b0a7d528dd6054b7190ff4913a4ab22608f0e1bd49e67f68c17aac99ee14e7e5f3a2d89f5f73e29e02f3c2645248258f71e87ac89da06d822ede6bfaa3ec480ca9bbe59417a2dcf4845312d51441541b60451d7288254d2540559a346a2ec5bbcc8a7a36bdd46038fb66da16d7216416729fc3b53d7042ee8d5</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-flip">
       <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
@@ -933,9 +989,20 @@
   <entry>
     <title>双核NUCLEO-H745ZI-Q开发(1)</title>
     <url>/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
-    <content><![CDATA[<h4 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h4><span id="more"></span>
+    <content><![CDATA[<blockquote>
+<p>双核NUCLEO-H745ZI-Q开发(1)</p>
+</blockquote>
+<span id="more"></span>
 
-<p><img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" alt="H745ZIT6.jpg"></p>
+<img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" width="40%" height="50%">
+
+<ol>
+<li><p><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32h745zi.html#documentation">编程数据手册下载地址</a></p>
+</li>
+<li><p>主要查看这些数据手册: 数据手册(DS)：电器特性、内核；参考手册（RM）：包含所有外设；编程手册（PM）。</p>
+</li>
+<li></li>
+</ol>
 ]]></content>
       <categories>
         <category>STM32</category>
@@ -956,7 +1023,7 @@
 </blockquote>
 <ul>
 <li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#109;&#x63;&#x72;&#101;&#97;&#116;&#101;&#x40;&#x66;&#x6f;&#x78;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#x78;&#103;&#109;&#x63;&#x72;&#101;&#97;&#116;&#101;&#x40;&#x66;&#x6f;&#x78;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a>；将第一时间修复操作系统；</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#109;&#99;&#114;&#101;&#97;&#x74;&#x65;&#64;&#x66;&#x6f;&#120;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x78;&#103;&#109;&#99;&#114;&#101;&#97;&#x74;&#x65;&#64;&#x66;&#x6f;&#120;&#109;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;</a>；将第一时间修复操作系统；</li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
 </ul>
