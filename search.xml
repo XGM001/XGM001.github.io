@@ -1,49 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第一篇文章</title>
-    <url>/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h1 id="第一级标题"><a href="#第一级标题" class="headerlink" title="第一级标题"></a>第一级标题</h1><h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="这个是三级标题"><a href="#这个是三级标题" class="headerlink" title="这个是三级标题"></a>这个是三级标题</h3> <span id="more"></span>
-
-<ul>
-<li>列表1</li>
-<li>列表2<br>  a 子列表1<br>  b 子列表2</li>
-<li>列表3<br><a href="https://gitee.com/">gitee</a><br><img data-src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F113020142315%2F201130142315-1-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653257802&t=c93e7ceaa0b5c91564e5be1bbdc969b1" alt="图片测试"></li>
-</ul>
-<p><em><strong>字体加粗变斜</strong></em></p>
-<p><code>&lt;html&gt;&lt;/html&gt;</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">	&lt;head&gt;</span><br><span class="line">		&lt;title&gt;标题&lt;/title&gt;</span><br><span class="line">	&lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>引用</p>
-</blockquote>
-<hr>
-<hr>
-]]></content>
+    <title>博客作者个人简历</title>
+    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="4a19ffff87db07ded9b445bb10b0aabde96960a2e825884c4c25758bf88d2d6d">33b6c39d002ebceceb3e747ef576ef82efd06357e8f183a69e435032de79e80d472ffa5747c886765ba8745f4bb62fa67a1a991fdf8931c9dac47ed1ad2294db8b7b001c19bdc633d36b1199b4787c2bd3a18f52802ccd85d804043d725d86fabb9b35ba21b05c09b8f34fbc70e598be4514d2d77b3ef0df28e0d233cca23faaa8bca178e5db7e4238f9115c95fd42fb3339e7cb849ed20d5aedb3b25e3bde7cebc71c48c953ffc93cf73775f3ccb78b38abe9cd5cbfbfdee3c6612e5d33bdb4c8d8b714f59d87eaa6cc02d6a11fc85534a6cfad0d334b91a63544143929dfe36c02fd17045bc8132d45f00d0655b524980517fa5df664b51364f95192681827a3c99082527cbaf98298e162a12c3651aa2b0dce91816381e25c2e6a28b6048056b2fb7864c969f8ffead37b2e59fae61cf90a349967ea76784464f26faa762c518365c39a187c9f70740c3c0172a236a4b05d6c16ee1ba4fed0121066fa051d2839711c6ff031fa029edbcc24634eb82d4ac43f5830d8add7d1f1cd78b9790ec435a84ca730feff619ba2b6783a44b9b913823dd9ffb9f3b01bbd41cb8b32ef0f5da7526cedb59f04ae944aa14567a2d80c47d731460fba98dc9308c2342e72bb5b7ce57b4ea98bf7072bf9177f072a06dbfb05915b4b136d4bec192b80bb5b0bb6f1327336f79fffd6ea144bbe1c03db76076c23c75d801a6a6d6951878e282024508d1ddcdb327bf1ae5db27f80e50d725c077134cde0210095e0babb5180e1d0662cb1cf6192d7fef9a94005502759d3f3506b00767f09eb7099ff30133ef8b4c8d87fb27d674791ec542f1e98c00ac1acfb23898d953471ddac6a5c8fa772572c4d2b0577c187ae5a515e4f04507fcebed8cd39cf644e420785c4ff37727f60e82eb954d00d8f10ea4faa06eafd07c98cd89ef09794bd565d01f2137e77425c924ec7dc736b4a83af1838aba70a556d34acc61abccd574b1872143b1cb8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>测试分类</category>
+        <category>简历</category>
       </categories>
       <tags>
-        <tag>导航</tag>
-        <tag>分享</tag>
+        <tag>个人简历</tag>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/04/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>Sublime Text的部分基本操作</title>
+    <url>/2022/05/11/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Sublime%20Text%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<p>Sublime Text的部分基本操作</p>
+</blockquote>
+<span id="more"></span>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h1 id="1-Sublime-Text设置中文"><a href="#1-Sublime-Text设置中文" class="headerlink" title="1. Sublime Text设置中文"></a>1. Sublime Text设置中文</h1><ol>
+<li>在Sublime Text中，主菜单栏选择Tools-&gt;Command Palette，或快捷键Shift+Ctrl+P,弹出命令面板;</li>
+<li>输入install，点击Instal Package Control</li>
+<li>稍等几秒，弹出提示：安装成功，点击确定</li>
+<li>重新单开命令面板（快捷键Shift+Ctrl+P），输入install,点击第一行的Package Control:Install Package</li>
+<li>稍等几秒弹出插件包选择界面</li>
+<li>输入Chinese，点击第一个，自动安装：</li>
+<li>即为安装完成，可以看到菜单栏变成了中文。</li>
+<li>如果没有自动更换语言，重启软件，可以在主菜单的 帮助&#x2F;Language 子菜单来切换语言。 目前支持 简体中文 繁体中文 日本語 德语 法语 俄语等。 如果要换回英语不需要卸载插件，直接从菜单切换英文。</li>
+</ol>
+<ul>
+<li>步骤如果没有看懂 <a href="https://blog.csdn.net/LclLsh/article/details/123500847">请点击此地址</a></li>
+</ul>
 ]]></content>
+      <categories>
+        <category>开发软件基础操作</category>
+        <category>Sublime Text</category>
+      </categories>
+      <tags>
+        <tag>开发软件</tag>
+      </tags>
   </entry>
   <entry>
     <title>全面的Cortex-M内核资源汇总</title>
@@ -77,191 +84,55 @@
       </tags>
   </entry>
   <entry>
-    <title>一台电脑上的git同时使用两个github账户</title>
-    <url>/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
-    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
-<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
+    <title>GNU编译器关键字</title>
+    <url>/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/GNU%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <content><![CDATA[<blockquote>
+<p>GUN编译器关键字 </p>
 </blockquote>
+<span id="more"></span>
+
+<h1 id="GNU-C编译器中的关键字"><a href="#GNU-C编译器中的关键字" class="headerlink" title="GNU C编译器中的关键字"></a>GNU C编译器中的关键字</h1><ol>
+<li><p><code>__attribute__ ((__packed__))</code>取消字节对齐，紧凑排列占用内存的方式，</p>
+<figure class="highlight plaintext"><figcaption><span>示例</span></figcaption><table><tr><td class="code"><pre><span class="line">struct test1 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;	//占用8字节</span><br><span class="line"> </span><br><span class="line">struct __attribute__ ((__packed__)) test2 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;	//占用5字节</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>指定x字节对齐 <code>__align(x)</code></p>
+</li>
+</ol>
 ]]></content>
+      <categories>
+        <category>GUN</category>
+        <category>编译器关键字</category>
+      </categories>
       <tags>
-        <tag>git</tag>
-        <tag>双Github账号同时存在</tag>
+        <tag>编译器关键字</tag>
       </tags>
   </entry>
   <entry>
-    <title>关于git命令</title>
-    <url>/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[ <!-- <center> <font face="宋体"  size="6">关于git命令 </font></center> -->
-
-<h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><span id="more"></span>
+    <title>VsCode的部分基本操作</title>
+    <url>/2022/05/09/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/VsCode%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<p>vscode的部分基本操作</p>
+</blockquote>
+<span id="more"></span>
 
 <ol>
-<li><p>在本地打开 git bash 命令行窗口，输入以下命令<br><code>cd ~/.ssh</code></p>
-</li>
-<li><p>如果没有，显示<br><code>bash: cd: /c/Users/Administrator/.ssh: No such file or directory</code></p>
-</li>
-<li><p>否则表示本地以创建 SSH key 了</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">id_rsa  id_rsa.pub  known_hosts</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h1 id="创建-SSH-key"><a href="#创建-SSH-key" class="headerlink" title="创建 SSH key"></a>创建 SSH key</h1><!-- more -->
-
-<ol>
-<li>最后一个参数替换为自己的 <a href="gitee.com">Gitee</a> || <a href="github.com">Github</a> 注册邮箱<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br></pre></td></tr></table></figure></li>
-<li>接下来会提示输入生成的key存放的路径，不设置直接回车的话会默认创建在C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter file in which to save the key (/c/Users/Him/.ssh/id_rsa):</span><br><span class="line">Created directory &#x27;/c/Users/userpath/.ssh&#x27;.</span><br></pre></td></tr></table></figure></li>
-<li>再接下来会提示你输入密码，这个密码是用来每次提交的时候输入确认，可以不设置，直接回车两次<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></li>
-<li>最后成功后会看到类似如下的输出，表示成功生成SSH key了，可以到C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下查看<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Your identification has been saved in /c/Users/Him/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /c/Users/Him/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:RwvBINgH8CEt2KniltmykeyDsOseUYcwMzehFeyT86s xxxxxx@qq.com</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+---[RSA 2048]----+</span><br><span class="line">| o+%OO+o.        |</span><br><span class="line">|..=+%*+ ..       |</span><br><span class="line">| ..+o+o.. .      |</span><br><span class="line">|o.  o=.  o .     |</span><br><span class="line">|o oolalala S o      |</span><br><span class="line">| +.+.. . .       |</span><br><span class="line">|. .o    .        |</span><br><span class="line">|  . .  .         |</span><br><span class="line">|   . E.          |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h1 id="SSH验证"><a href="#SSH验证" class="headerlink" title="SSH验证"></a>SSH验证</h1><!-- more -->
-
-<ol>
-<li><p>验证本地生成的ssh，github或者gitee端密钥是否添加成功，输入如下命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@gitee.com </span><br></pre></td></tr></table></figure></li>
-<li><p>如果添加成功就会显示如下语句</p>
-<blockquote>
-<p>Hi Username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Hi Username! You’ve successfully authenticated, but GITEE.COM does not provide shell access.</p>
-</blockquote>
-</li>
-<li><p>Username:是你的在git端的名称</p>
-</li>
-</ol>
-<hr>
-]]></content>
-      <categories>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>git命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
-    <url>/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
-    <content><![CDATA[<blockquote>
-<p>双核NUCLEO-H745ZI-Q开发(1)</p>
-</blockquote>
-<span id="more"></span>
-
-<img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" width="40%" height="50%">
-
-<h1 id="数据手册编程开发介绍"><a href="#数据手册编程开发介绍" class="headerlink" title="数据手册编程开发介绍"></a>数据手册编程开发介绍</h1><ol>
-<li><p><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32h745zi.html#documentation">编程数据手册下载地址</a></p>
-</li>
-<li><p>主要查看这些数据手册: 数据手册(DS)：电器特性、内核；参考手册（RM）：包含所有外设；编程手册（PM）。</p>
-</li>
-<li><p>关于HAL库与LL库的使用，LL更加高效，纯寄存器的使用，HAL库提供了很多的接口，可以直接使用的接口。关于使用HAL库可以查看How to use the driver，每个函数有初始化步骤Initialization and Configuration functions</p>
-</li>
-</ol>
-<h1 id="关于HAL库的配置"><a href="#关于HAL库的配置" class="headerlink" title="关于HAL库的配置"></a>关于HAL库的配置</h1><ol>
-<li><p>模块使能定义在<code>stm32h7xx_hal_conf.h</code>头文件中，可以全部使能模块，防止以后使用到,下面只是简单代表一下，方便查找；</p>
-<figure class="highlight plaintext"><figcaption><span>stm32h7xx_hal_conf.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/* ########################## Module Selection ############################## */</span><br><span class="line">/**</span><br><span class="line">  * @brief This is the list of modules to be used in the HAL driver </span><br><span class="line">  */</span><br><span class="line">#define HAL_MODULE_ENABLED</span><br><span class="line">/* #define HAL_ADC_MODULE_ENABLED */</span><br><span class="line">/* #define HAL_CEC_MODULE_ENABLED */</span><br><span class="line">/* #define HAL_COMP_MODULE_ENABLED */</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>外部时钟模块配置在文件<code>stm32h7xx_hal_conf.h</code>头文件中，启动超时时间<code>HSE_STARTUP_TIMEOUT</code>，默认只有0.1s,建议此处时间配置延长，以及下面的启动超时时间，建议延长。</p>
-</li>
-<li><p><code>USE_FULL_ASSERT</code>是否需要打开断言功能</p>
-</li>
-<li><p>HAL库很多外设需要提供时间基准，这些设置在<code>stm32h7xx_hal.c</code>文件中；<code>HAL_InitTick</code>函数初始化systick</p>
-</li>
+<li>同时选中多行 <code>shift</code> + <code>alt</code> + <code>鼠标左键</code> 向下向上拖动就可以同时选中多行</li>
+<li>文章的前进和后退分别是 <code>alt</code> + <code>→</code> 和 <code>alt</code> + <code>←</code></li>
 </ol>
 ]]></content>
       <categories>
-        <category>STM32</category>
-        <category>H745ZIT6</category>
+        <category>开发软件基础操作</category>
+        <category>VsCode</category>
       </categories>
       <tags>
-        <tag>STM32H745ZIT6</tag>
-        <tag>双核</tag>
+        <tag>开发软件</tag>
       </tags>
   </entry>
   <entry>
-    <title>关于hexo主题Markdown中显示PDF</title>
-    <url>/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</url>
-    <content><![CDATA[<blockquote>
-<p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p>
-</blockquote>
-<span id="more"></span>
-
-<p>此处主要解决不能显示pdf的方法：</p>
-<h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure>
-
-<h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">	&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
-
-<p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p>
-<h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">
-    <embed src="/PDF/stm32h745zi.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
-<h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">
-    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
-</iframe>
-]]></content>
-      <categories>
-        <category>关于hexo主题Markdown显示pdf文件</category>
-      </categories>
-      <tags>
-        <tag>Markdown显示pdf</tag>
-        <tag>hexo显示pdf</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建自己的pdf在线预览工具(pdf.js)</title>
-    <url>/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<blockquote>
-<p>说明:关于该功能，测试发现部分浏览器不支持显示，如果遇到浏览器不显示，请直接换一个浏览器；浏览器Microsoft Edge可以支持显示（请文明上网）</p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="1-使用gitee和pdf-js搭建pdf在线浏览工具"><a href="#1-使用gitee和pdf-js搭建pdf在线浏览工具" class="headerlink" title="1. 使用gitee和pdf.js搭建pdf在线浏览工具"></a>1. 使用gitee和pdf.js搭建pdf在线浏览工具</h2><p>码云Pages(gitee pages)是一个免费的静态网页托管服务, 除此之外你还可以使用gitee pages托管博客、项目官网等. 之后我们将使用gitee pages来托管pdf.js. (使用Github Pages也可以达到同样的效果, 但是Github的访问速度慢，可以给github加一个前缀 <code>cdn.github.com</code>)</p>
-<p>pdf.js是一款使用HTML5 Canvas安全地渲染pdf文件以及遵从网页标准的网页浏览器渲染pdf文件的javascript库.该插件不需要任何本地支持，对浏览器的兼容性也比较好.</p>
-<blockquote>
-<p>不管使用何种方法实现，都需要先注册账号，<a href="https://gitee.com/">gitee</a>或者<a href="https://github.com/">github</a>账号</p>
-</blockquote>
-<blockquote>
-<p>两种方法，既有缺点也优点：<br>    1.gitee优点在于可以将仓库设置为私人仓库状态，别人无法看到你仓库中有那些文件，私密性强，github相反，必须将仓库设置公开状态。<br>      2.gitee本地上传到仓库的文件，不能自动的部署，需要手动进入<code>gitee pages</code>去更新，而github相反，是自动部署完成，不需要人为去点击。<br>      3.<code>gitee pages</code>该功能需要实名认证，需要一个工作日审核，两种方法优缺点，任君选择。</p>
-</blockquote>
-<p>在gitee或github创建名为Npdf的仓库, 创建好仓库好后，请在本地连接到远程仓库：如果觉得<code>Git</code>软件使用困难，可以使用图形软件<a href="https://desktop.github.com/">GitHubDesktop</a>管理项目，所有git的使用方法请自行百度。</p>
-<h2 id="2-下载pdf-js源码到解压到本地仓库中"><a href="#2-下载pdf-js源码到解压到本地仓库中" class="headerlink" title="2. 下载pdf.js源码到解压到本地仓库中"></a>2. 下载pdf.js源码到解压到本地仓库中</h2><p><a href="https://mozilla.github.io/pdf.js/getting_started/#download">pdf.js源码地址</a>此处我建议新手小白直接下载 <code>Prebuilt</code>版本，个人参考经验；如果是大佬，请自行选择，个人建议自行参考。</p>
-<p><img data-src="https://s2.loli.net/2022/05/04/m6KDd48Naeck7TW.png" alt="图示"></p>
-<p>将你自己要展示的pdf文件放入web文件夹下<br><img data-src="https://s2.loli.net/2022/05/04/favCULNIc4sGnKX.png" alt="图示"></p>
-<p>将文件上传到<code>gitee</code>或<code>github</code>的Npdf仓库</p>
-<h2 id="3-点击gitee的Npdf仓库中选择Service下的Gitee-Pages-进入选择创建Pages；如果使用github无此操作。"><a href="#3-点击gitee的Npdf仓库中选择Service下的Gitee-Pages-进入选择创建Pages；如果使用github无此操作。" class="headerlink" title="3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。"></a>3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。</h2><p><img data-src="https://s2.loli.net/2022/05/04/hWsUgVO3qrRaHXl.png" alt="图示"></p>
-<h2 id="4-最终可以生成如下内容-部署成功"><a href="#4-最终可以生成如下内容-部署成功" class="headerlink" title="4. 最终可以生成如下内容(部署成功)"></a>4. 最终可以生成如下内容(部署成功)</h2><p><img data-src="https://s2.loli.net/2022/05/04/hWsUgVO3qrRaHXl.png" alt="图示"></p>
-<h2 id="5-你可以使用如下链接-打开之前放入web文件夹下的pdf文件"><a href="#5-你可以使用如下链接-打开之前放入web文件夹下的pdf文件" class="headerlink" title="5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件"></a>5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=compressed.tracemonkey-pldi-09.pdf</span><br><span class="line">https://xgm-embedded-os.gitee.io/npdf 你的Npdf仓库Gitee Pages主页</span><br><span class="line">web/viewer.html</span><br><span class="line">?file= 后接pdf的名称</span><br></pre></td></tr></table></figure>
-<p><img data-src="https://s2.loli.net/2022/05/05/cdeLvmDUfbpnk2F.png" alt="效果展示"></p>
-<h2 id="6-更新PDF文件或添加新的PDF文件"><a href="#6-更新PDF文件或添加新的PDF文件" class="headerlink" title="6. 更新PDF文件或添加新的PDF文件"></a>6. 更新PDF文件或添加新的PDF文件</h2><p>之后每一次更新文件时，仅仅每次将web中的PDF文件替换，然后执行上传到git仓库；<br>添加新的PDF,只需要将新的pdf复制到web中，然后执行上传到git仓库；<br>回到gitee你创建的仓库中，点击服务-giteepages-更新部署即可即第三步操作(github没有此操作)。</p>
-<h2 id="7-参考连接"><a href="#7-参考连接" class="headerlink" title="7. 参考连接"></a>7. 参考连接</h2><p>参考一：<a href="https://www.csdn.net/tags/MtTaEg5sOTc0MTQ3LWJsb2cO0O0O.html">https://www.csdn.net/tags/MtTaEg5sOTc0MTQ3LWJsb2cO0O0O.html</a><br>参考二：<a href="https://zhuanlan.zhihu.com/p/338258872">https://zhuanlan.zhihu.com/p/338258872</a><br>参考三：<a href="https://www.cnblogs.com/sunshinezjb/p/9248144.html">https://www.cnblogs.com/sunshinezjb/p/9248144.html</a></p>
-]]></content>
-      <categories>
-        <category>搭建在线浏览PDF</category>
-      </categories>
-      <tags>
-        <tag>搭建pdf.js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于next博客主题设置和加速</title>
-    <url>/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/</url>
-    <content><![CDATA[<blockquote>
-<p>这里就不写博客的介绍了，关于next主题修改可以参考以下这些博客，可能版本不相同，但是配置大致相似。</p>
-</blockquote>
-<span id="more"></span>
-<h2 id="1-关闭指定文章的打赏功能"><a href="#1-关闭指定文章的打赏功能" class="headerlink" title="1. 关闭指定文章的打赏功能"></a>1. 关闭指定文章的打赏功能</h2><figure class="highlight plaintext"><figcaption><span>关闭指定文章的打赏功能</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">tags:</span><br><span class="line">categories:</span><br><span class="line">只需在文章头部添加下面代码既可以关闭本文章的打赏功能</span><br><span class="line">reward_settings: </span><br><span class="line">  enable: false # true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h2 id="1-NexT主题进阶配置"><a href="#1-NexT主题进阶配置" class="headerlink" title="1. NexT主题进阶配置"></a>1. <a href="https://wylu.me/posts/e0424f3f/">NexT主题进阶配置</a></h2><h2 id="2-提升Hexo-NexT主题加载速度"><a href="#2-提升Hexo-NexT主题加载速度" class="headerlink" title="2. 提升Hexo NexT主题加载速度"></a>2. <a href="https://finisky.github.io/responsivehexonext/">提升Hexo NexT主题加载速度</a></h2><h2 id="3-Hexo-博客-静态网站目录文件介绍"><a href="#3-Hexo-博客-静态网站目录文件介绍" class="headerlink" title="3. Hexo 博客 静态网站目录文件介绍"></a>3. <a href="https://www.cnblogs.com/baiqiantao/p/10538926.html">Hexo 博客 静态网站目录文件介绍</a></h2><h2 id="4-hexo-个人博客基于-NexT-主题"><a href="#4-hexo-个人博客基于-NexT-主题" class="headerlink" title="4. hexo 个人博客基于 NexT 主题"></a>4. <a href="https://choubin.site/2019/12/30/CustomBlogTheme/">hexo 个人博客基于 NexT 主题</a></h2>]]></content>
-      <categories>
-        <category>next主题设置与加速</category>
-      </categories>
-      <tags>
-        <tag>next主题设置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客作者个人简历</title>
-    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
+    <title>DAPlink源码分解</title>
+    <url>/2022/05/09/%E7%83%A7%E5%BD%95%E5%99%A8/DAPlink%E6%BA%90%E7%A0%81%E5%88%86%E8%A7%A3/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="4a19ffff87db07ded9b445bb10b0aabde96960a2e825884c4c25758bf88d2d6d">33b6c39d002ebceceb3e747ef576ef82efd06357e8f183a69e435032de79e80d472ffa5747c886765ba8745f4bb62fa67a1a991fdf8931c9dac47ed1ad2294db8b7b001c19bdc633d36b1199b4787c2bd3a18f52802ccd85d804043d725d86fabb9b35ba21b05c09b8f34fbc70e598be4514d2d77b3ef0df28e0d233cca23faaa8bca178e5db7e4238f9115c95fd42fb3339e7cb849ed20d5aedb3b25e3bde7cebc71c48c953ffc93cf73775f3ccb78b38abe9cd5cbfbfdee3c6612e5d33bdb4c8d8b714f59d87eaa6cc02d6a11fc85534a6cfad0d334b91a63544143929dfe36c02fd17045bc8132d45f00d0655b524980517fa5df664b51364f95192681827a3c99082527cbaf98298e162a12c3651aa2b0dce91816381e25c2e6a28b6048056b2fb7864c969f8ffead37b2e59fae61cf90a349967ea76784464f26faa762c518365c39a187c9f70740c3c0172a236a4b05d6c16ee1ba4fed0121066fa051d2839711c6ff031fa029edbcc24634eb82d4ac43f5830d8add7d1f1cd78b9790ec435a84ca730feff619ba2b6783a44b9b913823dd9ffb9f3b01bbd41cb8b32ef0f5da7526cedb59f04ae944aa14567a2d80c47d731460fba98dc9308c2342e72bb5b7ce57b4ea98bf7072bf9177f072a06dbfb05915b4b136d4bec192b80bb5b0bb6f1327336f79fffd6ea144bbe1c03db76076c23c75d801a6a6d6951878e282024508d1ddcdb327bf1ae5db27f80e50d725c077134cde0210095e0babb5180e1d0662cb1cf6192d7fef9a94005502759d3f3506b00767f09eb7099ff30133ef8b4c8d87fb27d674791ec542f1e98c00ac1acfb23898d953471ddac6a5c8fa772572c4d2b0577c187ae5a515e4f04507fcebed8cd39cf644e420785c4ff37727f60e82eb954d00d8f10ea4faa06eafd07c98cd89ef09794bd565d01f2137e77425c924ec7dc736b4a83af1838aba70a556d34acc61abccd574b1872143b1cb8</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="c047cea25d6562ef412501fecb3bb51ca5693b2166d09b4220b7181084dde9bc">dbefc7c589c75c7c2a455af83d8d6909dd96b9447461a2966f2073d0e380903c3d02860855d6d7f4dc617e7c541346eaaf0e56a3e3e9d705f8d212bef35615f3e9f74e500ed877cfa73bd4eedfed67525e5801faa01a81c26fda65754372fe427344629a20376d0a64d9b3219f49c3edcd5f0c546c102c2cc6fe5cc9382949002d386ff42031dbedd9aa8a1a3d205864f673d2dde9a33b0a7d528dd6054b7190ff4913a4ab22608f0e1bd49e67f68c17aac99ee14e7e5f3a2d89f5f73e29e02f3c2645248258f71e87ac89da06d822ede6bfaa3ec480ca9bbe59417a2dcf4845312d51441541b60451d7288254d2540559a346a2ec5bbcc8a7a36bdd46038fb66da16d7216416729fc3b53d7042ee8d5</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-flip">
       <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
@@ -273,34 +144,174 @@
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>简历</category>
+        <category>DAP</category>
+        <category>LINK</category>
       </categories>
       <tags>
-        <tag>个人简历</tag>
+        <tag>烧录器</tag>
       </tags>
   </entry>
   <entry>
-    <title>GoupOS嵌入式实时操作系统介绍</title>
-    <url>/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
+    <title>GoupOS时钟管理</title>
+    <url>/2022/05/09/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E6%97%B6%E9%92%9F%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<p>GoupOS时钟管理</p>
+<span id="more"></span>
+<h1 id="1-时钟管理"><a href="#1-时钟管理" class="headerlink" title="1. 时钟管理"></a>1. 时钟管理</h1><p>时间是非常重要的概念？和朋友出去游玩需要约定时间，完成任务也需要花费时，生活离不开时间。操作系统也一样需要通过时间来规范其任务的执行。操作系统中最小的时间单位是时钟节拍(OS Tick)。时钟节拍和基于时钟节拍的定时器。</p>
+<h2 id="1-时钟节拍"><a href="#1-时钟节拍" class="headerlink" title="1. 时钟节拍"></a>1. 时钟节拍</h2><p>任何操作系统都需要提供一个时钟节拍，以供系统处理所有与时间有关的事件， 如线程的延时、线程的时间片轮转凋度以及定时器超时等。时钟节拍是特定的周期性中断，这个中断可以被看作系统心跳，中断之间的时间间隔取决于不同的应用，一般是1~100ms。时钟节拍率越快，系统的额外开销就越大，从系统启动开始计数的时钟节拍数称为系统时间。<br>GoupOS中，时钟节拍的长度可以根据<code>OS_SYSTICK_MS</code>的定义来调整，每秒跳动次数等于<code>1/OS_SYSTICK_MS</code>秒。</p>
+<h3 id="1-时钟节拍的实现方式"><a href="#1-时钟节拍的实现方式" class="headerlink" title="1. 时钟节拍的实现方式"></a>1. 时钟节拍的实现方式</h3><p>时钟节拍由配置为中断触发模式的硬件定时器产生，当中断到来时，将调用一次<code>void  tTaskSwitch(void)</code>，通知操作系统已经过去一个系统时钟。不同硬件定时器的中断实现都不同，下面的中断函数以STM32定时器作为示例。</p>
+<figure class="highlight plaintext"><figcaption><span>tcpu.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/** </span><br><span class="line">  * @brief  This function handles SysTick Handler.</span><br><span class="line">  * @param  None</span><br><span class="line">  * @retval None</span><br><span class="line">  */</span><br><span class="line">void SysTick_Handler(void)</span><br><span class="line">&#123;</span><br><span class="line"> 	tTaskSystemTickHandler();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
-</blockquote>
-<ul>
-<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#x67;&#109;&#99;&#x72;&#x65;&#x61;&#116;&#101;&#x40;&#x66;&#111;&#120;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#x78;&#x67;&#109;&#99;&#x72;&#x65;&#x61;&#116;&#101;&#x40;&#x66;&#111;&#120;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a>；将第一时间修复操作系统；</li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
-</ul>
-<p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>
+
+<figure class="highlight plaintext"><figcaption><span>os_tTask.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTaskSystemTickHandler(void)</span><br><span class="line">&#123;</span><br><span class="line">	//...</span><br><span class="line">	//code</span><br><span class="line">#if (GOUPOS_ENABLE_TIMER == 1)</span><br><span class="line">	/*&lt;!定时器模块通知操作*/</span><br><span class="line">	TimerModuleTickNotify();</span><br><span class="line">#endif</span><br><span class="line">	//...</span><br><span class="line">	//code</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-定时器管理"><a href="#2-定时器管理" class="headerlink" title="2. 定时器管理"></a>2. 定时器管理</h2><p>定时器的功能是从指定的时刻开始，经过指定时间后触发一个事件，例如定个时间提醒第二天能够按时起床。定时器有硬件定时器和软件定时器两种。<br>(1)硬件定时器是芯片本身提供的定时功能。一般是由外部晶振提供给芯片输入时钟，芯片向软件模块提供一组配置寄存器，接受控制输入，到达设定时间值后芯片中断控制器产生时钟中断。硬件定时器的精度一般很高，可以达到纳秒级别， 并且是中断触发方式。<br>(2)软件定时器是由操作系统提供的一类系统接口，它构建在硬件定时器基础之上，使系统能够提供不受数目限制的定时器服务。<br>GoupOS操作系统提供软件实现的定时器，以时钟节拍(OS Tick)的时间长度为单位，即定时数值必须是OS Tick的整数倍，例如一个OS Tick是10ms, 那么上层软件定时器只能是10ms、20ms、100ms等，而不能定时为15ms。GoupOS的定时器也提供了基于时钟节拍整数倍的定时能力。</p>
+<h3 id="1-GoupOS定时器介绍"><a href="#1-GoupOS定时器介绍" class="headerlink" title="1. GoupOS定时器介绍"></a>1. GoupOS定时器介绍</h3><p>GoupOS定时器提供两类定时器机制：分别是一次性定时器任务和周期性定时器；一次性定时器在启动后只会触发一次定时器事件，然后定时器自动停止。周期触发定时器，这类定时器会周期性地触发定时器事件，直到用户手动停止，否则将永远执行下去。<br>另外，根据超时函数执行时所处的上下文环境，GoupOS的定时器可以分为<code>OS_STARTHARD_TIMER</code>模式与<code>OS_STARTSOFT_TIMER</code>模式，如下图所示。<br><img data-src="https://s2.loli.net/2022/05/09/4flR92DgIyZzT6k.png" alt="定时器.png"></p>
+<h4 id="1-OS-STARTHARD-TIMER模式"><a href="#1-OS-STARTHARD-TIMER模式" class="headerlink" title="1. OS_STARTHARD_TIMER模式"></a>1. <code>OS_STARTHARD_TIMER</code>模式</h4><p><code>OS_STARTHARD_TIMER</code>模式的定时器超时函数在中断上下文环境中执行，可以在初始化／创建定时器时使用<code>TIMER_CONFIG_TYPE_HARD</code>参数来指定。<br>在中断上下文环境中执行时，对于定时器函数的要求与中断服务例程的要求相同：执行时间应该尽掀短，执行时不应导致当前上下文挂起、等待，例如在中断上下文中执行的超时函数不应该试图去申请动态内存、释放动态内存等。<br>GoupOS定时器，即定时器定时到达后，定时函数是在系统时钟中断的上下文环境中运行的。在中断上下文中的执行方式决定了定时器的超时函数不应该调用任何会让当前上下文挂起的系统函数；也不能够执行非常长的时间，否则会导致其他中断的响应时间加长或抢占了其他线程执行的时间。</p>
+<h4 id="2-OS-STARTSOFT-TIMER模式"><a href="#2-OS-STARTSOFT-TIMER模式" class="headerlink" title="2. OS_STARTSOFT_TIMER模式"></a>2. <code>OS_STARTSOFT_TIMER</code>模式</h4><p><code>TIMER_CONFIG_TYPE_SOFT</code>模式可配置,通过宏定义<code>OS_STARTSOFT_TIMER</code>来决定是否启用该模式。该模式被启用后，系统会在初始化时创建一个<code>TimerTask</code>线程，然后<code>OS_STARTSOFT_TIMER</code>模式的定时器函数会在<code>TimerTask</code>线程的上下文环境中执行。可以在初始化／创建定时器时使用参数<code>TIMER_CONFIG_TYPE_SOFT</code>来设置<code>OS_STARTSOFT_TIMER</code>模式。</p>
+<h3 id="2-定时器的工作机制"><a href="#2-定时器的工作机制" class="headerlink" title="2. 定时器的工作机制"></a>2. 定时器的工作机制</h3><p>下面以一个例子来说明GoupOS定时器的工作机制。在GoupOS定时器模块中维护着两个重要的全局变量：<br>(1)当前系统经过<code>OS tick</code>时间<code>tickCount</code>（当硬件定时器中断来临时，它将加1)。<br>(2)定时器链表<code>tTimerSoftList</code>。系统新创建并激活的定时器都会以超时时间排序的方式插入<code>tTimerSoftList</code>链表中。<br>如下图所示，系统当前<code>tickCount</code>值为20, 在当前系统中已经创建并启动了三个定时器，分别是定时时间为10个tick的timer1、20个tick的timer2和30个tick的timer3, 这三个定时器分别加上系统当前时间tickCount&#x3D;20, 按从小到大的顺序链接在<code>tTimerSoftList</code>链表中，形成如下图所示的定时器链表结构。<br><img data-src="https://s2.loli.net/2022/05/09/2WkPI9fl8xiKCjS.png" alt="定时器链表结构"></p>
+<p>而tickCount随着硬件定时器的触发一直在增长（每一次硬件定时器中断来临，tickCount变量就会加1), 10个tick以后，tickCount从20增长到30, timerl的延时值会等于0，这时会触发timer1定时器相关联的函数，同理，40个tick 和50个tick过去后，与timer2和timer3定时器相关联的函数会被触发。<br>如果系统当前定时器状态在10个tick以后(tickCount&#x3D;30)有一个任务新创建了一个tick值为15的timer4定时器，由于timer4定时器delaytime&#x3D; tickCount +15&#x3D;45,因此它将被插入到timer3后，形成如下图所示的链表结构。<br><img data-src="https://s2.loli.net/2022/05/09/8mZo47sQiuTVkbI.png" alt="定时器链表结构"></p>
+<h4 id="1-定时器控制块"><a href="#1-定时器控制块" class="headerlink" title="1. 定时器控制块"></a>1. 定时器控制块</h4><p>在GoupOS操作系统中，定时器控制块是操作系统用于管理定时器的一个数据结构，会存储定时器的一些信息，例如初始延时数、循环延时数，也包含定时器与定时器之间连接用的链表结构、延时到达回调函数等。<br>定时器控制块由tTimer结构体定义并形成定时器内核对象, linkNode成员则用于把一个激活的（已经启动的）定时器链接到<code>tTimerSoftList</code>和<code>tTimerHardList</code>链表中。</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/**</span><br><span class="line"> * @brief 定时器结构体</span><br><span class="line"> */</span><br><span class="line">typedef struct _tTimer</span><br><span class="line">&#123;</span><br><span class="line">    char  Timername[OS_TIMERNAME_LENGTH];   /*&lt;!定时器名称*/</span><br><span class="line">    uint16_t Timername_length;              /*&lt;!定时器名称长度*/</span><br><span class="line">    tNode linkNode;                         /*&lt;!链表节点*/</span><br><span class="line">    uint32_t startDelayTicks;               /*&lt;!初次(开始)启动延后的ticks数*/</span><br><span class="line">    uint32_t durationTicks;                 /*&lt;!周期定时时的周期ticks数(周期执行的时间)(持续时间滴答)*/</span><br><span class="line">    uint32_t delayTicks;                    /*&lt;!当前定时递减计数值*/</span><br><span class="line">    void (*timerFunc)(void *arg);           /*&lt;!定时回调函数*/</span><br><span class="line">    void * arg;                             /*&lt;!传递给回调函数的参数*/</span><br><span class="line">    uint32_t config;                        /*&lt;!定时器配置参数*/</span><br><span class="line">    tTimerState state;                      /*&lt;!定时器状态*/</span><br><span class="line">&#125;tTimer;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-定时器的管理方式"><a href="#3-定时器的管理方式" class="headerlink" title="3. 定时器的管理方式"></a>3. 定时器的管理方式</h3><p>介绍了GoupOS定时器并对定时器的工作机制进行了概念上的讲解，本节深入介绍定时器的各个接口，帮助读者在代码层次上理解GoupOS定时器。<br>在系统启动时需要初始化定时器管理系统。可以通过下面的函数接口完成：</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void OS_TimerTaskInit(void)</span><br><span class="line">void OS_TimerModule_Init(void)；</span><br></pre></td></tr></table></figure>
+<p>定时器控制块中含有定时器相关的重要参数，它们在定时器各种状态间起到纽带的作用。定时器的相关操作如图5-4所示，包括：创建／初始化定时器、启动定时器、停止／控制定时器、删除／脱离定时器。一次性定时器在定时到达后会从定时器链表中被移除，而周期性定时器会一直在定时器链表，这与定时器参数设置相关。在每次的操作系统时钟中断发生时，都会更改已经延时到达的定时器状态参数。<br><img data-src="https://s2.loli.net/2022/05/09/y9urhMvpQED1Jiq.png" alt="定时器的相关操"></p>
+<h4 id="1-创建和删除定时器"><a href="#1-创建和删除定时器" class="headerlink" title="1. 创建和删除定时器"></a>1. 创建和删除定时器</h4><p>创建定时器时，可利用tTimerInit接口来初始化该定时器，函数接口如下：</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTimerInit(char *Timername, uint16_t Timername_len,tTimer * timer,uint32_t delayTicks,uint32_t durationTicks,void (*timerFunc)(void *arg),void *arg,uint32_t config)</span><br></pre></td></tr></table></figure>
+
+<p>使用该函数接口时会初始化相应的定时器控制块、定时器名称、定时器到达函数等，其中的各参数和返回值说明见下表</p>
+<table border="1">
+    <caption>线程状态转换的基本函数</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>Timername</td>
+        <td>
+            定时器的名称
+        </td>
+    </tr>
+    <tr>
+        <td>Timername_len</td>
+        <td>
+            定时器名称长度，当名称长度超过OS_TIMERNAME_LENGTH多余的字段会被截断；
+        </td>
+    </tr>
+    <tr>
+        <td>timer</td>
+        <td>
+            定时器结构体
+        </td>
+    </tr>
+    <tr>
+        <td>delayTicks</td>
+        <td>
+            定时器初始启动时延时值
+        </td>
+    </tr>
+    <tr>
+        <td>durationTicks</td>
+        <td>
+            周期定时时的周期ticks数(周期执行的时间)(持续时间滴答)
+        </td>
+    </tr>
+    <tr>
+        <td>void (*timerFunc)(void *arg)</td>
+        <td>
+            定时器延时到达函数指针（当定时器到达时，系统会调用这个函数）
+        </td>
+    </tr>
+    <tr>
+        <td>arg</td>
+        <td>
+            定时器延时到达函数的入口参数（当定时器延时到达时，调用延时到达回调函数会把这个参数作为入口参数传递给延时到达函数）
+        </td>
+    </tr>
+    <tr>
+        <td>config</td>
+        <td>
+            通过该配置配置该定时器为软定时器还是硬件定时器配置参数: 
+        <br>
+            #define TIMER_CONFIG_TYPE_HARD      (1<<0) 在中断服务函数中处理
+        <br>
+            #define TIMER_CONFIG_TYPE_SOFT      (0<<0) 在任务中处理
+        </td>
+    </tr>
+</table>
+
+<p>当一个定时器不需要再使用时，可以使用下面的函数接口：</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTimerDestroy(tTimer * timer); //定时器删除函数</span><br></pre></td></tr></table></figure>
+
+<p>删除定时器时，但是定时器对象所占有的内存不会被释放，其中的各参数和返回值说明见下表</p>
+<table border="1">
+    <caption>tTimerDestroy()的输入参数</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>timer</td>
+        <td>
+            定时器结构体
+        </td>
+    </tr>
+</table>
+
+<h4 id="2-启动和停止定时器"><a href="#2-启动和停止定时器" class="headerlink" title="2. 启动和停止定时器"></a>2. 启动和停止定时器</h4><p>当定时器被创建或者初始化以后，并不会被立即启动，必须在调用启动定时器函数接口后才开始工作，启动定时器函数接口如下：</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTimerStart(tTimer *timer)；</span><br></pre></td></tr></table></figure>
+
+<p>调用定时器启动函数接口后，定时器的状态将更改为激活状态(tTimerStarted)，并按照配置硬件或者软件定时器插入不同队列链表中，其中的各参数和返回值说明见下表</p>
+<table border="1">
+    <caption> tTimerStart()的输入参数</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>timer</td>
+        <td>
+            定时器结构体
+        </td>
+    </tr>
+</table>
+
+<p>启动定时器以后，若想使它停止，可以使用下面的函数接口：</p>
+<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTimerStop(tTimer *timer);  //定时器停止函数</span><br></pre></td></tr></table></figure>
+
+<p>调用定时器停止函数接口后，定时器状态将更改为停止状态，并从软件<code>tTimerSoftList</code>链表或者硬件<code>tTimerHardList</code>链表中脱离出来，不参与定时器延时检查。其中的各参数和返回值说明见表</p>
+<table border="1">
+    <caption> tTimerStop()的输入参数</caption>
+    <tr>
+        <th>参数</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>timer</td>
+        <td>
+            定时器结构体
+        </td>
+    </tr>
+</table>
+
+<h2 id="3-定时器应用示例"><a href="#3-定时器应用示例" class="headerlink" title="3. 定时器应用示例"></a>3. 定时器应用示例</h2><p>下面是一个创建定时器的例子，该例程会创建两个定时器，一个是单次定时， 一个是周期定时并让周期性定时器运行一段时间后停止，如代码清单如下所示</p>
+<table border="1">
+    <caption> 创建定时器例程</caption>
+</table>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &quot;GoupOSinclude.h&quot;</span><br><span class="line">#include &quot;app.h&quot;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">tTimer timer1;</span><br><span class="line">tTimer timer2;</span><br><span class="line"></span><br><span class="line">uint16_t timer1_num = 0;</span><br><span class="line">uint16_t timer2_num = 0;</span><br><span class="line">/*定时器1*/</span><br><span class="line">void timer1func(void *arg)</span><br><span class="line">&#123;</span><br><span class="line">	   timer1_num++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*定时器2*/</span><br><span class="line">void timer2func(void *arg)</span><br><span class="line">&#123;</span><br><span class="line">／＊运行第10次，停止周期性定时器＊／</span><br><span class="line">	if(++timer2_num &gt;= 10)</span><br><span class="line">	&#123;</span><br><span class="line">		tTimerStop(&amp;timer2);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*用户任务初始化程序*/</span><br><span class="line">void AppTaskInit(void)</span><br><span class="line">&#123;</span><br><span class="line">/*定时器初始化函数*/</span><br><span class="line">	tTimerInit(&quot;timer1&quot;,sizeof(&quot;timer1&quot;),&amp;timer1,10,0,timer1func,(void * )0,TIMER_CONFIG_TYPE_SOFT);</span><br><span class="line">	tTimerInit(&quot;timer2&quot;,sizeof(&quot;timer2&quot;),&amp;timer2,15,10,timer2func,(void * )0,TIMER_CONFIG_TYPE_SOFT);</span><br><span class="line">/*定时器启动函数*/</span><br><span class="line">	tTimerStart(&amp;timer1);</span><br><span class="line">	tTimerStart(&amp;timer2);</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<table border="1">
+    <caption> 运行结果：前面写的钩子函数，和任务1和任务的函数还是在正常继续运行</caption>
+</table>
+
+<p><img data-src="https://s2.loli.net/2022/05/09/khronWRmpuDsyMX.png" alt="定时器例程"></p>
+<p>周期性定时器启动时先延时15个OS Tick启动运行1次，然后延时函数每10个OS Tick运行1次，共运行10次(10次后调用tTimerStop使定时器1停止运行）；单次定时器的超时函数在第10个OSTick时运行一次。</p>
 ]]></content>
       <categories>
         <category>GoupOS</category>
-        <category>GoupOS嵌入式实时操作系统</category>
+        <category>GoupOS设计与实现</category>
       </categories>
       <tags>
-        <tag>嵌入式实时操作系统</tag>
         <tag>GoupOS嵌入式实时操作系统</tag>
         <tag>RTOS</tag>
       </tags>
@@ -342,102 +353,6 @@
       </categories>
       <tags>
         <tag>中国地理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VsCode的部分基本操作</title>
-    <url>/2022/05/09/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/VsCode%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<blockquote>
-<p>vscode的部分基本操作</p>
-</blockquote>
-<span id="more"></span>
-
-<ol>
-<li>同时选中多行 <code>shift</code> + <code>alt</code> + <code>鼠标左键</code> 向下向上拖动就可以同时选中多行</li>
-<li>文章的前进和后退分别是 <code>alt</code> + <code>→</code> 和 <code>alt</code> + <code>←</code></li>
-</ol>
-]]></content>
-      <categories>
-        <category>开发软件基础操作</category>
-        <category>VsCode</category>
-      </categories>
-      <tags>
-        <tag>开发软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sublime Text的部分基本操作</title>
-    <url>/2022/05/11/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Sublime%20Text%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<blockquote>
-<p>Sublime Text的部分基本操作</p>
-</blockquote>
-<span id="more"></span>
-
-<h1 id="1-Sublime-Text设置中文"><a href="#1-Sublime-Text设置中文" class="headerlink" title="1. Sublime Text设置中文"></a>1. Sublime Text设置中文</h1><ol>
-<li>在Sublime Text中，主菜单栏选择Tools-&gt;Command Palette，或快捷键Shift+Ctrl+P,弹出命令面板;</li>
-<li>输入install，点击Instal Package Control</li>
-<li>稍等几秒，弹出提示：安装成功，点击确定</li>
-<li>重新单开命令面板（快捷键Shift+Ctrl+P），输入install,点击第一行的Package Control:Install Package</li>
-<li>稍等几秒弹出插件包选择界面</li>
-<li>输入Chinese，点击第一个，自动安装：</li>
-<li>即为安装完成，可以看到菜单栏变成了中文。</li>
-<li>如果没有自动更换语言，重启软件，可以在主菜单的 帮助&#x2F;Language 子菜单来切换语言。 目前支持 简体中文 繁体中文 日本語 德语 法语 俄语等。 如果要换回英语不需要卸载插件，直接从菜单切换英文。</li>
-</ol>
-<ul>
-<li>步骤如果没有看懂 <a href="https://blog.csdn.net/LclLsh/article/details/123500847">请点击此地址</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>开发软件基础操作</category>
-        <category>Sublime Text</category>
-      </categories>
-      <tags>
-        <tag>开发软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>管理服务器</title>
-    <url>/2022/04/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="229d9862cac849f752ed9b8f963297ea1f884f21cfc29be761a8d67229ff85ad">6347daf711dfb81fc22167a188af0e33d3bcb6e9abef9937802803ce13d2a936a0523c8410dd3ce110a8ac0baf92c1a2de0e1d343840bb62f34fa6b744844f7436514b3aa42fc88c0c192b2c528b956e7cc2c6790f9d755dcb7d1f01143025ad0d0c7b90b1503f067dc531efa58dc4062d632dea46b8f4c1ad4eb2a810138ee6364250b70e24c6d83abf46bb7abd6cfefe40f5846bf5347bced92b959ca4ae4e</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>服务器</category>
-      </categories>
-      <tags>
-        <tag>个人服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>DAPlink源码分解</title>
-    <url>/2022/05/09/%E7%83%A7%E5%BD%95%E5%99%A8/DAPlink%E6%BA%90%E7%A0%81%E5%88%86%E8%A7%A3/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c047cea25d6562ef412501fecb3bb51ca5693b2166d09b4220b7181084dde9bc">dbefc7c589c75c7c2a455af83d8d6909dd96b9447461a2966f2073d0e380903c3d02860855d6d7f4dc617e7c541346eaaf0e56a3e3e9d705f8d212bef35615f3e9f74e500ed877cfa73bd4eedfed67525e5801faa01a81c26fda65754372fe427344629a20376d0a64d9b3219f49c3edcd5f0c546c102c2cc6fe5cc9382949002d386ff42031dbedd9aa8a1a3d205864f673d2dde9a33b0a7d528dd6054b7190ff4913a4ab22608f0e1bd49e67f68c17aac99ee14e7e5f3a2d89f5f73e29e02f3c2645248258f71e87ac89da06d822ede6bfaa3ec480ca9bbe59417a2dcf4845312d51441541b60451d7288254d2540559a346a2ec5bbcc8a7a36bdd46038fb66da16d7216416729fc3b53d7042ee8d5</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>DAP</category>
-        <category>LINK</category>
-      </categories>
-      <tags>
-        <tag>烧录器</tag>
       </tags>
   </entry>
   <entry>
@@ -619,228 +534,6 @@
       <categories>
         <category>GoupOS</category>
         <category>GoupOS系统移植</category>
-      </categories>
-      <tags>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoupOS内核基础</title>
-    <url>/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<blockquote>
-<p>GoupOS内核基础</p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="1-内核简介"><a href="#1-内核简介" class="headerlink" title="1. 内核简介"></a>1. 内核简介</h2><p>内核是操作系统最基础也是最重要的部分。下图为GoupOS内核架构图，内核处于硬件层之上，内核部分包括内核库、实时内核实现。<br><img data-src="https://s2.loli.net/2022/05/06/MRfU9HDBcPlbYvS.png" alt="GoupOS内核架构图.png"><br>内核库是为了保证内核能够独立运行的一套小型的类似C库（c库：也叫C运行库(C Runtime Library)，它提供了类似strcpy、memcpy等函数，有些也会包括printf、scanf函数的实现。GoupOS内核用到的一小部分C库函数实现。）的函数实现子集。这部分根据编译器的不同，自带C库的情况也会有些不同，当使用GNU、GCC编译器时，会携带更多的标准C库实现。<br>实时内核的实现包括：对象管理、线程管理及调度器、线程间通信、时钟管理及内存管理等。</p>
-<h3 id="1-线程调度"><a href="#1-线程调度" class="headerlink" title="1. 线程调度"></a>1. 线程调度</h3><p>线程是GoupOS操作系统中最小的调度单位，线程调度算法是基于优先级的全抢占式多线程调度算法，即在系统中除了中断处理函数、调度器上锁部分的代码和禁止中断的代码不可抢占之外，系统的其他部分都是可以抢占的，包括线程调度器自身。支待32个线程优先级，0优先级代表最高优先级，最低优先级留给空闲线程使用；同时它也支持创建多个具有相同优先级的线程，相同优先级的线程间采用时间片的轮转调度算法进行调度，使每个线程运行相同时间；另外调度器在寻找那些处于就绪状态的具有最高优先级的线程时，所经历的时间是恒定的，系统也不限制线程数量的多少，线程数目只和硬件平台的具体内存相关。</p>
-<h3 id="2-时钟管理"><a href="#2-时钟管理" class="headerlink" title="2. 时钟管理"></a>2. 时钟管理</h3><p>GoupOS的时钟管理以时钟节拍为基础， 时钟节拍是操作系统中最小的时钟单位。GoupOS的定时器提供两类定时器机制：第一类是单次触发定时器， 这类定时器在启动后只会触发一次定时器事件， 然后定时器自动停止。 第二类是周期触发定时器，这类定时器会 周期性地触发定时器事件， 直到用户手动停止定时器， 否则将永远待续执行下去。<br>另外， 根据超时函数执行时所处的上下文环境，GoupOS的定时器 可以设置为HARD_TIMER模式或者SOFT_TIMER模式。<br>通常使用定时器定时回调函数（即超时函数）， 完成定时服务。 用户根据自己对定时处理的实时性要求选择合适类型的定时器。</p>
-<h3 id="3-线程间同步"><a href="#3-线程间同步" class="headerlink" title="3. 线程间同步"></a>3. 线程间同步</h3><p>GoupOS采用信号量、互斥量与事件集实现线程间同步。 线程通过对信号量、互斥量的获取与释放进行同步；互斥量采用优先级继承的方式解决了实时系统常见的优先级翻转问题。 线程同步机制支持线程按优先级等待或按先进先出方式获取信号量或互斥量。 线程 通过对事件的发送与接收进行同步；事件集支待多事件的 ”或触发” 和 ”与触发”，适合线 程等待多个事件的情况。</p>
-<h3 id="4-线程间通信"><a href="#4-线程间通信" class="headerlink" title="4. 线程间通信"></a>4. 线程间通信</h3><p>GoupOS目前只支持支持邮箱通信机制。 邮箱中一封邮件能够接收非固定长度的消息。并把邮件缓存在自己的内存空间中。邮箱的发送动作可安全用于中断服务例程中。 通信机制支持线程按优先级等待或按先进先出方式获取。</p>
-<h3 id="5-内存管理"><a href="#5-内存管理" class="headerlink" title="5. 内存管理"></a>5. 内存管理</h3><p>GoupOS目前只支持静态内存池管理。当静态内存池具有可用内存时，系统对内存块分配的时间将是恒定的；当静态内存池为空时，系统将申请内存块的线程挂起或阻塞掉（即线程等待一段时间后仍未获得内存块就放弃申请并返回，或者立刻返回。等待的时间取决千申请内存块时设置的等待时间参数），当其他线程释放内存块到内存池时，如果有挂起的待分配内存块的线程存在的话，则系统会将这个线程唤醒。</p>
-<h2 id="2-GoupOS启动流程"><a href="#2-GoupOS启动流程" class="headerlink" title="2. GoupOS启动流程"></a>2. GoupOS启动流程</h2><p>要了解一份代码大多从启动部分开始，这里也采用这种方式，先寻找启动的源头。以MDK-ARM为例，MDK-ARM的用户程序入口为main()函数，位于main.c文件中。系统启动后先从汇编代码startup_stm32f429_439xx.s开始运行，然后跳转到C代码，进行GoupOS系统功能初始化，最后进入用户程序入口main()。启动流程如下图所示。<br><img data-src="https://s2.loli.net/2022/05/07/Ch7HaRjqP1B2vJD.png" alt="GoupOS启动流程图1.png"><img data-src="https://s2.loli.net/2022/05/07/2dsfj4HMbQYIXrK.png" alt="GoupOS启动流程图2.png"><br>    这部分启动代码大致可以分为4个部分：<br>    (1)	初始化与系统相关的硬件；<br>    (2)	初始化系统内核对象，例如定时器、调度器、信号；<br>    (3)	创建main线程，在main线程中对各类模块依次进行初始化；<br>    (4)	初始化定时器线程、空闲线程，并启动调度器。</p>
-<h2 id="3-GoupOS程序内存分布"><a href="#3-GoupOS程序内存分布" class="headerlink" title="3. GoupOS程序内存分布"></a>3. GoupOS程序内存分布</h2><p>一般MCU包含的存储空间有片内Flash与片内RAM,RAM相当于内存，Flash相当于硬盘。编译器会将一个程序分类为好几个部分，分别存储在MCU不同的存储区。<br>Keil工程在编译完之后，会有相应的程序所占用的空间提示信息，如下图<br><img data-src="https://s2.loli.net/2022/05/07/Ygo3H8ZQcTjJFmR.png" alt="GoupOS编译信息.png"><br>图中提到Program Size包含以下几部分：<br>(1)	 Code:代码段，存放程序的代码部分。<br>(2)	 RO-data:只读数据段，存放程序中定义的常量。<br>(3)	 RW-data:读写数据段，存放初始化为非0值的全局变最。<br>(4)	 ZI-data: 0数据段，存放未初始化的全局变最及初始化为0的变最。<br>程序编译完成后会生成一个．map文件，该文件说明了各个函数占用的尺寸和地址，在该文件的最后几行也说明了上面几个字段的关系：<br>Total RO  Size (Code + RO Data)                13840 (  13.52kB)<br>Total RW  Size (RW Data + ZI Data)             28272 (  27.61kB)<br>Total ROM Size (Code + RO Data + RW Data)      13964 (  13.64kB)<br>(1)	 RO Size包含了Code及RO-data,表示程序占用Flash空间的大小；<br>(2)	 RW Size包含了RW-data及ZI-data,表示运行时占用的RAM的大小；<br>(3)	 ROM Size包含了Code、ROData以及RWData,表示烧写程序所占用的Flash空间的大小。<br>程序运行之前，需要有文件实体被烧录到STM32的Flash中，一般是bin或者hex文件，该被烧录文件称为可执行映像文件。</p>
-<h2 id="4-GoupOS内核对象管理架构"><a href="#4-GoupOS内核对象管理架构" class="headerlink" title="4. GoupOS内核对象管理架构"></a>4. GoupOS内核对象管理架构</h2><p>GoupOS采用内核对象管理系统来访问&#x2F;管理所有内核对象， 内核对象包含内核中绝大部分设施， 这些内核对象可以是静态分配的静态对象。<br>通过这种内核对象的设计方式，GoupOS做到了不依赖于具体的内存分配方式， 系统的灵活性得到了极大的提高。<br>GoupOS内核对象包括线程、信号景、互斥量、事件、邮箱、消息队列和定时器等。对象容器中包含每类内核对象的信息，包括对象类型、大小等。对象一个链表，所有的内核对象都被链接到该链表上，GoupOS的容器给每类内核对象分配了，目前该部分功能预留，未完成后续开发完成该功能。</p>
-<h2 id="5-GoupOS内核配置示例"><a href="#5-GoupOS内核配置示例" class="headerlink" title="5. GoupOS内核配置示例"></a>5. GoupOS内核配置示例</h2><p>GoupOS的一个重要特性是高度可裁剪性，支待对内核进行精细调整，对组件进行灵活拆卸。其配置主要通过修改工程目录下的GoupOSconfig.h文件来进行，用户可以通过打开／关闭该文件中的宏定义来对代码进行条件编译，最终达到系统配置和裁剪的目的，如下所示。</p>
-<ol>
-<li>GoupOS内核部分。<figure class="highlight plaintext"><figcaption><span>GoupOSconfig.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/*系统自述*/</span><br><span class="line">#define    OS_SPLITLINE             &quot;----------------------------------------------------------------------------------\n&quot;</span><br><span class="line">#define    OS_NAME                  &quot;本套嵌入式系统名称: GoupOS 、Goup_OS 、Goupos\n&quot;</span><br><span class="line">#define    OS_AUTHOR_MAIL           &quot;author：XGM    mailbox：xgmcreate@foxmail.com\n&quot;</span><br><span class="line">#define    OS_VERSION               &quot;version：V1.111(版本号说明主版本号、子版本号、修正版本号、开发版本号)\n&quot;</span><br><span class="line">#define    OS_INFO                  &quot;本嵌入式系统正在规模测试中，如果使用遇到任何问题，请发邮件到作者邮箱中，作者会及时解决\n&quot;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 定义预备，防止移植代码缺失该部分定义</span><br><span class="line"> *        关键字的宏定义，</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define     __IO    volatile                /*!&lt; Defines &#x27;read / write&#x27; permissions              */</span><br><span class="line">#define     weak    __attribute__((weak))   /*&lt;!弱定义宏*/</span><br><span class="line">/**</span><br><span class="line"> * @brief 系统的启动流程，以及任务信息</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define OS_STARTUPINFO  1</span><br><span class="line">/**</span><br><span class="line"> * @brief OS的使能与关闭</span><br><span class="line"> */</span><br><span class="line">#define OS_ENABLE                   (1)</span><br><span class="line">#define OS_DISABLE                  (0)</span><br><span class="line"></span><br><span class="line">/* System time base. to configure */</span><br><span class="line">/*&lt;!系统时钟*/</span><br><span class="line">#define	CPU_CLOCK_HZ				(180000000)					</span><br><span class="line">/*&lt;!系统每秒钟滴答次数*/</span><br><span class="line">#define OS_1S_TICKS                 (1000)                      </span><br><span class="line">/*&lt;!系统时基*/</span><br><span class="line">#define OS_TIME_BASE				(CPU_CLOCK_HZ/OS_1S_TICKS)</span><br><span class="line">/*&lt;!系统最小时间单位*/</span><br><span class="line">#define OS_SYSTICK_MS				(1)							</span><br><span class="line">/*&lt;!滴答次数*/</span><br><span class="line">#define TICKS_PER_SEC				(1000/OS_SYSTICK_MS)		</span><br><span class="line"></span><br><span class="line">/* 系统内部配置区域 */</span><br><span class="line">//目前支持最大的优先级数量		位图目前也只支持32</span><br><span class="line">#define	TINYOS_PRO_COUNT			(32)        /*&lt;!优先级*/</span><br><span class="line">/*&lt;!关于优先级的宏定义，建议不要修改*/</span><br><span class="line">#define OS_PRI						(0)        </span><br><span class="line">/*&lt;!0：不压缩系统 1：压缩系统（暂时不可使用）时间换空间*/</span><br><span class="line">#define SMALL_OS					(0)			</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 判断芯片是否有FPU功能，如果有FPU功能：启动或者关闭FPU功能        </span><br><span class="line"> *        OS_ARM_FPU_ENABLE:    OS_ENABLE 启动FPU功能</span><br><span class="line"> *                              	 OS_DISABLE关闭FPU功能</span><br><span class="line"> * 启动FPU功能时，keil同时设置 Floating Point Hardware :Single Precision</span><br><span class="line"> */</span><br><span class="line">#define OS_ARM_FPU_ENABLE           OS_ENABLE</span><br><span class="line"></span><br><span class="line">/*&lt;!Thread FAULT off or on*/</span><br><span class="line">#define THREAD_FAULT				(0)</span><br><span class="line">/*&lt;!delay mode select 0:独立保存延时时间，1：递增的延时队列（更快）*/</span><br><span class="line">#define DELAY_MODE					(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*1:OS build add Security code;	0:OS build do not add Security code*/</span><br><span class="line">#define OS_ADD_SECURITY_CODE		(1)</span><br><span class="line">/**</span><br><span class="line"> * @brief 要求实时性高，那么只会启动部分安全代码；实时性要求不高，可以启动全部安全代码，也可以不全部启动</span><br><span class="line"> * 1：启动高实时性，部分安全代码关闭， </span><br><span class="line"> * 0：关闭高实时性但是添加全部安全代码，导致代码增大</span><br><span class="line"> */</span><br><span class="line">#define OS_HIGH_REAL_TIME           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 所有组件名称长度,默认情况下使用“OS_ALLNAME_LENGTH”宏，如果长度不够可自行定义</span><br><span class="line"> * 该部分宏定义，不能删除，否则可能系统出错</span><br><span class="line"> */</span><br><span class="line">#define OS_ALLNAME_LENGTH       (32)                         /*&lt;!待修改*/</span><br><span class="line"></span><br><span class="line">#define OS_SEMNAME_LENGTH       OS_ALLNAME_LENGTH           /*&lt;!信号量名称长度*/</span><br><span class="line">#define OS_TASKNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!任务名称长度*/</span><br><span class="line">#define OS_MAILNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_FLAGGROUP_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_MUTEX_LENGTH         OS_ALLNAME_LENGTH           /*&lt;!互斥信号量名长度*/</span><br><span class="line">#define OS_TIMERNAME_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!定时器名长度*/</span><br><span class="line">/**</span><br><span class="line">系统的空闲任务配置</span><br><span class="line">*/</span><br><span class="line">#define	OS_IDLETASK_STACK_SIZE		(1024)</span><br><span class="line">/**</span><br><span class="line"> * @brief 定时器任务的线程栈</span><br><span class="line"> *        启动中断定时器</span><br><span class="line"> *        启动软件定时器</span><br><span class="line"> *        定时器任务优先级不能与空闲线程任务优先级相同,不然空闲定时器与空闲任务是在最低优先级运行而且是按照时间片运行</span><br><span class="line"> */</span><br><span class="line">#define OS_TIMERMODULE_INIT         (1)</span><br><span class="line">#define OS_STARTHARD_TIMER          (1)</span><br><span class="line">#define OS_STARTSOFT_TIMER          (1)</span><br><span class="line">#define OS_TIMERTASK_STACK_SIZE		(1024)</span><br><span class="line">#define OS_TIMERTASK_PRIO           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 内核模块裁剪</span><br><span class="line"> * 1：打开相应的功能模块</span><br><span class="line"> * 0：关闭相应的功能模块</span><br><span class="line"> */</span><br><span class="line">/*&lt;!控制是否裁剪信号量功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_SEM               (1)             </span><br><span class="line">/*&lt;!控制是否裁剪邮箱功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MAILMSG           (1)            </span><br><span class="line">/*&lt;!控制是否裁剪内存功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MEMBLOCK          (1)             </span><br><span class="line">/*&lt;!控制是否裁剪事件标志组功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_EVENTFLAGGROUP    (1)             </span><br><span class="line">/*&lt;!控制是否裁剪互斥锁功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MUTEX             (1)            </span><br><span class="line">/*&lt;!控制是否裁剪定时器功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_TIMER             (1)             </span><br><span class="line">  /*&lt;!控制是否裁剪CPU使用率功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_CPUUSAGE_STAT     (1)           </span><br><span class="line">/*&lt;!控制是否裁剪钩子函数功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_HOOKS             (1)</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="6-GoupOS常用宏定义说明"><a href="#6-GoupOS常用宏定义说明" class="headerlink" title="6. GoupOS常用宏定义说明"></a>6. GoupOS常用宏定义说明</h2><p>GoupOS实时操作系统暂时无该部分宏定义，后续可能扩展，保留当前章节。</p>
-]]></content>
-      <categories>
-        <category>GoupOS</category>
-        <category>GoupOS设计与实现</category>
-      </categories>
-      <tags>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoupOS时钟管理</title>
-    <url>/2022/05/09/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E6%97%B6%E9%92%9F%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<p>GoupOS时钟管理</p>
-<span id="more"></span>
-<h1 id="1-时钟管理"><a href="#1-时钟管理" class="headerlink" title="1. 时钟管理"></a>1. 时钟管理</h1><p>时间是非常重要的概念？和朋友出去游玩需要约定时间，完成任务也需要花费时，生活离不开时间。操作系统也一样需要通过时间来规范其任务的执行。操作系统中最小的时间单位是时钟节拍(OS Tick)。时钟节拍和基于时钟节拍的定时器。</p>
-<h2 id="1-时钟节拍"><a href="#1-时钟节拍" class="headerlink" title="1. 时钟节拍"></a>1. 时钟节拍</h2><p>任何操作系统都需要提供一个时钟节拍，以供系统处理所有与时间有关的事件， 如线程的延时、线程的时间片轮转凋度以及定时器超时等。时钟节拍是特定的周期性中断，这个中断可以被看作系统心跳，中断之间的时间间隔取决于不同的应用，一般是1~100ms。时钟节拍率越快，系统的额外开销就越大，从系统启动开始计数的时钟节拍数称为系统时间。<br>GoupOS中，时钟节拍的长度可以根据<code>OS_SYSTICK_MS</code>的定义来调整，每秒跳动次数等于<code>1/OS_SYSTICK_MS</code>秒。</p>
-<h3 id="1-时钟节拍的实现方式"><a href="#1-时钟节拍的实现方式" class="headerlink" title="1. 时钟节拍的实现方式"></a>1. 时钟节拍的实现方式</h3><p>时钟节拍由配置为中断触发模式的硬件定时器产生，当中断到来时，将调用一次<code>void  tTaskSwitch(void)</code>，通知操作系统已经过去一个系统时钟。不同硬件定时器的中断实现都不同，下面的中断函数以STM32定时器作为示例。</p>
-<figure class="highlight plaintext"><figcaption><span>tcpu.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/** </span><br><span class="line">  * @brief  This function handles SysTick Handler.</span><br><span class="line">  * @param  None</span><br><span class="line">  * @retval None</span><br><span class="line">  */</span><br><span class="line">void SysTick_Handler(void)</span><br><span class="line">&#123;</span><br><span class="line"> 	tTaskSystemTickHandler();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight plaintext"><figcaption><span>os_tTask.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTaskSystemTickHandler(void)</span><br><span class="line">&#123;</span><br><span class="line">	//...</span><br><span class="line">	//code</span><br><span class="line">#if (GOUPOS_ENABLE_TIMER == 1)</span><br><span class="line">	/*&lt;!定时器模块通知操作*/</span><br><span class="line">	TimerModuleTickNotify();</span><br><span class="line">#endif</span><br><span class="line">	//...</span><br><span class="line">	//code</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-定时器管理"><a href="#2-定时器管理" class="headerlink" title="2. 定时器管理"></a>2. 定时器管理</h2><p>定时器的功能是从指定的时刻开始，经过指定时间后触发一个事件，例如定个时间提醒第二天能够按时起床。定时器有硬件定时器和软件定时器两种。<br>(1)硬件定时器是芯片本身提供的定时功能。一般是由外部晶振提供给芯片输入时钟，芯片向软件模块提供一组配置寄存器，接受控制输入，到达设定时间值后芯片中断控制器产生时钟中断。硬件定时器的精度一般很高，可以达到纳秒级别， 并且是中断触发方式。<br>(2)软件定时器是由操作系统提供的一类系统接口，它构建在硬件定时器基础之上，使系统能够提供不受数目限制的定时器服务。<br>GoupOS操作系统提供软件实现的定时器，以时钟节拍(OS Tick)的时间长度为单位，即定时数值必须是OS Tick的整数倍，例如一个OS Tick是10ms, 那么上层软件定时器只能是10ms、20ms、100ms等，而不能定时为15ms。GoupOS的定时器也提供了基于时钟节拍整数倍的定时能力。</p>
-<h3 id="1-GoupOS定时器介绍"><a href="#1-GoupOS定时器介绍" class="headerlink" title="1. GoupOS定时器介绍"></a>1. GoupOS定时器介绍</h3><p>GoupOS定时器提供两类定时器机制：分别是一次性定时器任务和周期性定时器；一次性定时器在启动后只会触发一次定时器事件，然后定时器自动停止。周期触发定时器，这类定时器会周期性地触发定时器事件，直到用户手动停止，否则将永远执行下去。<br>另外，根据超时函数执行时所处的上下文环境，GoupOS的定时器可以分为<code>OS_STARTHARD_TIMER</code>模式与<code>OS_STARTSOFT_TIMER</code>模式，如下图所示。<br><img data-src="https://s2.loli.net/2022/05/09/4flR92DgIyZzT6k.png" alt="定时器.png"></p>
-<h4 id="1-OS-STARTHARD-TIMER模式"><a href="#1-OS-STARTHARD-TIMER模式" class="headerlink" title="1. OS_STARTHARD_TIMER模式"></a>1. <code>OS_STARTHARD_TIMER</code>模式</h4><p><code>OS_STARTHARD_TIMER</code>模式的定时器超时函数在中断上下文环境中执行，可以在初始化／创建定时器时使用<code>TIMER_CONFIG_TYPE_HARD</code>参数来指定。<br>在中断上下文环境中执行时，对于定时器函数的要求与中断服务例程的要求相同：执行时间应该尽掀短，执行时不应导致当前上下文挂起、等待，例如在中断上下文中执行的超时函数不应该试图去申请动态内存、释放动态内存等。<br>GoupOS定时器，即定时器定时到达后，定时函数是在系统时钟中断的上下文环境中运行的。在中断上下文中的执行方式决定了定时器的超时函数不应该调用任何会让当前上下文挂起的系统函数；也不能够执行非常长的时间，否则会导致其他中断的响应时间加长或抢占了其他线程执行的时间。</p>
-<h4 id="2-OS-STARTSOFT-TIMER模式"><a href="#2-OS-STARTSOFT-TIMER模式" class="headerlink" title="2. OS_STARTSOFT_TIMER模式"></a>2. <code>OS_STARTSOFT_TIMER</code>模式</h4><p><code>TIMER_CONFIG_TYPE_SOFT</code>模式可配置,通过宏定义<code>OS_STARTSOFT_TIMER</code>来决定是否启用该模式。该模式被启用后，系统会在初始化时创建一个<code>TimerTask</code>线程，然后<code>OS_STARTSOFT_TIMER</code>模式的定时器函数会在<code>TimerTask</code>线程的上下文环境中执行。可以在初始化／创建定时器时使用参数<code>TIMER_CONFIG_TYPE_SOFT</code>来设置<code>OS_STARTSOFT_TIMER</code>模式。</p>
-<h3 id="2-定时器的工作机制"><a href="#2-定时器的工作机制" class="headerlink" title="2. 定时器的工作机制"></a>2. 定时器的工作机制</h3><p>下面以一个例子来说明GoupOS定时器的工作机制。在GoupOS定时器模块中维护着两个重要的全局变量：<br>(1)当前系统经过<code>OS tick</code>时间<code>tickCount</code>（当硬件定时器中断来临时，它将加1)。<br>(2)定时器链表<code>tTimerSoftList</code>。系统新创建并激活的定时器都会以超时时间排序的方式插入<code>tTimerSoftList</code>链表中。<br>如下图所示，系统当前<code>tickCount</code>值为20, 在当前系统中已经创建并启动了三个定时器，分别是定时时间为10个tick的timer1、20个tick的timer2和30个tick的timer3, 这三个定时器分别加上系统当前时间tickCount&#x3D;20, 按从小到大的顺序链接在<code>tTimerSoftList</code>链表中，形成如下图所示的定时器链表结构。<br><img data-src="https://s2.loli.net/2022/05/09/2WkPI9fl8xiKCjS.png" alt="定时器链表结构"></p>
-<p>而tickCount随着硬件定时器的触发一直在增长（每一次硬件定时器中断来临，tickCount变量就会加1), 10个tick以后，tickCount从20增长到30, timerl的延时值会等于0，这时会触发timer1定时器相关联的函数，同理，40个tick 和50个tick过去后，与timer2和timer3定时器相关联的函数会被触发。<br>如果系统当前定时器状态在10个tick以后(tickCount&#x3D;30)有一个任务新创建了一个tick值为15的timer4定时器，由于timer4定时器delaytime&#x3D; tickCount +15&#x3D;45,因此它将被插入到timer3后，形成如下图所示的链表结构。<br><img data-src="https://s2.loli.net/2022/05/09/8mZo47sQiuTVkbI.png" alt="定时器链表结构"></p>
-<h4 id="1-定时器控制块"><a href="#1-定时器控制块" class="headerlink" title="1. 定时器控制块"></a>1. 定时器控制块</h4><p>在GoupOS操作系统中，定时器控制块是操作系统用于管理定时器的一个数据结构，会存储定时器的一些信息，例如初始延时数、循环延时数，也包含定时器与定时器之间连接用的链表结构、延时到达回调函数等。<br>定时器控制块由tTimer结构体定义并形成定时器内核对象, linkNode成员则用于把一个激活的（已经启动的）定时器链接到<code>tTimerSoftList</code>和<code>tTimerHardList</code>链表中。</p>
-<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/**</span><br><span class="line"> * @brief 定时器结构体</span><br><span class="line"> */</span><br><span class="line">typedef struct _tTimer</span><br><span class="line">&#123;</span><br><span class="line">    char  Timername[OS_TIMERNAME_LENGTH];   /*&lt;!定时器名称*/</span><br><span class="line">    uint16_t Timername_length;              /*&lt;!定时器名称长度*/</span><br><span class="line">    tNode linkNode;                         /*&lt;!链表节点*/</span><br><span class="line">    uint32_t startDelayTicks;               /*&lt;!初次(开始)启动延后的ticks数*/</span><br><span class="line">    uint32_t durationTicks;                 /*&lt;!周期定时时的周期ticks数(周期执行的时间)(持续时间滴答)*/</span><br><span class="line">    uint32_t delayTicks;                    /*&lt;!当前定时递减计数值*/</span><br><span class="line">    void (*timerFunc)(void *arg);           /*&lt;!定时回调函数*/</span><br><span class="line">    void * arg;                             /*&lt;!传递给回调函数的参数*/</span><br><span class="line">    uint32_t config;                        /*&lt;!定时器配置参数*/</span><br><span class="line">    tTimerState state;                      /*&lt;!定时器状态*/</span><br><span class="line">&#125;tTimer;</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-定时器的管理方式"><a href="#3-定时器的管理方式" class="headerlink" title="3. 定时器的管理方式"></a>3. 定时器的管理方式</h3><p>介绍了GoupOS定时器并对定时器的工作机制进行了概念上的讲解，本节深入介绍定时器的各个接口，帮助读者在代码层次上理解GoupOS定时器。<br>在系统启动时需要初始化定时器管理系统。可以通过下面的函数接口完成：</p>
-<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void OS_TimerTaskInit(void)</span><br><span class="line">void OS_TimerModule_Init(void)；</span><br></pre></td></tr></table></figure>
-<p>定时器控制块中含有定时器相关的重要参数，它们在定时器各种状态间起到纽带的作用。定时器的相关操作如图5-4所示，包括：创建／初始化定时器、启动定时器、停止／控制定时器、删除／脱离定时器。一次性定时器在定时到达后会从定时器链表中被移除，而周期性定时器会一直在定时器链表，这与定时器参数设置相关。在每次的操作系统时钟中断发生时，都会更改已经延时到达的定时器状态参数。<br><img data-src="https://s2.loli.net/2022/05/09/y9urhMvpQED1Jiq.png" alt="定时器的相关操"></p>
-<h4 id="1-创建和删除定时器"><a href="#1-创建和删除定时器" class="headerlink" title="1. 创建和删除定时器"></a>1. 创建和删除定时器</h4><p>创建定时器时，可利用tTimerInit接口来初始化该定时器，函数接口如下：</p>
-<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTimerInit(char *Timername, uint16_t Timername_len,tTimer * timer,uint32_t delayTicks,uint32_t durationTicks,void (*timerFunc)(void *arg),void *arg,uint32_t config)</span><br></pre></td></tr></table></figure>
-
-<p>使用该函数接口时会初始化相应的定时器控制块、定时器名称、定时器到达函数等，其中的各参数和返回值说明见下表</p>
-<table border="1">
-    <caption>线程状态转换的基本函数</caption>
-    <tr>
-        <th>参数</th>
-        <th>描述</th>
-    </tr>
-    <tr>
-        <td>Timername</td>
-        <td>
-            定时器的名称
-        </td>
-    </tr>
-    <tr>
-        <td>Timername_len</td>
-        <td>
-            定时器名称长度，当名称长度超过OS_TIMERNAME_LENGTH多余的字段会被截断；
-        </td>
-    </tr>
-    <tr>
-        <td>timer</td>
-        <td>
-            定时器结构体
-        </td>
-    </tr>
-    <tr>
-        <td>delayTicks</td>
-        <td>
-            定时器初始启动时延时值
-        </td>
-    </tr>
-    <tr>
-        <td>durationTicks</td>
-        <td>
-            周期定时时的周期ticks数(周期执行的时间)(持续时间滴答)
-        </td>
-    </tr>
-    <tr>
-        <td>void (*timerFunc)(void *arg)</td>
-        <td>
-            定时器延时到达函数指针（当定时器到达时，系统会调用这个函数）
-        </td>
-    </tr>
-    <tr>
-        <td>arg</td>
-        <td>
-            定时器延时到达函数的入口参数（当定时器延时到达时，调用延时到达回调函数会把这个参数作为入口参数传递给延时到达函数）
-        </td>
-    </tr>
-    <tr>
-        <td>config</td>
-        <td>
-            通过该配置配置该定时器为软定时器还是硬件定时器配置参数: 
-        <br>
-            #define TIMER_CONFIG_TYPE_HARD      (1<<0) 在中断服务函数中处理
-        <br>
-            #define TIMER_CONFIG_TYPE_SOFT      (0<<0) 在任务中处理
-        </td>
-    </tr>
-</table>
-
-<p>当一个定时器不需要再使用时，可以使用下面的函数接口：</p>
-<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTimerDestroy(tTimer * timer); //定时器删除函数</span><br></pre></td></tr></table></figure>
-
-<p>删除定时器时，但是定时器对象所占有的内存不会被释放，其中的各参数和返回值说明见下表</p>
-<table border="1">
-    <caption>tTimerDestroy()的输入参数</caption>
-    <tr>
-        <th>参数</th>
-        <th>描述</th>
-    </tr>
-    <tr>
-        <td>timer</td>
-        <td>
-            定时器结构体
-        </td>
-    </tr>
-</table>
-
-<h4 id="2-启动和停止定时器"><a href="#2-启动和停止定时器" class="headerlink" title="2. 启动和停止定时器"></a>2. 启动和停止定时器</h4><p>当定时器被创建或者初始化以后，并不会被立即启动，必须在调用启动定时器函数接口后才开始工作，启动定时器函数接口如下：</p>
-<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTimerStart(tTimer *timer)；</span><br></pre></td></tr></table></figure>
-
-<p>调用定时器启动函数接口后，定时器的状态将更改为激活状态(tTimerStarted)，并按照配置硬件或者软件定时器插入不同队列链表中，其中的各参数和返回值说明见下表</p>
-<table border="1">
-    <caption> tTimerStart()的输入参数</caption>
-    <tr>
-        <th>参数</th>
-        <th>描述</th>
-    </tr>
-    <tr>
-        <td>timer</td>
-        <td>
-            定时器结构体
-        </td>
-    </tr>
-</table>
-
-<p>启动定时器以后，若想使它停止，可以使用下面的函数接口：</p>
-<figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="code"><pre><span class="line">void tTimerStop(tTimer *timer);  //定时器停止函数</span><br></pre></td></tr></table></figure>
-
-<p>调用定时器停止函数接口后，定时器状态将更改为停止状态，并从软件<code>tTimerSoftList</code>链表或者硬件<code>tTimerHardList</code>链表中脱离出来，不参与定时器延时检查。其中的各参数和返回值说明见表</p>
-<table border="1">
-    <caption> tTimerStop()的输入参数</caption>
-    <tr>
-        <th>参数</th>
-        <th>描述</th>
-    </tr>
-    <tr>
-        <td>timer</td>
-        <td>
-            定时器结构体
-        </td>
-    </tr>
-</table>
-
-<h2 id="3-定时器应用示例"><a href="#3-定时器应用示例" class="headerlink" title="3. 定时器应用示例"></a>3. 定时器应用示例</h2><p>下面是一个创建定时器的例子，该例程会创建两个定时器，一个是单次定时， 一个是周期定时并让周期性定时器运行一段时间后停止，如代码清单如下所示</p>
-<table border="1">
-    <caption> 创建定时器例程</caption>
-</table>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &quot;GoupOSinclude.h&quot;</span><br><span class="line">#include &quot;app.h&quot;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">tTimer timer1;</span><br><span class="line">tTimer timer2;</span><br><span class="line"></span><br><span class="line">uint16_t timer1_num = 0;</span><br><span class="line">uint16_t timer2_num = 0;</span><br><span class="line">/*定时器1*/</span><br><span class="line">void timer1func(void *arg)</span><br><span class="line">&#123;</span><br><span class="line">	   timer1_num++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*定时器2*/</span><br><span class="line">void timer2func(void *arg)</span><br><span class="line">&#123;</span><br><span class="line">／＊运行第10次，停止周期性定时器＊／</span><br><span class="line">	if(++timer2_num &gt;= 10)</span><br><span class="line">	&#123;</span><br><span class="line">		tTimerStop(&amp;timer2);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*用户任务初始化程序*/</span><br><span class="line">void AppTaskInit(void)</span><br><span class="line">&#123;</span><br><span class="line">/*定时器初始化函数*/</span><br><span class="line">	tTimerInit(&quot;timer1&quot;,sizeof(&quot;timer1&quot;),&amp;timer1,10,0,timer1func,(void * )0,TIMER_CONFIG_TYPE_SOFT);</span><br><span class="line">	tTimerInit(&quot;timer2&quot;,sizeof(&quot;timer2&quot;),&amp;timer2,15,10,timer2func,(void * )0,TIMER_CONFIG_TYPE_SOFT);</span><br><span class="line">/*定时器启动函数*/</span><br><span class="line">	tTimerStart(&amp;timer1);</span><br><span class="line">	tTimerStart(&amp;timer2);</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<table border="1">
-    <caption> 运行结果：前面写的钩子函数，和任务1和任务的函数还是在正常继续运行</caption>
-</table>
-
-<p><img data-src="https://s2.loli.net/2022/05/09/khronWRmpuDsyMX.png" alt="定时器例程"></p>
-<p>周期性定时器启动时先延时15个OS Tick启动运行1次，然后延时函数每10个OS Tick运行1次，共运行10次(10次后调用tTimerStop使定时器1停止运行）；单次定时器的超时函数在第10个OSTick时运行一次。</p>
-]]></content>
-      <categories>
-        <category>GoupOS</category>
-        <category>GoupOS设计与实现</category>
-      </categories>
-      <tags>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoupOS嵌入式实时系统文件以及说明</title>
-    <url>/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<blockquote>
-<p>GoupOS嵌入式实时系统文件以及说明</p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="1-GoupOS操作系统软件框架"><a href="#1-GoupOS操作系统软件框架" class="headerlink" title="1. GoupOS操作系统软件框架"></a>1. GoupOS操作系统软件框架</h2><p><img data-src="https://s2.loli.net/2022/05/06/4mnPZYu8ciEBXrC.png" alt="GoupOS V1.111版本软件框架.png"></p>
-<h2 id="2-嵌入式实时操作系统GoupOS文件夹说明文档"><a href="#2-嵌入式实时操作系统GoupOS文件夹说明文档" class="headerlink" title="2. 嵌入式实时操作系统GoupOS文件夹说明文档"></a>2. 嵌入式实时操作系统GoupOS文件夹说明文档</h2><p><img data-src="https://s2.loli.net/2022/05/06/7zqBgpnaSXIC581.png" alt="GoupOS操作系统文件目录说明.png"></p>
-<h2 id="3-嵌入式实时操作系统GoupOS硬件平台"><a href="#3-嵌入式实时操作系统GoupOS硬件平台" class="headerlink" title="3. 嵌入式实时操作系统GoupOS硬件平台"></a>3. 嵌入式实时操作系统GoupOS硬件平台</h2><ol>
-<li>目前GoupOS只搭载在Cortex-M3、M4、M7内核的STM32系列上运行，其他平台芯片暂时没平台，未搭载测试，后续将搭载在不同平台测试。</li>
-<li>GoupOS嵌入式实时操作系统支持Cortex内核开启FPU功能。移植到其他芯片需要注意硬件平台是否支持FPU功能，不支持需要软件关闭关闭该功能，该配置在GoupOSconfig.h文件中进行配置。</li>
-</ol>
-<h2 id="4-嵌入式实时操作系统GoupOS软件平台"><a href="#4-嵌入式实时操作系统GoupOS软件平台" class="headerlink" title="4. 嵌入式实时操作系统GoupOS软件平台"></a>4. 嵌入式实时操作系统GoupOS软件平台</h2><p>目前该操作系统编译运行的平台为keil软件平台，编译软件版本号V5.36.0.0;软件安装略，希望大家支持正版。学生或兴趣爱好者，网络提供其他方法参考。</p>
-]]></content>
-      <categories>
-        <category>GoupOS</category>
-        <category>GoupOS设计与实现</category>
       </categories>
       <tags>
         <tag>GoupOS嵌入式实时操作系统</tag>
@@ -1119,27 +812,334 @@
       </tags>
   </entry>
   <entry>
-    <title>GNU编译器关键字</title>
-    <url>/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/GNU%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <title>GoupOS内核基础</title>
+    <url>/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<blockquote>
-<p>GUN编译器关键字 </p>
+<p>GoupOS内核基础</p>
 </blockquote>
 <span id="more"></span>
 
-<h1 id="GNU-C编译器中的关键字"><a href="#GNU-C编译器中的关键字" class="headerlink" title="GNU C编译器中的关键字"></a>GNU C编译器中的关键字</h1><ol>
-<li><p><code>__attribute__ ((__packed__))</code>取消字节对齐，紧凑排列占用内存的方式，</p>
-<figure class="highlight plaintext"><figcaption><span>示例</span></figcaption><table><tr><td class="code"><pre><span class="line">struct test1 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;	//占用8字节</span><br><span class="line"> </span><br><span class="line">struct __attribute__ ((__packed__)) test2 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;	//占用5字节</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="1-内核简介"><a href="#1-内核简介" class="headerlink" title="1. 内核简介"></a>1. 内核简介</h2><p>内核是操作系统最基础也是最重要的部分。下图为GoupOS内核架构图，内核处于硬件层之上，内核部分包括内核库、实时内核实现。<br><img data-src="https://s2.loli.net/2022/05/06/MRfU9HDBcPlbYvS.png" alt="GoupOS内核架构图.png"><br>内核库是为了保证内核能够独立运行的一套小型的类似C库（c库：也叫C运行库(C Runtime Library)，它提供了类似strcpy、memcpy等函数，有些也会包括printf、scanf函数的实现。GoupOS内核用到的一小部分C库函数实现。）的函数实现子集。这部分根据编译器的不同，自带C库的情况也会有些不同，当使用GNU、GCC编译器时，会携带更多的标准C库实现。<br>实时内核的实现包括：对象管理、线程管理及调度器、线程间通信、时钟管理及内存管理等。</p>
+<h3 id="1-线程调度"><a href="#1-线程调度" class="headerlink" title="1. 线程调度"></a>1. 线程调度</h3><p>线程是GoupOS操作系统中最小的调度单位，线程调度算法是基于优先级的全抢占式多线程调度算法，即在系统中除了中断处理函数、调度器上锁部分的代码和禁止中断的代码不可抢占之外，系统的其他部分都是可以抢占的，包括线程调度器自身。支待32个线程优先级，0优先级代表最高优先级，最低优先级留给空闲线程使用；同时它也支持创建多个具有相同优先级的线程，相同优先级的线程间采用时间片的轮转调度算法进行调度，使每个线程运行相同时间；另外调度器在寻找那些处于就绪状态的具有最高优先级的线程时，所经历的时间是恒定的，系统也不限制线程数量的多少，线程数目只和硬件平台的具体内存相关。</p>
+<h3 id="2-时钟管理"><a href="#2-时钟管理" class="headerlink" title="2. 时钟管理"></a>2. 时钟管理</h3><p>GoupOS的时钟管理以时钟节拍为基础， 时钟节拍是操作系统中最小的时钟单位。GoupOS的定时器提供两类定时器机制：第一类是单次触发定时器， 这类定时器在启动后只会触发一次定时器事件， 然后定时器自动停止。 第二类是周期触发定时器，这类定时器会 周期性地触发定时器事件， 直到用户手动停止定时器， 否则将永远待续执行下去。<br>另外， 根据超时函数执行时所处的上下文环境，GoupOS的定时器 可以设置为HARD_TIMER模式或者SOFT_TIMER模式。<br>通常使用定时器定时回调函数（即超时函数）， 完成定时服务。 用户根据自己对定时处理的实时性要求选择合适类型的定时器。</p>
+<h3 id="3-线程间同步"><a href="#3-线程间同步" class="headerlink" title="3. 线程间同步"></a>3. 线程间同步</h3><p>GoupOS采用信号量、互斥量与事件集实现线程间同步。 线程通过对信号量、互斥量的获取与释放进行同步；互斥量采用优先级继承的方式解决了实时系统常见的优先级翻转问题。 线程同步机制支持线程按优先级等待或按先进先出方式获取信号量或互斥量。 线程 通过对事件的发送与接收进行同步；事件集支待多事件的 ”或触发” 和 ”与触发”，适合线 程等待多个事件的情况。</p>
+<h3 id="4-线程间通信"><a href="#4-线程间通信" class="headerlink" title="4. 线程间通信"></a>4. 线程间通信</h3><p>GoupOS目前只支持支持邮箱通信机制。 邮箱中一封邮件能够接收非固定长度的消息。并把邮件缓存在自己的内存空间中。邮箱的发送动作可安全用于中断服务例程中。 通信机制支持线程按优先级等待或按先进先出方式获取。</p>
+<h3 id="5-内存管理"><a href="#5-内存管理" class="headerlink" title="5. 内存管理"></a>5. 内存管理</h3><p>GoupOS目前只支持静态内存池管理。当静态内存池具有可用内存时，系统对内存块分配的时间将是恒定的；当静态内存池为空时，系统将申请内存块的线程挂起或阻塞掉（即线程等待一段时间后仍未获得内存块就放弃申请并返回，或者立刻返回。等待的时间取决千申请内存块时设置的等待时间参数），当其他线程释放内存块到内存池时，如果有挂起的待分配内存块的线程存在的话，则系统会将这个线程唤醒。</p>
+<h2 id="2-GoupOS启动流程"><a href="#2-GoupOS启动流程" class="headerlink" title="2. GoupOS启动流程"></a>2. GoupOS启动流程</h2><p>要了解一份代码大多从启动部分开始，这里也采用这种方式，先寻找启动的源头。以MDK-ARM为例，MDK-ARM的用户程序入口为main()函数，位于main.c文件中。系统启动后先从汇编代码startup_stm32f429_439xx.s开始运行，然后跳转到C代码，进行GoupOS系统功能初始化，最后进入用户程序入口main()。启动流程如下图所示。<br><img data-src="https://s2.loli.net/2022/05/07/Ch7HaRjqP1B2vJD.png" alt="GoupOS启动流程图1.png"><img data-src="https://s2.loli.net/2022/05/07/2dsfj4HMbQYIXrK.png" alt="GoupOS启动流程图2.png"><br>    这部分启动代码大致可以分为4个部分：<br>    (1)	初始化与系统相关的硬件；<br>    (2)	初始化系统内核对象，例如定时器、调度器、信号；<br>    (3)	创建main线程，在main线程中对各类模块依次进行初始化；<br>    (4)	初始化定时器线程、空闲线程，并启动调度器。</p>
+<h2 id="3-GoupOS程序内存分布"><a href="#3-GoupOS程序内存分布" class="headerlink" title="3. GoupOS程序内存分布"></a>3. GoupOS程序内存分布</h2><p>一般MCU包含的存储空间有片内Flash与片内RAM,RAM相当于内存，Flash相当于硬盘。编译器会将一个程序分类为好几个部分，分别存储在MCU不同的存储区。<br>Keil工程在编译完之后，会有相应的程序所占用的空间提示信息，如下图<br><img data-src="https://s2.loli.net/2022/05/07/Ygo3H8ZQcTjJFmR.png" alt="GoupOS编译信息.png"><br>图中提到Program Size包含以下几部分：<br>(1)	 Code:代码段，存放程序的代码部分。<br>(2)	 RO-data:只读数据段，存放程序中定义的常量。<br>(3)	 RW-data:读写数据段，存放初始化为非0值的全局变最。<br>(4)	 ZI-data: 0数据段，存放未初始化的全局变最及初始化为0的变最。<br>程序编译完成后会生成一个．map文件，该文件说明了各个函数占用的尺寸和地址，在该文件的最后几行也说明了上面几个字段的关系：<br>Total RO  Size (Code + RO Data)                13840 (  13.52kB)<br>Total RW  Size (RW Data + ZI Data)             28272 (  27.61kB)<br>Total ROM Size (Code + RO Data + RW Data)      13964 (  13.64kB)<br>(1)	 RO Size包含了Code及RO-data,表示程序占用Flash空间的大小；<br>(2)	 RW Size包含了RW-data及ZI-data,表示运行时占用的RAM的大小；<br>(3)	 ROM Size包含了Code、ROData以及RWData,表示烧写程序所占用的Flash空间的大小。<br>程序运行之前，需要有文件实体被烧录到STM32的Flash中，一般是bin或者hex文件，该被烧录文件称为可执行映像文件。</p>
+<h2 id="4-GoupOS内核对象管理架构"><a href="#4-GoupOS内核对象管理架构" class="headerlink" title="4. GoupOS内核对象管理架构"></a>4. GoupOS内核对象管理架构</h2><p>GoupOS采用内核对象管理系统来访问&#x2F;管理所有内核对象， 内核对象包含内核中绝大部分设施， 这些内核对象可以是静态分配的静态对象。<br>通过这种内核对象的设计方式，GoupOS做到了不依赖于具体的内存分配方式， 系统的灵活性得到了极大的提高。<br>GoupOS内核对象包括线程、信号景、互斥量、事件、邮箱、消息队列和定时器等。对象容器中包含每类内核对象的信息，包括对象类型、大小等。对象一个链表，所有的内核对象都被链接到该链表上，GoupOS的容器给每类内核对象分配了，目前该部分功能预留，未完成后续开发完成该功能。</p>
+<h2 id="5-GoupOS内核配置示例"><a href="#5-GoupOS内核配置示例" class="headerlink" title="5. GoupOS内核配置示例"></a>5. GoupOS内核配置示例</h2><p>GoupOS的一个重要特性是高度可裁剪性，支待对内核进行精细调整，对组件进行灵活拆卸。其配置主要通过修改工程目录下的GoupOSconfig.h文件来进行，用户可以通过打开／关闭该文件中的宏定义来对代码进行条件编译，最终达到系统配置和裁剪的目的，如下所示。</p>
+<ol>
+<li>GoupOS内核部分。<figure class="highlight plaintext"><figcaption><span>GoupOSconfig.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/*系统自述*/</span><br><span class="line">#define    OS_SPLITLINE             &quot;----------------------------------------------------------------------------------\n&quot;</span><br><span class="line">#define    OS_NAME                  &quot;本套嵌入式系统名称: GoupOS 、Goup_OS 、Goupos\n&quot;</span><br><span class="line">#define    OS_AUTHOR_MAIL           &quot;author：XGM    mailbox：xgmcreate@foxmail.com\n&quot;</span><br><span class="line">#define    OS_VERSION               &quot;version：V1.111(版本号说明主版本号、子版本号、修正版本号、开发版本号)\n&quot;</span><br><span class="line">#define    OS_INFO                  &quot;本嵌入式系统正在规模测试中，如果使用遇到任何问题，请发邮件到作者邮箱中，作者会及时解决\n&quot;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 定义预备，防止移植代码缺失该部分定义</span><br><span class="line"> *        关键字的宏定义，</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define     __IO    volatile                /*!&lt; Defines &#x27;read / write&#x27; permissions              */</span><br><span class="line">#define     weak    __attribute__((weak))   /*&lt;!弱定义宏*/</span><br><span class="line">/**</span><br><span class="line"> * @brief 系统的启动流程，以及任务信息</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define OS_STARTUPINFO  1</span><br><span class="line">/**</span><br><span class="line"> * @brief OS的使能与关闭</span><br><span class="line"> */</span><br><span class="line">#define OS_ENABLE                   (1)</span><br><span class="line">#define OS_DISABLE                  (0)</span><br><span class="line"></span><br><span class="line">/* System time base. to configure */</span><br><span class="line">/*&lt;!系统时钟*/</span><br><span class="line">#define	CPU_CLOCK_HZ				(180000000)					</span><br><span class="line">/*&lt;!系统每秒钟滴答次数*/</span><br><span class="line">#define OS_1S_TICKS                 (1000)                      </span><br><span class="line">/*&lt;!系统时基*/</span><br><span class="line">#define OS_TIME_BASE				(CPU_CLOCK_HZ/OS_1S_TICKS)</span><br><span class="line">/*&lt;!系统最小时间单位*/</span><br><span class="line">#define OS_SYSTICK_MS				(1)							</span><br><span class="line">/*&lt;!滴答次数*/</span><br><span class="line">#define TICKS_PER_SEC				(1000/OS_SYSTICK_MS)		</span><br><span class="line"></span><br><span class="line">/* 系统内部配置区域 */</span><br><span class="line">//目前支持最大的优先级数量		位图目前也只支持32</span><br><span class="line">#define	TINYOS_PRO_COUNT			(32)        /*&lt;!优先级*/</span><br><span class="line">/*&lt;!关于优先级的宏定义，建议不要修改*/</span><br><span class="line">#define OS_PRI						(0)        </span><br><span class="line">/*&lt;!0：不压缩系统 1：压缩系统（暂时不可使用）时间换空间*/</span><br><span class="line">#define SMALL_OS					(0)			</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 判断芯片是否有FPU功能，如果有FPU功能：启动或者关闭FPU功能        </span><br><span class="line"> *        OS_ARM_FPU_ENABLE:    OS_ENABLE 启动FPU功能</span><br><span class="line"> *                              	 OS_DISABLE关闭FPU功能</span><br><span class="line"> * 启动FPU功能时，keil同时设置 Floating Point Hardware :Single Precision</span><br><span class="line"> */</span><br><span class="line">#define OS_ARM_FPU_ENABLE           OS_ENABLE</span><br><span class="line"></span><br><span class="line">/*&lt;!Thread FAULT off or on*/</span><br><span class="line">#define THREAD_FAULT				(0)</span><br><span class="line">/*&lt;!delay mode select 0:独立保存延时时间，1：递增的延时队列（更快）*/</span><br><span class="line">#define DELAY_MODE					(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*1:OS build add Security code;	0:OS build do not add Security code*/</span><br><span class="line">#define OS_ADD_SECURITY_CODE		(1)</span><br><span class="line">/**</span><br><span class="line"> * @brief 要求实时性高，那么只会启动部分安全代码；实时性要求不高，可以启动全部安全代码，也可以不全部启动</span><br><span class="line"> * 1：启动高实时性，部分安全代码关闭， </span><br><span class="line"> * 0：关闭高实时性但是添加全部安全代码，导致代码增大</span><br><span class="line"> */</span><br><span class="line">#define OS_HIGH_REAL_TIME           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 所有组件名称长度,默认情况下使用“OS_ALLNAME_LENGTH”宏，如果长度不够可自行定义</span><br><span class="line"> * 该部分宏定义，不能删除，否则可能系统出错</span><br><span class="line"> */</span><br><span class="line">#define OS_ALLNAME_LENGTH       (32)                         /*&lt;!待修改*/</span><br><span class="line"></span><br><span class="line">#define OS_SEMNAME_LENGTH       OS_ALLNAME_LENGTH           /*&lt;!信号量名称长度*/</span><br><span class="line">#define OS_TASKNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!任务名称长度*/</span><br><span class="line">#define OS_MAILNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_FLAGGROUP_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_MUTEX_LENGTH         OS_ALLNAME_LENGTH           /*&lt;!互斥信号量名长度*/</span><br><span class="line">#define OS_TIMERNAME_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!定时器名长度*/</span><br><span class="line">/**</span><br><span class="line">系统的空闲任务配置</span><br><span class="line">*/</span><br><span class="line">#define	OS_IDLETASK_STACK_SIZE		(1024)</span><br><span class="line">/**</span><br><span class="line"> * @brief 定时器任务的线程栈</span><br><span class="line"> *        启动中断定时器</span><br><span class="line"> *        启动软件定时器</span><br><span class="line"> *        定时器任务优先级不能与空闲线程任务优先级相同,不然空闲定时器与空闲任务是在最低优先级运行而且是按照时间片运行</span><br><span class="line"> */</span><br><span class="line">#define OS_TIMERMODULE_INIT         (1)</span><br><span class="line">#define OS_STARTHARD_TIMER          (1)</span><br><span class="line">#define OS_STARTSOFT_TIMER          (1)</span><br><span class="line">#define OS_TIMERTASK_STACK_SIZE		(1024)</span><br><span class="line">#define OS_TIMERTASK_PRIO           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 内核模块裁剪</span><br><span class="line"> * 1：打开相应的功能模块</span><br><span class="line"> * 0：关闭相应的功能模块</span><br><span class="line"> */</span><br><span class="line">/*&lt;!控制是否裁剪信号量功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_SEM               (1)             </span><br><span class="line">/*&lt;!控制是否裁剪邮箱功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MAILMSG           (1)            </span><br><span class="line">/*&lt;!控制是否裁剪内存功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MEMBLOCK          (1)             </span><br><span class="line">/*&lt;!控制是否裁剪事件标志组功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_EVENTFLAGGROUP    (1)             </span><br><span class="line">/*&lt;!控制是否裁剪互斥锁功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MUTEX             (1)            </span><br><span class="line">/*&lt;!控制是否裁剪定时器功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_TIMER             (1)             </span><br><span class="line">  /*&lt;!控制是否裁剪CPU使用率功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_CPUUSAGE_STAT     (1)           </span><br><span class="line">/*&lt;!控制是否裁剪钩子函数功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_HOOKS             (1)</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="6-GoupOS常用宏定义说明"><a href="#6-GoupOS常用宏定义说明" class="headerlink" title="6. GoupOS常用宏定义说明"></a>6. GoupOS常用宏定义说明</h2><p>GoupOS实时操作系统暂时无该部分宏定义，后续可能扩展，保留当前章节。</p>
+]]></content>
+      <categories>
+        <category>GoupOS</category>
+        <category>GoupOS设计与实现</category>
+      </categories>
+      <tags>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GoupOS嵌入式实时系统文件以及说明</title>
+    <url>/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<blockquote>
+<p>GoupOS嵌入式实时系统文件以及说明</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="1-GoupOS操作系统软件框架"><a href="#1-GoupOS操作系统软件框架" class="headerlink" title="1. GoupOS操作系统软件框架"></a>1. GoupOS操作系统软件框架</h2><p><img data-src="https://s2.loli.net/2022/05/06/4mnPZYu8ciEBXrC.png" alt="GoupOS V1.111版本软件框架.png"></p>
+<h2 id="2-嵌入式实时操作系统GoupOS文件夹说明文档"><a href="#2-嵌入式实时操作系统GoupOS文件夹说明文档" class="headerlink" title="2. 嵌入式实时操作系统GoupOS文件夹说明文档"></a>2. 嵌入式实时操作系统GoupOS文件夹说明文档</h2><p><img data-src="https://s2.loli.net/2022/05/06/7zqBgpnaSXIC581.png" alt="GoupOS操作系统文件目录说明.png"></p>
+<h2 id="3-嵌入式实时操作系统GoupOS硬件平台"><a href="#3-嵌入式实时操作系统GoupOS硬件平台" class="headerlink" title="3. 嵌入式实时操作系统GoupOS硬件平台"></a>3. 嵌入式实时操作系统GoupOS硬件平台</h2><ol>
+<li>目前GoupOS只搭载在Cortex-M3、M4、M7内核的STM32系列上运行，其他平台芯片暂时没平台，未搭载测试，后续将搭载在不同平台测试。</li>
+<li>GoupOS嵌入式实时操作系统支持Cortex内核开启FPU功能。移植到其他芯片需要注意硬件平台是否支持FPU功能，不支持需要软件关闭关闭该功能，该配置在GoupOSconfig.h文件中进行配置。</li>
+</ol>
+<h2 id="4-嵌入式实时操作系统GoupOS软件平台"><a href="#4-嵌入式实时操作系统GoupOS软件平台" class="headerlink" title="4. 嵌入式实时操作系统GoupOS软件平台"></a>4. 嵌入式实时操作系统GoupOS软件平台</h2><p>目前该操作系统编译运行的平台为keil软件平台，编译软件版本号V5.36.0.0;软件安装略，希望大家支持正版。学生或兴趣爱好者，网络提供其他方法参考。</p>
+]]></content>
+      <categories>
+        <category>GoupOS</category>
+        <category>GoupOS设计与实现</category>
+      </categories>
+      <tags>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于next博客主题设置和加速</title>
+    <url>/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/</url>
+    <content><![CDATA[<blockquote>
+<p>这里就不写博客的介绍了，关于next主题修改可以参考以下这些博客，可能版本不相同，但是配置大致相似。</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="1-关闭指定文章的打赏功能"><a href="#1-关闭指定文章的打赏功能" class="headerlink" title="1. 关闭指定文章的打赏功能"></a>1. 关闭指定文章的打赏功能</h2><figure class="highlight plaintext"><figcaption><span>关闭指定文章的打赏功能</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">tags:</span><br><span class="line">categories:</span><br><span class="line">只需在文章头部添加下面代码既可以关闭本文章的打赏功能</span><br><span class="line">reward_settings: </span><br><span class="line">  enable: false # true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h2 id="1-NexT主题进阶配置"><a href="#1-NexT主题进阶配置" class="headerlink" title="1. NexT主题进阶配置"></a>1. <a href="https://wylu.me/posts/e0424f3f/">NexT主题进阶配置</a></h2><h2 id="2-提升Hexo-NexT主题加载速度"><a href="#2-提升Hexo-NexT主题加载速度" class="headerlink" title="2. 提升Hexo NexT主题加载速度"></a>2. <a href="https://finisky.github.io/responsivehexonext/">提升Hexo NexT主题加载速度</a></h2><h2 id="3-Hexo-博客-静态网站目录文件介绍"><a href="#3-Hexo-博客-静态网站目录文件介绍" class="headerlink" title="3. Hexo 博客 静态网站目录文件介绍"></a>3. <a href="https://www.cnblogs.com/baiqiantao/p/10538926.html">Hexo 博客 静态网站目录文件介绍</a></h2><h2 id="4-hexo-个人博客基于-NexT-主题"><a href="#4-hexo-个人博客基于-NexT-主题" class="headerlink" title="4. hexo 个人博客基于 NexT 主题"></a>4. <a href="https://choubin.site/2019/12/30/CustomBlogTheme/">hexo 个人博客基于 NexT 主题</a></h2>]]></content>
+      <categories>
+        <category>next主题设置与加速</category>
+      </categories>
+      <tags>
+        <tag>next主题设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建自己的pdf在线预览工具(pdf.js)</title>
+    <url>/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<blockquote>
+<p>说明:关于该功能，测试发现部分浏览器不支持显示，如果遇到浏览器不显示，请直接换一个浏览器；浏览器Microsoft Edge可以支持显示（请文明上网）</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="1-使用gitee和pdf-js搭建pdf在线浏览工具"><a href="#1-使用gitee和pdf-js搭建pdf在线浏览工具" class="headerlink" title="1. 使用gitee和pdf.js搭建pdf在线浏览工具"></a>1. 使用gitee和pdf.js搭建pdf在线浏览工具</h2><p>码云Pages(gitee pages)是一个免费的静态网页托管服务, 除此之外你还可以使用gitee pages托管博客、项目官网等. 之后我们将使用gitee pages来托管pdf.js. (使用Github Pages也可以达到同样的效果, 但是Github的访问速度慢，可以给github加一个前缀 <code>cdn.github.com</code>)</p>
+<p>pdf.js是一款使用HTML5 Canvas安全地渲染pdf文件以及遵从网页标准的网页浏览器渲染pdf文件的javascript库.该插件不需要任何本地支持，对浏览器的兼容性也比较好.</p>
+<blockquote>
+<p>不管使用何种方法实现，都需要先注册账号，<a href="https://gitee.com/">gitee</a>或者<a href="https://github.com/">github</a>账号</p>
+</blockquote>
+<blockquote>
+<p>两种方法，既有缺点也优点：<br>    1.gitee优点在于可以将仓库设置为私人仓库状态，别人无法看到你仓库中有那些文件，私密性强，github相反，必须将仓库设置公开状态。<br>      2.gitee本地上传到仓库的文件，不能自动的部署，需要手动进入<code>gitee pages</code>去更新，而github相反，是自动部署完成，不需要人为去点击。<br>      3.<code>gitee pages</code>该功能需要实名认证，需要一个工作日审核，两种方法优缺点，任君选择。</p>
+</blockquote>
+<p>在gitee或github创建名为Npdf的仓库, 创建好仓库好后，请在本地连接到远程仓库：如果觉得<code>Git</code>软件使用困难，可以使用图形软件<a href="https://desktop.github.com/">GitHubDesktop</a>管理项目，所有git的使用方法请自行百度。</p>
+<h2 id="2-下载pdf-js源码到解压到本地仓库中"><a href="#2-下载pdf-js源码到解压到本地仓库中" class="headerlink" title="2. 下载pdf.js源码到解压到本地仓库中"></a>2. 下载pdf.js源码到解压到本地仓库中</h2><p><a href="https://mozilla.github.io/pdf.js/getting_started/#download">pdf.js源码地址</a>此处我建议新手小白直接下载 <code>Prebuilt</code>版本，个人参考经验；如果是大佬，请自行选择，个人建议自行参考。</p>
+<p><img data-src="https://s2.loli.net/2022/05/04/m6KDd48Naeck7TW.png" alt="图示"></p>
+<p>将你自己要展示的pdf文件放入web文件夹下<br><img data-src="https://s2.loli.net/2022/05/04/favCULNIc4sGnKX.png" alt="图示"></p>
+<p>将文件上传到<code>gitee</code>或<code>github</code>的Npdf仓库</p>
+<h2 id="3-点击gitee的Npdf仓库中选择Service下的Gitee-Pages-进入选择创建Pages；如果使用github无此操作。"><a href="#3-点击gitee的Npdf仓库中选择Service下的Gitee-Pages-进入选择创建Pages；如果使用github无此操作。" class="headerlink" title="3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。"></a>3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。</h2><p><img data-src="https://s2.loli.net/2022/05/04/hWsUgVO3qrRaHXl.png" alt="图示"></p>
+<h2 id="4-最终可以生成如下内容-部署成功"><a href="#4-最终可以生成如下内容-部署成功" class="headerlink" title="4. 最终可以生成如下内容(部署成功)"></a>4. 最终可以生成如下内容(部署成功)</h2><p><img data-src="https://s2.loli.net/2022/05/04/hWsUgVO3qrRaHXl.png" alt="图示"></p>
+<h2 id="5-你可以使用如下链接-打开之前放入web文件夹下的pdf文件"><a href="#5-你可以使用如下链接-打开之前放入web文件夹下的pdf文件" class="headerlink" title="5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件"></a>5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=compressed.tracemonkey-pldi-09.pdf</span><br><span class="line">https://xgm-embedded-os.gitee.io/npdf 你的Npdf仓库Gitee Pages主页</span><br><span class="line">web/viewer.html</span><br><span class="line">?file= 后接pdf的名称</span><br></pre></td></tr></table></figure>
+<p><img data-src="https://s2.loli.net/2022/05/05/cdeLvmDUfbpnk2F.png" alt="效果展示"></p>
+<h2 id="6-更新PDF文件或添加新的PDF文件"><a href="#6-更新PDF文件或添加新的PDF文件" class="headerlink" title="6. 更新PDF文件或添加新的PDF文件"></a>6. 更新PDF文件或添加新的PDF文件</h2><p>之后每一次更新文件时，仅仅每次将web中的PDF文件替换，然后执行上传到git仓库；<br>添加新的PDF,只需要将新的pdf复制到web中，然后执行上传到git仓库；<br>回到gitee你创建的仓库中，点击服务-giteepages-更新部署即可即第三步操作(github没有此操作)。</p>
+<h2 id="7-参考连接"><a href="#7-参考连接" class="headerlink" title="7. 参考连接"></a>7. 参考连接</h2><p>参考一：<a href="https://www.csdn.net/tags/MtTaEg5sOTc0MTQ3LWJsb2cO0O0O.html">https://www.csdn.net/tags/MtTaEg5sOTc0MTQ3LWJsb2cO0O0O.html</a><br>参考二：<a href="https://zhuanlan.zhihu.com/p/338258872">https://zhuanlan.zhihu.com/p/338258872</a><br>参考三：<a href="https://www.cnblogs.com/sunshinezjb/p/9248144.html">https://www.cnblogs.com/sunshinezjb/p/9248144.html</a></p>
+]]></content>
+      <categories>
+        <category>搭建在线浏览PDF</category>
+      </categories>
+      <tags>
+        <tag>搭建pdf.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于hexo主题Markdown中显示PDF</title>
+    <url>/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</url>
+    <content><![CDATA[<blockquote>
+<p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p>
+</blockquote>
+<span id="more"></span>
+
+<p>此处主要解决不能显示pdf的方法：</p>
+<h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">	&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p>
+<h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">
+    <embed src="/PDF/stm32h745zi.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+<h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+</iframe>
+]]></content>
+      <categories>
+        <category>关于hexo主题Markdown显示pdf文件</category>
+      </categories>
+      <tags>
+        <tag>Markdown显示pdf</tag>
+        <tag>hexo显示pdf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>管理服务器</title>
+    <url>/2022/04/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="229d9862cac849f752ed9b8f963297ea1f884f21cfc29be761a8d67229ff85ad">6347daf711dfb81fc22167a188af0e33d3bcb6e9abef9937802803ce13d2a936a0523c8410dd3ce110a8ac0baf92c1a2de0e1d343840bb62f34fa6b744844f7436514b3aa42fc88c0c192b2c528b956e7cc2c6790f9d755dcb7d1f01143025ad0d0c7b90b1503f067dc531efa58dc4062d632dea46b8f4c1ad4eb2a810138ee6364250b70e24c6d83abf46bb7abd6cfefe40f5846bf5347bced92b959ca4ae4e</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>服务器</category>
+      </categories>
+      <tags>
+        <tag>个人服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一台电脑上的git同时使用两个github账户</title>
+    <url>/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
+    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
+<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>git</tag>
+        <tag>双Github账号同时存在</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
+    <url>/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
+    <content><![CDATA[<blockquote>
+<p>双核NUCLEO-H745ZI-Q开发(1)</p>
+</blockquote>
+<span id="more"></span>
+
+<img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" width="40%" height="50%">
+
+<h1 id="数据手册编程开发介绍"><a href="#数据手册编程开发介绍" class="headerlink" title="数据手册编程开发介绍"></a>数据手册编程开发介绍</h1><ol>
+<li><p><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32h745zi.html#documentation">编程数据手册下载地址</a></p>
 </li>
-<li><p>指定x字节对齐 <code>__align(x)</code></p>
+<li><p>主要查看这些数据手册: 数据手册(DS)：电器特性、内核；参考手册（RM）：包含所有外设；编程手册（PM）。</p>
+</li>
+<li><p>关于HAL库与LL库的使用，LL更加高效，纯寄存器的使用，HAL库提供了很多的接口，可以直接使用的接口。关于使用HAL库可以查看How to use the driver，每个函数有初始化步骤Initialization and Configuration functions</p>
+</li>
+</ol>
+<h1 id="关于HAL库的配置"><a href="#关于HAL库的配置" class="headerlink" title="关于HAL库的配置"></a>关于HAL库的配置</h1><ol>
+<li><p>模块使能定义在<code>stm32h7xx_hal_conf.h</code>头文件中，可以全部使能模块，防止以后使用到,下面只是简单代表一下，方便查找；</p>
+<figure class="highlight plaintext"><figcaption><span>stm32h7xx_hal_conf.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/* ########################## Module Selection ############################## */</span><br><span class="line">/**</span><br><span class="line">  * @brief This is the list of modules to be used in the HAL driver </span><br><span class="line">  */</span><br><span class="line">#define HAL_MODULE_ENABLED</span><br><span class="line">/* #define HAL_ADC_MODULE_ENABLED */</span><br><span class="line">/* #define HAL_CEC_MODULE_ENABLED */</span><br><span class="line">/* #define HAL_COMP_MODULE_ENABLED */</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>外部时钟模块配置在文件<code>stm32h7xx_hal_conf.h</code>头文件中，启动超时时间<code>HSE_STARTUP_TIMEOUT</code>，默认只有0.1s,建议此处时间配置延长，以及下面的启动超时时间，建议延长。</p>
+</li>
+<li><p><code>USE_FULL_ASSERT</code>是否需要打开断言功能</p>
+</li>
+<li><p>HAL库很多外设需要提供时间基准，这些设置在<code>stm32h7xx_hal.c</code>文件中；<code>HAL_InitTick</code>函数初始化systick</p>
 </li>
 </ol>
 ]]></content>
       <categories>
-        <category>GUN</category>
-        <category>编译器关键字</category>
+        <category>STM32</category>
+        <category>H745ZIT6</category>
       </categories>
       <tags>
-        <tag>编译器关键字</tag>
+        <tag>STM32H745ZIT6</tag>
+        <tag>双核</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>GoupOS嵌入式实时操作系统介绍</title>
+    <url>/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
+
+<blockquote>
+<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
+</blockquote>
+<ul>
+<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#109;&#99;&#114;&#x65;&#97;&#x74;&#101;&#64;&#x66;&#x6f;&#x78;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x78;&#103;&#109;&#99;&#114;&#x65;&#97;&#x74;&#101;&#64;&#x66;&#x6f;&#x78;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a>；将第一时间修复操作系统；</li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
+</ul>
+<p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>
+]]></content>
+      <categories>
+        <category>GoupOS</category>
+        <category>GoupOS嵌入式实时操作系统</category>
+      </categories>
+      <tags>
+        <tag>嵌入式实时操作系统</tag>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于git命令</title>
+    <url>/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[ <!-- <center> <font face="宋体"  size="6">关于git命令 </font></center> -->
+
+<h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><span id="more"></span>
+
+<ol>
+<li><p>在本地打开 git bash 命令行窗口，输入以下命令<br><code>cd ~/.ssh</code></p>
+</li>
+<li><p>如果没有，显示<br><code>bash: cd: /c/Users/Administrator/.ssh: No such file or directory</code></p>
+</li>
+<li><p>否则表示本地以创建 SSH key 了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">id_rsa  id_rsa.pub  known_hosts</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="创建-SSH-key"><a href="#创建-SSH-key" class="headerlink" title="创建 SSH key"></a>创建 SSH key</h1><!-- more -->
+
+<ol>
+<li>最后一个参数替换为自己的 <a href="gitee.com">Gitee</a> || <a href="github.com">Github</a> 注册邮箱<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br></pre></td></tr></table></figure></li>
+<li>接下来会提示输入生成的key存放的路径，不设置直接回车的话会默认创建在C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter file in which to save the key (/c/Users/Him/.ssh/id_rsa):</span><br><span class="line">Created directory &#x27;/c/Users/userpath/.ssh&#x27;.</span><br></pre></td></tr></table></figure></li>
+<li>再接下来会提示你输入密码，这个密码是用来每次提交的时候输入确认，可以不设置，直接回车两次<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></li>
+<li>最后成功后会看到类似如下的输出，表示成功生成SSH key了，可以到C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下查看<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Your identification has been saved in /c/Users/Him/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /c/Users/Him/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:RwvBINgH8CEt2KniltmykeyDsOseUYcwMzehFeyT86s xxxxxx@qq.com</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+---[RSA 2048]----+</span><br><span class="line">| o+%OO+o.        |</span><br><span class="line">|..=+%*+ ..       |</span><br><span class="line">| ..+o+o.. .      |</span><br><span class="line">|o.  o=.  o .     |</span><br><span class="line">|o oolalala S o      |</span><br><span class="line">| +.+.. . .       |</span><br><span class="line">|. .o    .        |</span><br><span class="line">|  . .  .         |</span><br><span class="line">|   . E.          |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="SSH验证"><a href="#SSH验证" class="headerlink" title="SSH验证"></a>SSH验证</h1><!-- more -->
+
+<ol>
+<li><p>验证本地生成的ssh，github或者gitee端密钥是否添加成功，输入如下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@gitee.com </span><br></pre></td></tr></table></figure></li>
+<li><p>如果添加成功就会显示如下语句</p>
+<blockquote>
+<p>Hi Username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Hi Username! You’ve successfully authenticated, but GITEE.COM does not provide shell access.</p>
+</blockquote>
+</li>
+<li><p>Username:是你的在git端的名称</p>
+</li>
+</ol>
+<hr>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>git命令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一篇文章</title>
+    <url>/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="第一级标题"><a href="#第一级标题" class="headerlink" title="第一级标题"></a>第一级标题</h1><h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="这个是三级标题"><a href="#这个是三级标题" class="headerlink" title="这个是三级标题"></a>这个是三级标题</h3> <span id="more"></span>
+
+<ul>
+<li>列表1</li>
+<li>列表2<br>  a 子列表1<br>  b 子列表2</li>
+<li>列表3<br><a href="https://gitee.com/">gitee</a><br><img data-src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F113020142315%2F201130142315-1-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653257802&t=c93e7ceaa0b5c91564e5be1bbdc969b1" alt="图片测试"></li>
+</ul>
+<p><em><strong>字体加粗变斜</strong></em></p>
+<p><code>&lt;html&gt;&lt;/html&gt;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">	&lt;head&gt;</span><br><span class="line">		&lt;title&gt;标题&lt;/title&gt;</span><br><span class="line">	&lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>引用</p>
+</blockquote>
+<hr>
+<hr>
+]]></content>
+      <categories>
+        <category>测试分类</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/04/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
 </search>
