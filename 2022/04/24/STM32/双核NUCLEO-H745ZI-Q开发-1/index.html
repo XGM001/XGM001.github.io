@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
 
-
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
   <link rel="icon" type="image/png" sizes="16x16" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
@@ -31,7 +31,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg">
 <meta property="article:published_time" content="2022-04-24T06:01:28.000Z">
-<meta property="article:modified_time" content="2022-05-11T04:52:23.041Z">
+<meta property="article:modified_time" content="2022-05-11T10:38:16.022Z">
 <meta property="article:author" content="xgm">
 <meta property="article:tag" content="STM32H745ZIT6">
 <meta property="article:tag" content="双核">
@@ -136,7 +136,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -149,6 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E4%BB%8B%E7%BB%8D"><span class="nav-text">数据手册编程开发介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EHAL%E5%BA%93%E7%9A%84%E9%85%8D%E7%BD%AE"><span class="nav-text">关于HAL库的配置</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -179,6 +180,11 @@
       </div>
   </nav>
 </div>
+  <div class="sidebar-button site-overview-item animated">
+    <button class="js-gitter-toggle-chat-button"><i class="fa fa-comment"></i>
+      聊天
+    </button>
+  </div>
   <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
         <a href="https://github.com/XGM001" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;XGM001" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
@@ -284,7 +290,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-05-11 12:52:23" itemprop="dateModified" datetime="2022-05-11T12:52:23+08:00">2022-05-11</time>
+      <time title="修改时间：2022-05-11 18:38:16" itemprop="dateModified" datetime="2022-05-11T18:38:16+08:00">2022-05-11</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -328,7 +334,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>85</span>
+      <span>773</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -353,12 +359,24 @@
 
 <img data-src="https://s2.loli.net/2022/04/30/5qS2COVdsXjF9mA.jpg" width="40%" height="50%">
 
-<ol>
+<h1 id="数据手册编程开发介绍"><a href="#数据手册编程开发介绍" class="headerlink" title="数据手册编程开发介绍"></a>数据手册编程开发介绍</h1><ol>
 <li><p><a target="_blank" rel="noopener" href="https://www.st.com/en/microcontrollers-microprocessors/stm32h745zi.html#documentation">编程数据手册下载地址</a></p>
 </li>
 <li><p>主要查看这些数据手册: 数据手册(DS)：电器特性、内核；参考手册（RM）：包含所有外设；编程手册（PM）。</p>
 </li>
-<li></li>
+<li><p>关于HAL库与LL库的使用，LL更加高效，纯寄存器的使用，HAL库提供了很多的接口，可以直接使用的接口。关于使用HAL库可以查看How to use the driver，每个函数有初始化步骤Initialization and Configuration functions</p>
+</li>
+</ol>
+<h1 id="关于HAL库的配置"><a href="#关于HAL库的配置" class="headerlink" title="关于HAL库的配置"></a>关于HAL库的配置</h1><ol>
+<li><p>模块使能定义在<code>stm32h7xx_hal_conf.h</code>头文件中，可以全部使能模块，防止以后使用到,下面只是简单代表一下，方便查找；</p>
+<figure class="highlight plaintext"><figcaption><span>stm32h7xx_hal_conf.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">/* ########################## Module Selection ############################## */</span><br><span class="line">/**</span><br><span class="line">  * @brief This is the list of modules to be used in the HAL driver </span><br><span class="line">  */</span><br><span class="line">#define HAL_MODULE_ENABLED</span><br><span class="line">/* #define HAL_ADC_MODULE_ENABLED */</span><br><span class="line">/* #define HAL_CEC_MODULE_ENABLED */</span><br><span class="line">/* #define HAL_COMP_MODULE_ENABLED */</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>外部时钟模块配置在文件<code>stm32h7xx_hal_conf.h</code>头文件中，启动超时时间<code>HSE_STARTUP_TIMEOUT</code>，默认只有0.1s,建议此处时间配置延长，以及下面的启动超时时间，建议延长。</p>
+</li>
+<li><p><code>USE_FULL_ASSERT</code>是否需要打开断言功能</p>
+</li>
+<li><p>HAL库很多外设需要提供时间基准，这些设置在<code>stm32h7xx_hal.c</code>文件中；<code>HAL_InitTick</code>函数初始化systick</p>
+</li>
 </ol>
 
     </div>
@@ -435,14 +453,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">30k</span>
+    <span title="站点总字数">31k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">27 分钟</span>
+    <span title="站点阅读时长">28 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
@@ -480,6 +498,9 @@
   
 <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
+<script class="next-config" data-name="gitter" type="application/json">{"enable":true,"room":"hexo_Online_discussion/community"}</script>
+<script src="/js/third-party/chat/gitter.js"></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
   <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.7/pdfobject.min.js","integrity":"sha256-ph3Dk89VmuTVXG6x/RDzk53SU9LPdAh1tpv0UvnDZ2I="},"url":"/lib/pdf/web/viewer.html"}</script>
   <script src="/js/third-party/tags/pdf.js"></script>
