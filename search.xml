@@ -43,6 +43,22 @@
 <ul>
 <li>步骤如果没有看懂 <a href="https://blog.csdn.net/LclLsh/article/details/123500847">请点击此地址</a></li>
 </ul>
+<h1 id="2-Sublime-Text设置自动保存"><a href="#2-Sublime-Text设置自动保存" class="headerlink" title="2. Sublime Text设置自动保存"></a>2. Sublime Text设置自动保存</h1><ol>
+<li><p>打开sublime编辑器，按快捷键Ctrl+Shift+p调出命令面板；或者在工具栏中点击：工具&gt;命令面板；</p>
+</li>
+<li><p>搜索框中输入 P 找到Preferences:Settings - User 选项，单击；</p>
+</li>
+<li><p>就进入一个设置界面了</p>
+</li>
+<li><p>在下面添加一行代码”save_on_focus_lost”: true；代码如图所示</p>
+<figure class="highlight plaintext"><figcaption><span>Preferences:Settings</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	&quot;ignored_packages&quot;:</span><br><span class="line">	[</span><br><span class="line">		&quot;Vintage&quot;,</span><br><span class="line">	],</span><br><span class="line">	&quot;save_on_focus_lost&quot;: true,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>按Ctrl+S快捷键保存；</p>
+<blockquote>
+<p>设置以后每次修改代码都不用手动保存了，失去焦点之后自动保存，再也不用担心忘记保存了！希望可以帮助到大家。</p>
+</blockquote>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>开发软件基础操作</category>
@@ -115,9 +131,19 @@
 </blockquote>
 <span id="more"></span>
 
-<ol>
+<h1 id="多行同一位置选择"><a href="#多行同一位置选择" class="headerlink" title="多行同一位置选择"></a>多行同一位置选择</h1><ol>
 <li>同时选中多行 <code>shift</code> + <code>alt</code> + <code>鼠标左键</code> 向下向上拖动就可以同时选中多行</li>
+</ol>
+<h1 id="文章位置前进后退"><a href="#文章位置前进后退" class="headerlink" title="文章位置前进后退"></a>文章位置前进后退</h1><ol>
 <li>文章的前进和后退分别是 <code>alt</code> + <code>→</code> 和 <code>alt</code> + <code>←</code></li>
+</ol>
+<h1 id="vscode自动保存"><a href="#vscode自动保存" class="headerlink" title="vscode自动保存"></a>vscode自动保存</h1><ol>
+<li>打开Visual Studio Code,左上角依次点开 文件→首选项→设置；</li>
+<li>搜索设置框输入”autosave”，点击的选择项有如下：<figure class="highlight plaintext"><figcaption><span>Auto Save</span></figcaption><table><tr><td class="code"><pre><span class="line">off: 关闭自动保存</span><br><span class="line">afterDelay: XX毫秒后自动保存，这个就是我所讲的解决方法，下面会详细介绍</span><br><span class="line">onFocusChange: 当焦点移出编辑框</span><br><span class="line">onWindowChange: 当焦点移出VSCode窗口</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这里说的是焦点而不是鼠标，移到外面去后还要点一下才能保存。如果设置延时自动保存，建议频率不要太高(也就是设置延时时间不要太短)，频率很高就会导致CPU资源消耗增加。</p>
+</blockquote>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -1014,8 +1040,11 @@
 </li>
 <li><p>HAL库很多外设需要提供时间基准，这些设置在<code>stm32h7xx_hal.c</code>文件中；<code>HAL_InitTick</code>函数初始化systick</p>
 </li>
+<li><p>在编写main函数的时候，需要调用<code>HAL_Init()</code>函数；使用HAL库，启动的时候，是使用的内部时钟，调用<code>HAL_Init()</code>函数设置了中断优先级，初始化了systick；启动后，再次配置时钟才是进入正式的运行频率。</p>
+</li>
 </ol>
-]]></content>
+<h1 id="STM32H7启动到运行单核"><a href="#STM32H7启动到运行单核" class="headerlink" title="STM32H7启动到运行单核"></a>STM32H7启动到运行单核</h1><p>1. </p>
+<h1 id="STM32H7启动到运行双核"><a href="#STM32H7启动到运行双核" class="headerlink" title="STM32H7启动到运行双核"></a>STM32H7启动到运行双核</h1>]]></content>
       <categories>
         <category>STM32</category>
         <category>H745ZIT6</category>
@@ -1035,7 +1064,7 @@
 </blockquote>
 <ul>
 <li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#109;&#99;&#x72;&#101;&#97;&#x74;&#101;&#64;&#x66;&#111;&#x78;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x78;&#103;&#109;&#99;&#x72;&#101;&#97;&#x74;&#101;&#64;&#x66;&#111;&#x78;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a>；将第一时间修复操作系统；</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#103;&#x6d;&#x63;&#x72;&#101;&#x61;&#116;&#x65;&#x40;&#x66;&#x6f;&#120;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#120;&#103;&#x6d;&#x63;&#x72;&#101;&#x61;&#116;&#x65;&#x40;&#x66;&#x6f;&#120;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;</a>；将第一时间修复操作系统；</li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
 </ul>
