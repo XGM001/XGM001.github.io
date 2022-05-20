@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-05-19T14:51:15.419Z</updated>
+  <updated>2022-05-20T07:23:05.363Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -21,14 +21,16 @@
     <link href="https://goupos.top/2022/05/19/%E5%85%AC%E5%91%8A/"/>
     <id>https://goupos.top/2022/05/19/%E5%85%AC%E5%91%8A/</id>
     <published>2022-05-19T14:41:03.000Z</published>
-    <updated>2022-05-19T14:51:15.419Z</updated>
+    <updated>2022-05-20T07:23:05.363Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>博客的通知公告</p></blockquote><span id="more"></span><p>如果遇到需要密码的博客文章，博客状态有两种状态： </p><ul><li><ol><li>博客正在完善，或者有部分不对的地方需要修改</li></ol></li><li><ol start="2"><li>博客完善，但是付出了一定的代价。<br>如果需要打开加密文章，请通过邮箱联系本人 mailto:<a href="mailto:&#x78;&#103;&#109;&#99;&#x72;&#101;&#x61;&#116;&#101;&#64;&#102;&#111;&#x78;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x78;&#103;&#109;&#99;&#x72;&#101;&#x61;&#116;&#101;&#64;&#102;&#111;&#x78;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></li></ol></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 mailto:<a href="mailto:&#120;&#103;&#x6d;&#99;&#x72;&#101;&#97;&#x74;&#101;&#64;&#102;&#x6f;&#120;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#120;&#103;&#x6d;&#99;&#x72;&#101;&#97;&#x74;&#101;&#64;&#102;&#x6f;&#120;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote><blockquote><p>Notification announcements for blogs<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email mailto:<a href="mailto:&#x78;&#103;&#109;&#99;&#114;&#101;&#97;&#x74;&#101;&#64;&#x66;&#x6f;&#120;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#x78;&#103;&#109;&#99;&#114;&#101;&#97;&#x74;&#101;&#64;&#x66;&#x6f;&#120;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p></blockquote>]]></content>
     
     
+      
+      
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;博客的通知公告&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+&lt;p&gt;博客的通知公告&lt;br&gt;如果遇到需要密码的博客文章，博客状态有几种状态：&lt;br&gt;1.博客正在完善，或者有部分不对的地方需要修改，&lt;br&gt;2.博客完善，但是付出了一定的代价，所以闭源。&lt;br&gt;如果查看打开加密文章，请通过邮箱联系本人 mailto:&lt;a</summary>
+      
     
     
     
@@ -411,7 +413,7 @@
     <link href="https://goupos.top/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/"/>
     <id>https://goupos.top/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</id>
     <published>2022-05-03T05:58:30.000Z</published>
-    <updated>2022-05-03T07:25:08.464Z</updated>
+    <updated>2022-05-20T07:23:44.244Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p></blockquote><span id="more"></span><p>此处主要解决不能显示pdf的方法：</p><h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure><h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure><p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p><h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">    <embed src="/PDF/stm32h745zi.pdf">        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>    </embed></object><h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p></iframe>]]></content>
     
