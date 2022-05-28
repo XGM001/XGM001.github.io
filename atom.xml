@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-05-20T07:23:05.363Z</updated>
+  <updated>2022-05-28T03:32:01.652Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CAN总线协议个人见解</title>
+    <link href="https://goupos.top/2022/05/26/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/CAN%E6%80%BB%E7%BA%BF%E5%8D%8F%E8%AE%AE%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3/"/>
+    <id>https://goupos.top/2022/05/26/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/CAN%E6%80%BB%E7%BA%BF%E5%8D%8F%E8%AE%AE%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3/</id>
+    <published>2022-05-26T12:58:29.000Z</published>
+    <updated>2022-05-28T03:32:01.652Z</updated>
+    
+    <content type="html"><![CDATA[<p>CAN总线协议个人见解,可能有些地方理解的不对，请大家多多指正</p><span id="more"></span><p>1. </p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;CAN总线协议个人见解,可能有些地方理解的不对，请大家多多指正&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="总线协议" scheme="https://goupos.top/categories/%E6%80%BB%E7%BA%BF%E5%8D%8F%E8%AE%AE/"/>
+    
+    <category term="CAN" scheme="https://goupos.top/categories/%E6%80%BB%E7%BA%BF%E5%8D%8F%E8%AE%AE/CAN/"/>
+    
+    
+    <category term="总线协议" scheme="https://goupos.top/tags/%E6%80%BB%E7%BA%BF%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>公告</title>
     <link href="https://goupos.top/2022/05/19/%E5%85%AC%E5%91%8A/"/>
     <id>https://goupos.top/2022/05/19/%E5%85%AC%E5%91%8A/</id>
     <published>2022-05-19T14:41:03.000Z</published>
     <updated>2022-05-20T07:23:05.363Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 mailto:<a href="mailto:&#x78;&#x67;&#109;&#99;&#114;&#x65;&#x61;&#116;&#101;&#64;&#102;&#111;&#120;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;">&#x78;&#x67;&#109;&#99;&#114;&#x65;&#x61;&#116;&#101;&#64;&#102;&#111;&#120;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#109;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote><blockquote><p>Notification announcements for blogs<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email mailto:<a href="mailto:&#120;&#x67;&#109;&#x63;&#x72;&#101;&#97;&#x74;&#101;&#x40;&#x66;&#111;&#120;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#120;&#x67;&#109;&#x63;&#x72;&#101;&#97;&#x74;&#101;&#x40;&#x66;&#111;&#120;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 mailto:<a href="mailto:&#120;&#x67;&#109;&#x63;&#x72;&#x65;&#97;&#x74;&#x65;&#64;&#x66;&#111;&#120;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#120;&#x67;&#109;&#x63;&#x72;&#x65;&#97;&#x74;&#x65;&#64;&#x66;&#111;&#120;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote><blockquote><p>Notification announcements for blogs<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email mailto:<a href="mailto:&#120;&#x67;&#x6d;&#99;&#114;&#101;&#x61;&#116;&#x65;&#64;&#x66;&#x6f;&#120;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#120;&#x67;&#x6d;&#99;&#114;&#101;&#x61;&#116;&#x65;&#64;&#x66;&#x6f;&#120;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p></blockquote>]]></content>
     
     
       
@@ -470,31 +493,6 @@
     
     
     <category term="个人简历" scheme="https://goupos.top/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一台电脑上的git同时使用两个github账户</title>
-    <link href="https://goupos.top/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/"/>
-    <id>https://goupos.top/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</id>
-    <published>2022-04-27T15:37:13.000Z</published>
-    <updated>2022-04-28T10:10:21.757Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote><p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;同一台电脑有两个github账号&quot;&gt;&lt;a href=&quot;#同一台电脑有两个github账号&quot; class=&quot;headerlink&quot; title=&quot;同一台电脑有两个github账号&quot;&gt;&lt;/a&gt;同一台电脑有两个github账号&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;本</summary>
-      
-    
-    
-    
-    
-    <category term="git" scheme="https://goupos.top/tags/git/"/>
-    
-    <category term="双Github账号同时存在" scheme="https://goupos.top/tags/%E5%8F%8CGithub%E8%B4%A6%E5%8F%B7%E5%90%8C%E6%97%B6%E5%AD%98%E5%9C%A8/"/>
     
   </entry>
   
