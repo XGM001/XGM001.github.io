@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-06-05T04:53:43.135Z</updated>
+  <updated>2022-06-09T12:25:22.891Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cortex-m-faultlocation说明文档</title>
+    <link href="https://goupos.top/2022/06/09/Cortex-m-faultlocation%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/"/>
+    <id>https://goupos.top/2022/06/09/Cortex-m-faultlocation%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/</id>
+    <published>2022-06-09T12:25:22.000Z</published>
+    <updated>2022-06-09T12:25:22.891Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>使用Cortex-M3-M4-M7故障异常2</title>
@@ -170,7 +183,7 @@
     <published>2022-05-19T14:41:03.000Z</published>
     <updated>2022-06-03T18:54:50.635Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>推存电脑端全屏访问，手机端访问无法显示搜索功能<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#x78;&#103;&#109;&#x63;&#114;&#101;&#x61;&#x74;&#x65;&#x40;&#x66;&#x6f;&#120;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#x78;&#103;&#109;&#x63;&#114;&#101;&#x61;&#x74;&#x65;&#x40;&#x66;&#x6f;&#120;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote><blockquote><p>Notification announcements for blogs<br>The full-screen access on the computer side is pushed, and the search function cannot be displayed on the mobile terminal side.<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email <a href="mailto:&#120;&#103;&#109;&#x63;&#114;&#101;&#x61;&#x74;&#101;&#x40;&#102;&#111;&#x78;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">&#120;&#103;&#109;&#x63;&#114;&#101;&#x61;&#x74;&#101;&#x40;&#102;&#111;&#x78;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>推存电脑端全屏访问，手机端访问无法显示搜索功能<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#120;&#x67;&#x6d;&#x63;&#x72;&#x65;&#97;&#116;&#101;&#x40;&#102;&#x6f;&#x78;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">&#120;&#x67;&#x6d;&#x63;&#x72;&#x65;&#97;&#116;&#101;&#x40;&#102;&#x6f;&#x78;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote><blockquote><p>Notification announcements for blogs<br>The full-screen access on the computer side is pushed, and the search function cannot be displayed on the mobile terminal side.<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email <a href="mailto:&#x78;&#x67;&#x6d;&#99;&#114;&#x65;&#x61;&#x74;&#101;&#x40;&#x66;&#x6f;&#120;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x78;&#x67;&#x6d;&#99;&#114;&#x65;&#x61;&#x74;&#101;&#x40;&#x66;&#x6f;&#120;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p></blockquote>]]></content>
     
     
       
@@ -465,33 +478,6 @@
     
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;GoupOS内核基础&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="GoupOS" scheme="https://goupos.top/categories/GoupOS/"/>
-    
-    <category term="GoupOS设计与实现" scheme="https://goupos.top/categories/GoupOS/GoupOS%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/"/>
-    
-    
-    <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-    <category term="RTOS" scheme="https://goupos.top/tags/RTOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GoupOS嵌入式实时系统文件以及说明</title>
-    <link href="https://goupos.top/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/"/>
-    <id>https://goupos.top/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/</id>
-    <published>2022-05-06T07:58:10.000Z</published>
-    <updated>2022-05-06T07:58:10.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>GoupOS嵌入式实时系统文件以及说明</p></blockquote><span id="more"></span><h2 id="1-GoupOS操作系统软件框架"><a href="#1-GoupOS操作系统软件框架" class="headerlink" title="1. GoupOS操作系统软件框架"></a>1. GoupOS操作系统软件框架</h2><p><img data-src="https://s2.loli.net/2022/05/06/4mnPZYu8ciEBXrC.png" alt="GoupOS V1.111版本软件框架.png"></p><h2 id="2-嵌入式实时操作系统GoupOS文件夹说明文档"><a href="#2-嵌入式实时操作系统GoupOS文件夹说明文档" class="headerlink" title="2. 嵌入式实时操作系统GoupOS文件夹说明文档"></a>2. 嵌入式实时操作系统GoupOS文件夹说明文档</h2><p><img data-src="https://s2.loli.net/2022/05/06/7zqBgpnaSXIC581.png" alt="GoupOS操作系统文件目录说明.png"></p><h2 id="3-嵌入式实时操作系统GoupOS硬件平台"><a href="#3-嵌入式实时操作系统GoupOS硬件平台" class="headerlink" title="3. 嵌入式实时操作系统GoupOS硬件平台"></a>3. 嵌入式实时操作系统GoupOS硬件平台</h2><ol><li>目前GoupOS只搭载在Cortex-M3、M4、M7内核的STM32系列上运行，其他平台芯片暂时没平台，未搭载测试，后续将搭载在不同平台测试。</li><li>GoupOS嵌入式实时操作系统支持Cortex内核开启FPU功能。移植到其他芯片需要注意硬件平台是否支持FPU功能，不支持需要软件关闭关闭该功能，该配置在GoupOSconfig.h文件中进行配置。</li></ol><h2 id="4-嵌入式实时操作系统GoupOS软件平台"><a href="#4-嵌入式实时操作系统GoupOS软件平台" class="headerlink" title="4. 嵌入式实时操作系统GoupOS软件平台"></a>4. 嵌入式实时操作系统GoupOS软件平台</h2><p>目前该操作系统编译运行的平台为keil软件平台，编译软件版本号V5.36.0.0;软件安装略，希望大家支持正版。学生或兴趣爱好者，网络提供其他方法参考。</p>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;GoupOS嵌入式实时系统文件以及说明&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
     
     
