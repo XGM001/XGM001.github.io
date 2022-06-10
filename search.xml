@@ -1,213 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Cortex-m-faultlocation说明文档</title>
-    <url>/2022/06/09/Cortex-m-faultlocation%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/04/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>公告</title>
     <url>/2022/05/19/%E5%85%AC%E5%91%8A/</url>
     <content><![CDATA[<blockquote>
-<p>博客的通知公告<br>推存电脑端全屏访问，手机端访问无法显示搜索功能<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#x78;&#x67;&#109;&#x63;&#114;&#101;&#97;&#x74;&#101;&#64;&#102;&#111;&#x78;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#x78;&#x67;&#109;&#x63;&#114;&#101;&#97;&#x74;&#101;&#64;&#102;&#111;&#x78;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p>
+<p>博客的通知公告<br>推存电脑端全屏访问，手机端访问无法显示搜索功能<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#x78;&#x67;&#x6d;&#99;&#x72;&#x65;&#97;&#116;&#x65;&#x40;&#102;&#x6f;&#120;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x78;&#x67;&#x6d;&#99;&#x72;&#x65;&#97;&#116;&#x65;&#x40;&#102;&#x6f;&#120;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p>
 </blockquote>
 <blockquote>
-<p>Notification announcements for blogs<br>The full-screen access on the computer side is pushed, and the search function cannot be displayed on the mobile terminal side.<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email <a href="mailto:&#120;&#x67;&#109;&#x63;&#114;&#x65;&#97;&#x74;&#x65;&#x40;&#102;&#x6f;&#120;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#120;&#x67;&#109;&#x63;&#114;&#x65;&#97;&#x74;&#x65;&#x40;&#102;&#x6f;&#120;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p>
+<p>Notification announcements for blogs<br>The full-screen access on the computer side is pushed, and the search function cannot be displayed on the mobile terminal side.<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email <a href="mailto:&#x78;&#103;&#109;&#99;&#114;&#101;&#x61;&#x74;&#x65;&#x40;&#x66;&#111;&#x78;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x78;&#103;&#109;&#99;&#114;&#101;&#x61;&#x74;&#x65;&#x40;&#x66;&#111;&#x78;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p>
 </blockquote>
 ]]></content>
   </entry>
   <entry>
-    <title>第一篇文章</title>
-    <url>/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h1 id="第一级标题"><a href="#第一级标题" class="headerlink" title="第一级标题"></a>第一级标题</h1><h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="这个是三级标题"><a href="#这个是三级标题" class="headerlink" title="这个是三级标题"></a>这个是三级标题</h3> <span id="more"></span>
-
-<ul>
-<li>列表1</li>
-<li>列表2<br>  a 子列表1<br>  b 子列表2</li>
-<li>列表3<br><a href="https://gitee.com/">gitee</a><br><img data-src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F113020142315%2F201130142315-1-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653257802&t=c93e7ceaa0b5c91564e5be1bbdc969b1" alt="图片测试"></li>
-</ul>
-<p><em><strong>字体加粗变斜</strong></em></p>
-<p><code>&lt;html&gt;&lt;/html&gt;</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">	&lt;head&gt;</span><br><span class="line">		&lt;title&gt;标题&lt;/title&gt;</span><br><span class="line">	&lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>引用</p>
-</blockquote>
-<hr>
-<hr>
-]]></content>
-      <categories>
-        <category>测试分类</category>
-      </categories>
-      <tags>
-        <tag>导航</tag>
-        <tag>分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
-    <url>/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
+    <title>博客作者个人简历</title>
+    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c7e9d95733ac09f1e343974f6f62ef4bd7d21e0c31693bb9433b3c89c927c201">ae403763fbd55d78c220cd8c84e9e60ee08c719c6c8c2ea63a64bfa531e9ff3293e8dc58b73c170601d5568e317d72a6d61e3a8629419ea8a37a3699e532aec663e7d449bb6cbd088d24f4b393d349c191b7d374d3f9751a2ed9095cbc2856b55e82230284f8c26c0520b4a8053dbac65bab3643a56b581e3410e9e49b7c5440eb6cb68b013a0076a682856258aa46256ae25be9e028eca024bfdf5a3fca3731e8d3e4de1bf01ebb07e8da98322f92a97bf2281988c1189d188438403b8babab87de2c2a4ac0af3a9482e3ca85332125502634b0797d93fe7fce7de1a17f219576492a8e1a7acc406a3489c116ee44cc24ea3ed8f76b44e08d0e7219e76ac3e967ff8eba65c44ddeae6d902e4bc472a8c6549f5c58aa2e7be2ac2d50608e33da2206ed296752f6e2530d6dcb1f356446fb946e073c5a90f46cf5a67401466e8a30581eba3c8830a9678a1c2d90a2fc2ec687dd0df4d4a99ff887ca3386ab1bbb5e480ab49d7e8aa20b179e3d2e0149e25ee3dadf3d5f4775eb057aa4bbdb3c3bfc903dbc8a035941b046cca7c112ac42c8d188468219a78a12edc39207a205a0e6fd5b40b0ad1d1cb0088d4947b01fd3d530860828eb8dd6a0e01802782daa768593983c60072c99a3f0c5ac018f49b2f00f2ea72562f76adff71da0e4fa8abd72eaafd3c6470516b96af81c6f2f0c7717153032627c49e38c91d6eeff56706c56a73d889f645a7d2df0e493ae122f974b2a82e7a33bbcdb4f4d7e64f38651fc3b601b68651ea035851810efc3249e4193adb6f4e374b00c6dc9df5d01defe53e5619af1cdf85f5cc6778d854c46bf002beccf730c22d1bbc6c19fb6c8dee23e7e6e3b0f904aaac6b9a37e18fdc24c88bc409d3c01f2ec3240ed6b80004c912a3c6ba813bb7de1a73e04566d18380655c06c75a6abef05398b1fdedfd8824b59491d90249bba5338bdc0c3bb0ddf420f12abdf39fc29b46486b305b1cfc58d79ed00a0d3de5b4b0840b2ea4abf6e6b2be097d94d60b382d7214815cbcf222926380155f62d6cf89c7e142109533bb32a7c5a9966d02274eabbc3595b2ce897b9e686548e0cae84333c167e94964c667798ef6b929067e67964ee2cb700296cc136ae876f28c92fecf87e1277f06079feadd67d17959f5a9a0050d6f900da34045d398d5734eb221f1035d5049d09e7beab1a5cccac65731da530386ccb605b46cbe43fb6e39c0a8a14ff8406b940c43c8def26bd9bcf3fc1e73e187d6e7c201aa5b4c19a4a918ae561a883edf4722f9f7ad08e89cce8e2617bff62ef0950403256a26184b19fbda3b361671ef2b0039b5fbfdaaef1b69ac104028fb191c329c22e7d27415c18a773102278bebb842f7fc1d0ec30d137dd3bd6690b169e652edc07b11ab95f5e62b6b924bb733da8f7d6d79c2ae4a5449fae35cb9adad6efdf9863ab74733b22e8df781fb8e61048d61a21e2f79ada38b1332a912946fb546de3fe424be3df7ec335b8026fafc436897327c43ba0c7402d5b20429f411e7b4982852b4773d58c70311a78a5412e8ad2312f80349c9e7d593168416e656f7f2a8c5d5494a6d6e63057194ef874e615f8fa036e81251795b56757ff0e19558f6c13259e9b82cfd5fdd9f941b35ce9479b3707a31ab850145c23e5711d50477198eb01a092d7f9398c2377d0da3f5b8fcedbf5ec1eefb6039e296ba2b5860997d8b879da24d605a35469e7bf558884106933d8991ae41a3df7fe3b6087bfb3a84d2c639a90c5efa683fc34663dd2f98dc2ec36817ec2ae01c7c779a1060b3ad7db36690aebe1ee3eaf498fd6323a8a177155b3eb2ceab0e4d4782307b5821b1b843821db35f70c5968168bf3fc84008683da4c6a6a7eee6762b59c9e1f6c312ce5c65319080fa7a45b8ccaaa746934c3f97678917c6f909d4d48b6218a6efd66911a1551350c2c038d7da260e7cbdde689b3752ee2073cce1db81087201e4ce42edb70e959ac869c92c905baccf38c62ce1e637b7d79e6242f3908bb61bd0560a459a0218b2187e27e0c14daea68bdce66bdd018421d5e1a10d52aee916ee18511926a8c08bfba830a6e57964deedc911ef63bb9c2aff1c436afb68f93d7faac241f60debf23516a9dcfd4f7a13a066bff4c1d07db0b300eb6db789f2aad1e7cebddcdafaca6eb3057196406c9e2a56310bf79f5db64fc75b66332623d8b5fc8485904ee9ece2bb5250fd9cb494fb1195d645fc96b1d59d74240c682de19fbdc3bb2e72cbc52ef7826aedba032b3703b7eb1aac2b548d0805501c5511628eab1aa5ce5f74889a2e4420b4556bb01ef7183e661a9f3e8517a93c72eb2953de06737c6852d167c4570849b4171049e8cf032a0f7db24d5a6e97ffc04b65d0a3162fa0cac886d7bdc6f453b79e9b56555b5a0ac30377801278ac27284e2d36a7c2efa81f15fe2d0e4a3756c62a497d025b1b5ac1b8e12c6cb5c4c4f077db20ff8bffea4520044b0e1e2bdc4b4c6fba431ca4e3e2cab681755439d523d30073acb3ffaffe0c8e6287aa00bccd56bf0b16b30cde50091bb8860f7a5c717452564391f513edc3c1df1b0917efbe3dbe87360777112e7c02456b658ad3c007f88167ae583dddc253e805f6ad4a869ac6e17efd23ba2e8ab6cc302e0ce791af0d542ce01a22d656d63941383ad8e201d8346826ab3b95e815ffdefb37f8bd2443ac27ee17f6bedd6cda9cff57c966f36804298343bc50d5ecba4d97706cc317dc2f399aaaa73546f5efa7f001340ecc11f9324a020bb7ff23b29d5fa3536135334fe0f153cc3e5c06bf1370a587d12aaccb57809f5fcbecd5e6b594a5e4072f911e64f9761b801bdd98c9825331906f6eaaffa24e1f8bce4b8767ef7a8ce5300b9fa9f8387ed833297715a296026cd8927c6b142753104c812babe75936062d897aee606432ef798da54d082b9a0ccde49fb0cfde81382259a106fa3f5aa10055ef947d7839150e76aa437fa5e9db00c684e600134baa6165cb02c174706e6024799fa06082029c33d8f49f427f3083d3b97c3aea4d44e9befa6d80058df0af6c470b0f8e0888248a75004fb39dbf5c4789716c49cf8b15f661bd24c96d29714eab2033cec46b8eba63fc3418cada80f92871115c703ad13f20cf80fdd6aefaa2cb23fe0d3a1b6decf2fa2d10332ea9481a01282adeb1e0ad0533d342f940529d675c2a83df43a12ba5ae3bee92822e2a04c86adf1debded528c10c31adac67edaace50e0dd6026f62654aa6e7575d284c8ac17c4bca0c6f4e14015e007074bdb8dcdea592446bce2b784fac92b3b190fa6921e8a0fa00743531430542d4b9e10ccbca5b38f4fbda040bcb70a8c443c71767e8e80a73213462739d78a90d55dd2c7058d4b428963244213b5a86735cc44ba18b145916e7f5253f7c223b8f5841ef51fc154b8a48a80d67aae9fe52dc85d6acedc39c83dfe2a99e6cede6e9e9a5d30a987fd38d65da60c59a387a165ecfdc2b596386b9a8ea8d323ac7f44ecf3aff21718d1293003f772b593374d0424c3d28344afb0c968174e814d1ab1f180d436e308b858e89a1ba6253582f92e78b90c57330930c78f80616bb8e58a6d1eebe0fa593b84793e0165f61326e18435a210c2179e87a8da426d62d0b856e6c4f126579e986aaa865774e04d91cd0cfeb875631f58db58586992f84c10ce750675d12e2ec6dc00be064a0f3122ebcd26cbc77fcf0776f43ecb93f756a5a129d26059f73171f8177084cc5567ace3dcff3a3589c54841bf6d0f11dac39d9afae96dca2bd288350946d948b74b81e56cdaeff22e2a9e34e1b54eb8d04c60ab9913096d975c7f90a6432be71693f1bc1dc23c232e6c011259ff35a4fda68ecf14146ce9ff08f682e15e78df2df878d38b3fd7f63f54a8d7c6a89301b5ef8c4b34a193f795b7a2ff3125bbb7d069ef22a09ea2e35acfa3c8b61fd0203ddc12f9acb514d73d4e790be74d026ffc9a814f571454a47387e5f5d25be9354ce141aa7b24b7dc5a90a0b6690f3a5be7976908ff47b8463b57bc7d72d1bc459059ec1856a4e611867f5705551f3a05c5094d92fc91fd27b402154b96737cab5b8274b4a1f37bd94826eea41ac7ecac058cd70ec5e83419d15126969fbdd9e02ba0548342cea5e2a1920be801f7538aba3077533db7f446d462e250f587c01b0a57736f95d7483023afdab9b35648ad2489ea86c7550d1e9309c902679150717b09600456776cfa3e54ae38b30f761ff2dbe0a4f3638fb023fd0c6fa05213294b400c99277a036623f25cefaab40bc548eb2a45144bc04732b16660049c9b3e1bb81c7cf07e317f9acca88f8071f771697b5997e79f7f063db8c77d0bf1ed9b055641d590b7f2e2c61c9a00bc0cc0a7013d1a909fedd992bbeb7391be5f297ea2dd763e3ef8a9fc57ae9c4319c49b7a3a6eadda565a7d421c9e39ec9071fa8859ad4bce0c3a2dde8be4c920ebf48e1d024189ca388e88d2837dd1d6b441f18e494fb4b79040dd373a21cd0f21208d97be65269ec2688490ef20f0a3e91a96ce45b7413c5f99f2b897e2f0b5a450f4c6fe0b87ce4135e208c8e2334ab4a463ae4a9b436494acf8b1fdc66ec57024d83a476fb26def034de19900952db18b853e901e6d19c6ba549927752d56d235876dcf8fb4b716338211e18f883466d04223d4253df48508c5ed57a4fd40b0d5c151d483777efefaad7be88b0de9d8e657641036655f3f9e53ced0e18677c204e9fd1531d2c70be273c1b7531e6d7aa383f36099b03861b622c2725de537aaa7415c18d76e7a171eb52a2a668efabf89c2063804d7c99c49f1fe9f1bd2ce9183375d6ba3191a063b5ce170afcd703e5063e7138f9ab31bb3a1fa228d2ebd1a241a820dd2203b367d6dddfaf927321a1a9bc54d48804c266e95615493d778917029051340cda39668b381d0fd30f460accc797c6448dce338d470b8cf347aee03b9191ad1e6763ea9e3c05895a95ab7333417ea73703d15b2cddac0fcb8281599f36d220d33e334641d24971358a295d8b9a6fc8c6ca9827fec3c49f52dc439ed111d36dd76f519ead5209ac7bf02fafeb56da0eaae77ac5eca2f0f13e3c905d86ec8a63403664ab6064510a3f8e21efc811a963c6d24d01004f612e772cabfd08a250e870a23e5382b5383fe8a96562eb5cdeead9d07554a0fee8748526110160025fb94729978e2817a373aad21ca909a1150a99408d0467e71c381c823baae40a10bc55e24067585b7e018948fd75c0df03c0d0d70cbd85ba15658272c1733336d62aff12e01df9bbb59c60ffd72d5f71fb9537e6b485c2eeddf2ac9c8c18adb3b241f1c4d09da3c9b13d13ab6de53bcdff24800bed06f878140d6d23319f07d26455a154c1254c904eac0c9e372db635e783641e12f262dccc20a8477b66b26e18771129ba7699f06f069a7d2e1278f889a23facf413bccdffb6a33f02a75743962dd1c165285ade5f54ea22a46b2bf9db0c29e347b45ff79d2dd911627533a04455ed74d56758a6290b0d85713ebd8298aff2a704ad1052963f0237340e447cbe350908c2b74137fd989b266a3ef129e7dc28f2362d3828613986815805396f335765ac3c3714fbb353e559cab37d022d53d1b01323e8b999c12eb5798b381ac4eea72adbd68d61ea4230a2d63da20afbb52fa0af7165c3343a8d030a1be10710816a36dc304bdd8a8be56bc11df4a597cff41025768ba0d54c55cee01073c91ea8cc8f3c1f96324859c8b09e457a06e7919e7c2ef9041ea6347f9ec20bb43c86b8b8e5a3c1a19af6ebfbec33b3c079f78f52cb30690d354bf665e6eb8682b9ca647529a2a6bcb81c5257b3014208220e6df6cb1268f54b0572f78c136ae8c4dca599f8940ae8d5138d70684243e7715a82263de9f612b08e99e37097c88c077bbf392f1662461934fa1248121262337c6f44dbe84d1e308a99e923b18308dbed681efacd9265ad43d596e6a85eb562df2428d64e93e2da44350e9ed948045b319b98dd9da15113217f2c7bf60b38532ffbdab90a407d88ad27297b6af11b36a84b3d6de6b226ede1bcb5c6202b3769366bff29f20ebbadee7c7f8b931ea1149f63317b5117554563251331edf8f4407f44f8700332feb6a3659b38b715bdbebde47d8f3fcc11ff33ac44fc885154fa463fa19926ed9feb51078c7cf44599cd824c2c63a0022e20b587bf5a5170c4ece7253b503f3c6263b4d0aa3d2fe84c8c643985a4e3f6417a84f0c21393133756e346e25f8667b7592c8e880367f6ddf214d64fc74eb05b49c0294a1febc59fb2888a610642e81f84ccec15da670eaa1cbddd443ca64b9bc5c9b34960954f52831417872642f8d8393f6059d3bd3d36f3516226952dbafcec9c4f5ecdd8e9af270c88c92b7576d5c5f9355a9c47ea427b25d4188076c38822b0bbd47c58530e4b5a59b5bce394ab9468ef441cb49eebf2784758c61e32c74eab2a83800cc5f8a47730dc1a612f25ddcf9c728f6a8b13c9dbbf6702afa537407dfefc7c3f</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="4a19ffff87db07ded9b445bb10b0aabde96960a2e825884c4c25758bf88d2d6d">33b6c39d002ebceceb3e747ef576ef82efd06357e8f183a69e435032de79e80d472ffa5747c886765ba8745f4bb62fa67a1a991fdf8931c9dac47ed1ad2294db8b7b001c19bdc633d36b1199b4787c2bd3a18f52802ccd85d804043d725d86fabb9b35ba21b05c09b8f34fbc70e598be4514d2d77b3ef0df28e0d233cca23faaa8bca178e5db7e4238f9115c95fd42fb3339e7cb849ed20d5aedb3b25e3bde7cebc71c48c953ffc93cf73775f3ccb78b38abe9cd5cbfbfdee3c6612e5d33bdb4c8d8b714f59d87eaa6cc02d6a11fc85534a6cfad0d334b91a63544143929dfe36c02fd17045bc8132d45f00d0655b524980517fa5df664b51364f95192681827a3c99082527cbaf98298e162a12c3651aa2b0dce91816381e25c2e6a28b6048056b2fb7864c969f8ffead37b2e59fae61cf90a349967ea76784464f26faa762c518365c39a187c9f70740c3c0172a236a4b05d6c16ee1ba4fed0121066fa051d2839711c6ff031fa029edbcc24634eb82d4ac43f5830d8add7d1f1cd78b9790ec435a84ca730feff619ba2b6783a44b9b913823dd9ffb9f3b01bbd41cb8b32ef0f5da7526cedb59f04ae944aa14567a2d80c47d731460fba98dc9308c2342e72bb5b7ce57b4ea98bf7072bf9177f072a06dbfb05915b4b136d4bec192b80bb5b0bb6f1327336f79fffd6ea144bbe1c03db76076c23c75d801a6a6d6951878e282024508d1ddcdb327bf1ae5db27f80e50d725c077134cde0210095e0babb5180e1d0662cb1cf6192d7fef9a94005502759d3f3506b00767f09eb7099ff30133ef8b4c8d87fb27d674791ec542f1e98c00ac1acfb23898d953471ddac6a5c8fa772572c4d2b0577c187ae5a515e4f04507fcebed8cd39cf644e420785c4ff37727f60e82eb954d00d8f10ea4faa06eafd07c98cd89ef09794bd565d01f2137e77425c924ec7dc736b4a83af1838aba70a556d34acc61abccd574b1872143b1cb8</script>
   <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请在此处输入密码</span>
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
       </label>
     </div>
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>ST</category>
-        <category>32H745ZIT6</category>
+        <category>简历</category>
       </categories>
       <tags>
-        <tag>STM32H745ZIT6</tag>
-        <tag>双核</tag>
+        <tag>个人简历</tag>
       </tags>
   </entry>
   <entry>
-    <title>搭建自己的pdf在线预览工具(pdf.js)</title>
-    <url>/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/</url>
+    <title>Cortex-m-faultlocation说明文档</title>
+    <url>/2022/06/09/Cortex-m-faultlocation%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>使用Cortex-M3-M4-M7故障异常2</title>
+    <url>/2022/06/05/ARM%E5%86%85%E6%A0%B8/%E4%BD%BF%E7%94%A8Cortex-M3-M4-M7%E6%95%85%E9%9A%9C%E5%BC%82%E5%B8%B82/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c052033b35bfeaf452aaed5e87963ce3f32698c1a7b1ca28665f1dba649330f1">0701390d4eafe811df23bf164c9352d6e5a1ab1629738d6aaee76a8b82875a8f057e75e9559aa1f367410585bb9cfd42b13514a8368cfa78d882bfd5c0a7b93804691ef3e032f099ba70493df4fab247bb2bb03da4dcb9f7fa8fa4bd82c0d9134e48b9f1c488c7501f84f60b7aac99f7ca87993139b12196ca274551ddec37ccacce8b57fe5b9ded6875a13fdc8c9904be07e448d3f3b319a025906360123ca8d493dc43badd33f73b944faf9d094333ac10f67fdd7331a0b087e27996a65e67f4dea4cb4e8d9f37e2c741371d798350829b8c332f82c6e3226be5a692acc4ed9f89c20e35df5b05996a00d0a6eb4e4654b9df85a80615c82364dcc4a4a32f1c4572acb5ce315a054c655321a76ad2eb</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>ARM</category>
+        <category>Cortex-M</category>
+      </categories>
+      <tags>
+        <tag>ARM内核</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言中#和##的作用</title>
+    <url>/2022/06/04/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/C%E8%AF%AD%E8%A8%80%E4%B8%AD-%E5%92%8C--%E7%9A%84%E4%BD%9C%E7%94%A8/</url>
     <content><![CDATA[<blockquote>
-<p>说明:关于该功能，测试发现部分浏览器不支持显示，如果遇到浏览器不显示，请直接换一个浏览器；浏览器Microsoft Edge可以支持显示（请文明上网）</p>
+<ol>
+<li>C语言中#和##的作用</li>
+<li><pre><code>提供代码都是可以正常运行起来
+</code></pre>
+</li>
+</ol>
 </blockquote>
 <span id="more"></span>
-
-<h2 id="1-使用gitee和pdf-js搭建pdf在线浏览工具"><a href="#1-使用gitee和pdf-js搭建pdf在线浏览工具" class="headerlink" title="1. 使用gitee和pdf.js搭建pdf在线浏览工具"></a>1. 使用gitee和pdf.js搭建pdf在线浏览工具</h2><p>码云Pages(gitee pages)是一个免费的静态网页托管服务, 除此之外你还可以使用gitee pages托管博客、项目官网等. 之后我们将使用gitee pages来托管pdf.js. (使用Github Pages也可以达到同样的效果, 但是Github的访问速度慢，可以给github加一个前缀 <code>cdn.github.com</code>)</p>
-<p>pdf.js是一款使用HTML5 Canvas安全地渲染pdf文件以及遵从网页标准的网页浏览器渲染pdf文件的javascript库.该插件不需要任何本地支持，对浏览器的兼容性也比较好.</p>
-<blockquote>
-<p>不管使用何种方法实现，都需要先注册账号，<a href="https://gitee.com/">gitee</a>或者<a href="https://github.com/">github</a>账号</p>
-</blockquote>
-<blockquote>
-<p>两种方法，既有缺点也优点：<br>    1.gitee优点在于可以将仓库设置为私人仓库状态，别人无法看到你仓库中有那些文件，私密性强，github相反，必须将仓库设置公开状态。<br>      2.gitee本地上传到仓库的文件，不能自动的部署，需要手动进入<code>gitee pages</code>去更新，而github相反，是自动部署完成，不需要人为去点击。<br>      3.<code>gitee pages</code>该功能需要实名认证，需要一个工作日审核，两种方法优缺点，任君选择。</p>
-</blockquote>
-<p>在gitee或github创建名为Npdf的仓库, 创建好仓库好后，请在本地连接到远程仓库：如果觉得<code>Git</code>软件使用困难，可以使用图形软件<a href="https://desktop.github.com/">GitHubDesktop</a>管理项目，所有git的使用方法请自行百度。</p>
-<h2 id="2-下载pdf-js源码到解压到本地仓库中"><a href="#2-下载pdf-js源码到解压到本地仓库中" class="headerlink" title="2. 下载pdf.js源码到解压到本地仓库中"></a>2. 下载pdf.js源码到解压到本地仓库中</h2><p><a href="https://mozilla.github.io/pdf.js/getting_started/#download">pdf.js源码地址</a>此处我建议新手小白直接下载 <code>Prebuilt</code>版本，个人参考经验；如果是大佬，请自行选择，个人建议自行参考。</p>
-<p><img data-src="https://s2.loli.net/2022/05/04/m6KDd48Naeck7TW.png" alt="图示"></p>
-<p>将你自己要展示的pdf文件放入web文件夹下<br><img data-src="https://s2.loli.net/2022/05/04/favCULNIc4sGnKX.png" alt="图示"></p>
-<p>将文件上传到<code>gitee</code>或<code>github</code>的Npdf仓库</p>
-<h2 id="3-点击gitee的Npdf仓库中选择Service下的Gitee-Pages-进入选择创建Pages；如果使用github无此操作。"><a href="#3-点击gitee的Npdf仓库中选择Service下的Gitee-Pages-进入选择创建Pages；如果使用github无此操作。" class="headerlink" title="3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。"></a>3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。</h2><p><img data-src="https://s2.loli.net/2022/05/04/hWsUgVO3qrRaHXl.png" alt="图示"></p>
-<h2 id="4-最终可以生成如下内容-部署成功"><a href="#4-最终可以生成如下内容-部署成功" class="headerlink" title="4. 最终可以生成如下内容(部署成功)"></a>4. 最终可以生成如下内容(部署成功)</h2><p><img data-src="https://s2.loli.net/2022/05/04/hWsUgVO3qrRaHXl.png" alt="图示"></p>
-<h2 id="5-你可以使用如下链接-打开之前放入web文件夹下的pdf文件"><a href="#5-你可以使用如下链接-打开之前放入web文件夹下的pdf文件" class="headerlink" title="5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件"></a>5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=compressed.tracemonkey-pldi-09.pdf</span><br><span class="line">https://xgm-embedded-os.gitee.io/npdf 你的Npdf仓库Gitee Pages主页</span><br><span class="line">web/viewer.html</span><br><span class="line">?file= 后接pdf的名称</span><br></pre></td></tr></table></figure>
-<p><img data-src="https://s2.loli.net/2022/05/05/cdeLvmDUfbpnk2F.png" alt="效果展示"></p>
-<h2 id="6-更新PDF文件或添加新的PDF文件"><a href="#6-更新PDF文件或添加新的PDF文件" class="headerlink" title="6. 更新PDF文件或添加新的PDF文件"></a>6. 更新PDF文件或添加新的PDF文件</h2><p>之后每一次更新文件时，仅仅每次将web中的PDF文件替换，然后执行上传到git仓库；<br>添加新的PDF,只需要将新的pdf复制到web中，然后执行上传到git仓库；<br>回到gitee你创建的仓库中，点击服务-giteepages-更新部署即可即第三步操作(github没有此操作)。</p>
-<h2 id="7-参考连接"><a href="#7-参考连接" class="headerlink" title="7. 参考连接"></a>7. 参考连接</h2><p>参考一：<a href="https://www.csdn.net/tags/MtTaEg5sOTc0MTQ3LWJsb2cO0O0O.html">https://www.csdn.net/tags/MtTaEg5sOTc0MTQ3LWJsb2cO0O0O.html</a><br>参考二：<a href="https://zhuanlan.zhihu.com/p/338258872">https://zhuanlan.zhihu.com/p/338258872</a><br>参考三：<a href="https://www.cnblogs.com/sunshinezjb/p/9248144.html">https://www.cnblogs.com/sunshinezjb/p/9248144.html</a></p>
-]]></content>
-      <categories>
-        <category>搭建在线浏览PDF</category>
-      </categories>
-      <tags>
-        <tag>搭建pdf.js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于hexo主题Markdown中显示PDF</title>
-    <url>/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</url>
-    <content><![CDATA[<blockquote>
-<p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p>
-</blockquote>
-<span id="more"></span>
-
-<p>此处主要解决不能显示pdf的方法：</p>
-<h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure>
-
-<h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">	&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
-
-<p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p>
-<h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">
-    <embed src="/PDF/stm32h745zi.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
-<h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">
-    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
-</iframe>
-]]></content>
-      <categories>
-        <category>关于hexo主题Markdown显示pdf文件</category>
-      </categories>
-      <tags>
-        <tag>Markdown显示pdf</tag>
-        <tag>hexo显示pdf</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一台电脑上的git同时使用两个github账户</title>
-    <url>/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
-    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
-<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>git</tag>
-        <tag>双Github账号同时存在</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于git命令</title>
-    <url>/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[ <!-- <center> <font face="宋体"  size="6">关于git命令 </font></center> -->
-
-<h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><span id="more"></span>
-
+<p><code>#</code>和<code>##</code>符号是C和C++的宏（macro）属于编译器预处理的范畴，编译期间完成</p>
 <ol>
-<li><p>在本地打开 git bash 命令行窗口，输入以下命令<br><code>cd ~/.ssh</code></p>
-</li>
-<li><p>如果没有，显示<br><code>bash: cd: /c/Users/Administrator/.ssh: No such file or directory</code></p>
-</li>
-<li><p>否则表示本地以创建 SSH key 了</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">id_rsa  id_rsa.pub  known_hosts</span><br></pre></td></tr></table></figure></li>
+<li>#的功能是将其后面的宏参数进行字符串化操作；#符号是把传递过来的参数多做字符串进行处理；简单说就是在对它所引用宏参数在其左右加一个双引号，示例代码如下：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define str(param)			#param		//#将param参数经行字符串化</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	printf(str(hello 122 333444\n)); </span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+输出结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hello 122 333444</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h1 id="创建-SSH-key"><a href="#创建-SSH-key" class="headerlink" title="创建 SSH key"></a>创建 SSH key</h1><!-- more -->
-
+<hr>
 <ol>
-<li>最后一个参数替换为自己的 <a href="gitee.com">Gitee</a> || <a href="github.com">Github</a> 注册邮箱<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br></pre></td></tr></table></figure></li>
-<li>接下来会提示输入生成的key存放的路径，不设置直接回车的话会默认创建在C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter file in which to save the key (/c/Users/Him/.ssh/id_rsa):</span><br><span class="line">Created directory &#x27;/c/Users/userpath/.ssh&#x27;.</span><br></pre></td></tr></table></figure></li>
-<li>再接下来会提示你输入密码，这个密码是用来每次提交的时候输入确认，可以不设置，直接回车两次<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></li>
-<li>最后成功后会看到类似如下的输出，表示成功生成SSH key了，可以到C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下查看<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Your identification has been saved in /c/Users/Him/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /c/Users/Him/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:RwvBINgH8CEt2KniltmykeyDsOseUYcwMzehFeyT86s xxxxxx@qq.com</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+---[RSA 2048]----+</span><br><span class="line">| o+%OO+o.        |</span><br><span class="line">|..=+%*+ ..       |</span><br><span class="line">| ..+o+o.. .      |</span><br><span class="line">|o.  o=.  o .     |</span><br><span class="line">|o oolalala S o      |</span><br><span class="line">| +.+.. . .       |</span><br><span class="line">|. .o    .        |</span><br><span class="line">|  . .  .         |</span><br><span class="line">|   . E.          |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h1 id="SSH验证"><a href="#SSH验证" class="headerlink" title="SSH验证"></a>SSH验证</h1><!-- more -->
-
-<ol>
-<li><p>验证本地生成的ssh，github或者gitee端密钥是否添加成功，输入如下命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@gitee.com </span><br></pre></td></tr></table></figure></li>
-<li><p>如果添加成功就会显示如下语句</p>
-<blockquote>
-<p>Hi Username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Hi Username! You’ve successfully authenticated, but GITEE.COM does not provide shell access.</p>
-</blockquote>
+<li><p>##符号称为连接符,将两个或多个标记连接为一个合法的标识符；代码如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">/* ## */</span><br><span class="line">#define var(x)			var##x</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int var(1) = 1;</span><br><span class="line">	int	var(2) = 2;</span><br><span class="line">	int var(3) = 3;</span><br><span class="line"></span><br><span class="line">	printf(&quot;var2 : %d\n&quot;, var2);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>运行结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var2 : 2</span><br></pre></td></tr></table></figure></li>
+<li><p>比如要做一个菜单项由变量和函数指针组成的结构体数组，并且希望在函数名和菜单项命名之间有直观的名字上的关系，那么下面的代码就非常实用：可能在有些规则编码中是不允许使用的，因为这样，没有明确的关系，难以查找。这里只是总结一下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define barrier(x)			barrier##x</span><br><span class="line">#define COMMAND(NAME)	&#123;NAME , NAME##_command&#125;</span><br><span class="line"></span><br><span class="line">/**/</span><br><span class="line">struct command</span><br><span class="line">&#123;</span><br><span class="line">	char *name;</span><br><span class="line">	void(*function)(void);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 	建议在两个需要都被打印的数组中添加一个变量，比如下面所示；</span><br><span class="line"> * 			或者可以指定printf打印字符串长度，至于原因，自己想想</span><br><span class="line"> */</span><br><span class="line">char quit[4] = &#123;&quot;quit&quot;&#125;;</span><br><span class="line">char barrier(0) = 0;			/*阻隔*/</span><br><span class="line">char help[4] = &#123;&quot;help&quot;&#125;;</span><br><span class="line">void quit_command(void);</span><br><span class="line">void help_command(void);</span><br><span class="line"></span><br><span class="line">/*在这里已经对变量赋值和函数指针赋值,展开效果：</span><br><span class="line">* struct command commands[] = &#123;&#123;quit quit_command&#125;,&#123;help help_command&#125;&#125;;</span><br><span class="line">*/</span><br><span class="line">struct command commands[] = &#123; COMMAND(quit) ,COMMAND(help)&#125;;</span><br><span class="line"></span><br><span class="line">void quit_command(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;quit_command name: %-4.4s\n&quot;, commands[0].name);</span><br><span class="line">	/*-4.4s：关于这个可以在本博客中搜索 &quot;printf打印指定长度字符串&quot; */</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void help_command(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;help_command name: %s\n&quot;, commands[1].name);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	commands[0].function();</span><br><span class="line">	commands[1].function();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>运行结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">quit_command name: quit</span><br><span class="line">help_command name: help</span><br></pre></td></tr></table></figure>
+<p>COMMAND宏在这里充当一个代码生成器的作用，这样可以在一定程度上减少代码密度，间接地也可以减少不留心造成地错误，</p>
 </li>
-<li><p>Username:是你的在git端的名称</p>
+<li><p>我们还可以n个##连接n+1个字符串，这个也是#符号不具备地，比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define LINK_MULT(a,b,c,d)				a##_##b##_##c##_##d</span><br><span class="line">typedef struct _record_type				LINK_MULT(name,Company,Position,salay);</span><br><span class="line">/*</span><br><span class="line">* 语句展开效果:</span><br><span class="line">* typedef struct _record_type			typedef struct _record_type	</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>##功能是在带参的宏定义中，将两个字符串连接起来，形成一个新的子串；<br>假设程序中已经定义这样一个带参的宏</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define poster(n)		printf(&quot;t&quot;#n&quot;=%d\n&quot;,t##n);</span><br><span class="line">/*同时又定义了一个整形变量*/</span><br><span class="line">int t9 = 9;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	/*在编译时，poster(9)扩展为 printf(&quot;t&quot;&quot;9&quot;&quot;=%d\n&quot;,t9);*/</span><br><span class="line">	poster(9);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>运行结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">t9=9</span><br></pre></td></tr></table></figure>
+<p>注意在这个例子中，<br>上面的是一般用法</p>
 </li>
 </ol>
 <hr>
+<ol>
+<li>当宏参数是另一个宏的时候，需要注意的是凡宏定义里有用<code>#</code>和##<code>的地方，宏参数是不会再展开 非</code>#<code>和</code>##&#96;的情况:</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define TOW					(2)</span><br><span class="line">#define MUL(a,b)			(a*b)</span><br><span class="line">printf(&quot;%d * %d = %d\n&quot;,TOW,TOW,MUL(TOW,TOW));</span><br><span class="line">这行的宏展开为：</span><br><span class="line">printf(&quot;%d * %d = %d\n&quot;,2,2,MUL(2,2));</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>当有<code>#</code>和<code>##</code>的时候<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define A 			2</span><br><span class="line">#define STR(s)		#s</span><br><span class="line">#define CONS(a,b)	(int)(a##e##b)</span><br><span class="line">printf(&quot;int max:%s\n&quot;, STR(INTPTR_MAX));	//INTPTR_MAX =》stdint.h</span><br><span class="line">//展开 printf(&quot;int max:%s\n&quot;, &quot;INTPTR_MAX&quot;);	//INTPTR_MAX =》stdint.h</span><br><span class="line">printf(&quot;%s\n&quot;,CONS(A,A));		//COMPILE ERROR</span><br><span class="line">//展开 printf(&quot;%s\n&quot;,&quot;AeA&quot;);</span><br></pre></td></tr></table></figure>
+INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中间转换宏，加这层宏的用意是把所有宏的参数在这层里全部展开，那么在转换宏里的那一个宏就能得到正确的宏参数。<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define A 			2</span><br><span class="line">#define _STR(s)		#s</span><br><span class="line">#define STR(s)		_STR(s)		//转换宏</span><br><span class="line">#define _CONS(a,b)	(int)(a##e##b)</span><br><span class="line">#define CONS(a,b)	_CONS(a,b)	//转换宏</span><br><span class="line"></span><br><span class="line">printf(&quot;int max:%s\n&quot;, STR(INTPTR_MAX));	//INTPTR_MAX =》stdint.h</span><br><span class="line">printf(&quot;CONS: %d\n&quot;,CONS(A,A));		//COMPILE ERROR</span><br></pre></td></tr></table></figure>
+输出结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">int max:2147483647i32</span><br><span class="line">CONS: 200</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol>
+<li><code>#</code>和<code>##</code>的一些应用，合并匿名创建变量名<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define _ANONYMOUS1(type,var ,line)			type var##line</span><br><span class="line">#define _ANONYMOUS0(type,line)				_ANONYMOUS1(type,anonymous ,line)</span><br><span class="line">#define ANONYMOUS0(type)					_ANONYMOUS0(type,__LINE__)</span><br><span class="line"></span><br><span class="line">ANONYMOUS0(static int) = 100;</span><br></pre></td></tr></table></figure></li>
+<li>填充结构体<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define barrier(x)			barrier##x</span><br><span class="line">#define COMMAND(NAME)	&#123;NAME , NAME##_command&#125;</span><br><span class="line"></span><br><span class="line">/**/</span><br><span class="line">struct command</span><br><span class="line">&#123;</span><br><span class="line">	char *name;</span><br><span class="line">	void(*function)(void);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 	建议在两个需要都被打印的数组中添加一个变量，比如下面所示；</span><br><span class="line"> * 			或者可以指定printf打印字符串长度，至于原因，自己想想</span><br><span class="line"> */</span><br><span class="line">char quit[4] = &#123;&quot;quit&quot;&#125;;</span><br><span class="line">char barrier(0) = 0;			/*阻隔*/</span><br><span class="line">char help[4] = &#123;&quot;help&quot;&#125;;</span><br><span class="line">void quit_command(void);</span><br><span class="line">void help_command(void);</span><br><span class="line"></span><br><span class="line">/*在这里已经对变量赋值和函数指针赋值,展开效果：</span><br><span class="line">* struct command commands[] = &#123;&#123;quit quit_command&#125;,&#123;help help_command&#125;&#125;;</span><br><span class="line">*/</span><br><span class="line">struct command commands[] = &#123; COMMAND(quit) ,COMMAND(help)&#125;;</span><br><span class="line"></span><br><span class="line">void quit_command(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;quit_command name: %-4.4s\n&quot;, commands[0].name);</span><br><span class="line">	/*-4.4s：关于这个可以在本博客中搜索 &quot;printf打印指定长度字符串&quot; */</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void help_command(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;help_command name: %s\n&quot;, commands[1].name);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	commands[0].function();</span><br><span class="line">	commands[1].function();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+运行结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">quit_command name: quit</span><br><span class="line">help_command name: help</span><br></pre></td></tr></table></figure></li>
+<li>记录文件名<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define _GET_FILE_NAME(f)					#f</span><br><span class="line">#define GET_FILE_NAME(f)					_GET_FILE_NAME(f)</span><br><span class="line">char file_name[] = &#123; GET_FILE_NAME(__FILE__)&#125;;</span><br><span class="line">printf(&quot;file_name %s\n&quot;, file_name);</span><br></pre></td></tr></table></figure></li>
+<li>得到一个数值类型所对应的字符串缓冲大小<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define _TYPE_BUF_SIZE(type)		sizeof(#type)</span><br><span class="line">#define TYPE_BUF_SIZE(type)			_TYPE_BUF_SIZE(type)</span><br><span class="line">char buf[TYPE_BUF_SIZE(INT32_MAX)] = &#123; GET_FILE_NAME (INT32_MAX) &#125;;</span><br><span class="line">printf(&quot;buf %s\n&quot;, buf);</span><br></pre></td></tr></table></figure></li>
+</ol>
 ]]></content>
       <categories>
-        <category>git</category>
+        <category>C宏定义</category>
+        <category>中#和##的作用</category>
       </categories>
       <tags>
-        <tag>git</tag>
-        <tag>git命令</tag>
+        <tag>C宏定义</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>宏替换printf</title>
+    <url>/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf/</url>
+    <content><![CDATA[<blockquote>
+<p>宏替换printf、printf打印指定长度字符串</p>
+</blockquote>
+<span id="more"></span>
+<ol>
+<li>宏替换printf可以有如下形式：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define FUN1(msg)			printf(#msg&quot;\n&quot;)</span><br><span class="line">#define FUN2(param1,param2)	printf(&quot;the %d\n&quot;,param1##param2)</span><br><span class="line">#define FUN3(...)			printf(__VA_ARGS__)</span><br><span class="line">#define FUN4(format ,...)	printf(format,##__VA_ARGS__)</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;hello \n&quot;);</span><br><span class="line">	FUN1(hello\n);</span><br><span class="line">	FUN2(11, 22);</span><br><span class="line">	FUN3(&quot;testtttt %d ,%f , %c\n&quot;, 10, 100.23, &#x27;a&#x27;);</span><br><span class="line">	FUN4(&quot;the %d \n&quot;,100);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<figure class="highlight plaintext"><figcaption><span>运行结果</span></figcaption><table><tr><td class="code"><pre><span class="line">hello</span><br><span class="line">hello</span><br><span class="line"></span><br><span class="line">the 1122</span><br><span class="line">testtttt 10 ,100.230000 , a</span><br><span class="line">the 100</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ol>
+<li><p>原样输出字符串:<br> printf(“%s”, str);</p>
+</li>
+<li><p>输出指定长度的字符串, 超长时不截断, 不足时右对齐:<br> printf(“%Ns”, str);             –N 为指定长度的10进制数值</p>
+</li>
+<li><p>输出指定长度的字符串, 超长时不截断, 不足时左对齐:<br> printf(“%-Ns”, str);            –N 为指定长度的10进制数值</p>
+</li>
+<li><p>输出指定长度的字符串, 超长时截断, 不足时右对齐:<br> printf(“%N.Ms”, str);           –N 为最终的字符串输出长度<br>                             –M 为从参数字符串中取出的子串长度</p>
+</li>
+<li><p>输出指定长度的字符串, 超长时截断, 不足时左对齐:<br> printf(“%-N.Ms”, str);          –N 为最终的字符串输出长度<br>                             –M 为从参数字符串中取出的子串长度</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>C库函数</category>
+        <category>printf</category>
+      </categories>
+      <tags>
+        <tag>C库函数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>阅读书籍1</title>
+    <url>/2022/05/31/%E9%98%85%E8%AF%BB%E4%B9%A6%E7%B1%8D/%E9%98%85%E8%AF%BB%E4%B9%A6%E7%B1%8D1/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="05722d9c79ef7cdfced9944407072074bd0513883c9ae68986c8856fedc0af07">d7ff8efac6d65f0a9574d785f473efdffa496f470f5bd840eeed050e99f1047306e82bae8b7fa2f6ec0d7c3242cefc37a4bfe06637ec44291ea2e850cc9b9185d4b97db975e68d734c2c1d4565a78563298d780a8f4a3e17b25594f25f193533aacfc36e25df09018f9174fa638326a106a7d9c189997f1273db9a1571028f4e3938655ad7240c143f72af847d5d972b8bb17886c2cd1409c50180980790cc1e3c307af69d90afc6f2cc348196362fe40b7633bf833130bd30b59b96226a9362113a3f5628542ee01133bbbddae5f6d6ab8c9b472ae68f34bb716c9c640991f9470339238423fbc2dd7ba05e0e747188cbe27c50dab2425a598bc01b1a134b71d90ea5148ece1bcab059f6ae44ce80abcd1f3f385e8f9f9ab174e8c73e45981dcca56edb6ae66aaa79d7fe9cf6f8d1a48bdb086ca3309c4dce03527b47d7bd97be8abf1453d6804f522f6898ef7abfd7cfa8132b5bc762bb8000ddf1d88618e4de100a8e551d50260aae964736b92b9f652ca6f07c9ed7810082ad65c2598a367b96543e02a0b5fec04b2846ea3b6ca20ad4e4cf3c26a6fad7d767981dcfcc97514d8598bd807873b16ab48fbda21b699c24420fe3208b89420a7bce44edf96ffe3ddedd7755e12f416f17ff3776614b7ea2157f28359b00341794f71a16346e8029d2244d350bfd8fb0e857b91188c90bf8284498abe4b500fc76e55ae6325a59283c4c133e379dd49dc610e50172d0</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>阅读书籍</category>
+        <category>ARM</category>
+      </categories>
+      <tags>
+        <tag>阅读书籍</tag>
       </tags>
   </entry>
   <entry>
@@ -234,57 +209,20 @@
       </tags>
   </entry>
   <entry>
-    <title>使用Cortex-M3-M4-M7故障异常2</title>
-    <url>/2022/06/05/ARM%E5%86%85%E6%A0%B8/%E4%BD%BF%E7%94%A8Cortex-M3-M4-M7%E6%95%85%E9%9A%9C%E5%BC%82%E5%B8%B82/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c052033b35bfeaf452aaed5e87963ce3f32698c1a7b1ca28665f1dba649330f1">0701390d4eafe811df23bf164c9352d6e5a1ab1629738d6aaee76a8b82875a8f057e75e9559aa1f367410585bb9cfd42b13514a8368cfa78d882bfd5c0a7b93804691ef3e032f099ba70493df4fab247bb2bb03da4dcb9f7fa8fa4bd82c0d9134e48b9f1c488c7501f84f60b7aac99f7ca87993139b12196ca274551ddec37ccacce8b57fe5b9ded6875a13fdc8c9904be07e448d3f3b319a025906360123ca8d493dc43badd33f73b944faf9d094333ac10f67fdd7331a0b087e27996a65e67f4dea4cb4e8d9f37e2c741371d798350829b8c332f82c6e3226be5a692acc4ed9f89c20e35df5b05996a00d0a6eb4e4654b9df85a80615c82364dcc4a4a32f1c4572acb5ce315a054c655321a76ad2eb</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>ARM</category>
-        <category>Cortex-M</category>
-      </categories>
-      <tags>
-        <tag>ARM内核</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>全面的Cortex-M内核资源汇总</title>
-    <url>/2022/05/11/ARM%E5%86%85%E6%A0%B8/%E5%85%A8%E9%9D%A2%E7%9A%84Cortex-M%E5%86%85%E6%A0%B8%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<blockquote>
-<p>全面的Cortex-M内核资源汇总</p>
-</blockquote>
+    <title>CAN总线协议个人见解</title>
+    <url>/2022/05/26/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/CAN%E6%80%BB%E7%BA%BF%E5%8D%8F%E8%AE%AE%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3/</url>
+    <content><![CDATA[<p>CAN总线协议个人见解,可能有些地方理解的不对，请大家多多指正</p>
 <span id="more"></span>
 <ol>
-<li><p><a href="https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/cortex-m-resources">所有Cortex-M资源</a></p>
-</li>
-<li><p><a href="https://www.arm.com/resources/education/books/mve-reference-book">新:Arm Cortex-M处理器的Arm氦技术M-Profile矢量扩展(MVE )(参考书)</a></p>
-</li>
-</ol>
-<ul>
-<li><a href="https://www.armbbs.cn/forum.php?mod=viewthread&tid=94790&highlight=%CA%B7%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%C8%AB%EF%BF%BD%EF%BF%BD%EF%BF%BD">参考文档地址</a></li>
-</ul>
-<ol start="3">
-<li><p>主要查看这些数据手册: 数据手册(DS)：电器特性、内核；参考手册（RM）：包含所有外设；编程手册（PM）。</p>
-</li>
-<li><p><a href="https://github.com/ARM-software/CMSIS_5">ARM内核软件包</a></p>
-</li>
+<li>test</li>
 </ol>
 ]]></content>
       <categories>
-        <category>ARM</category>
-        <category>Cortex-M</category>
+        <category>总线协议</category>
+        <category>CAN</category>
       </categories>
       <tags>
-        <tag>ARM内核</tag>
+        <tag>总线协议</tag>
       </tags>
   </entry>
   <entry>
@@ -308,84 +246,6 @@
       </categories>
       <tags>
         <tag>ARM内核</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于next博客主题设置和加速</title>
-    <url>/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/</url>
-    <content><![CDATA[<blockquote>
-<p>这里就不写博客的介绍了，关于next主题修改可以参考以下这些博客，可能版本不相同，但是配置大致相似。</p>
-</blockquote>
-<span id="more"></span>
-<h2 id="1-关闭指定文章的打赏功能"><a href="#1-关闭指定文章的打赏功能" class="headerlink" title="1. 关闭指定文章的打赏功能"></a>1. 关闭指定文章的打赏功能</h2><figure class="highlight plaintext"><figcaption><span>关闭指定文章的打赏功能</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">tags:</span><br><span class="line">categories:</span><br><span class="line">只需在文章头部添加下面代码既可以关闭本文章的打赏功能</span><br><span class="line">reward_settings: </span><br><span class="line">  enable: false # true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h2 id="1-NexT主题进阶配置"><a href="#1-NexT主题进阶配置" class="headerlink" title="1. NexT主题进阶配置"></a>1. <a href="https://wylu.me/posts/e0424f3f/">NexT主题进阶配置</a></h2><h2 id="2-提升Hexo-NexT主题加载速度"><a href="#2-提升Hexo-NexT主题加载速度" class="headerlink" title="2. 提升Hexo NexT主题加载速度"></a>2. <a href="https://finisky.github.io/responsivehexonext/">提升Hexo NexT主题加载速度</a></h2><h2 id="3-Hexo-博客-静态网站目录文件介绍"><a href="#3-Hexo-博客-静态网站目录文件介绍" class="headerlink" title="3. Hexo 博客 静态网站目录文件介绍"></a>3. <a href="https://www.cnblogs.com/baiqiantao/p/10538926.html">Hexo 博客 静态网站目录文件介绍</a></h2><h2 id="4-hexo-个人博客基于-NexT-主题"><a href="#4-hexo-个人博客基于-NexT-主题" class="headerlink" title="4. hexo 个人博客基于 NexT 主题"></a>4. <a href="https://choubin.site/2019/12/30/CustomBlogTheme/">hexo 个人博客基于 NexT 主题</a></h2>]]></content>
-      <categories>
-        <category>next主题设置与加速</category>
-      </categories>
-      <tags>
-        <tag>next主题设置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客作者个人简历</title>
-    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="4a19ffff87db07ded9b445bb10b0aabde96960a2e825884c4c25758bf88d2d6d">33b6c39d002ebceceb3e747ef576ef82efd06357e8f183a69e435032de79e80d472ffa5747c886765ba8745f4bb62fa67a1a991fdf8931c9dac47ed1ad2294db8b7b001c19bdc633d36b1199b4787c2bd3a18f52802ccd85d804043d725d86fabb9b35ba21b05c09b8f34fbc70e598be4514d2d77b3ef0df28e0d233cca23faaa8bca178e5db7e4238f9115c95fd42fb3339e7cb849ed20d5aedb3b25e3bde7cebc71c48c953ffc93cf73775f3ccb78b38abe9cd5cbfbfdee3c6612e5d33bdb4c8d8b714f59d87eaa6cc02d6a11fc85534a6cfad0d334b91a63544143929dfe36c02fd17045bc8132d45f00d0655b524980517fa5df664b51364f95192681827a3c99082527cbaf98298e162a12c3651aa2b0dce91816381e25c2e6a28b6048056b2fb7864c969f8ffead37b2e59fae61cf90a349967ea76784464f26faa762c518365c39a187c9f70740c3c0172a236a4b05d6c16ee1ba4fed0121066fa051d2839711c6ff031fa029edbcc24634eb82d4ac43f5830d8add7d1f1cd78b9790ec435a84ca730feff619ba2b6783a44b9b913823dd9ffb9f3b01bbd41cb8b32ef0f5da7526cedb59f04ae944aa14567a2d80c47d731460fba98dc9308c2342e72bb5b7ce57b4ea98bf7072bf9177f072a06dbfb05915b4b136d4bec192b80bb5b0bb6f1327336f79fffd6ea144bbe1c03db76076c23c75d801a6a6d6951878e282024508d1ddcdb327bf1ae5db27f80e50d725c077134cde0210095e0babb5180e1d0662cb1cf6192d7fef9a94005502759d3f3506b00767f09eb7099ff30133ef8b4c8d87fb27d674791ec542f1e98c00ac1acfb23898d953471ddac6a5c8fa772572c4d2b0577c187ae5a515e4f04507fcebed8cd39cf644e420785c4ff37727f60e82eb954d00d8f10ea4faa06eafd07c98cd89ef09794bd565d01f2137e77425c924ec7dc736b4a83af1838aba70a556d34acc61abccd574b1872143b1cb8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>简历</category>
-      </categories>
-      <tags>
-        <tag>个人简历</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于东北、华北、华东、华南、华中、西南、西北</title>
-    <url>/2022/05/08/%E5%9C%B0%E7%90%86%E5%8C%BA%E5%9F%9F%E5%88%92%E5%88%86/%E5%85%B3%E4%BA%8E%E4%B8%9C%E5%8C%97%E3%80%81%E5%8D%8E%E5%8C%97%E3%80%81%E5%8D%8E%E4%B8%9C%E3%80%81%E5%8D%8E%E5%8D%97%E3%80%81%E5%8D%8E%E4%B8%AD%E3%80%81%E8%A5%BF%E5%8D%97%E3%80%81%E8%A5%BF%E5%8C%97/</url>
-    <content><![CDATA[<ul>
-<li>关于东北、华东、华北、华中、华南、西南、西北的地理分区</li>
-</ul>
-<span id="more"></span>
-
-<ol>
-<li><p>东北（黑龙江省、吉林省、辽宁省）。</p>
-</li>
-<li><p>华东（上海市、江苏省、浙江省、安徽省、福建省、江西省、山东省、台湾省）。</p>
-</li>
-<li><p>华北（北京市、天津市、山西省、河北省、内蒙古自治区）。</p>
-</li>
-<li><p>华中（河南省、湖北省、湖南省）。</p>
-</li>
-<li><p>华南（广东省、广西壮族自治区、海南省、香港特别行政区、澳门特别行政区）。</p>
-</li>
-<li><p>西南（四川省、贵州省、云南省、重庆市、西藏自治区）。</p>
-</li>
-<li><p>西北（陕西省、甘肃省、青海省、宁夏回族自治区、新疆维吾尔自治区）。</p>
-</li>
-</ol>
-<ul>
-<li>图片出处：维基百科，其中华中地区和华南地区合并在一起；</li>
-</ul>
-<img data-src="https://s2.loli.net/2022/05/08/vbg6csUOBFyI1jk.png"/>
-
-]]></content>
-      <categories>
-        <category>中国地理</category>
-        <category>大区</category>
-        <category>分区</category>
-      </categories>
-      <tags>
-        <tag>中国地理</tag>
       </tags>
   </entry>
   <entry>
@@ -415,32 +275,6 @@
       </categories>
       <tags>
         <tag>MDK KEIL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoupOS嵌入式实时操作系统介绍</title>
-    <url>/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
-
-<blockquote>
-<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
-</blockquote>
-<ul>
-<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#x67;&#x6d;&#99;&#x72;&#x65;&#97;&#116;&#101;&#64;&#102;&#111;&#120;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#120;&#x67;&#x6d;&#99;&#x72;&#x65;&#97;&#116;&#101;&#64;&#102;&#111;&#120;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a>；将第一时间修复操作系统；</li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
-<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
-</ul>
-<p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>
-]]></content>
-      <categories>
-        <category>GoupOS</category>
-        <category>GoupOS嵌入式实时操作系统</category>
-      </categories>
-      <tags>
-        <tag>嵌入式实时操作系统</tag>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
       </tags>
   </entry>
   <entry>
@@ -490,6 +324,37 @@
       </tags>
   </entry>
   <entry>
+    <title>全面的Cortex-M内核资源汇总</title>
+    <url>/2022/05/11/ARM%E5%86%85%E6%A0%B8/%E5%85%A8%E9%9D%A2%E7%9A%84Cortex-M%E5%86%85%E6%A0%B8%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[<blockquote>
+<p>全面的Cortex-M内核资源汇总</p>
+</blockquote>
+<span id="more"></span>
+<ol>
+<li><p><a href="https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/cortex-m-resources">所有Cortex-M资源</a></p>
+</li>
+<li><p><a href="https://www.arm.com/resources/education/books/mve-reference-book">新:Arm Cortex-M处理器的Arm氦技术M-Profile矢量扩展(MVE )(参考书)</a></p>
+</li>
+</ol>
+<ul>
+<li><a href="https://www.armbbs.cn/forum.php?mod=viewthread&tid=94790&highlight=%CA%B7%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%C8%AB%EF%BF%BD%EF%BF%BD%EF%BF%BD">参考文档地址</a></li>
+</ul>
+<ol start="3">
+<li><p>主要查看这些数据手册: 数据手册(DS)：电器特性、内核；参考手册（RM）：包含所有外设；编程手册（PM）。</p>
+</li>
+<li><p><a href="https://github.com/ARM-software/CMSIS_5">ARM内核软件包</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>ARM</category>
+        <category>Cortex-M</category>
+      </categories>
+      <tags>
+        <tag>ARM内核</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>VsCode的部分基本操作</title>
     <url>/2022/05/10/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/VsCode%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<blockquote>
@@ -520,6 +385,30 @@
       </tags>
   </entry>
   <entry>
+    <title>GCC编译器关键字</title>
+    <url>/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/GCC%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <content><![CDATA[<blockquote>
+<p>GCC编译器关键字 <code>__attribute__ ((__packed__))</code> </p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="GNU-C编译器中的关键字"><a href="#GNU-C编译器中的关键字" class="headerlink" title="GNU C编译器中的关键字"></a>GNU C编译器中的关键字</h1><ol>
+<li><code>__attribute__ ((__packed__))</code>取消字节对齐，紧凑排列占用内存的方式，<figure class="highlight plaintext"><figcaption><span>示例</span></figcaption><table><tr><td class="code"><pre><span class="line">struct test1 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;	//占用8字节</span><br><span class="line"> </span><br><span class="line">struct __attribute__ ((__packed__)) test2 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;	//占用5字节</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>指定x字节对齐 <code>__align(x)</code></li>
+</ol>
+]]></content>
+      <categories>
+        <category>GCC</category>
+        <category>编译器关键字</category>
+      </categories>
+      <tags>
+        <tag>编译器关键字</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>DAPlink源码分解</title>
     <url>/2022/05/09/%E7%83%A7%E5%BD%95%E5%99%A8/DAPlink%E6%BA%90%E7%A0%81%E5%88%86%E8%A7%A3/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
@@ -539,125 +428,6 @@
       </categories>
       <tags>
         <tag>烧录器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CAN总线协议个人见解</title>
-    <url>/2022/05/26/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/CAN%E6%80%BB%E7%BA%BF%E5%8D%8F%E8%AE%AE%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3/</url>
-    <content><![CDATA[<p>CAN总线协议个人见解,可能有些地方理解的不对，请大家多多指正</p>
-<span id="more"></span>
-<ol>
-<li>test</li>
-</ol>
-]]></content>
-      <categories>
-        <category>总线协议</category>
-        <category>CAN</category>
-      </categories>
-      <tags>
-        <tag>总线协议</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>管理服务器</title>
-    <url>/2022/04/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="229d9862cac849f752ed9b8f963297ea1f884f21cfc29be761a8d67229ff85ad">6347daf711dfb81fc22167a188af0e33d3bcb6e9abef9937802803ce13d2a936a0523c8410dd3ce110a8ac0baf92c1a2de0e1d343840bb62f34fa6b744844f7436514b3aa42fc88c0c192b2c528b956e7cc2c6790f9d755dcb7d1f01143025ad0d0c7b90b1503f067dc531efa58dc4062d632dea46b8f4c1ad4eb2a810138ee6364250b70e24c6d83abf46bb7abd6cfefe40f5846bf5347bced92b959ca4ae4e</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>服务器</category>
-      </categories>
-      <tags>
-        <tag>个人服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>阅读书籍1</title>
-    <url>/2022/05/31/%E9%98%85%E8%AF%BB%E4%B9%A6%E7%B1%8D/%E9%98%85%E8%AF%BB%E4%B9%A6%E7%B1%8D1/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="05722d9c79ef7cdfced9944407072074bd0513883c9ae68986c8856fedc0af07">d7ff8efac6d65f0a9574d785f473efdffa496f470f5bd840eeed050e99f1047306e82bae8b7fa2f6ec0d7c3242cefc37a4bfe06637ec44291ea2e850cc9b9185d4b97db975e68d734c2c1d4565a78563298d780a8f4a3e17b25594f25f193533aacfc36e25df09018f9174fa638326a106a7d9c189997f1273db9a1571028f4e3938655ad7240c143f72af847d5d972b8bb17886c2cd1409c50180980790cc1e3c307af69d90afc6f2cc348196362fe40b7633bf833130bd30b59b96226a9362113a3f5628542ee01133bbbddae5f6d6ab8c9b472ae68f34bb716c9c640991f9470339238423fbc2dd7ba05e0e747188cbe27c50dab2425a598bc01b1a134b71d90ea5148ece1bcab059f6ae44ce80abcd1f3f385e8f9f9ab174e8c73e45981dcca56edb6ae66aaa79d7fe9cf6f8d1a48bdb086ca3309c4dce03527b47d7bd97be8abf1453d6804f522f6898ef7abfd7cfa8132b5bc762bb8000ddf1d88618e4de100a8e551d50260aae964736b92b9f652ca6f07c9ed7810082ad65c2598a367b96543e02a0b5fec04b2846ea3b6ca20ad4e4cf3c26a6fad7d767981dcfcc97514d8598bd807873b16ab48fbda21b699c24420fe3208b89420a7bce44edf96ffe3ddedd7755e12f416f17ff3776614b7ea2157f28359b00341794f71a16346e8029d2244d350bfd8fb0e857b91188c90bf8284498abe4b500fc76e55ae6325a59283c4c133e379dd49dc610e50172d0</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>阅读书籍</category>
-        <category>ARM</category>
-      </categories>
-      <tags>
-        <tag>阅读书籍</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoupOS内核基础</title>
-    <url>/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<blockquote>
-<p>GoupOS内核基础</p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="1-内核简介"><a href="#1-内核简介" class="headerlink" title="1. 内核简介"></a>1. 内核简介</h2><p>内核是操作系统最基础也是最重要的部分。下图为GoupOS内核架构图，内核处于硬件层之上，内核部分包括内核库、实时内核实现。<br><img data-src="https://s2.loli.net/2022/05/06/MRfU9HDBcPlbYvS.png" alt="GoupOS内核架构图.png"><br>内核库是为了保证内核能够独立运行的一套小型的类似C库（c库：也叫C运行库(C Runtime Library)，它提供了类似strcpy、memcpy等函数，有些也会包括printf、scanf函数的实现。GoupOS内核用到的一小部分C库函数实现。）的函数实现子集。这部分根据编译器的不同，自带C库的情况也会有些不同，当使用GNU、GCC编译器时，会携带更多的标准C库实现。<br>实时内核的实现包括：对象管理、线程管理及调度器、线程间通信、时钟管理及内存管理等。</p>
-<h3 id="1-线程调度"><a href="#1-线程调度" class="headerlink" title="1. 线程调度"></a>1. 线程调度</h3><p>线程是GoupOS操作系统中最小的调度单位，线程调度算法是基于优先级的全抢占式多线程调度算法，即在系统中除了中断处理函数、调度器上锁部分的代码和禁止中断的代码不可抢占之外，系统的其他部分都是可以抢占的，包括线程调度器自身。支待32个线程优先级，0优先级代表最高优先级，最低优先级留给空闲线程使用；同时它也支持创建多个具有相同优先级的线程，相同优先级的线程间采用时间片的轮转调度算法进行调度，使每个线程运行相同时间；另外调度器在寻找那些处于就绪状态的具有最高优先级的线程时，所经历的时间是恒定的，系统也不限制线程数量的多少，线程数目只和硬件平台的具体内存相关。</p>
-<h3 id="2-时钟管理"><a href="#2-时钟管理" class="headerlink" title="2. 时钟管理"></a>2. 时钟管理</h3><p>GoupOS的时钟管理以时钟节拍为基础， 时钟节拍是操作系统中最小的时钟单位。GoupOS的定时器提供两类定时器机制：第一类是单次触发定时器， 这类定时器在启动后只会触发一次定时器事件， 然后定时器自动停止。 第二类是周期触发定时器，这类定时器会 周期性地触发定时器事件， 直到用户手动停止定时器， 否则将永远待续执行下去。<br>另外， 根据超时函数执行时所处的上下文环境，GoupOS的定时器 可以设置为HARD_TIMER模式或者SOFT_TIMER模式。<br>通常使用定时器定时回调函数（即超时函数）， 完成定时服务。 用户根据自己对定时处理的实时性要求选择合适类型的定时器。</p>
-<h3 id="3-线程间同步"><a href="#3-线程间同步" class="headerlink" title="3. 线程间同步"></a>3. 线程间同步</h3><p>GoupOS采用信号量、互斥量与事件集实现线程间同步。 线程通过对信号量、互斥量的获取与释放进行同步；互斥量采用优先级继承的方式解决了实时系统常见的优先级翻转问题。 线程同步机制支持线程按优先级等待或按先进先出方式获取信号量或互斥量。 线程 通过对事件的发送与接收进行同步；事件集支待多事件的 ”或触发” 和 ”与触发”，适合线 程等待多个事件的情况。</p>
-<h3 id="4-线程间通信"><a href="#4-线程间通信" class="headerlink" title="4. 线程间通信"></a>4. 线程间通信</h3><p>GoupOS目前只支持支持邮箱通信机制。 邮箱中一封邮件能够接收非固定长度的消息。并把邮件缓存在自己的内存空间中。邮箱的发送动作可安全用于中断服务例程中。 通信机制支持线程按优先级等待或按先进先出方式获取。</p>
-<h3 id="5-内存管理"><a href="#5-内存管理" class="headerlink" title="5. 内存管理"></a>5. 内存管理</h3><p>GoupOS目前只支持静态内存池管理。当静态内存池具有可用内存时，系统对内存块分配的时间将是恒定的；当静态内存池为空时，系统将申请内存块的线程挂起或阻塞掉（即线程等待一段时间后仍未获得内存块就放弃申请并返回，或者立刻返回。等待的时间取决千申请内存块时设置的等待时间参数），当其他线程释放内存块到内存池时，如果有挂起的待分配内存块的线程存在的话，则系统会将这个线程唤醒。</p>
-<h2 id="2-GoupOS启动流程"><a href="#2-GoupOS启动流程" class="headerlink" title="2. GoupOS启动流程"></a>2. GoupOS启动流程</h2><p>要了解一份代码大多从启动部分开始，这里也采用这种方式，先寻找启动的源头。以MDK-ARM为例，MDK-ARM的用户程序入口为main()函数，位于main.c文件中。系统启动后先从汇编代码startup_stm32f429_439xx.s开始运行，然后跳转到C代码，进行GoupOS系统功能初始化，最后进入用户程序入口main()。启动流程如下图所示。<br><img data-src="https://s2.loli.net/2022/05/07/Ch7HaRjqP1B2vJD.png" alt="GoupOS启动流程图1.png"><img data-src="https://s2.loli.net/2022/05/07/2dsfj4HMbQYIXrK.png" alt="GoupOS启动流程图2.png"><br>    这部分启动代码大致可以分为4个部分：<br>    (1)	初始化与系统相关的硬件；<br>    (2)	初始化系统内核对象，例如定时器、调度器、信号；<br>    (3)	创建main线程，在main线程中对各类模块依次进行初始化；<br>    (4)	初始化定时器线程、空闲线程，并启动调度器。</p>
-<h2 id="3-GoupOS程序内存分布"><a href="#3-GoupOS程序内存分布" class="headerlink" title="3. GoupOS程序内存分布"></a>3. GoupOS程序内存分布</h2><p>一般MCU包含的存储空间有片内Flash与片内RAM,RAM相当于内存，Flash相当于硬盘。编译器会将一个程序分类为好几个部分，分别存储在MCU不同的存储区。<br>Keil工程在编译完之后，会有相应的程序所占用的空间提示信息，如下图<br><img data-src="https://s2.loli.net/2022/05/07/Ygo3H8ZQcTjJFmR.png" alt="GoupOS编译信息.png"><br>图中提到Program Size包含以下几部分：<br>(1)	 Code:代码段，存放程序的代码部分。<br>(2)	 RO-data:只读数据段，存放程序中定义的常量。<br>(3)	 RW-data:读写数据段，存放初始化为非0值的全局变最。<br>(4)	 ZI-data: 0数据段，存放未初始化的全局变最及初始化为0的变最。<br>程序编译完成后会生成一个．map文件，该文件说明了各个函数占用的尺寸和地址，在该文件的最后几行也说明了上面几个字段的关系：<br>Total RO  Size (Code + RO Data)                13840 (  13.52kB)<br>Total RW  Size (RW Data + ZI Data)             28272 (  27.61kB)<br>Total ROM Size (Code + RO Data + RW Data)      13964 (  13.64kB)<br>(1)	 RO Size包含了Code及RO-data,表示程序占用Flash空间的大小；<br>(2)	 RW Size包含了RW-data及ZI-data,表示运行时占用的RAM的大小；<br>(3)	 ROM Size包含了Code、ROData以及RWData,表示烧写程序所占用的Flash空间的大小。<br>程序运行之前，需要有文件实体被烧录到STM32的Flash中，一般是bin或者hex文件，该被烧录文件称为可执行映像文件。</p>
-<h2 id="4-GoupOS内核对象管理架构"><a href="#4-GoupOS内核对象管理架构" class="headerlink" title="4. GoupOS内核对象管理架构"></a>4. GoupOS内核对象管理架构</h2><p>GoupOS采用内核对象管理系统来访问&#x2F;管理所有内核对象， 内核对象包含内核中绝大部分设施， 这些内核对象可以是静态分配的静态对象。<br>通过这种内核对象的设计方式，GoupOS做到了不依赖于具体的内存分配方式， 系统的灵活性得到了极大的提高。<br>GoupOS内核对象包括线程、信号景、互斥量、事件、邮箱、消息队列和定时器等。对象容器中包含每类内核对象的信息，包括对象类型、大小等。对象一个链表，所有的内核对象都被链接到该链表上，GoupOS的容器给每类内核对象分配了，目前该部分功能预留，未完成后续开发完成该功能。</p>
-<h2 id="5-GoupOS内核配置示例"><a href="#5-GoupOS内核配置示例" class="headerlink" title="5. GoupOS内核配置示例"></a>5. GoupOS内核配置示例</h2><p>GoupOS的一个重要特性是高度可裁剪性，支待对内核进行精细调整，对组件进行灵活拆卸。其配置主要通过修改工程目录下的GoupOSconfig.h文件来进行，用户可以通过打开／关闭该文件中的宏定义来对代码进行条件编译，最终达到系统配置和裁剪的目的，如下所示。</p>
-<ol>
-<li>GoupOS内核部分。<figure class="highlight plaintext"><figcaption><span>GoupOSconfig.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/*系统自述*/</span><br><span class="line">#define    OS_SPLITLINE             &quot;----------------------------------------------------------------------------------\n&quot;</span><br><span class="line">#define    OS_NAME                  &quot;本套嵌入式系统名称: GoupOS 、Goup_OS 、Goupos\n&quot;</span><br><span class="line">#define    OS_AUTHOR_MAIL           &quot;author：XGM    mailbox：xgmcreate@foxmail.com\n&quot;</span><br><span class="line">#define    OS_VERSION               &quot;version：V1.111(版本号说明主版本号、子版本号、修正版本号、开发版本号)\n&quot;</span><br><span class="line">#define    OS_INFO                  &quot;本嵌入式系统正在规模测试中，如果使用遇到任何问题，请发邮件到作者邮箱中，作者会及时解决\n&quot;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 定义预备，防止移植代码缺失该部分定义</span><br><span class="line"> *        关键字的宏定义，</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define     __IO    volatile                /*!&lt; Defines &#x27;read / write&#x27; permissions              */</span><br><span class="line">#define     weak    __attribute__((weak))   /*&lt;!弱定义宏*/</span><br><span class="line">/**</span><br><span class="line"> * @brief 系统的启动流程，以及任务信息</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define OS_STARTUPINFO  1</span><br><span class="line">/**</span><br><span class="line"> * @brief OS的使能与关闭</span><br><span class="line"> */</span><br><span class="line">#define OS_ENABLE                   (1)</span><br><span class="line">#define OS_DISABLE                  (0)</span><br><span class="line"></span><br><span class="line">/* System time base. to configure */</span><br><span class="line">/*&lt;!系统时钟*/</span><br><span class="line">#define	CPU_CLOCK_HZ				(180000000)					</span><br><span class="line">/*&lt;!系统每秒钟滴答次数*/</span><br><span class="line">#define OS_1S_TICKS                 (1000)                      </span><br><span class="line">/*&lt;!系统时基*/</span><br><span class="line">#define OS_TIME_BASE				(CPU_CLOCK_HZ/OS_1S_TICKS)</span><br><span class="line">/*&lt;!系统最小时间单位*/</span><br><span class="line">#define OS_SYSTICK_MS				(1)							</span><br><span class="line">/*&lt;!滴答次数*/</span><br><span class="line">#define TICKS_PER_SEC				(1000/OS_SYSTICK_MS)		</span><br><span class="line"></span><br><span class="line">/* 系统内部配置区域 */</span><br><span class="line">//目前支持最大的优先级数量		位图目前也只支持32</span><br><span class="line">#define	TINYOS_PRO_COUNT			(32)        /*&lt;!优先级*/</span><br><span class="line">/*&lt;!关于优先级的宏定义，建议不要修改*/</span><br><span class="line">#define OS_PRI						(0)        </span><br><span class="line">/*&lt;!0：不压缩系统 1：压缩系统（暂时不可使用）时间换空间*/</span><br><span class="line">#define SMALL_OS					(0)			</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 判断芯片是否有FPU功能，如果有FPU功能：启动或者关闭FPU功能        </span><br><span class="line"> *        OS_ARM_FPU_ENABLE:    OS_ENABLE 启动FPU功能</span><br><span class="line"> *                              	 OS_DISABLE关闭FPU功能</span><br><span class="line"> * 启动FPU功能时，keil同时设置 Floating Point Hardware :Single Precision</span><br><span class="line"> */</span><br><span class="line">#define OS_ARM_FPU_ENABLE           OS_ENABLE</span><br><span class="line"></span><br><span class="line">/*&lt;!Thread FAULT off or on*/</span><br><span class="line">#define THREAD_FAULT				(0)</span><br><span class="line">/*&lt;!delay mode select 0:独立保存延时时间，1：递增的延时队列（更快）*/</span><br><span class="line">#define DELAY_MODE					(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*1:OS build add Security code;	0:OS build do not add Security code*/</span><br><span class="line">#define OS_ADD_SECURITY_CODE		(1)</span><br><span class="line">/**</span><br><span class="line"> * @brief 要求实时性高，那么只会启动部分安全代码；实时性要求不高，可以启动全部安全代码，也可以不全部启动</span><br><span class="line"> * 1：启动高实时性，部分安全代码关闭， </span><br><span class="line"> * 0：关闭高实时性但是添加全部安全代码，导致代码增大</span><br><span class="line"> */</span><br><span class="line">#define OS_HIGH_REAL_TIME           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 所有组件名称长度,默认情况下使用“OS_ALLNAME_LENGTH”宏，如果长度不够可自行定义</span><br><span class="line"> * 该部分宏定义，不能删除，否则可能系统出错</span><br><span class="line"> */</span><br><span class="line">#define OS_ALLNAME_LENGTH       (32)                         /*&lt;!待修改*/</span><br><span class="line"></span><br><span class="line">#define OS_SEMNAME_LENGTH       OS_ALLNAME_LENGTH           /*&lt;!信号量名称长度*/</span><br><span class="line">#define OS_TASKNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!任务名称长度*/</span><br><span class="line">#define OS_MAILNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_FLAGGROUP_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_MUTEX_LENGTH         OS_ALLNAME_LENGTH           /*&lt;!互斥信号量名长度*/</span><br><span class="line">#define OS_TIMERNAME_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!定时器名长度*/</span><br><span class="line">/**</span><br><span class="line">系统的空闲任务配置</span><br><span class="line">*/</span><br><span class="line">#define	OS_IDLETASK_STACK_SIZE		(1024)</span><br><span class="line">/**</span><br><span class="line"> * @brief 定时器任务的线程栈</span><br><span class="line"> *        启动中断定时器</span><br><span class="line"> *        启动软件定时器</span><br><span class="line"> *        定时器任务优先级不能与空闲线程任务优先级相同,不然空闲定时器与空闲任务是在最低优先级运行而且是按照时间片运行</span><br><span class="line"> */</span><br><span class="line">#define OS_TIMERMODULE_INIT         (1)</span><br><span class="line">#define OS_STARTHARD_TIMER          (1)</span><br><span class="line">#define OS_STARTSOFT_TIMER          (1)</span><br><span class="line">#define OS_TIMERTASK_STACK_SIZE		(1024)</span><br><span class="line">#define OS_TIMERTASK_PRIO           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 内核模块裁剪</span><br><span class="line"> * 1：打开相应的功能模块</span><br><span class="line"> * 0：关闭相应的功能模块</span><br><span class="line"> */</span><br><span class="line">/*&lt;!控制是否裁剪信号量功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_SEM               (1)             </span><br><span class="line">/*&lt;!控制是否裁剪邮箱功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MAILMSG           (1)            </span><br><span class="line">/*&lt;!控制是否裁剪内存功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MEMBLOCK          (1)             </span><br><span class="line">/*&lt;!控制是否裁剪事件标志组功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_EVENTFLAGGROUP    (1)             </span><br><span class="line">/*&lt;!控制是否裁剪互斥锁功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MUTEX             (1)            </span><br><span class="line">/*&lt;!控制是否裁剪定时器功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_TIMER             (1)             </span><br><span class="line">  /*&lt;!控制是否裁剪CPU使用率功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_CPUUSAGE_STAT     (1)           </span><br><span class="line">/*&lt;!控制是否裁剪钩子函数功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_HOOKS             (1)</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="6-GoupOS常用宏定义说明"><a href="#6-GoupOS常用宏定义说明" class="headerlink" title="6. GoupOS常用宏定义说明"></a>6. GoupOS常用宏定义说明</h2><p>GoupOS实时操作系统暂时无该部分宏定义，后续可能扩展，保留当前章节。</p>
-]]></content>
-      <categories>
-        <category>GoupOS</category>
-        <category>GoupOS设计与实现</category>
-      </categories>
-      <tags>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoupOS嵌入式实时系统文件以及说明</title>
-    <url>/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<blockquote>
-<p>GoupOS嵌入式实时系统文件以及说明</p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="1-GoupOS操作系统软件框架"><a href="#1-GoupOS操作系统软件框架" class="headerlink" title="1. GoupOS操作系统软件框架"></a>1. GoupOS操作系统软件框架</h2><p><img data-src="https://s2.loli.net/2022/05/06/4mnPZYu8ciEBXrC.png" alt="GoupOS V1.111版本软件框架.png"></p>
-<h2 id="2-嵌入式实时操作系统GoupOS文件夹说明文档"><a href="#2-嵌入式实时操作系统GoupOS文件夹说明文档" class="headerlink" title="2. 嵌入式实时操作系统GoupOS文件夹说明文档"></a>2. 嵌入式实时操作系统GoupOS文件夹说明文档</h2><p><img data-src="https://s2.loli.net/2022/05/06/7zqBgpnaSXIC581.png" alt="GoupOS操作系统文件目录说明.png"></p>
-<h2 id="3-嵌入式实时操作系统GoupOS硬件平台"><a href="#3-嵌入式实时操作系统GoupOS硬件平台" class="headerlink" title="3. 嵌入式实时操作系统GoupOS硬件平台"></a>3. 嵌入式实时操作系统GoupOS硬件平台</h2><ol>
-<li>目前GoupOS只搭载在Cortex-M3、M4、M7内核的STM32系列上运行，其他平台芯片暂时没平台，未搭载测试，后续将搭载在不同平台测试。</li>
-<li>GoupOS嵌入式实时操作系统支持Cortex内核开启FPU功能。移植到其他芯片需要注意硬件平台是否支持FPU功能，不支持需要软件关闭关闭该功能，该配置在GoupOSconfig.h文件中进行配置。</li>
-</ol>
-<h2 id="4-嵌入式实时操作系统GoupOS软件平台"><a href="#4-嵌入式实时操作系统GoupOS软件平台" class="headerlink" title="4. 嵌入式实时操作系统GoupOS软件平台"></a>4. 嵌入式实时操作系统GoupOS软件平台</h2><p>目前该操作系统编译运行的平台为keil软件平台，编译软件版本号V5.36.0.0;软件安装略，希望大家支持正版。学生或兴趣爱好者，网络提供其他方法参考。</p>
-]]></content>
-      <categories>
-        <category>GoupOS</category>
-        <category>GoupOS设计与实现</category>
-      </categories>
-      <tags>
-        <tag>GoupOS嵌入式实时操作系统</tag>
-        <tag>RTOS</tag>
       </tags>
   </entry>
   <entry>
@@ -823,6 +593,45 @@
       <tags>
         <tag>GoupOS嵌入式实时操作系统</tag>
         <tag>RTOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于东北、华北、华东、华南、华中、西南、西北</title>
+    <url>/2022/05/08/%E5%9C%B0%E7%90%86%E5%8C%BA%E5%9F%9F%E5%88%92%E5%88%86/%E5%85%B3%E4%BA%8E%E4%B8%9C%E5%8C%97%E3%80%81%E5%8D%8E%E5%8C%97%E3%80%81%E5%8D%8E%E4%B8%9C%E3%80%81%E5%8D%8E%E5%8D%97%E3%80%81%E5%8D%8E%E4%B8%AD%E3%80%81%E8%A5%BF%E5%8D%97%E3%80%81%E8%A5%BF%E5%8C%97/</url>
+    <content><![CDATA[<ul>
+<li>关于东北、华东、华北、华中、华南、西南、西北的地理分区</li>
+</ul>
+<span id="more"></span>
+
+<ol>
+<li><p>东北（黑龙江省、吉林省、辽宁省）。</p>
+</li>
+<li><p>华东（上海市、江苏省、浙江省、安徽省、福建省、江西省、山东省、台湾省）。</p>
+</li>
+<li><p>华北（北京市、天津市、山西省、河北省、内蒙古自治区）。</p>
+</li>
+<li><p>华中（河南省、湖北省、湖南省）。</p>
+</li>
+<li><p>华南（广东省、广西壮族自治区、海南省、香港特别行政区、澳门特别行政区）。</p>
+</li>
+<li><p>西南（四川省、贵州省、云南省、重庆市、西藏自治区）。</p>
+</li>
+<li><p>西北（陕西省、甘肃省、青海省、宁夏回族自治区、新疆维吾尔自治区）。</p>
+</li>
+</ol>
+<ul>
+<li>图片出处：维基百科，其中华中地区和华南地区合并在一起；</li>
+</ul>
+<img data-src="https://s2.loli.net/2022/05/08/vbg6csUOBFyI1jk.png"/>
+
+]]></content>
+      <categories>
+        <category>中国地理</category>
+        <category>大区</category>
+        <category>分区</category>
+      </categories>
+      <tags>
+        <tag>中国地理</tag>
       </tags>
   </entry>
   <entry>
@@ -1282,128 +1091,319 @@
       </tags>
   </entry>
   <entry>
-    <title>GCC编译器关键字</title>
-    <url>/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/GCC%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <title>GoupOS内核基础</title>
+    <url>/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%86%85%E6%A0%B8%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<blockquote>
-<p>GCC编译器关键字 <code>__attribute__ ((__packed__))</code> </p>
+<p>GoupOS内核基础</p>
 </blockquote>
 <span id="more"></span>
 
-<h1 id="GNU-C编译器中的关键字"><a href="#GNU-C编译器中的关键字" class="headerlink" title="GNU C编译器中的关键字"></a>GNU C编译器中的关键字</h1><ol>
-<li><code>__attribute__ ((__packed__))</code>取消字节对齐，紧凑排列占用内存的方式，<figure class="highlight plaintext"><figcaption><span>示例</span></figcaption><table><tr><td class="code"><pre><span class="line">struct test1 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;	//占用8字节</span><br><span class="line"> </span><br><span class="line">struct __attribute__ ((__packed__)) test2 &#123;</span><br><span class="line">    char c;</span><br><span class="line">    int i;</span><br><span class="line">&#125;;	//占用5字节</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<h2 id="1-内核简介"><a href="#1-内核简介" class="headerlink" title="1. 内核简介"></a>1. 内核简介</h2><p>内核是操作系统最基础也是最重要的部分。下图为GoupOS内核架构图，内核处于硬件层之上，内核部分包括内核库、实时内核实现。<br><img data-src="https://s2.loli.net/2022/05/06/MRfU9HDBcPlbYvS.png" alt="GoupOS内核架构图.png"><br>内核库是为了保证内核能够独立运行的一套小型的类似C库（c库：也叫C运行库(C Runtime Library)，它提供了类似strcpy、memcpy等函数，有些也会包括printf、scanf函数的实现。GoupOS内核用到的一小部分C库函数实现。）的函数实现子集。这部分根据编译器的不同，自带C库的情况也会有些不同，当使用GNU、GCC编译器时，会携带更多的标准C库实现。<br>实时内核的实现包括：对象管理、线程管理及调度器、线程间通信、时钟管理及内存管理等。</p>
+<h3 id="1-线程调度"><a href="#1-线程调度" class="headerlink" title="1. 线程调度"></a>1. 线程调度</h3><p>线程是GoupOS操作系统中最小的调度单位，线程调度算法是基于优先级的全抢占式多线程调度算法，即在系统中除了中断处理函数、调度器上锁部分的代码和禁止中断的代码不可抢占之外，系统的其他部分都是可以抢占的，包括线程调度器自身。支待32个线程优先级，0优先级代表最高优先级，最低优先级留给空闲线程使用；同时它也支持创建多个具有相同优先级的线程，相同优先级的线程间采用时间片的轮转调度算法进行调度，使每个线程运行相同时间；另外调度器在寻找那些处于就绪状态的具有最高优先级的线程时，所经历的时间是恒定的，系统也不限制线程数量的多少，线程数目只和硬件平台的具体内存相关。</p>
+<h3 id="2-时钟管理"><a href="#2-时钟管理" class="headerlink" title="2. 时钟管理"></a>2. 时钟管理</h3><p>GoupOS的时钟管理以时钟节拍为基础， 时钟节拍是操作系统中最小的时钟单位。GoupOS的定时器提供两类定时器机制：第一类是单次触发定时器， 这类定时器在启动后只会触发一次定时器事件， 然后定时器自动停止。 第二类是周期触发定时器，这类定时器会 周期性地触发定时器事件， 直到用户手动停止定时器， 否则将永远待续执行下去。<br>另外， 根据超时函数执行时所处的上下文环境，GoupOS的定时器 可以设置为HARD_TIMER模式或者SOFT_TIMER模式。<br>通常使用定时器定时回调函数（即超时函数）， 完成定时服务。 用户根据自己对定时处理的实时性要求选择合适类型的定时器。</p>
+<h3 id="3-线程间同步"><a href="#3-线程间同步" class="headerlink" title="3. 线程间同步"></a>3. 线程间同步</h3><p>GoupOS采用信号量、互斥量与事件集实现线程间同步。 线程通过对信号量、互斥量的获取与释放进行同步；互斥量采用优先级继承的方式解决了实时系统常见的优先级翻转问题。 线程同步机制支持线程按优先级等待或按先进先出方式获取信号量或互斥量。 线程 通过对事件的发送与接收进行同步；事件集支待多事件的 ”或触发” 和 ”与触发”，适合线 程等待多个事件的情况。</p>
+<h3 id="4-线程间通信"><a href="#4-线程间通信" class="headerlink" title="4. 线程间通信"></a>4. 线程间通信</h3><p>GoupOS目前只支持支持邮箱通信机制。 邮箱中一封邮件能够接收非固定长度的消息。并把邮件缓存在自己的内存空间中。邮箱的发送动作可安全用于中断服务例程中。 通信机制支持线程按优先级等待或按先进先出方式获取。</p>
+<h3 id="5-内存管理"><a href="#5-内存管理" class="headerlink" title="5. 内存管理"></a>5. 内存管理</h3><p>GoupOS目前只支持静态内存池管理。当静态内存池具有可用内存时，系统对内存块分配的时间将是恒定的；当静态内存池为空时，系统将申请内存块的线程挂起或阻塞掉（即线程等待一段时间后仍未获得内存块就放弃申请并返回，或者立刻返回。等待的时间取决千申请内存块时设置的等待时间参数），当其他线程释放内存块到内存池时，如果有挂起的待分配内存块的线程存在的话，则系统会将这个线程唤醒。</p>
+<h2 id="2-GoupOS启动流程"><a href="#2-GoupOS启动流程" class="headerlink" title="2. GoupOS启动流程"></a>2. GoupOS启动流程</h2><p>要了解一份代码大多从启动部分开始，这里也采用这种方式，先寻找启动的源头。以MDK-ARM为例，MDK-ARM的用户程序入口为main()函数，位于main.c文件中。系统启动后先从汇编代码startup_stm32f429_439xx.s开始运行，然后跳转到C代码，进行GoupOS系统功能初始化，最后进入用户程序入口main()。启动流程如下图所示。<br><img data-src="https://s2.loli.net/2022/05/07/Ch7HaRjqP1B2vJD.png" alt="GoupOS启动流程图1.png"><img data-src="https://s2.loli.net/2022/05/07/2dsfj4HMbQYIXrK.png" alt="GoupOS启动流程图2.png"><br>    这部分启动代码大致可以分为4个部分：<br>    (1)	初始化与系统相关的硬件；<br>    (2)	初始化系统内核对象，例如定时器、调度器、信号；<br>    (3)	创建main线程，在main线程中对各类模块依次进行初始化；<br>    (4)	初始化定时器线程、空闲线程，并启动调度器。</p>
+<h2 id="3-GoupOS程序内存分布"><a href="#3-GoupOS程序内存分布" class="headerlink" title="3. GoupOS程序内存分布"></a>3. GoupOS程序内存分布</h2><p>一般MCU包含的存储空间有片内Flash与片内RAM,RAM相当于内存，Flash相当于硬盘。编译器会将一个程序分类为好几个部分，分别存储在MCU不同的存储区。<br>Keil工程在编译完之后，会有相应的程序所占用的空间提示信息，如下图<br><img data-src="https://s2.loli.net/2022/05/07/Ygo3H8ZQcTjJFmR.png" alt="GoupOS编译信息.png"><br>图中提到Program Size包含以下几部分：<br>(1)	 Code:代码段，存放程序的代码部分。<br>(2)	 RO-data:只读数据段，存放程序中定义的常量。<br>(3)	 RW-data:读写数据段，存放初始化为非0值的全局变最。<br>(4)	 ZI-data: 0数据段，存放未初始化的全局变最及初始化为0的变最。<br>程序编译完成后会生成一个．map文件，该文件说明了各个函数占用的尺寸和地址，在该文件的最后几行也说明了上面几个字段的关系：<br>Total RO  Size (Code + RO Data)                13840 (  13.52kB)<br>Total RW  Size (RW Data + ZI Data)             28272 (  27.61kB)<br>Total ROM Size (Code + RO Data + RW Data)      13964 (  13.64kB)<br>(1)	 RO Size包含了Code及RO-data,表示程序占用Flash空间的大小；<br>(2)	 RW Size包含了RW-data及ZI-data,表示运行时占用的RAM的大小；<br>(3)	 ROM Size包含了Code、ROData以及RWData,表示烧写程序所占用的Flash空间的大小。<br>程序运行之前，需要有文件实体被烧录到STM32的Flash中，一般是bin或者hex文件，该被烧录文件称为可执行映像文件。</p>
+<h2 id="4-GoupOS内核对象管理架构"><a href="#4-GoupOS内核对象管理架构" class="headerlink" title="4. GoupOS内核对象管理架构"></a>4. GoupOS内核对象管理架构</h2><p>GoupOS采用内核对象管理系统来访问&#x2F;管理所有内核对象， 内核对象包含内核中绝大部分设施， 这些内核对象可以是静态分配的静态对象。<br>通过这种内核对象的设计方式，GoupOS做到了不依赖于具体的内存分配方式， 系统的灵活性得到了极大的提高。<br>GoupOS内核对象包括线程、信号景、互斥量、事件、邮箱、消息队列和定时器等。对象容器中包含每类内核对象的信息，包括对象类型、大小等。对象一个链表，所有的内核对象都被链接到该链表上，GoupOS的容器给每类内核对象分配了，目前该部分功能预留，未完成后续开发完成该功能。</p>
+<h2 id="5-GoupOS内核配置示例"><a href="#5-GoupOS内核配置示例" class="headerlink" title="5. GoupOS内核配置示例"></a>5. GoupOS内核配置示例</h2><p>GoupOS的一个重要特性是高度可裁剪性，支待对内核进行精细调整，对组件进行灵活拆卸。其配置主要通过修改工程目录下的GoupOSconfig.h文件来进行，用户可以通过打开／关闭该文件中的宏定义来对代码进行条件编译，最终达到系统配置和裁剪的目的，如下所示。</p>
+<ol>
+<li>GoupOS内核部分。<figure class="highlight plaintext"><figcaption><span>GoupOSconfig.h</span></figcaption><table><tr><td class="code"><pre><span class="line">/*系统自述*/</span><br><span class="line">#define    OS_SPLITLINE             &quot;----------------------------------------------------------------------------------\n&quot;</span><br><span class="line">#define    OS_NAME                  &quot;本套嵌入式系统名称: GoupOS 、Goup_OS 、Goupos\n&quot;</span><br><span class="line">#define    OS_AUTHOR_MAIL           &quot;author：XGM    mailbox：xgmcreate@foxmail.com\n&quot;</span><br><span class="line">#define    OS_VERSION               &quot;version：V1.111(版本号说明主版本号、子版本号、修正版本号、开发版本号)\n&quot;</span><br><span class="line">#define    OS_INFO                  &quot;本嵌入式系统正在规模测试中，如果使用遇到任何问题，请发邮件到作者邮箱中，作者会及时解决\n&quot;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 定义预备，防止移植代码缺失该部分定义</span><br><span class="line"> *        关键字的宏定义，</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define     __IO    volatile                /*!&lt; Defines &#x27;read / write&#x27; permissions              */</span><br><span class="line">#define     weak    __attribute__((weak))   /*&lt;!弱定义宏*/</span><br><span class="line">/**</span><br><span class="line"> * @brief 系统的启动流程，以及任务信息</span><br><span class="line"> * </span><br><span class="line"> */</span><br><span class="line">#define OS_STARTUPINFO  1</span><br><span class="line">/**</span><br><span class="line"> * @brief OS的使能与关闭</span><br><span class="line"> */</span><br><span class="line">#define OS_ENABLE                   (1)</span><br><span class="line">#define OS_DISABLE                  (0)</span><br><span class="line"></span><br><span class="line">/* System time base. to configure */</span><br><span class="line">/*&lt;!系统时钟*/</span><br><span class="line">#define	CPU_CLOCK_HZ				(180000000)					</span><br><span class="line">/*&lt;!系统每秒钟滴答次数*/</span><br><span class="line">#define OS_1S_TICKS                 (1000)                      </span><br><span class="line">/*&lt;!系统时基*/</span><br><span class="line">#define OS_TIME_BASE				(CPU_CLOCK_HZ/OS_1S_TICKS)</span><br><span class="line">/*&lt;!系统最小时间单位*/</span><br><span class="line">#define OS_SYSTICK_MS				(1)							</span><br><span class="line">/*&lt;!滴答次数*/</span><br><span class="line">#define TICKS_PER_SEC				(1000/OS_SYSTICK_MS)		</span><br><span class="line"></span><br><span class="line">/* 系统内部配置区域 */</span><br><span class="line">//目前支持最大的优先级数量		位图目前也只支持32</span><br><span class="line">#define	TINYOS_PRO_COUNT			(32)        /*&lt;!优先级*/</span><br><span class="line">/*&lt;!关于优先级的宏定义，建议不要修改*/</span><br><span class="line">#define OS_PRI						(0)        </span><br><span class="line">/*&lt;!0：不压缩系统 1：压缩系统（暂时不可使用）时间换空间*/</span><br><span class="line">#define SMALL_OS					(0)			</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 判断芯片是否有FPU功能，如果有FPU功能：启动或者关闭FPU功能        </span><br><span class="line"> *        OS_ARM_FPU_ENABLE:    OS_ENABLE 启动FPU功能</span><br><span class="line"> *                              	 OS_DISABLE关闭FPU功能</span><br><span class="line"> * 启动FPU功能时，keil同时设置 Floating Point Hardware :Single Precision</span><br><span class="line"> */</span><br><span class="line">#define OS_ARM_FPU_ENABLE           OS_ENABLE</span><br><span class="line"></span><br><span class="line">/*&lt;!Thread FAULT off or on*/</span><br><span class="line">#define THREAD_FAULT				(0)</span><br><span class="line">/*&lt;!delay mode select 0:独立保存延时时间，1：递增的延时队列（更快）*/</span><br><span class="line">#define DELAY_MODE					(0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*1:OS build add Security code;	0:OS build do not add Security code*/</span><br><span class="line">#define OS_ADD_SECURITY_CODE		(1)</span><br><span class="line">/**</span><br><span class="line"> * @brief 要求实时性高，那么只会启动部分安全代码；实时性要求不高，可以启动全部安全代码，也可以不全部启动</span><br><span class="line"> * 1：启动高实时性，部分安全代码关闭， </span><br><span class="line"> * 0：关闭高实时性但是添加全部安全代码，导致代码增大</span><br><span class="line"> */</span><br><span class="line">#define OS_HIGH_REAL_TIME           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 所有组件名称长度,默认情况下使用“OS_ALLNAME_LENGTH”宏，如果长度不够可自行定义</span><br><span class="line"> * 该部分宏定义，不能删除，否则可能系统出错</span><br><span class="line"> */</span><br><span class="line">#define OS_ALLNAME_LENGTH       (32)                         /*&lt;!待修改*/</span><br><span class="line"></span><br><span class="line">#define OS_SEMNAME_LENGTH       OS_ALLNAME_LENGTH           /*&lt;!信号量名称长度*/</span><br><span class="line">#define OS_TASKNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!任务名称长度*/</span><br><span class="line">#define OS_MAILNAME_LENGTH      OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_FLAGGROUP_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!邮箱任务名称长度*/</span><br><span class="line">#define OS_MUTEX_LENGTH         OS_ALLNAME_LENGTH           /*&lt;!互斥信号量名长度*/</span><br><span class="line">#define OS_TIMERNAME_LENGTH     OS_ALLNAME_LENGTH           /*&lt;!定时器名长度*/</span><br><span class="line">/**</span><br><span class="line">系统的空闲任务配置</span><br><span class="line">*/</span><br><span class="line">#define	OS_IDLETASK_STACK_SIZE		(1024)</span><br><span class="line">/**</span><br><span class="line"> * @brief 定时器任务的线程栈</span><br><span class="line"> *        启动中断定时器</span><br><span class="line"> *        启动软件定时器</span><br><span class="line"> *        定时器任务优先级不能与空闲线程任务优先级相同,不然空闲定时器与空闲任务是在最低优先级运行而且是按照时间片运行</span><br><span class="line"> */</span><br><span class="line">#define OS_TIMERMODULE_INIT         (1)</span><br><span class="line">#define OS_STARTHARD_TIMER          (1)</span><br><span class="line">#define OS_STARTSOFT_TIMER          (1)</span><br><span class="line">#define OS_TIMERTASK_STACK_SIZE		(1024)</span><br><span class="line">#define OS_TIMERTASK_PRIO           (1)</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 内核模块裁剪</span><br><span class="line"> * 1：打开相应的功能模块</span><br><span class="line"> * 0：关闭相应的功能模块</span><br><span class="line"> */</span><br><span class="line">/*&lt;!控制是否裁剪信号量功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_SEM               (1)             </span><br><span class="line">/*&lt;!控制是否裁剪邮箱功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MAILMSG           (1)            </span><br><span class="line">/*&lt;!控制是否裁剪内存功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MEMBLOCK          (1)             </span><br><span class="line">/*&lt;!控制是否裁剪事件标志组功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_EVENTFLAGGROUP    (1)             </span><br><span class="line">/*&lt;!控制是否裁剪互斥锁功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_MUTEX             (1)            </span><br><span class="line">/*&lt;!控制是否裁剪定时器功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_TIMER             (1)             </span><br><span class="line">  /*&lt;!控制是否裁剪CPU使用率功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_CPUUSAGE_STAT     (1)           </span><br><span class="line">/*&lt;!控制是否裁剪钩子函数功能模块*/</span><br><span class="line">#define GOUPOS_ENABLE_HOOKS             (1)</span><br></pre></td></tr></table></figure></li>
 </ol>
-<hr>
-<ol start="2">
-<li>指定x字节对齐 <code>__align(x)</code></li>
-</ol>
+<h2 id="6-GoupOS常用宏定义说明"><a href="#6-GoupOS常用宏定义说明" class="headerlink" title="6. GoupOS常用宏定义说明"></a>6. GoupOS常用宏定义说明</h2><p>GoupOS实时操作系统暂时无该部分宏定义，后续可能扩展，保留当前章节。</p>
 ]]></content>
       <categories>
-        <category>GCC</category>
-        <category>编译器关键字</category>
+        <category>GoupOS</category>
+        <category>GoupOS设计与实现</category>
       </categories>
       <tags>
-        <tag>编译器关键字</tag>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
       </tags>
   </entry>
   <entry>
-    <title>C语言中#和##的作用</title>
-    <url>/2022/06/04/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/C%E8%AF%AD%E8%A8%80%E4%B8%AD-%E5%92%8C--%E7%9A%84%E4%BD%9C%E7%94%A8/</url>
+    <title>GoupOS嵌入式实时系统文件以及说明</title>
+    <url>/2022/05/06/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E4%BB%A5%E5%8F%8A%E8%AF%B4%E6%98%8E/</url>
     <content><![CDATA[<blockquote>
-<ol>
-<li>C语言中#和##的作用</li>
-<li><pre><code>提供代码都是可以正常运行起来
-</code></pre>
-</li>
-</ol>
+<p>GoupOS嵌入式实时系统文件以及说明</p>
 </blockquote>
 <span id="more"></span>
-<p><code>#</code>和<code>##</code>符号是C和C++的宏（macro）属于编译器预处理的范畴，编译期间完成</p>
-<ol>
-<li>#的功能是将其后面的宏参数进行字符串化操作；#符号是把传递过来的参数多做字符串进行处理；简单说就是在对它所引用宏参数在其左右加一个双引号，示例代码如下：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define str(param)			#param		//#将param参数经行字符串化</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	printf(str(hello 122 333444\n)); </span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-输出结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hello 122 333444</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol>
-<li><p>##符号称为连接符,将两个或多个标记连接为一个合法的标识符；代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">/* ## */</span><br><span class="line">#define var(x)			var##x</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int var(1) = 1;</span><br><span class="line">	int	var(2) = 2;</span><br><span class="line">	int var(3) = 3;</span><br><span class="line"></span><br><span class="line">	printf(&quot;var2 : %d\n&quot;, var2);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>运行结果：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var2 : 2</span><br></pre></td></tr></table></figure></li>
-<li><p>比如要做一个菜单项由变量和函数指针组成的结构体数组，并且希望在函数名和菜单项命名之间有直观的名字上的关系，那么下面的代码就非常实用：可能在有些规则编码中是不允许使用的，因为这样，没有明确的关系，难以查找。这里只是总结一下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define barrier(x)			barrier##x</span><br><span class="line">#define COMMAND(NAME)	&#123;NAME , NAME##_command&#125;</span><br><span class="line"></span><br><span class="line">/**/</span><br><span class="line">struct command</span><br><span class="line">&#123;</span><br><span class="line">	char *name;</span><br><span class="line">	void(*function)(void);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 	建议在两个需要都被打印的数组中添加一个变量，比如下面所示；</span><br><span class="line"> * 			或者可以指定printf打印字符串长度，至于原因，自己想想</span><br><span class="line"> */</span><br><span class="line">char quit[4] = &#123;&quot;quit&quot;&#125;;</span><br><span class="line">char barrier(0) = 0;			/*阻隔*/</span><br><span class="line">char help[4] = &#123;&quot;help&quot;&#125;;</span><br><span class="line">void quit_command(void);</span><br><span class="line">void help_command(void);</span><br><span class="line"></span><br><span class="line">/*在这里已经对变量赋值和函数指针赋值,展开效果：</span><br><span class="line">* struct command commands[] = &#123;&#123;quit quit_command&#125;,&#123;help help_command&#125;&#125;;</span><br><span class="line">*/</span><br><span class="line">struct command commands[] = &#123; COMMAND(quit) ,COMMAND(help)&#125;;</span><br><span class="line"></span><br><span class="line">void quit_command(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;quit_command name: %-4.4s\n&quot;, commands[0].name);</span><br><span class="line">	/*-4.4s：关于这个可以在本博客中搜索 &quot;printf打印指定长度字符串&quot; */</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void help_command(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;help_command name: %s\n&quot;, commands[1].name);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	commands[0].function();</span><br><span class="line">	commands[1].function();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>运行结果：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">quit_command name: quit</span><br><span class="line">help_command name: help</span><br></pre></td></tr></table></figure>
-<p>COMMAND宏在这里充当一个代码生成器的作用，这样可以在一定程度上减少代码密度，间接地也可以减少不留心造成地错误，</p>
-</li>
-<li><p>我们还可以n个##连接n+1个字符串，这个也是#符号不具备地，比如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define LINK_MULT(a,b,c,d)				a##_##b##_##c##_##d</span><br><span class="line">typedef struct _record_type				LINK_MULT(name,Company,Position,salay);</span><br><span class="line">/*</span><br><span class="line">* 语句展开效果:</span><br><span class="line">* typedef struct _record_type			typedef struct _record_type	</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>##功能是在带参的宏定义中，将两个字符串连接起来，形成一个新的子串；<br>假设程序中已经定义这样一个带参的宏</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define poster(n)		printf(&quot;t&quot;#n&quot;=%d\n&quot;,t##n);</span><br><span class="line">/*同时又定义了一个整形变量*/</span><br><span class="line">int t9 = 9;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	/*在编译时，poster(9)扩展为 printf(&quot;t&quot;&quot;9&quot;&quot;=%d\n&quot;,t9);*/</span><br><span class="line">	poster(9);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>运行结果：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">t9=9</span><br></pre></td></tr></table></figure>
-<p>注意在这个例子中，<br>上面的是一般用法</p>
-</li>
-</ol>
-<hr>
-<ol>
-<li>当宏参数是另一个宏的时候，需要注意的是凡宏定义里有用<code>#</code>和##<code>的地方，宏参数是不会再展开 非</code>#<code>和</code>##&#96;的情况:</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define TOW					(2)</span><br><span class="line">#define MUL(a,b)			(a*b)</span><br><span class="line">printf(&quot;%d * %d = %d\n&quot;,TOW,TOW,MUL(TOW,TOW));</span><br><span class="line">这行的宏展开为：</span><br><span class="line">printf(&quot;%d * %d = %d\n&quot;,2,2,MUL(2,2));</span><br></pre></td></tr></table></figure>
 
-<ol start="2">
-<li>当有<code>#</code>和<code>##</code>的时候<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define A 			2</span><br><span class="line">#define STR(s)		#s</span><br><span class="line">#define CONS(a,b)	(int)(a##e##b)</span><br><span class="line">printf(&quot;int max:%s\n&quot;, STR(INTPTR_MAX));	//INTPTR_MAX =》stdint.h</span><br><span class="line">//展开 printf(&quot;int max:%s\n&quot;, &quot;INTPTR_MAX&quot;);	//INTPTR_MAX =》stdint.h</span><br><span class="line">printf(&quot;%s\n&quot;,CONS(A,A));		//COMPILE ERROR</span><br><span class="line">//展开 printf(&quot;%s\n&quot;,&quot;AeA&quot;);</span><br></pre></td></tr></table></figure>
-INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中间转换宏，加这层宏的用意是把所有宏的参数在这层里全部展开，那么在转换宏里的那一个宏就能得到正确的宏参数。<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define A 			2</span><br><span class="line">#define _STR(s)		#s</span><br><span class="line">#define STR(s)		_STR(s)		//转换宏</span><br><span class="line">#define _CONS(a,b)	(int)(a##e##b)</span><br><span class="line">#define CONS(a,b)	_CONS(a,b)	//转换宏</span><br><span class="line"></span><br><span class="line">printf(&quot;int max:%s\n&quot;, STR(INTPTR_MAX));	//INTPTR_MAX =》stdint.h</span><br><span class="line">printf(&quot;CONS: %d\n&quot;,CONS(A,A));		//COMPILE ERROR</span><br></pre></td></tr></table></figure>
-输出结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">int max:2147483647i32</span><br><span class="line">CONS: 200</span><br></pre></td></tr></table></figure></li>
+<h2 id="1-GoupOS操作系统软件框架"><a href="#1-GoupOS操作系统软件框架" class="headerlink" title="1. GoupOS操作系统软件框架"></a>1. GoupOS操作系统软件框架</h2><p><img data-src="https://s2.loli.net/2022/05/06/4mnPZYu8ciEBXrC.png" alt="GoupOS V1.111版本软件框架.png"></p>
+<h2 id="2-嵌入式实时操作系统GoupOS文件夹说明文档"><a href="#2-嵌入式实时操作系统GoupOS文件夹说明文档" class="headerlink" title="2. 嵌入式实时操作系统GoupOS文件夹说明文档"></a>2. 嵌入式实时操作系统GoupOS文件夹说明文档</h2><p><img data-src="https://s2.loli.net/2022/05/06/7zqBgpnaSXIC581.png" alt="GoupOS操作系统文件目录说明.png"></p>
+<h2 id="3-嵌入式实时操作系统GoupOS硬件平台"><a href="#3-嵌入式实时操作系统GoupOS硬件平台" class="headerlink" title="3. 嵌入式实时操作系统GoupOS硬件平台"></a>3. 嵌入式实时操作系统GoupOS硬件平台</h2><ol>
+<li>目前GoupOS只搭载在Cortex-M3、M4、M7内核的STM32系列上运行，其他平台芯片暂时没平台，未搭载测试，后续将搭载在不同平台测试。</li>
+<li>GoupOS嵌入式实时操作系统支持Cortex内核开启FPU功能。移植到其他芯片需要注意硬件平台是否支持FPU功能，不支持需要软件关闭关闭该功能，该配置在GoupOSconfig.h文件中进行配置。</li>
 </ol>
-<hr>
-<ol>
-<li><code>#</code>和<code>##</code>的一些应用，合并匿名创建变量名<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define _ANONYMOUS1(type,var ,line)			type var##line</span><br><span class="line">#define _ANONYMOUS0(type,line)				_ANONYMOUS1(type,anonymous ,line)</span><br><span class="line">#define ANONYMOUS0(type)					_ANONYMOUS0(type,__LINE__)</span><br><span class="line"></span><br><span class="line">ANONYMOUS0(static int) = 100;</span><br></pre></td></tr></table></figure></li>
-<li>填充结构体<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define barrier(x)			barrier##x</span><br><span class="line">#define COMMAND(NAME)	&#123;NAME , NAME##_command&#125;</span><br><span class="line"></span><br><span class="line">/**/</span><br><span class="line">struct command</span><br><span class="line">&#123;</span><br><span class="line">	char *name;</span><br><span class="line">	void(*function)(void);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 	建议在两个需要都被打印的数组中添加一个变量，比如下面所示；</span><br><span class="line"> * 			或者可以指定printf打印字符串长度，至于原因，自己想想</span><br><span class="line"> */</span><br><span class="line">char quit[4] = &#123;&quot;quit&quot;&#125;;</span><br><span class="line">char barrier(0) = 0;			/*阻隔*/</span><br><span class="line">char help[4] = &#123;&quot;help&quot;&#125;;</span><br><span class="line">void quit_command(void);</span><br><span class="line">void help_command(void);</span><br><span class="line"></span><br><span class="line">/*在这里已经对变量赋值和函数指针赋值,展开效果：</span><br><span class="line">* struct command commands[] = &#123;&#123;quit quit_command&#125;,&#123;help help_command&#125;&#125;;</span><br><span class="line">*/</span><br><span class="line">struct command commands[] = &#123; COMMAND(quit) ,COMMAND(help)&#125;;</span><br><span class="line"></span><br><span class="line">void quit_command(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;quit_command name: %-4.4s\n&quot;, commands[0].name);</span><br><span class="line">	/*-4.4s：关于这个可以在本博客中搜索 &quot;printf打印指定长度字符串&quot; */</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void help_command(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;help_command name: %s\n&quot;, commands[1].name);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	commands[0].function();</span><br><span class="line">	commands[1].function();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-运行结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">quit_command name: quit</span><br><span class="line">help_command name: help</span><br></pre></td></tr></table></figure></li>
-<li>记录文件名<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define _GET_FILE_NAME(f)					#f</span><br><span class="line">#define GET_FILE_NAME(f)					_GET_FILE_NAME(f)</span><br><span class="line">char file_name[] = &#123; GET_FILE_NAME(__FILE__)&#125;;</span><br><span class="line">printf(&quot;file_name %s\n&quot;, file_name);</span><br></pre></td></tr></table></figure></li>
-<li>得到一个数值类型所对应的字符串缓冲大小<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#define _TYPE_BUF_SIZE(type)		sizeof(#type)</span><br><span class="line">#define TYPE_BUF_SIZE(type)			_TYPE_BUF_SIZE(type)</span><br><span class="line">char buf[TYPE_BUF_SIZE(INT32_MAX)] = &#123; GET_FILE_NAME (INT32_MAX) &#125;;</span><br><span class="line">printf(&quot;buf %s\n&quot;, buf);</span><br></pre></td></tr></table></figure></li>
-</ol>
+<h2 id="4-嵌入式实时操作系统GoupOS软件平台"><a href="#4-嵌入式实时操作系统GoupOS软件平台" class="headerlink" title="4. 嵌入式实时操作系统GoupOS软件平台"></a>4. 嵌入式实时操作系统GoupOS软件平台</h2><p>目前该操作系统编译运行的平台为keil软件平台，编译软件版本号V5.36.0.0;软件安装略，希望大家支持正版。学生或兴趣爱好者，网络提供其他方法参考。</p>
 ]]></content>
       <categories>
-        <category>C宏定义</category>
-        <category>中#和##的作用</category>
+        <category>GoupOS</category>
+        <category>GoupOS设计与实现</category>
       </categories>
       <tags>
-        <tag>C宏定义</tag>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
       </tags>
   </entry>
   <entry>
-    <title>宏替换printf</title>
-    <url>/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf/</url>
+    <title>关于next博客主题设置和加速</title>
+    <url>/2022/05/05/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/%E5%85%B3%E4%BA%8Enext%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%8A%A0%E9%80%9F/</url>
     <content><![CDATA[<blockquote>
-<p>宏替换printf、printf打印指定长度字符串</p>
+<p>这里就不写博客的介绍了，关于next主题修改可以参考以下这些博客，可能版本不相同，但是配置大致相似。</p>
 </blockquote>
 <span id="more"></span>
-<ol>
-<li>宏替换printf可以有如下形式：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define FUN1(msg)			printf(#msg&quot;\n&quot;)</span><br><span class="line">#define FUN2(param1,param2)	printf(&quot;the %d\n&quot;,param1##param2)</span><br><span class="line">#define FUN3(...)			printf(__VA_ARGS__)</span><br><span class="line">#define FUN4(format ,...)	printf(format,##__VA_ARGS__)</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;hello \n&quot;);</span><br><span class="line">	FUN1(hello\n);</span><br><span class="line">	FUN2(11, 22);</span><br><span class="line">	FUN3(&quot;testtttt %d ,%f , %c\n&quot;, 10, 100.23, &#x27;a&#x27;);</span><br><span class="line">	FUN4(&quot;the %d \n&quot;,100);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ol>
-<figure class="highlight plaintext"><figcaption><span>运行结果</span></figcaption><table><tr><td class="code"><pre><span class="line">hello</span><br><span class="line">hello</span><br><span class="line"></span><br><span class="line">the 1122</span><br><span class="line">testtttt 10 ,100.230000 , a</span><br><span class="line">the 100</span><br></pre></td></tr></table></figure>
+<h2 id="1-关闭指定文章的打赏功能"><a href="#1-关闭指定文章的打赏功能" class="headerlink" title="1. 关闭指定文章的打赏功能"></a>1. 关闭指定文章的打赏功能</h2><figure class="highlight plaintext"><figcaption><span>关闭指定文章的打赏功能</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">tags:</span><br><span class="line">categories:</span><br><span class="line">只需在文章头部添加下面代码既可以关闭本文章的打赏功能</span><br><span class="line">reward_settings: </span><br><span class="line">  enable: false # true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
-<hr>
-<ol>
-<li><p>原样输出字符串:<br> printf(“%s”, str);</p>
-</li>
-<li><p>输出指定长度的字符串, 超长时不截断, 不足时右对齐:<br> printf(“%Ns”, str);             –N 为指定长度的10进制数值</p>
-</li>
-<li><p>输出指定长度的字符串, 超长时不截断, 不足时左对齐:<br> printf(“%-Ns”, str);            –N 为指定长度的10进制数值</p>
-</li>
-<li><p>输出指定长度的字符串, 超长时截断, 不足时右对齐:<br> printf(“%N.Ms”, str);           –N 为最终的字符串输出长度<br>                             –M 为从参数字符串中取出的子串长度</p>
-</li>
-<li><p>输出指定长度的字符串, 超长时截断, 不足时左对齐:<br> printf(“%-N.Ms”, str);          –N 为最终的字符串输出长度<br>                             –M 为从参数字符串中取出的子串长度</p>
-</li>
-</ol>
-]]></content>
+<h2 id="1-NexT主题进阶配置"><a href="#1-NexT主题进阶配置" class="headerlink" title="1. NexT主题进阶配置"></a>1. <a href="https://wylu.me/posts/e0424f3f/">NexT主题进阶配置</a></h2><h2 id="2-提升Hexo-NexT主题加载速度"><a href="#2-提升Hexo-NexT主题加载速度" class="headerlink" title="2. 提升Hexo NexT主题加载速度"></a>2. <a href="https://finisky.github.io/responsivehexonext/">提升Hexo NexT主题加载速度</a></h2><h2 id="3-Hexo-博客-静态网站目录文件介绍"><a href="#3-Hexo-博客-静态网站目录文件介绍" class="headerlink" title="3. Hexo 博客 静态网站目录文件介绍"></a>3. <a href="https://www.cnblogs.com/baiqiantao/p/10538926.html">Hexo 博客 静态网站目录文件介绍</a></h2><h2 id="4-hexo-个人博客基于-NexT-主题"><a href="#4-hexo-个人博客基于-NexT-主题" class="headerlink" title="4. hexo 个人博客基于 NexT 主题"></a>4. <a href="https://choubin.site/2019/12/30/CustomBlogTheme/">hexo 个人博客基于 NexT 主题</a></h2>]]></content>
       <categories>
-        <category>C库函数</category>
-        <category>printf</category>
+        <category>next主题设置与加速</category>
       </categories>
       <tags>
-        <tag>C库函数</tag>
+        <tag>next主题设置</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>搭建自己的pdf在线预览工具(pdf.js)</title>
+    <url>/2022/05/04/pdf%E8%AE%BE%E7%BD%AE/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84pdf%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<blockquote>
+<p>说明:关于该功能，测试发现部分浏览器不支持显示，如果遇到浏览器不显示，请直接换一个浏览器；浏览器Microsoft Edge可以支持显示（请文明上网）</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="1-使用gitee和pdf-js搭建pdf在线浏览工具"><a href="#1-使用gitee和pdf-js搭建pdf在线浏览工具" class="headerlink" title="1. 使用gitee和pdf.js搭建pdf在线浏览工具"></a>1. 使用gitee和pdf.js搭建pdf在线浏览工具</h2><p>码云Pages(gitee pages)是一个免费的静态网页托管服务, 除此之外你还可以使用gitee pages托管博客、项目官网等. 之后我们将使用gitee pages来托管pdf.js. (使用Github Pages也可以达到同样的效果, 但是Github的访问速度慢，可以给github加一个前缀 <code>cdn.github.com</code>)</p>
+<p>pdf.js是一款使用HTML5 Canvas安全地渲染pdf文件以及遵从网页标准的网页浏览器渲染pdf文件的javascript库.该插件不需要任何本地支持，对浏览器的兼容性也比较好.</p>
+<blockquote>
+<p>不管使用何种方法实现，都需要先注册账号，<a href="https://gitee.com/">gitee</a>或者<a href="https://github.com/">github</a>账号</p>
+</blockquote>
+<blockquote>
+<p>两种方法，既有缺点也优点：<br>    1.gitee优点在于可以将仓库设置为私人仓库状态，别人无法看到你仓库中有那些文件，私密性强，github相反，必须将仓库设置公开状态。<br>      2.gitee本地上传到仓库的文件，不能自动的部署，需要手动进入<code>gitee pages</code>去更新，而github相反，是自动部署完成，不需要人为去点击。<br>      3.<code>gitee pages</code>该功能需要实名认证，需要一个工作日审核，两种方法优缺点，任君选择。</p>
+</blockquote>
+<p>在gitee或github创建名为Npdf的仓库, 创建好仓库好后，请在本地连接到远程仓库：如果觉得<code>Git</code>软件使用困难，可以使用图形软件<a href="https://desktop.github.com/">GitHubDesktop</a>管理项目，所有git的使用方法请自行百度。</p>
+<h2 id="2-下载pdf-js源码到解压到本地仓库中"><a href="#2-下载pdf-js源码到解压到本地仓库中" class="headerlink" title="2. 下载pdf.js源码到解压到本地仓库中"></a>2. 下载pdf.js源码到解压到本地仓库中</h2><p><a href="https://mozilla.github.io/pdf.js/getting_started/#download">pdf.js源码地址</a>此处我建议新手小白直接下载 <code>Prebuilt</code>版本，个人参考经验；如果是大佬，请自行选择，个人建议自行参考。</p>
+<p><img data-src="https://s2.loli.net/2022/05/04/m6KDd48Naeck7TW.png" alt="图示"></p>
+<p>将你自己要展示的pdf文件放入web文件夹下<br><img data-src="https://s2.loli.net/2022/05/04/favCULNIc4sGnKX.png" alt="图示"></p>
+<p>将文件上传到<code>gitee</code>或<code>github</code>的Npdf仓库</p>
+<h2 id="3-点击gitee的Npdf仓库中选择Service下的Gitee-Pages-进入选择创建Pages；如果使用github无此操作。"><a href="#3-点击gitee的Npdf仓库中选择Service下的Gitee-Pages-进入选择创建Pages；如果使用github无此操作。" class="headerlink" title="3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。"></a>3. 点击gitee的Npdf仓库中选择Service下的Gitee Pages.进入选择创建Pages；如果使用github无此操作。</h2><p><img data-src="https://s2.loli.net/2022/05/04/hWsUgVO3qrRaHXl.png" alt="图示"></p>
+<h2 id="4-最终可以生成如下内容-部署成功"><a href="#4-最终可以生成如下内容-部署成功" class="headerlink" title="4. 最终可以生成如下内容(部署成功)"></a>4. 最终可以生成如下内容(部署成功)</h2><p><img data-src="https://s2.loli.net/2022/05/04/hWsUgVO3qrRaHXl.png" alt="图示"></p>
+<h2 id="5-你可以使用如下链接-打开之前放入web文件夹下的pdf文件"><a href="#5-你可以使用如下链接-打开之前放入web文件夹下的pdf文件" class="headerlink" title="5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件"></a>5. 你可以使用如下链接, 打开之前放入web文件夹下的pdf文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://xgm-embedded-os.gitee.io/npdf/web/viewer.html?file=compressed.tracemonkey-pldi-09.pdf</span><br><span class="line">https://xgm-embedded-os.gitee.io/npdf 你的Npdf仓库Gitee Pages主页</span><br><span class="line">web/viewer.html</span><br><span class="line">?file= 后接pdf的名称</span><br></pre></td></tr></table></figure>
+<p><img data-src="https://s2.loli.net/2022/05/05/cdeLvmDUfbpnk2F.png" alt="效果展示"></p>
+<h2 id="6-更新PDF文件或添加新的PDF文件"><a href="#6-更新PDF文件或添加新的PDF文件" class="headerlink" title="6. 更新PDF文件或添加新的PDF文件"></a>6. 更新PDF文件或添加新的PDF文件</h2><p>之后每一次更新文件时，仅仅每次将web中的PDF文件替换，然后执行上传到git仓库；<br>添加新的PDF,只需要将新的pdf复制到web中，然后执行上传到git仓库；<br>回到gitee你创建的仓库中，点击服务-giteepages-更新部署即可即第三步操作(github没有此操作)。</p>
+<h2 id="7-参考连接"><a href="#7-参考连接" class="headerlink" title="7. 参考连接"></a>7. 参考连接</h2><p>参考一：<a href="https://www.csdn.net/tags/MtTaEg5sOTc0MTQ3LWJsb2cO0O0O.html">https://www.csdn.net/tags/MtTaEg5sOTc0MTQ3LWJsb2cO0O0O.html</a><br>参考二：<a href="https://zhuanlan.zhihu.com/p/338258872">https://zhuanlan.zhihu.com/p/338258872</a><br>参考三：<a href="https://www.cnblogs.com/sunshinezjb/p/9248144.html">https://www.cnblogs.com/sunshinezjb/p/9248144.html</a></p>
+]]></content>
+      <categories>
+        <category>搭建在线浏览PDF</category>
+      </categories>
+      <tags>
+        <tag>搭建pdf.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于hexo主题Markdown中显示PDF</title>
+    <url>/2022/05/03/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8Ehexo%E4%B8%BB%E9%A2%98Markdown%E4%B8%AD%E6%98%BE%E7%A4%BAPDF/</url>
+    <content><![CDATA[<blockquote>
+<p>本章主要是关于hexo中next主题，同时使用了pdf模块和文章加密模块不能同时显示出来的问题，进行解决，至于文章怎么加密，请自行百度解决；</p>
+</blockquote>
+<span id="more"></span>
+
+<p>此处主要解决不能显示pdf的方法：</p>
+<h2 id="方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法一：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法一： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;object data=&quot;/PDF/stm32h745zi.pdf&quot; type=&quot;application/pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;</span><br><span class="line">    &lt;embed src=&quot;/PDF/stm32h745zi.pdf&quot;&gt;</span><br><span class="line">        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/embed&gt;</span><br><span class="line">&lt;/object&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"><a href="#方法二：-复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址" class="headerlink" title="方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址"></a>方法二： 复制下面代码，将代码中pdf地址换成你的地址即可，可以网页链接也可以本地地址</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe id=&quot;myFrame&quot; src=&quot;/PDF/stm32h745zi.pdf&quot; width=&quot;100%&quot; height=&quot;500&quot;&gt;</span><br><span class="line">	&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&quot;/PDF/stm32h745zi.pdf&quot;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</span><br><span class="line">&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这里显示的高度和宽度可以自己手动指定，也可以根据页面调节，上面代码中显示的宽度是根据页面自动调节的，如果不需要可以通过修改 <code>width=&quot;100%&quot;</code>的值来指定宽度</p>
+<h2 id="方法一效果图："><a href="#方法一效果图：" class="headerlink" title="方法一效果图："></a>方法一效果图：</h2><object data="/PDF/stm32h745zi.pdf" type="application/pdf" width="100%" height="500px">
+    <embed src="/PDF/stm32h745zi.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+<h2 id="方法二效果图："><a href="#方法二效果图：" class="headerlink" title="方法二效果图："></a>方法二效果图：</h2><iframe id="myFrame" src="/PDF/stm32h745zi.pdf" width="100%" height="500">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/PDF/stm32h745zi.pdf">Download PDF</a>.</p>
+</iframe>
+]]></content>
+      <categories>
+        <category>关于hexo主题Markdown显示pdf文件</category>
+      </categories>
+      <tags>
+        <tag>Markdown显示pdf</tag>
+        <tag>hexo显示pdf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>管理服务器</title>
+    <url>/2022/04/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="229d9862cac849f752ed9b8f963297ea1f884f21cfc29be761a8d67229ff85ad">6347daf711dfb81fc22167a188af0e33d3bcb6e9abef9937802803ce13d2a936a0523c8410dd3ce110a8ac0baf92c1a2de0e1d343840bb62f34fa6b744844f7436514b3aa42fc88c0c192b2c528b956e7cc2c6790f9d755dcb7d1f01143025ad0d0c7b90b1503f067dc531efa58dc4062d632dea46b8f4c1ad4eb2a810138ee6364250b70e24c6d83abf46bb7abd6cfefe40f5846bf5347bced92b959ca4ae4e</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>服务器</category>
+      </categories>
+      <tags>
+        <tag>个人服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一台电脑上的git同时使用两个github账户</title>
+    <url>/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
+    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
+<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>git</tag>
+        <tag>双Github账号同时存在</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>双核NUCLEO-H745ZI-Q开发(1)</title>
+    <url>/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c7e9d95733ac09f1e343974f6f62ef4bd7d21e0c31693bb9433b3c89c927c201">ae403763fbd55d78c220cd8c84e9e60ee08c719c6c8c2ea63a64bfa531e9ff3293e8dc58b73c170601d5568e317d72a6d61e3a8629419ea8a37a3699e532aec663e7d449bb6cbd088d24f4b393d349c191b7d374d3f9751a2ed9095cbc2856b55e82230284f8c26c0520b4a8053dbac65bab3643a56b581e3410e9e49b7c5440eb6cb68b013a0076a682856258aa46256ae25be9e028eca024bfdf5a3fca3731e8d3e4de1bf01ebb07e8da98322f92a97bf2281988c1189d188438403b8babab87de2c2a4ac0af3a9482e3ca85332125502634b0797d93fe7fce7de1a17f219576492a8e1a7acc406a3489c116ee44cc24ea3ed8f76b44e08d0e7219e76ac3e967ff8eba65c44ddeae6d902e4bc472a8c6549f5c58aa2e7be2ac2d50608e33da2206ed296752f6e2530d6dcb1f356446fb946e073c5a90f46cf5a67401466e8a30581eba3c8830a9678a1c2d90a2fc2ec687dd0df4d4a99ff887ca3386ab1bbb5e480ab49d7e8aa20b179e3d2e0149e25ee3dadf3d5f4775eb057aa4bbdb3c3bfc903dbc8a035941b046cca7c112ac42c8d188468219a78a12edc39207a205a0e6fd5b40b0ad1d1cb0088d4947b01fd3d530860828eb8dd6a0e01802782daa768593983c60072c99a3f0c5ac018f49b2f00f2ea72562f76adff71da0e4fa8abd72eaafd3c6470516b96af81c6f2f0c7717153032627c49e38c91d6eeff56706c56a73d889f645a7d2df0e493ae122f974b2a82e7a33bbcdb4f4d7e64f38651fc3b601b68651ea035851810efc3249e4193adb6f4e374b00c6dc9df5d01defe53e5619af1cdf85f5cc6778d854c46bf002beccf730c22d1bbc6c19fb6c8dee23e7e6e3b0f904aaac6b9a37e18fdc24c88bc409d3c01f2ec3240ed6b80004c912a3c6ba813bb7de1a73e04566d18380655c06c75a6abef05398b1fdedfd8824b59491d90249bba5338bdc0c3bb0ddf420f12abdf39fc29b46486b305b1cfc58d79ed00a0d3de5b4b0840b2ea4abf6e6b2be097d94d60b382d7214815cbcf222926380155f62d6cf89c7e142109533bb32a7c5a9966d02274eabbc3595b2ce897b9e686548e0cae84333c167e94964c667798ef6b929067e67964ee2cb700296cc136ae876f28c92fecf87e1277f06079feadd67d17959f5a9a0050d6f900da34045d398d5734eb221f1035d5049d09e7beab1a5cccac65731da530386ccb605b46cbe43fb6e39c0a8a14ff8406b940c43c8def26bd9bcf3fc1e73e187d6e7c201aa5b4c19a4a918ae561a883edf4722f9f7ad08e89cce8e2617bff62ef0950403256a26184b19fbda3b361671ef2b0039b5fbfdaaef1b69ac104028fb191c329c22e7d27415c18a773102278bebb842f7fc1d0ec30d137dd3bd6690b169e652edc07b11ab95f5e62b6b924bb733da8f7d6d79c2ae4a5449fae35cb9adad6efdf9863ab74733b22e8df781fb8e61048d61a21e2f79ada38b1332a912946fb546de3fe424be3df7ec335b8026fafc436897327c43ba0c7402d5b20429f411e7b4982852b4773d58c70311a78a5412e8ad2312f80349c9e7d593168416e656f7f2a8c5d5494a6d6e63057194ef874e615f8fa036e81251795b56757ff0e19558f6c13259e9b82cfd5fdd9f941b35ce9479b3707a31ab850145c23e5711d50477198eb01a092d7f9398c2377d0da3f5b8fcedbf5ec1eefb6039e296ba2b5860997d8b879da24d605a35469e7bf558884106933d8991ae41a3df7fe3b6087bfb3a84d2c639a90c5efa683fc34663dd2f98dc2ec36817ec2ae01c7c779a1060b3ad7db36690aebe1ee3eaf498fd6323a8a177155b3eb2ceab0e4d4782307b5821b1b843821db35f70c5968168bf3fc84008683da4c6a6a7eee6762b59c9e1f6c312ce5c65319080fa7a45b8ccaaa746934c3f97678917c6f909d4d48b6218a6efd66911a1551350c2c038d7da260e7cbdde689b3752ee2073cce1db81087201e4ce42edb70e959ac869c92c905baccf38c62ce1e637b7d79e6242f3908bb61bd0560a459a0218b2187e27e0c14daea68bdce66bdd018421d5e1a10d52aee916ee18511926a8c08bfba830a6e57964deedc911ef63bb9c2aff1c436afb68f93d7faac241f60debf23516a9dcfd4f7a13a066bff4c1d07db0b300eb6db789f2aad1e7cebddcdafaca6eb3057196406c9e2a56310bf79f5db64fc75b66332623d8b5fc8485904ee9ece2bb5250fd9cb494fb1195d645fc96b1d59d74240c682de19fbdc3bb2e72cbc52ef7826aedba032b3703b7eb1aac2b548d0805501c5511628eab1aa5ce5f74889a2e4420b4556bb01ef7183e661a9f3e8517a93c72eb2953de06737c6852d167c4570849b4171049e8cf032a0f7db24d5a6e97ffc04b65d0a3162fa0cac886d7bdc6f453b79e9b56555b5a0ac30377801278ac27284e2d36a7c2efa81f15fe2d0e4a3756c62a497d025b1b5ac1b8e12c6cb5c4c4f077db20ff8bffea4520044b0e1e2bdc4b4c6fba431ca4e3e2cab681755439d523d30073acb3ffaffe0c8e6287aa00bccd56bf0b16b30cde50091bb8860f7a5c717452564391f513edc3c1df1b0917efbe3dbe87360777112e7c02456b658ad3c007f88167ae583dddc253e805f6ad4a869ac6e17efd23ba2e8ab6cc302e0ce791af0d542ce01a22d656d63941383ad8e201d8346826ab3b95e815ffdefb37f8bd2443ac27ee17f6bedd6cda9cff57c966f36804298343bc50d5ecba4d97706cc317dc2f399aaaa73546f5efa7f001340ecc11f9324a020bb7ff23b29d5fa3536135334fe0f153cc3e5c06bf1370a587d12aaccb57809f5fcbecd5e6b594a5e4072f911e64f9761b801bdd98c9825331906f6eaaffa24e1f8bce4b8767ef7a8ce5300b9fa9f8387ed833297715a296026cd8927c6b142753104c812babe75936062d897aee606432ef798da54d082b9a0ccde49fb0cfde81382259a106fa3f5aa10055ef947d7839150e76aa437fa5e9db00c684e600134baa6165cb02c174706e6024799fa06082029c33d8f49f427f3083d3b97c3aea4d44e9befa6d80058df0af6c470b0f8e0888248a75004fb39dbf5c4789716c49cf8b15f661bd24c96d29714eab2033cec46b8eba63fc3418cada80f92871115c703ad13f20cf80fdd6aefaa2cb23fe0d3a1b6decf2fa2d10332ea9481a01282adeb1e0ad0533d342f940529d675c2a83df43a12ba5ae3bee92822e2a04c86adf1debded528c10c31adac67edaace50e0dd6026f62654aa6e7575d284c8ac17c4bca0c6f4e14015e007074bdb8dcdea592446bce2b784fac92b3b190fa6921e8a0fa00743531430542d4b9e10ccbca5b38f4fbda040bcb70a8c443c71767e8e80a73213462739d78a90d55dd2c7058d4b428963244213b5a86735cc44ba18b145916e7f5253f7c223b8f5841ef51fc154b8a48a80d67aae9fe52dc85d6acedc39c83dfe2a99e6cede6e9e9a5d30a987fd38d65da60c59a387a165ecfdc2b596386b9a8ea8d323ac7f44ecf3aff21718d1293003f772b593374d0424c3d28344afb0c968174e814d1ab1f180d436e308b858e89a1ba6253582f92e78b90c57330930c78f80616bb8e58a6d1eebe0fa593b84793e0165f61326e18435a210c2179e87a8da426d62d0b856e6c4f126579e986aaa865774e04d91cd0cfeb875631f58db58586992f84c10ce750675d12e2ec6dc00be064a0f3122ebcd26cbc77fcf0776f43ecb93f756a5a129d26059f73171f8177084cc5567ace3dcff3a3589c54841bf6d0f11dac39d9afae96dca2bd288350946d948b74b81e56cdaeff22e2a9e34e1b54eb8d04c60ab9913096d975c7f90a6432be71693f1bc1dc23c232e6c011259ff35a4fda68ecf14146ce9ff08f682e15e78df2df878d38b3fd7f63f54a8d7c6a89301b5ef8c4b34a193f795b7a2ff3125bbb7d069ef22a09ea2e35acfa3c8b61fd0203ddc12f9acb514d73d4e790be74d026ffc9a814f571454a47387e5f5d25be9354ce141aa7b24b7dc5a90a0b6690f3a5be7976908ff47b8463b57bc7d72d1bc459059ec1856a4e611867f5705551f3a05c5094d92fc91fd27b402154b96737cab5b8274b4a1f37bd94826eea41ac7ecac058cd70ec5e83419d15126969fbdd9e02ba0548342cea5e2a1920be801f7538aba3077533db7f446d462e250f587c01b0a57736f95d7483023afdab9b35648ad2489ea86c7550d1e9309c902679150717b09600456776cfa3e54ae38b30f761ff2dbe0a4f3638fb023fd0c6fa05213294b400c99277a036623f25cefaab40bc548eb2a45144bc04732b16660049c9b3e1bb81c7cf07e317f9acca88f8071f771697b5997e79f7f063db8c77d0bf1ed9b055641d590b7f2e2c61c9a00bc0cc0a7013d1a909fedd992bbeb7391be5f297ea2dd763e3ef8a9fc57ae9c4319c49b7a3a6eadda565a7d421c9e39ec9071fa8859ad4bce0c3a2dde8be4c920ebf48e1d024189ca388e88d2837dd1d6b441f18e494fb4b79040dd373a21cd0f21208d97be65269ec2688490ef20f0a3e91a96ce45b7413c5f99f2b897e2f0b5a450f4c6fe0b87ce4135e208c8e2334ab4a463ae4a9b436494acf8b1fdc66ec57024d83a476fb26def034de19900952db18b853e901e6d19c6ba549927752d56d235876dcf8fb4b716338211e18f883466d04223d4253df48508c5ed57a4fd40b0d5c151d483777efefaad7be88b0de9d8e657641036655f3f9e53ced0e18677c204e9fd1531d2c70be273c1b7531e6d7aa383f36099b03861b622c2725de537aaa7415c18d76e7a171eb52a2a668efabf89c2063804d7c99c49f1fe9f1bd2ce9183375d6ba3191a063b5ce170afcd703e5063e7138f9ab31bb3a1fa228d2ebd1a241a820dd2203b367d6dddfaf927321a1a9bc54d48804c266e95615493d778917029051340cda39668b381d0fd30f460accc797c6448dce338d470b8cf347aee03b9191ad1e6763ea9e3c05895a95ab7333417ea73703d15b2cddac0fcb8281599f36d220d33e334641d24971358a295d8b9a6fc8c6ca9827fec3c49f52dc439ed111d36dd76f519ead5209ac7bf02fafeb56da0eaae77ac5eca2f0f13e3c905d86ec8a63403664ab6064510a3f8e21efc811a963c6d24d01004f612e772cabfd08a250e870a23e5382b5383fe8a96562eb5cdeead9d07554a0fee8748526110160025fb94729978e2817a373aad21ca909a1150a99408d0467e71c381c823baae40a10bc55e24067585b7e018948fd75c0df03c0d0d70cbd85ba15658272c1733336d62aff12e01df9bbb59c60ffd72d5f71fb9537e6b485c2eeddf2ac9c8c18adb3b241f1c4d09da3c9b13d13ab6de53bcdff24800bed06f878140d6d23319f07d26455a154c1254c904eac0c9e372db635e783641e12f262dccc20a8477b66b26e18771129ba7699f06f069a7d2e1278f889a23facf413bccdffb6a33f02a75743962dd1c165285ade5f54ea22a46b2bf9db0c29e347b45ff79d2dd911627533a04455ed74d56758a6290b0d85713ebd8298aff2a704ad1052963f0237340e447cbe350908c2b74137fd989b266a3ef129e7dc28f2362d3828613986815805396f335765ac3c3714fbb353e559cab37d022d53d1b01323e8b999c12eb5798b381ac4eea72adbd68d61ea4230a2d63da20afbb52fa0af7165c3343a8d030a1be10710816a36dc304bdd8a8be56bc11df4a597cff41025768ba0d54c55cee01073c91ea8cc8f3c1f96324859c8b09e457a06e7919e7c2ef9041ea6347f9ec20bb43c86b8b8e5a3c1a19af6ebfbec33b3c079f78f52cb30690d354bf665e6eb8682b9ca647529a2a6bcb81c5257b3014208220e6df6cb1268f54b0572f78c136ae8c4dca599f8940ae8d5138d70684243e7715a82263de9f612b08e99e37097c88c077bbf392f1662461934fa1248121262337c6f44dbe84d1e308a99e923b18308dbed681efacd9265ad43d596e6a85eb562df2428d64e93e2da44350e9ed948045b319b98dd9da15113217f2c7bf60b38532ffbdab90a407d88ad27297b6af11b36a84b3d6de6b226ede1bcb5c6202b3769366bff29f20ebbadee7c7f8b931ea1149f63317b5117554563251331edf8f4407f44f8700332feb6a3659b38b715bdbebde47d8f3fcc11ff33ac44fc885154fa463fa19926ed9feb51078c7cf44599cd824c2c63a0022e20b587bf5a5170c4ece7253b503f3c6263b4d0aa3d2fe84c8c643985a4e3f6417a84f0c21393133756e346e25f8667b7592c8e880367f6ddf214d64fc74eb05b49c0294a1febc59fb2888a610642e81f84ccec15da670eaa1cbddd443ca64b9bc5c9b34960954f52831417872642f8d8393f6059d3bd3d36f3516226952dbafcec9c4f5ecdd8e9af270c88c92b7576d5c5f9355a9c47ea427b25d4188076c38822b0bbd47c58530e4b5a59b5bce394ab9468ef441cb49eebf2784758c61e32c74eab2a83800cc5f8a47730dc1a612f25ddcf9c728f6a8b13c9dbbf6702afa537407dfefc7c3f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>ST</category>
+        <category>32H745ZIT6</category>
+      </categories>
+      <tags>
+        <tag>STM32H745ZIT6</tag>
+        <tag>双核</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GoupOS嵌入式实时操作系统介绍</title>
+    <url>/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><span id="more"></span>
+
+<blockquote>
+<p><a href="https://baike.baidu.com/item/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/9756763?fr=aladdin">嵌入式实时操作系统介绍</a></p>
+</blockquote>
+<ul>
+<li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#x78;&#103;&#109;&#x63;&#x72;&#x65;&#x61;&#116;&#x65;&#x40;&#x66;&#111;&#x78;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#x78;&#103;&#109;&#x63;&#x72;&#x65;&#x61;&#116;&#x65;&#x40;&#x66;&#111;&#x78;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a>；将第一时间修复操作系统；</li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
+<li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
+</ul>
+<p><img data-src="https://s2.loli.net/2022/05/05/komPdfKl2SEIUyN.png" alt="goupos操作系统软著权证书4.png"></p>
+]]></content>
+      <categories>
+        <category>GoupOS</category>
+        <category>GoupOS嵌入式实时操作系统</category>
+      </categories>
+      <tags>
+        <tag>嵌入式实时操作系统</tag>
+        <tag>GoupOS嵌入式实时操作系统</tag>
+        <tag>RTOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于git命令</title>
+    <url>/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[ <!-- <center> <font face="宋体"  size="6">关于git命令 </font></center> -->
+
+<h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><span id="more"></span>
+
+<ol>
+<li><p>在本地打开 git bash 命令行窗口，输入以下命令<br><code>cd ~/.ssh</code></p>
+</li>
+<li><p>如果没有，显示<br><code>bash: cd: /c/Users/Administrator/.ssh: No such file or directory</code></p>
+</li>
+<li><p>否则表示本地以创建 SSH key 了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">id_rsa  id_rsa.pub  known_hosts</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="创建-SSH-key"><a href="#创建-SSH-key" class="headerlink" title="创建 SSH key"></a>创建 SSH key</h1><!-- more -->
+
+<ol>
+<li>最后一个参数替换为自己的 <a href="gitee.com">Gitee</a> || <a href="github.com">Github</a> 注册邮箱<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br></pre></td></tr></table></figure></li>
+<li>接下来会提示输入生成的key存放的路径，不设置直接回车的话会默认创建在C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter file in which to save the key (/c/Users/Him/.ssh/id_rsa):</span><br><span class="line">Created directory &#x27;/c/Users/userpath/.ssh&#x27;.</span><br></pre></td></tr></table></figure></li>
+<li>再接下来会提示你输入密码，这个密码是用来每次提交的时候输入确认，可以不设置，直接回车两次<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></li>
+<li>最后成功后会看到类似如下的输出，表示成功生成SSH key了，可以到C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下查看<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Your identification has been saved in /c/Users/Him/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /c/Users/Him/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:RwvBINgH8CEt2KniltmykeyDsOseUYcwMzehFeyT86s xxxxxx@qq.com</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+---[RSA 2048]----+</span><br><span class="line">| o+%OO+o.        |</span><br><span class="line">|..=+%*+ ..       |</span><br><span class="line">| ..+o+o.. .      |</span><br><span class="line">|o.  o=.  o .     |</span><br><span class="line">|o oolalala S o      |</span><br><span class="line">| +.+.. . .       |</span><br><span class="line">|. .o    .        |</span><br><span class="line">|  . .  .         |</span><br><span class="line">|   . E.          |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="SSH验证"><a href="#SSH验证" class="headerlink" title="SSH验证"></a>SSH验证</h1><!-- more -->
+
+<ol>
+<li><p>验证本地生成的ssh，github或者gitee端密钥是否添加成功，输入如下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@gitee.com </span><br></pre></td></tr></table></figure></li>
+<li><p>如果添加成功就会显示如下语句</p>
+<blockquote>
+<p>Hi Username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Hi Username! You’ve successfully authenticated, but GITEE.COM does not provide shell access.</p>
+</blockquote>
+</li>
+<li><p>Username:是你的在git端的名称</p>
+</li>
+</ol>
+<hr>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>git命令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一篇文章</title>
+    <url>/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="第一级标题"><a href="#第一级标题" class="headerlink" title="第一级标题"></a>第一级标题</h1><h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><h3 id="这个是三级标题"><a href="#这个是三级标题" class="headerlink" title="这个是三级标题"></a>这个是三级标题</h3> <span id="more"></span>
+
+<ul>
+<li>列表1</li>
+<li>列表2<br>  a 子列表1<br>  b 子列表2</li>
+<li>列表3<br><a href="https://gitee.com/">gitee</a><br><img data-src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F1114%2F113020142315%2F201130142315-1-1200.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653257802&t=c93e7ceaa0b5c91564e5be1bbdc969b1" alt="图片测试"></li>
+</ul>
+<p><em><strong>字体加粗变斜</strong></em></p>
+<p><code>&lt;html&gt;&lt;/html&gt;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">	&lt;head&gt;</span><br><span class="line">		&lt;title&gt;标题&lt;/title&gt;</span><br><span class="line">	&lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>引用</p>
+</blockquote>
+<hr>
+<hr>
+]]></content>
+      <categories>
+        <category>测试分类</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/04/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
 </search>
