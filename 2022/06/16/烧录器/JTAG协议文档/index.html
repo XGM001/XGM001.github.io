@@ -22,28 +22,26 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"goupos.top","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="宏替换printf、printf打印指定长度字符串">
-<meta property="og:type" content="article">
-<meta property="og:title" content="宏替换printf">
-<meta property="og:url" content="https://goupos.top/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf/index.html">
+    <meta property="og:type" content="article">
+<meta property="og:title" content="JTAG协议文档">
+<meta property="og:url" content="https://goupos.top/2022/06/16/%E7%83%A7%E5%BD%95%E5%99%A8/JTAG%E5%8D%8F%E8%AE%AE%E6%96%87%E6%A1%A3/index.html">
 <meta property="og:site_name" content="个人博客">
-<meta property="og:description" content="宏替换printf、printf打印指定长度字符串">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-06-03T04:51:01.000Z">
-<meta property="article:modified_time" content="2022-06-04T08:21:38.064Z">
+<meta property="article:published_time" content="2022-06-15T16:52:30.000Z">
+<meta property="article:modified_time" content="2022-06-15T16:52:30.252Z">
 <meta property="article:author" content="xgm">
-<meta property="article:tag" content="C库函数">
+<meta property="article:tag" content="嵌入式、嵌入式实时操作系统、FPGA">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://goupos.top/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf/">
+<link rel="canonical" href="https://goupos.top/2022/06/16/%E7%83%A7%E5%BD%95%E5%99%A8/JTAG%E5%8D%8F%E8%AE%AE%E6%96%87%E6%A1%A3/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://goupos.top/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf/","path":"2022/06/03/编程开发/C语言与C库函数/宏替换printf/","title":"宏替换printf"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://goupos.top/2022/06/16/%E7%83%A7%E5%BD%95%E5%99%A8/JTAG%E5%8D%8F%E8%AE%AE%E6%96%87%E6%A1%A3/","path":"2022/06/16/烧录器/JTAG协议文档/","title":"JTAG协议文档"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>宏替换printf | 个人博客</title>
+<title>JTAG协议文档 | 个人博客</title>
   
 
 
@@ -161,7 +159,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">34</span>
+          <span class="site-state-item-count">35</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -250,7 +248,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://goupos.top/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf/">
+    <link itemprop="mainEntityOfPage" href="https://goupos.top/2022/06/16/%E7%83%A7%E5%BD%95%E5%99%A8/JTAG%E5%8D%8F%E8%AE%AE%E6%96%87%E6%A1%A3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
@@ -263,12 +261,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="宏替换printf | 个人博客">
+      <meta itemprop="name" content="JTAG协议文档 | 个人博客">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          宏替换printf
+          JTAG协议文档
         </h1>
 
         <div class="post-meta-container">
@@ -280,27 +278,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2022-06-03 12:51:01" itemprop="dateCreated datePublished" datetime="2022-06-03T12:51:01+08:00">2022-06-03</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-06-04 16:21:38" itemprop="dateModified" datetime="2022-06-04T16:21:38+08:00">2022-06-04</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/C%E5%BA%93%E5%87%BD%E6%95%B0/" itemprop="url" rel="index"><span itemprop="name">C库函数</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/C%E5%BA%93%E5%87%BD%E6%95%B0/printf/" itemprop="url" rel="index"><span itemprop="name">printf</span></a>
-        </span>
+      <time title="创建时间：2022-06-16 00:52:30" itemprop="dateCreated datePublished" datetime="2022-06-16T00:52:30+08:00">2022-06-16</time>
     </span>
 
   
@@ -319,8 +297,8 @@
       </span>
       <span class="post-meta-item-text">Changyan：</span>
     
-    <a title="宏替换printf" href="/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf/#SOHUCS" itemprop="discussionUrl">
-      <span id="sourceId::50ffd8092754d64fbb8ac2cdd1b94a36" class="cy_cmt_count" itemprop="commentCount"></span>
+    <a title="JTAG协议文档" href="/2022/06/16/%E7%83%A7%E5%BD%95%E5%99%A8/JTAG%E5%8D%8F%E8%AE%AE%E6%96%87%E6%A1%A3/#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::b4c80ecfdf135feed87e32ccc79b398d" class="cy_cmt_count" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -331,7 +309,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>803</span>
+      <span>0</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -349,29 +327,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <blockquote>
-<p>宏替换printf、printf打印指定长度字符串</p>
-</blockquote>
-<span id="more"></span>
-<ol>
-<li>宏替换printf可以有如下形式：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">#define FUN1(msg)			printf(#msg&quot;\n&quot;)</span><br><span class="line">#define FUN2(param1,param2)	printf(&quot;the %d\n&quot;,param1##param2)</span><br><span class="line">#define FUN3(...)			printf(__VA_ARGS__)</span><br><span class="line">#define FUN4(format ,...)	printf(format,##__VA_ARGS__)</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;hello \n&quot;);</span><br><span class="line">	FUN1(hello\n);</span><br><span class="line">	FUN2(11, 22);</span><br><span class="line">	FUN3(&quot;testtttt %d ,%f , %c\n&quot;, 10, 100.23, &#x27;a&#x27;);</span><br><span class="line">	FUN4(&quot;the %d \n&quot;,100);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ol>
-<figure class="highlight plaintext"><figcaption><span>运行结果</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hello</span><br><span class="line">hello</span><br><span class="line"></span><br><span class="line">the 1122</span><br><span class="line">testtttt 10 ,100.230000 , a</span><br><span class="line">the 100</span><br></pre></td></tr></table></figure>
-
-<hr>
-<ol>
-<li><p>原样输出字符串:<br> printf(“%s”, str);</p>
-</li>
-<li><p>输出指定长度的字符串, 超长时不截断, 不足时右对齐:<br> printf(“%Ns”, str);             –N 为指定长度的10进制数值</p>
-</li>
-<li><p>输出指定长度的字符串, 超长时不截断, 不足时左对齐:<br> printf(“%-Ns”, str);            –N 为指定长度的10进制数值</p>
-</li>
-<li><p>输出指定长度的字符串, 超长时截断, 不足时右对齐:<br> printf(“%N.Ms”, str);           –N 为最终的字符串输出长度<br>                             –M 为从参数字符串中取出的子串长度</p>
-</li>
-<li><p>输出指定长度的字符串, 超长时截断, 不足时左对齐:<br> printf(“%-N.Ms”, str);          –N 为最终的字符串输出长度<br>                             –M 为从参数字符串中取出的子串长度</p>
-</li>
-</ol>
-
+        
     </div>
 
     
@@ -393,22 +349,16 @@
   </div>
 </div>
 
-          <div class="post-tags">
-              <a href="/tags/C%E5%BA%93%E5%87%BD%E6%95%B0/" rel="tag"><i class="fa fa-tag"></i> C库函数</a>
-          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2022/05/31/%E9%98%85%E8%AF%BB%E4%B9%A6%E7%B1%8D/%E9%98%85%E8%AF%BB%E4%B9%A6%E7%B1%8D1/" rel="prev" title="阅读书籍1">
-                  <i class="fa fa-chevron-left"></i> 阅读书籍1
+                <a href="/2022/06/14/ARM%E5%86%85%E6%A0%B8/Cortex-m%E4%B8%ADMPU/" rel="prev" title="Cortex-m中MPU">
+                  <i class="fa fa-chevron-left"></i> Cortex-m中MPU
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2022/06/04/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/C%E8%AF%AD%E8%A8%80%E4%B8%AD-%E5%92%8C--%E7%9A%84%E4%BD%9C%E7%94%A8/" rel="next" title="C语言中#和##的作用">
-                  C语言中#和##的作用 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -423,7 +373,7 @@
 
 
 
-    <div class="comments" id="SOHUCS" sid="50ffd8092754d64fbb8ac2cdd1b94a36"></div>
+    <div class="comments" id="SOHUCS" sid="b4c80ecfdf135feed87e32ccc79b398d"></div>
 </div>
   </main>
 
