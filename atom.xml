@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-06-15T16:52:30.252Z</updated>
+  <updated>2022-06-30T18:25:23.294Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IEEE官网下载文档</title>
+    <link href="https://goupos.top/2022/07/01/%E4%B8%8B%E8%BD%BD%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/IEEE%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD%E6%96%87%E6%A1%A3/"/>
+    <id>https://goupos.top/2022/07/01/%E4%B8%8B%E8%BD%BD%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/IEEE%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD%E6%96%87%E6%A1%A3/</id>
+    <published>2022-06-30T17:13:21.000Z</published>
+    <updated>2022-06-30T18:25:23.294Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="9bc2fdca15d2b44a1333bb3944544cd5298d6a029ddeb528a6c80a1655257a06">afcdb3620860c3a0683a221e215fc71132669467eb4b18a94e282e8dc37ed5c4c4084ac6b5f21e9ef391bf7fa4a5dd07e4d298b1cad3ecb753cacd3c5b8246e3e527b93eeefda9da6d095c5b2caa274bff3f673c06ae9fc0e1c6251ef086b1d7b03bcfda2f80a6144a06e7806a43bcd2cb282c5c87bba2dea16bf1df003897c00ab0dbdddb351f943052763463003d6e1bf469f6f8d53a0acb9c90b40c305af867fad21d63ba6ad06502a875cb0f06d5583a57c1205dbe0e00b970dc4150f27c49ff0f12db00d4ae32f364122d9f14f17fdc219497106207ae21e3904afd04e2aebb540f1cbcbef9f51aab66001bcba70a8509d5aa1455324580dd1eec469ac0f10f123bf38d89af6a3c45d9f256bb618bb2493c1143142449e04a19af7642e97eccdaa008f9e2356c189619619141036ce5f2e44e0b1a1975299a2062cf15aa0f9dd1a69cb1a7d60c360927a9d110a43ea50981d1f1eac2924065daf81b02f48dbf9cd3163111bb54491cf524b455f8ace5f3c1b40ae2ae84c15b1efd3ef333e6c97e45279f04adb71e33e84e236691a1424e96e64777db38140c8eb610b477b4324b26a0b49c824312f3d1805fae99b7c1ce1e6fbe8f09e681aea67197cf1f46c897a9373efda9debfb58d0481b67fd6e3399c568a7c1eb145c46b46635e3f08be71c499729de33f89ce28fd7931dcdf81fd472bd438d19fa9ee08b58089434cd07fce24f777ac1094114b8e925f5fea8fc811a8007b31d9218dbb84b05882980f59e33872624e0fe21f17eff7c5919aa9ba7cfc375b0f01c0d07372eae5d0f2d534a19ece2cd5d5c816ef58cd74a0f1b2a9b1a8fb9debbe24c2531f178be7668b338961c9bbe706c6735233487b7e5a368ff3e3f60b584bdb2be126179423d4a55237636793625031fdd5303d5744ddde0034f72e8ec0f4299c3e3e3e3859fb99038ba2ef92095c3d7615b156ccb7f54e7d7a7cbddf5ace64a4c9c6466297507e92a4e11bc05938a89948bd2f6cfc</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-flip">      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这里是加密的内容，需要密码才能继续阅读。</summary>
+    
+    
+    
+    <category term="IEEE" scheme="https://goupos.top/categories/IEEE/"/>
+    
+    
+    <category term="IEEE" scheme="https://goupos.top/tags/IEEE/"/>
+    
+  </entry>
   
   <entry>
     <title>JTAG协议文档</title>
@@ -248,7 +269,7 @@
     <published>2022-05-19T14:41:03.000Z</published>
     <updated>2022-06-03T18:54:50.635Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>推存电脑端全屏访问，手机端访问无法显示搜索功能<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#120;&#103;&#109;&#99;&#114;&#x65;&#97;&#x74;&#101;&#x40;&#102;&#x6f;&#x78;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#120;&#103;&#109;&#99;&#114;&#x65;&#97;&#x74;&#101;&#x40;&#102;&#x6f;&#x78;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote><blockquote><p>Notification announcements for blogs<br>The full-screen access on the computer side is pushed, and the search function cannot be displayed on the mobile terminal side.<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email <a href="mailto:&#x78;&#x67;&#x6d;&#99;&#x72;&#x65;&#97;&#x74;&#101;&#64;&#102;&#111;&#x78;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x78;&#x67;&#x6d;&#99;&#x72;&#x65;&#97;&#x74;&#101;&#64;&#102;&#111;&#x78;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>推存电脑端全屏访问，手机端访问无法显示搜索功能<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#x78;&#x67;&#x6d;&#x63;&#x72;&#x65;&#97;&#116;&#x65;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x78;&#x67;&#x6d;&#x63;&#x72;&#x65;&#97;&#116;&#x65;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote><blockquote><p>Notification announcements for blogs<br>The full-screen access on the computer side is pushed, and the search function cannot be displayed on the mobile terminal side.<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email <a href="mailto:&#x78;&#103;&#x6d;&#99;&#x72;&#101;&#x61;&#116;&#101;&#64;&#102;&#111;&#x78;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x78;&#103;&#x6d;&#99;&#x72;&#101;&#x61;&#116;&#101;&#64;&#102;&#111;&#x78;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p></blockquote>]]></content>
     
     
       
@@ -449,33 +470,6 @@
     <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
     <category term="RTOS" scheme="https://goupos.top/tags/RTOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于东北、华北、华东、华南、华中、西南、西北</title>
-    <link href="https://goupos.top/2022/05/08/%E5%9C%B0%E7%90%86%E5%8C%BA%E5%9F%9F%E5%88%92%E5%88%86/%E5%85%B3%E4%BA%8E%E4%B8%9C%E5%8C%97%E3%80%81%E5%8D%8E%E5%8C%97%E3%80%81%E5%8D%8E%E4%B8%9C%E3%80%81%E5%8D%8E%E5%8D%97%E3%80%81%E5%8D%8E%E4%B8%AD%E3%80%81%E8%A5%BF%E5%8D%97%E3%80%81%E8%A5%BF%E5%8C%97/"/>
-    <id>https://goupos.top/2022/05/08/%E5%9C%B0%E7%90%86%E5%8C%BA%E5%9F%9F%E5%88%92%E5%88%86/%E5%85%B3%E4%BA%8E%E4%B8%9C%E5%8C%97%E3%80%81%E5%8D%8E%E5%8C%97%E3%80%81%E5%8D%8E%E4%B8%9C%E3%80%81%E5%8D%8E%E5%8D%97%E3%80%81%E5%8D%8E%E4%B8%AD%E3%80%81%E8%A5%BF%E5%8D%97%E3%80%81%E8%A5%BF%E5%8C%97/</id>
-    <published>2022-05-07T18:39:52.000Z</published>
-    <updated>2022-05-08T13:05:27.220Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>关于东北、华东、华北、华中、华南、西南、西北的地理分区</li></ul><span id="more"></span><ol><li><p>东北（黑龙江省、吉林省、辽宁省）。</p></li><li><p>华东（上海市、江苏省、浙江省、安徽省、福建省、江西省、山东省、台湾省）。</p></li><li><p>华北（北京市、天津市、山西省、河北省、内蒙古自治区）。</p></li><li><p>华中（河南省、湖北省、湖南省）。</p></li><li><p>华南（广东省、广西壮族自治区、海南省、香港特别行政区、澳门特别行政区）。</p></li><li><p>西南（四川省、贵州省、云南省、重庆市、西藏自治区）。</p></li><li><p>西北（陕西省、甘肃省、青海省、宁夏回族自治区、新疆维吾尔自治区）。</p></li></ol><ul><li>图片出处：维基百科，其中华中地区和华南地区合并在一起；</li></ul><img data-src="https://s2.loli.net/2022/05/08/vbg6csUOBFyI1jk.png"/>]]></content>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;关于东北、华东、华北、华中、华南、西南、西北的地理分区&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="中国地理" scheme="https://goupos.top/categories/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E7%90%86/"/>
-    
-    <category term="大区" scheme="https://goupos.top/categories/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E7%90%86/%E5%A4%A7%E5%8C%BA/"/>
-    
-    <category term="分区" scheme="https://goupos.top/categories/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E7%90%86/%E5%A4%A7%E5%8C%BA/%E5%88%86%E5%8C%BA/"/>
-    
-    
-    <category term="中国地理" scheme="https://goupos.top/tags/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E7%90%86/"/>
     
   </entry>
   
