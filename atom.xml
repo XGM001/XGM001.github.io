@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-06-30T18:25:23.294Z</updated>
+  <updated>2022-08-15T11:30:31.310Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>STM32 USB开发配置</title>
+    <link href="https://goupos.top/2022/08/13/STM32/STM32-USB%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/"/>
+    <id>https://goupos.top/2022/08/13/STM32/STM32-USB%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</id>
+    <published>2022-08-13T11:20:37.000Z</published>
+    <updated>2022-08-15T11:30:31.310Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="ac5052d84edffeea3bcbafa7d6f0777016d0e196be6ecf81c87d76ad4aebbf4b">ff5ff63191ee71b2c16b5a1a887a808ee3791a697e528d63e1db1baa13f419d3284b3d312e12f473a4419bf2da064e1bb5d0748556a3aa32a8a823a5a658b496e625a618beb012d77e4dc637191c86a3665124a7d3256108832b1e2cda7d61836d7af876e8e04701fe79d5108817ae2a</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-flip">      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这里是加密的内容，需要密码才能继续阅读。</summary>
+    
+    
+    
+    <category term="USB" scheme="https://goupos.top/categories/USB/"/>
+    
+    
+    <category term="STM32" scheme="https://goupos.top/tags/STM32/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于翻译pdf文档</title>
+    <link href="https://goupos.top/2022/07/09/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8E%E7%BF%BB%E8%AF%91pdf%E6%96%87%E6%A1%A3/"/>
+    <id>https://goupos.top/2022/07/09/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8E%E7%BF%BB%E8%AF%91pdf%E6%96%87%E6%A1%A3/</id>
+    <published>2022-07-08T19:33:08.000Z</published>
+    <updated>2022-07-08T19:37:35.338Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>翻译pdf文档</p></blockquote><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;翻译pdf文档&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="翻译pdf文档" scheme="https://goupos.top/categories/%E7%BF%BB%E8%AF%91pdf%E6%96%87%E6%A1%A3/"/>
+    
+    
+    <category term="PDF" scheme="https://goupos.top/tags/PDF/"/>
+    
+  </entry>
   
   <entry>
     <title>IEEE官网下载文档</title>
@@ -267,15 +311,15 @@
     <link href="https://goupos.top/2022/05/19/%E5%85%AC%E5%91%8A/"/>
     <id>https://goupos.top/2022/05/19/%E5%85%AC%E5%91%8A/</id>
     <published>2022-05-19T14:41:03.000Z</published>
-    <updated>2022-06-03T18:54:50.635Z</updated>
+    <updated>2022-08-13T18:56:24.431Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>推存电脑端全屏访问，手机端访问无法显示搜索功能<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#x78;&#x67;&#x6d;&#x63;&#x72;&#x65;&#97;&#116;&#x65;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x78;&#x67;&#x6d;&#x63;&#x72;&#x65;&#97;&#116;&#x65;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote><blockquote><p>Notification announcements for blogs<br>The full-screen access on the computer side is pushed, and the search function cannot be displayed on the mobile terminal side.<br>If you encounter a blog post that requires a password, the blog status has several states:<br>1.The blog is being improved, or there are some wrong places that need to be revised,<br>2.The blog is perfect, but it pays a certain price, so it is closed source.<br>If you want to view the open encrypted article, please contact me via email <a href="mailto:&#x78;&#103;&#x6d;&#99;&#x72;&#101;&#x61;&#116;&#101;&#64;&#102;&#111;&#x78;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#x78;&#103;&#x6d;&#99;&#x72;&#101;&#x61;&#116;&#101;&#64;&#102;&#111;&#x78;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a><br>If the blog data source involves copyright issues, please contact the author, you can delete or close the source, or add copyright information.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#x78;&#103;&#x6d;&#x63;&#x72;&#x65;&#97;&#x74;&#101;&#x40;&#102;&#111;&#120;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">&#x78;&#103;&#x6d;&#x63;&#x72;&#x65;&#97;&#x74;&#101;&#x40;&#102;&#111;&#120;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote>]]></content>
     
     
       
       
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;博客的通知公告&lt;br&gt;推存电脑端全屏访问，手机端访问无法显示搜索功能&lt;br&gt;如果遇到需要密码的博客文章，博客状态有几种状态：&lt;br&gt;1.博客正在完善，或者有部分不对的地方需要修改，&lt;br&gt;2.博客完善，但是付出了一定的代价，所以闭源。&lt;br&gt;如果查</summary>
+&lt;p&gt;博客的通知公告&lt;br&gt;如果遇到需要密码的博客文章，博客状态有几种状态：&lt;br&gt;1.博客正在完善，或者有部分不对的地方需要修改，&lt;br&gt;2.博客完善，但是付出了一定的代价，所以闭源。&lt;br&gt;如果查看打开加密文章，请通过邮箱联系本人 &lt;a href=&quot;</summary>
       
     
     
@@ -424,52 +468,6 @@
     
     
     <category term="编译器关键字" scheme="https://goupos.top/tags/%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DAPlink源码分解</title>
-    <link href="https://goupos.top/2022/05/09/%E7%83%A7%E5%BD%95%E5%99%A8/DAPlink%E6%BA%90%E7%A0%81%E5%88%86%E8%A7%A3/"/>
-    <id>https://goupos.top/2022/05/09/%E7%83%A7%E5%BD%95%E5%99%A8/DAPlink%E6%BA%90%E7%A0%81%E5%88%86%E8%A7%A3/</id>
-    <published>2022-05-09T12:39:49.000Z</published>
-    <updated>2022-06-03T19:21:42.075Z</updated>
-    
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="c047cea25d6562ef412501fecb3bb51ca5693b2166d09b4220b7181084dde9bc">dbefc7c589c75c7c2a455af83d8d6909dd96b9447461a2966f2073d0e380903c3d02860855d6d7f4dc617e7c541346eaaf0e56a3e3e9d705f8d212bef35615f3e9f74e500ed877cfa73bd4eedfed67525e5801faa01a81c26fda65754372fe427344629a20376d0a64d9b3219f49c3edcd5f0c546c102c2cc6fe5cc9382949002d386ff42031dbedd9aa8a1a3d205864f673d2dde9a33b0a7d528dd6054b7190ff4913a4ab22608f0e1bd49e67f68c17aac99ee14e7e5f3a2d89f5f73e29e02f3c2645248258f71e87ac89da06d822ede6bfaa3ec480ca9bbe59417a2dcf4845312d51441541b60451d7288254d2540559a346a2ec5bbcc8a7a36bdd46038fb66da16d7216416729fc3b53d7042ee8d5</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-flip">      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">这里是加密的内容，需要密码才能继续阅读。</summary>
-    
-    
-    
-    <category term="DAP-LINK" scheme="https://goupos.top/categories/DAP-LINK/"/>
-    
-    
-    <category term="烧录器" scheme="https://goupos.top/tags/%E7%83%A7%E5%BD%95%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GoupOS时钟管理</title>
-    <link href="https://goupos.top/2022/05/09/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E6%97%B6%E9%92%9F%E7%AE%A1%E7%90%86/"/>
-    <id>https://goupos.top/2022/05/09/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E6%96%87%E7%AB%A0/GoupOS%E6%97%B6%E9%92%9F%E7%AE%A1%E7%90%86/</id>
-    <published>2022-05-08T16:23:40.000Z</published>
-    <updated>2022-05-08T18:10:22.099Z</updated>
-    
-    <content type="html"><![CDATA[<p>GoupOS时钟管理</p><span id="more"></span><h1 id="1-时钟管理"><a href="#1-时钟管理" class="headerlink" title="1. 时钟管理"></a>1. 时钟管理</h1><p>时间是非常重要的概念？和朋友出去游玩需要约定时间，完成任务也需要花费时，生活离不开时间。操作系统也一样需要通过时间来规范其任务的执行。操作系统中最小的时间单位是时钟节拍(OS Tick)。时钟节拍和基于时钟节拍的定时器。</p><h2 id="1-时钟节拍"><a href="#1-时钟节拍" class="headerlink" title="1. 时钟节拍"></a>1. 时钟节拍</h2><p>任何操作系统都需要提供一个时钟节拍，以供系统处理所有与时间有关的事件， 如线程的延时、线程的时间片轮转凋度以及定时器超时等。时钟节拍是特定的周期性中断，这个中断可以被看作系统心跳，中断之间的时间间隔取决于不同的应用，一般是1~100ms。时钟节拍率越快，系统的额外开销就越大，从系统启动开始计数的时钟节拍数称为系统时间。<br>GoupOS中，时钟节拍的长度可以根据<code>OS_SYSTICK_MS</code>的定义来调整，每秒跳动次数等于<code>1/OS_SYSTICK_MS</code>秒。</p><h3 id="1-时钟节拍的实现方式"><a href="#1-时钟节拍的实现方式" class="headerlink" title="1. 时钟节拍的实现方式"></a>1. 时钟节拍的实现方式</h3><p>时钟节拍由配置为中断触发模式的硬件定时器产生，当中断到来时，将调用一次<code>void  tTaskSwitch(void)</code>，通知操作系统已经过去一个系统时钟。不同硬件定时器的中断实现都不同，下面的中断函数以STM32定时器作为示例。</p><figure class="highlight plaintext"><figcaption><span>tcpu.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/** </span><br><span class="line">  * @brief  This function handles SysTick Handler.</span><br><span class="line">  * @param  None</span><br><span class="line">  * @retval None</span><br><span class="line">  */</span><br><span class="line">void SysTick_Handler(void)</span><br><span class="line">&#123;</span><br><span class="line"> tTaskSystemTickHandler();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><figcaption><span>os_tTask.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">void tTaskSystemTickHandler(void)</span><br><span class="line">&#123;</span><br><span class="line">//...</span><br><span class="line">//code</span><br><span class="line">#if (GOUPOS_ENABLE_TIMER == 1)</span><br><span class="line">/*&lt;!定时器模块通知操作*/</span><br><span class="line">TimerModuleTickNotify();</span><br><span class="line">#endif</span><br><span class="line">//...</span><br><span class="line">//code</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="2-定时器管理"><a href="#2-定时器管理" class="headerlink" title="2. 定时器管理"></a>2. 定时器管理</h2><p>定时器的功能是从指定的时刻开始，经过指定时间后触发一个事件，例如定个时间提醒第二天能够按时起床。定时器有硬件定时器和软件定时器两种。<br>(1)硬件定时器是芯片本身提供的定时功能。一般是由外部晶振提供给芯片输入时钟，芯片向软件模块提供一组配置寄存器，接受控制输入，到达设定时间值后芯片中断控制器产生时钟中断。硬件定时器的精度一般很高，可以达到纳秒级别， 并且是中断触发方式。<br>(2)软件定时器是由操作系统提供的一类系统接口，它构建在硬件定时器基础之上，使系统能够提供不受数目限制的定时器服务。<br>GoupOS操作系统提供软件实现的定时器，以时钟节拍(OS Tick)的时间长度为单位，即定时数值必须是OS Tick的整数倍，例如一个OS Tick是10ms, 那么上层软件定时器只能是10ms、20ms、100ms等，而不能定时为15ms。GoupOS的定时器也提供了基于时钟节拍整数倍的定时能力。</p><h3 id="1-GoupOS定时器介绍"><a href="#1-GoupOS定时器介绍" class="headerlink" title="1. GoupOS定时器介绍"></a>1. GoupOS定时器介绍</h3><p>GoupOS定时器提供两类定时器机制：分别是一次性定时器任务和周期性定时器；一次性定时器在启动后只会触发一次定时器事件，然后定时器自动停止。周期触发定时器，这类定时器会周期性地触发定时器事件，直到用户手动停止，否则将永远执行下去。<br>另外，根据超时函数执行时所处的上下文环境，GoupOS的定时器可以分为<code>OS_STARTHARD_TIMER</code>模式与<code>OS_STARTSOFT_TIMER</code>模式，如下图所示。<br><img data-src="https://s2.loli.net/2022/05/09/4flR92DgIyZzT6k.png" alt="定时器.png"></p><h4 id="1-OS-STARTHARD-TIMER模式"><a href="#1-OS-STARTHARD-TIMER模式" class="headerlink" title="1. OS_STARTHARD_TIMER模式"></a>1. <code>OS_STARTHARD_TIMER</code>模式</h4><p><code>OS_STARTHARD_TIMER</code>模式的定时器超时函数在中断上下文环境中执行，可以在初始化／创建定时器时使用<code>TIMER_CONFIG_TYPE_HARD</code>参数来指定。<br>在中断上下文环境中执行时，对于定时器函数的要求与中断服务例程的要求相同：执行时间应该尽掀短，执行时不应导致当前上下文挂起、等待，例如在中断上下文中执行的超时函数不应该试图去申请动态内存、释放动态内存等。<br>GoupOS定时器，即定时器定时到达后，定时函数是在系统时钟中断的上下文环境中运行的。在中断上下文中的执行方式决定了定时器的超时函数不应该调用任何会让当前上下文挂起的系统函数；也不能够执行非常长的时间，否则会导致其他中断的响应时间加长或抢占了其他线程执行的时间。</p><h4 id="2-OS-STARTSOFT-TIMER模式"><a href="#2-OS-STARTSOFT-TIMER模式" class="headerlink" title="2. OS_STARTSOFT_TIMER模式"></a>2. <code>OS_STARTSOFT_TIMER</code>模式</h4><p><code>TIMER_CONFIG_TYPE_SOFT</code>模式可配置,通过宏定义<code>OS_STARTSOFT_TIMER</code>来决定是否启用该模式。该模式被启用后，系统会在初始化时创建一个<code>TimerTask</code>线程，然后<code>OS_STARTSOFT_TIMER</code>模式的定时器函数会在<code>TimerTask</code>线程的上下文环境中执行。可以在初始化／创建定时器时使用参数<code>TIMER_CONFIG_TYPE_SOFT</code>来设置<code>OS_STARTSOFT_TIMER</code>模式。</p><h3 id="2-定时器的工作机制"><a href="#2-定时器的工作机制" class="headerlink" title="2. 定时器的工作机制"></a>2. 定时器的工作机制</h3><p>下面以一个例子来说明GoupOS定时器的工作机制。在GoupOS定时器模块中维护着两个重要的全局变量：<br>(1)当前系统经过<code>OS tick</code>时间<code>tickCount</code>（当硬件定时器中断来临时，它将加1)。<br>(2)定时器链表<code>tTimerSoftList</code>。系统新创建并激活的定时器都会以超时时间排序的方式插入<code>tTimerSoftList</code>链表中。<br>如下图所示，系统当前<code>tickCount</code>值为20, 在当前系统中已经创建并启动了三个定时器，分别是定时时间为10个tick的timer1、20个tick的timer2和30个tick的timer3, 这三个定时器分别加上系统当前时间tickCount&#x3D;20, 按从小到大的顺序链接在<code>tTimerSoftList</code>链表中，形成如下图所示的定时器链表结构。<br><img data-src="https://s2.loli.net/2022/05/09/2WkPI9fl8xiKCjS.png" alt="定时器链表结构"></p><p>而tickCount随着硬件定时器的触发一直在增长（每一次硬件定时器中断来临，tickCount变量就会加1), 10个tick以后，tickCount从20增长到30, timerl的延时值会等于0，这时会触发timer1定时器相关联的函数，同理，40个tick 和50个tick过去后，与timer2和timer3定时器相关联的函数会被触发。<br>如果系统当前定时器状态在10个tick以后(tickCount&#x3D;30)有一个任务新创建了一个tick值为15的timer4定时器，由于timer4定时器delaytime&#x3D; tickCount +15&#x3D;45,因此它将被插入到timer3后，形成如下图所示的链表结构。<br><img data-src="https://s2.loli.net/2022/05/09/8mZo47sQiuTVkbI.png" alt="定时器链表结构"></p><h4 id="1-定时器控制块"><a href="#1-定时器控制块" class="headerlink" title="1. 定时器控制块"></a>1. 定时器控制块</h4><p>在GoupOS操作系统中，定时器控制块是操作系统用于管理定时器的一个数据结构，会存储定时器的一些信息，例如初始延时数、循环延时数，也包含定时器与定时器之间连接用的链表结构、延时到达回调函数等。<br>定时器控制块由tTimer结构体定义并形成定时器内核对象, linkNode成员则用于把一个激活的（已经启动的）定时器链接到<code>tTimerSoftList</code>和<code>tTimerHardList</code>链表中。</p><figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * @brief 定时器结构体</span><br><span class="line"> */</span><br><span class="line">typedef struct _tTimer</span><br><span class="line">&#123;</span><br><span class="line">    char  Timername[OS_TIMERNAME_LENGTH];   /*&lt;!定时器名称*/</span><br><span class="line">    uint16_t Timername_length;              /*&lt;!定时器名称长度*/</span><br><span class="line">    tNode linkNode;                         /*&lt;!链表节点*/</span><br><span class="line">    uint32_t startDelayTicks;               /*&lt;!初次(开始)启动延后的ticks数*/</span><br><span class="line">    uint32_t durationTicks;                 /*&lt;!周期定时时的周期ticks数(周期执行的时间)(持续时间滴答)*/</span><br><span class="line">    uint32_t delayTicks;                    /*&lt;!当前定时递减计数值*/</span><br><span class="line">    void (*timerFunc)(void *arg);           /*&lt;!定时回调函数*/</span><br><span class="line">    void * arg;                             /*&lt;!传递给回调函数的参数*/</span><br><span class="line">    uint32_t config;                        /*&lt;!定时器配置参数*/</span><br><span class="line">    tTimerState state;                      /*&lt;!定时器状态*/</span><br><span class="line">&#125;tTimer;</span><br></pre></td></tr></table></figure><h3 id="3-定时器的管理方式"><a href="#3-定时器的管理方式" class="headerlink" title="3. 定时器的管理方式"></a>3. 定时器的管理方式</h3><p>介绍了GoupOS定时器并对定时器的工作机制进行了概念上的讲解，本节深入介绍定时器的各个接口，帮助读者在代码层次上理解GoupOS定时器。<br>在系统启动时需要初始化定时器管理系统。可以通过下面的函数接口完成：</p><figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">void OS_TimerTaskInit(void)</span><br><span class="line">void OS_TimerModule_Init(void)；</span><br></pre></td></tr></table></figure><p>定时器控制块中含有定时器相关的重要参数，它们在定时器各种状态间起到纽带的作用。定时器的相关操作如图5-4所示，包括：创建／初始化定时器、启动定时器、停止／控制定时器、删除／脱离定时器。一次性定时器在定时到达后会从定时器链表中被移除，而周期性定时器会一直在定时器链表，这与定时器参数设置相关。在每次的操作系统时钟中断发生时，都会更改已经延时到达的定时器状态参数。<br><img data-src="https://s2.loli.net/2022/05/09/y9urhMvpQED1Jiq.png" alt="定时器的相关操"></p><h4 id="1-创建和删除定时器"><a href="#1-创建和删除定时器" class="headerlink" title="1. 创建和删除定时器"></a>1. 创建和删除定时器</h4><p>创建定时器时，可利用tTimerInit接口来初始化该定时器，函数接口如下：</p><figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void tTimerInit(char *Timername, uint16_t Timername_len,tTimer * timer,uint32_t delayTicks,uint32_t durationTicks,void (*timerFunc)(void *arg),void *arg,uint32_t config)</span><br></pre></td></tr></table></figure><p>使用该函数接口时会初始化相应的定时器控制块、定时器名称、定时器到达函数等，其中的各参数和返回值说明见下表</p><table border="1">    <caption>线程状态转换的基本函数</caption>    <tr>        <th>参数</th>        <th>描述</th>    </tr>    <tr>        <td>Timername</td>        <td>            定时器的名称        </td>    </tr>    <tr>        <td>Timername_len</td>        <td>            定时器名称长度，当名称长度超过OS_TIMERNAME_LENGTH多余的字段会被截断；        </td>    </tr>    <tr>        <td>timer</td>        <td>            定时器结构体        </td>    </tr>    <tr>        <td>delayTicks</td>        <td>            定时器初始启动时延时值        </td>    </tr>    <tr>        <td>durationTicks</td>        <td>            周期定时时的周期ticks数(周期执行的时间)(持续时间滴答)        </td>    </tr>    <tr>        <td>void (*timerFunc)(void *arg)</td>        <td>            定时器延时到达函数指针（当定时器到达时，系统会调用这个函数）        </td>    </tr>    <tr>        <td>arg</td>        <td>            定时器延时到达函数的入口参数（当定时器延时到达时，调用延时到达回调函数会把这个参数作为入口参数传递给延时到达函数）        </td>    </tr>    <tr>        <td>config</td>        <td>            通过该配置配置该定时器为软定时器还是硬件定时器配置参数:         <br>            #define TIMER_CONFIG_TYPE_HARD      (1<<0) 在中断服务函数中处理        <br>            #define TIMER_CONFIG_TYPE_SOFT      (0<<0) 在任务中处理        </td>    </tr></table><p>当一个定时器不需要再使用时，可以使用下面的函数接口：</p><figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void tTimerDestroy(tTimer * timer); //定时器删除函数</span><br></pre></td></tr></table></figure><p>删除定时器时，但是定时器对象所占有的内存不会被释放，其中的各参数和返回值说明见下表</p><table border="1">    <caption>tTimerDestroy()的输入参数</caption>    <tr>        <th>参数</th>        <th>描述</th>    </tr>    <tr>        <td>timer</td>        <td>            定时器结构体        </td>    </tr></table><h4 id="2-启动和停止定时器"><a href="#2-启动和停止定时器" class="headerlink" title="2. 启动和停止定时器"></a>2. 启动和停止定时器</h4><p>当定时器被创建或者初始化以后，并不会被立即启动，必须在调用启动定时器函数接口后才开始工作，启动定时器函数接口如下：</p><figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void tTimerStart(tTimer *timer)；</span><br></pre></td></tr></table></figure><p>调用定时器启动函数接口后，定时器的状态将更改为激活状态(tTimerStarted)，并按照配置硬件或者软件定时器插入不同队列链表中，其中的各参数和返回值说明见下表</p><table border="1">    <caption> tTimerStart()的输入参数</caption>    <tr>        <th>参数</th>        <th>描述</th>    </tr>    <tr>        <td>timer</td>        <td>            定时器结构体        </td>    </tr></table><p>启动定时器以后，若想使它停止，可以使用下面的函数接口：</p><figure class="highlight plaintext"><figcaption><span>os_tTimer.h</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void tTimerStop(tTimer *timer);  //定时器停止函数</span><br></pre></td></tr></table></figure><p>调用定时器停止函数接口后，定时器状态将更改为停止状态，并从软件<code>tTimerSoftList</code>链表或者硬件<code>tTimerHardList</code>链表中脱离出来，不参与定时器延时检查。其中的各参数和返回值说明见表</p><table border="1">    <caption> tTimerStop()的输入参数</caption>    <tr>        <th>参数</th>        <th>描述</th>    </tr>    <tr>        <td>timer</td>        <td>            定时器结构体        </td>    </tr></table><h2 id="3-定时器应用示例"><a href="#3-定时器应用示例" class="headerlink" title="3. 定时器应用示例"></a>3. 定时器应用示例</h2><p>下面是一个创建定时器的例子，该例程会创建两个定时器，一个是单次定时， 一个是周期定时并让周期性定时器运行一段时间后停止，如代码清单如下所示</p><table border="1">    <caption> 创建定时器例程</caption></table><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">#include &quot;GoupOSinclude.h&quot;</span><br><span class="line">#include &quot;app.h&quot;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">tTimer timer1;</span><br><span class="line">tTimer timer2;</span><br><span class="line"></span><br><span class="line">uint16_t timer1_num = 0;</span><br><span class="line">uint16_t timer2_num = 0;</span><br><span class="line">/*定时器1*/</span><br><span class="line">void timer1func(void *arg)</span><br><span class="line">&#123;</span><br><span class="line">   timer1_num++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*定时器2*/</span><br><span class="line">void timer2func(void *arg)</span><br><span class="line">&#123;</span><br><span class="line">／＊运行第10次，停止周期性定时器＊／</span><br><span class="line">if(++timer2_num &gt;= 10)</span><br><span class="line">&#123;</span><br><span class="line">tTimerStop(&amp;timer2);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*用户任务初始化程序*/</span><br><span class="line">void AppTaskInit(void)</span><br><span class="line">&#123;</span><br><span class="line">/*定时器初始化函数*/</span><br><span class="line">tTimerInit(&quot;timer1&quot;,sizeof(&quot;timer1&quot;),&amp;timer1,10,0,timer1func,(void * )0,TIMER_CONFIG_TYPE_SOFT);</span><br><span class="line">tTimerInit(&quot;timer2&quot;,sizeof(&quot;timer2&quot;),&amp;timer2,15,10,timer2func,(void * )0,TIMER_CONFIG_TYPE_SOFT);</span><br><span class="line">/*定时器启动函数*/</span><br><span class="line">tTimerStart(&amp;timer1);</span><br><span class="line">tTimerStart(&amp;timer2);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><table border="1">    <caption> 运行结果：前面写的钩子函数，和任务1和任务的函数还是在正常继续运行</caption></table><p><img data-src="https://s2.loli.net/2022/05/09/khronWRmpuDsyMX.png" alt="定时器例程"></p><p>周期性定时器启动时先延时15个OS Tick启动运行1次，然后延时函数每10个OS Tick运行1次，共运行10次(10次后调用tTimerStop使定时器1停止运行）；单次定时器的超时函数在第10个OSTick时运行一次。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;GoupOS时钟管理&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="GoupOS" scheme="https://goupos.top/categories/GoupOS/"/>
-    
-    <category term="GoupOS设计与实现" scheme="https://goupos.top/categories/GoupOS/GoupOS%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/"/>
-    
-    
-    <category term="GoupOS嵌入式实时操作系统" scheme="https://goupos.top/tags/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-    <category term="RTOS" scheme="https://goupos.top/tags/RTOS/"/>
     
   </entry>
   
