@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2022-09-11T13:44:32.154Z</updated>
+  <updated>2022-12-05T16:35:49.188Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MOS管学习笔记</title>
+    <link href="https://goupos.top/2022/12/05/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/MOS%E7%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://goupos.top/2022/12/05/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/MOS%E7%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-12-05T15:27:02.000Z</published>
+    <updated>2022-12-05T16:35:49.188Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>MOS管学习笔记</p></blockquote><span id="more"></span><p>MOS 的基础知识这里就不多说。书上可以直接的学习到MOS的基础性质，在这里只简单地对MOS的一些应用做一下记录。大多都是看了网上大部分的博客积累下来。（以NMOS 为讨论对象）</p><ol><li><p>首先需要注意的是MOS 的内部 G D S 两两间均存在结间电容，所以我认为对于MOS 的导通截止， 是在对GS间的电容充电放电，所以为了让MOS 更快地导通截止，可以从这个结间电容来考虑，让其更快地充放电。下面以开关电源的MOS 管来做一下记录。<br><img data-src="https://s2.loli.net/2022/12/05/JPY1GMa3Wv6CZe5.jpg" alt="MOS1"></p></li><li><p>电源IC直接驱动是我们最常用的驱动方式，同时也是最简单的驱动方式，使用这种驱动方式，应该注意几个参数以及这些参数的影响。第一，查看一下电源IC手册，其最大驱动峰值电流，因为不同芯片，驱动能力很多时候是不一样的。第二，了解一下MOSFET的寄生电容，如图 1中C1、C2的值。如果C1、C2的值比较大，MOS管导通的需要的能量就比较大，如果电源IC没有比较大的驱动峰值电流，那么管子导通的速度就比较慢。如果驱动能力不足，上升沿可能出现高频振荡，即使把图 1中Rg减小，也不能解决问题! IC驱动能力、MOS寄生电容大小、MOS管开关速度等因素，都影响驱动电阻阻值的选择，所以Rg并不能无限减小。当然，当IC驱动能力不足时，可以采取图腾柱驱动电路来驱动MOS 。<br><img data-src="https://s2.loli.net/2022/12/05/pQ5VB94LZOjraWE.jpg" alt="MOS2"><br><img data-src="https://s2.loli.net/2022/12/05/gEy2SpOA5cLTJjs.jpg" alt="MOS3"></p></li><li><p>关断瞬间驱动电路能提供一个尽可能低阻抗的通路供MOSFET栅源极间电容电压快速泄放，保证开关管能快速关断。为使栅源极间电容电压的快速泄放，常在驱动电阻上并联一个电阻和一个二极管，如图 3所示，其中D1常用的是快恢复二极管。这使关断时间减小，同时减小关断时的损耗。Rg2是防止关断的时电流过大，把电源IC给烧掉。在第二点介绍的图腾柱电路也有加快关断作用。当电源IC的驱动能力足够时，对图 2中电路改进可以加速MOS管关断时间，得到如图 4所示电路。用三极管来泄放栅源极间电容电压是比较常见的。如果Q1的发射极没有电阻，当PNP三极管导通时，栅源极间电容短接，达到最短时间内把电荷放完，最大限度减小关断时的交叉损耗。与图 3拓扑相比较，还有一个好处，就是栅源极间电容上的电荷泄放时电流不经过电源IC，提高了可靠性<br><img data-src="https://s2.loli.net/2022/12/05/aEbWuzMIPURJ8q9.jpg" alt="MOS4"></p></li><li><p>为了满足高端MOS管的驱动，经常会采用变压器驱动，有时为了满足安全隔离也使用变压器驱动。其中R1目的是抑制PCB板上寄生的电感与C1形成LC振荡，C1的目的是隔开直流，通过交流，同时也能防止磁芯饱和。<br><img data-src="https://s2.loli.net/2022/12/05/yVKtp5JLfOie31d.png" alt="MOS5"></p></li><li><p>MOS 在电源的同步整流上也有不错的应用，只要还是因为其内阻小 可替代变压器副边二极管 降低电源损耗，也可以减小电源死区电压。主要应用在大电流电源上。</p></li><li><p>MOS的防反接作用及其锂电池充电</p><ol><li>PMOS 在电源输入端<br><img data-src="https://s2.loli.net/2022/12/05/o5p1b26WVAHkYsj.jpg" alt="MOS6"></li><li>NMOS 在地端<br><img data-src="https://s2.loli.net/2022/12/05/r3UtEb5JnhOfa6Z.jpg" alt="MOS7"></li><li>锂电池的充放电<br><img data-src="https://s2.loli.net/2022/12/05/r5CmRVHgT8OfIJa.png" alt="MOS8"></li></ol></li><li><p>MOS管子的选型。</p><ol><li>选用N沟道还是P沟道<br> 考虑MOS是高端驱动还是低端驱动，高端的话选用PMOS，低端采用NMOS.</li><li>确定额定电流<br> 确保MOS 可以通过电路最大额定电流，并且可计算MSO的导通损耗，此时需要注意MOS的导通内阻。</li><li>确定热要求<br> 散热工艺</li></ol></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;MOS管学习笔记&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="硬件开发" scheme="https://goupos.top/categories/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="MOS管学习笔记1" scheme="https://goupos.top/categories/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/MOS%E7%AE%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/"/>
+    
+    
+    <category term="MOS" scheme="https://goupos.top/tags/MOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>verilog语言</title>
+    <link href="https://goupos.top/2022/09/21/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/FPGA/verilog%E8%AF%AD%E8%A8%80/"/>
+    <id>https://goupos.top/2022/09/21/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/FPGA/verilog%E8%AF%AD%E8%A8%80/</id>
+    <published>2022-09-21T15:48:45.000Z</published>
+    <updated>2022-09-21T22:44:08.725Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="f9922cfa22d2d9605c1cdc37ca5df5c166078dbb487ec6b5dca8ee63cf3a33e6">7d7c49590b25188c886bb639c7b672149292aa92bfc98d89f36d3bdd481a2dc536f0d58f7ab5279365200c8ab11b459ac31255c52d60a1deae79b37179312f212cb2ec677d6a2e13e466be63a0b75423a87211f937952498e2ee52300d8d9ed5cb62104edde712c7f85f21bfcd4b2ef0d5a677daffc1860ddc71f757de86f18beb1506e472fd45b03ad5595bb90193683c43ceb2013697ccba25da042f72fb52d210b345e94cd337608f65152363295bc9869cbe915463c0d1ba1ea724d6db035eac1b005cbae77e2bb9a9d9b913d247e493a51e92b1d0e5aa6db13c4685a4ac4ff171226bee0abdcdfb975d1df650ce49443c729e0c40a53882a01d0928c418604a4a28bc1cb1cdc37f3cf6ea3d1b0a0fb0064007a939b820bd006b190a9f15c3e49ade8121c0e334b1341839e05c1e229102ce08a118dd241ab66d374055a0128222318cb72d7e1981c6283f5bb8fdbe33add9b8c97cfacd555934197e8c8f8c4cb9e0a734772f867d63a85e9203f3382a0fa2af9567c24af6abb27666389779dbcc4da3b57fe5550bda5fa438d6b34a5e362c0f3f61b563602edf03328dd70ab723930aca3fa7e2516bc42498882291b684ca62395d9a9064f9f8295b38670bbf7a8d20f6f9625755b5294c34aa845c12f7853e89a68edfe5ca2791d2ba734da786d312114e0688014d2303c0727db4e9a1137d9e9c37e92e25aeb6d6e1852ba8ca298cdce283e7b78d0e93f3e68a0f4acb81a9e1cd9d9a8da866f74966f880f8dab2c889029eae7b88b51901b1ad</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-flip">      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这里是加密的内容，需要密码才能继续阅读。</summary>
+    
+    
+    
+    <category term="FPGA" scheme="https://goupos.top/categories/FPGA/"/>
+    
+    
+    <category term="FPGA" scheme="https://goupos.top/tags/FPGA/"/>
+    
+  </entry>
   
   <entry>
     <title>单片机普通IO口输出最高频率表</title>
@@ -347,7 +393,7 @@
     <published>2022-05-19T14:41:03.000Z</published>
     <updated>2022-08-13T18:56:24.431Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#120;&#x67;&#109;&#x63;&#x72;&#101;&#97;&#x74;&#101;&#64;&#102;&#111;&#x78;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#120;&#x67;&#109;&#x63;&#x72;&#101;&#97;&#x74;&#101;&#64;&#102;&#111;&#x78;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>博客的通知公告<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#120;&#103;&#x6d;&#x63;&#x72;&#x65;&#x61;&#x74;&#101;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#120;&#103;&#x6d;&#x63;&#x72;&#x65;&#x61;&#x74;&#101;&#x40;&#x66;&#x6f;&#x78;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p></blockquote>]]></content>
     
     
       
@@ -402,56 +448,6 @@
     
     
     <category term="MDK KEIL" scheme="https://goupos.top/tags/MDK-KEIL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Sublime Text的部分基本操作</title>
-    <link href="https://goupos.top/2022/05/11/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Sublime%20Text%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
-    <id>https://goupos.top/2022/05/11/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Sublime%20Text%E7%9A%84%E9%83%A8%E5%88%86%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
-    <published>2022-05-10T21:41:21.000Z</published>
-    <updated>2022-05-13T05:01:33.380Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>Sublime Text的部分基本操作</p></blockquote><span id="more"></span><h1 id="1-Sublime-Text设置中文"><a href="#1-Sublime-Text设置中文" class="headerlink" title="1. Sublime Text设置中文"></a>1. Sublime Text设置中文</h1><ol><li>在Sublime Text中，主菜单栏选择Tools-&gt;Command Palette，或快捷键Shift+Ctrl+P,弹出命令面板;</li><li>输入install，点击Instal Package Control</li><li>稍等几秒，弹出提示：安装成功，点击确定</li><li>重新单开命令面板（快捷键Shift+Ctrl+P），输入install,点击第一行的Package Control:Install Package</li><li>稍等几秒弹出插件包选择界面</li><li>输入Chinese，点击第一个，自动安装：</li><li>即为安装完成，可以看到菜单栏变成了中文。</li><li>如果没有自动更换语言，重启软件，可以在主菜单的 帮助&#x2F;Language 子菜单来切换语言。 目前支持 简体中文 繁体中文 日本語 德语 法语 俄语等。 如果要换回英语不需要卸载插件，直接从菜单切换英文。</li></ol><ul><li>步骤如果没有看懂 <a href="https://blog.csdn.net/LclLsh/article/details/123500847">请点击此地址</a></li></ul><h1 id="2-Sublime-Text设置自动保存"><a href="#2-Sublime-Text设置自动保存" class="headerlink" title="2. Sublime Text设置自动保存"></a>2. Sublime Text设置自动保存</h1><ol><li><p>打开sublime编辑器，按快捷键Ctrl+Shift+p调出命令面板；或者在工具栏中点击：工具&gt;命令面板；</p></li><li><p>搜索框中输入 P 找到Preferences:Settings - User 选项，单击；</p></li><li><p>就进入一个设置界面了</p></li><li><p>在下面添加一行代码”save_on_focus_lost”: true；代码如图所示</p><figure class="highlight plaintext"><figcaption><span>Preferences:Settings</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">&quot;ignored_packages&quot;:</span><br><span class="line">[</span><br><span class="line">&quot;Vintage&quot;,</span><br><span class="line">],</span><br><span class="line">&quot;save_on_focus_lost&quot;: true,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>按Ctrl+S快捷键保存；</p><blockquote><p>设置以后每次修改代码都不用手动保存了，失去焦点之后自动保存，再也不用担心忘记保存了！希望可以帮助到大家。</p></blockquote></li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Sublime Text的部分基本操作&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="开发软件基础操作" scheme="https://goupos.top/categories/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
-    
-    <category term="Sublime Text" scheme="https://goupos.top/categories/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/Sublime-Text/"/>
-    
-    
-    <category term="开发软件" scheme="https://goupos.top/tags/%E5%BC%80%E5%8F%91%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>全面的Cortex-M内核资源汇总</title>
-    <link href="https://goupos.top/2022/05/11/ARM%E5%86%85%E6%A0%B8/%E5%85%A8%E9%9D%A2%E7%9A%84Cortex-M%E5%86%85%E6%A0%B8%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/"/>
-    <id>https://goupos.top/2022/05/11/ARM%E5%86%85%E6%A0%B8/%E5%85%A8%E9%9D%A2%E7%9A%84Cortex-M%E5%86%85%E6%A0%B8%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/</id>
-    <published>2022-05-10T21:32:48.000Z</published>
-    <updated>2022-05-11T06:03:31.806Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>全面的Cortex-M内核资源汇总</p></blockquote><span id="more"></span><ol><li><p><a href="https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/cortex-m-resources">所有Cortex-M资源</a></p></li><li><p><a href="https://www.arm.com/resources/education/books/mve-reference-book">新:Arm Cortex-M处理器的Arm氦技术M-Profile矢量扩展(MVE )(参考书)</a></p></li></ol><ul><li><a href="https://www.armbbs.cn/forum.php?mod=viewthread&tid=94790&highlight=%CA%B7%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%C8%AB%EF%BF%BD%EF%BF%BD%EF%BF%BD">参考文档地址</a></li></ul><ol start="3"><li><p>主要查看这些数据手册: 数据手册(DS)：电器特性、内核；参考手册（RM）：包含所有外设；编程手册（PM）。</p></li><li><p><a href="https://github.com/ARM-software/CMSIS_5">ARM内核软件包</a></p></li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;全面的Cortex-M内核资源汇总&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="ARM" scheme="https://goupos.top/categories/ARM/"/>
-    
-    <category term="Cortex-M" scheme="https://goupos.top/categories/ARM/Cortex-M/"/>
-    
-    
-    <category term="ARM内核" scheme="https://goupos.top/tags/ARM%E5%86%85%E6%A0%B8/"/>
     
   </entry>
   
