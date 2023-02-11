@@ -4,7 +4,7 @@
     <title>公告</title>
     <url>/2022/05/19/%E5%85%AC%E5%91%8A/</url>
     <content><![CDATA[<blockquote>
-<p>博客的通知公告<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#x78;&#103;&#109;&#x63;&#x72;&#x65;&#x61;&#116;&#101;&#x40;&#102;&#x6f;&#120;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x78;&#103;&#109;&#x63;&#x72;&#x65;&#x61;&#116;&#101;&#x40;&#102;&#x6f;&#120;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p>
+<p>博客的通知公告<br>如果遇到需要密码的博客文章，博客状态有几种状态：<br>1.博客正在完善，或者有部分不对的地方需要修改，<br>2.博客完善，但是付出了一定的代价，所以闭源。<br>如果查看打开加密文章，请通过邮箱联系本人 <a href="mailto:&#120;&#103;&#x6d;&#99;&#x72;&#101;&#97;&#x74;&#101;&#x40;&#102;&#x6f;&#120;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#120;&#103;&#x6d;&#99;&#x72;&#101;&#97;&#x74;&#101;&#x40;&#102;&#x6f;&#120;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a><br>博客资料源如果涉及到版权问题，请联系作者，可以将资料源删除或者闭源，或者添加版权信息。</p>
 </blockquote>
 ]]></content>
   </entry>
@@ -28,6 +28,42 @@
       </categories>
       <tags>
         <tag>个人简历</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言#pragma的使用</title>
+    <url>/2023/02/11/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/C%E8%AF%AD%E8%A8%80-pragma%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<blockquote>
+<p>参考源：<a href="https://baike.baidu.com/item/%23pragma/706691?fr=aladdin">https://baike.baidu.com/item/%23pragma/706691?fr=aladdin</a><br>如下是个人使用的，未使用的未记录</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="Message-消息-参数"><a href="#Message-消息-参数" class="headerlink" title="Message(消息)参数"></a>Message(消息)参数</h1><ol>
+<li><p>参数能够在编译信息输出窗口中输出相应的信息，这对于源代码信息的控制是非常重要的。其使用方法为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#pragma message(__FILE__)</span><br></pre></td></tr></table></figure>
+<p>当编译器遇到这条指令时就在编译输出窗口中将消息文本打印出来，如下是打印被编译的源文件名称：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1&gt;g:\算法程序\algorithm\define_printf\define.c</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>当我们在程序中定义了许多宏来控制源代码版本的时候，我们自己有可能都会忘记有没有正确的设置这些宏，此时我们可以用这条指令在编译的时候就进行检查。假设我们希望判断自己有没有在源代码的什么地方定义了_X86这个宏可以用下面的方法</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#ifdef _X86</span><br><span class="line">#pragma message(&quot;_X86 macro activated!&quot;)</span><br><span class="line">#endif</span><br></pre></td></tr></table></figure>
+<p>当我们定义了_X86这个宏以后，应用程序在编译时就会在编译输出窗口里显示“_X86 macro activated! ”。我们就不会因为不记得自己定义的一些特定的宏而抓耳挠腮了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1&gt;_X86 macro activated!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="pragma-once-比较常用）"><a href="#pragma-once-比较常用）" class="headerlink" title="#pragma once(比较常用）"></a>#pragma once(比较常用）</h1><ol>
+<li><p>只要在头文件的最开始加入这条指令就能够保证头文件被编译一次，这条指令实际上在VC6中就已经有了，但是考虑到兼容性并没有太多的使用它。</p>
+</li>
+<li><p>#pragma once是编译相关，就是说这个编译系统上能用，但在其他编译系统不一定可以，也就是说移植性差，不过基本上已经是每个编译器都有这个定义了。</p>
+</li>
+<li><p>#ifndef，#define，#endif这个是C++语言相关，这是C++语言中的宏定义，通过宏定义避免文件多次编译。所以在所有支持C++语言的编译器上都是有效的，如果写的程序要跨平台，最好使用这种方式</p>
+</li>
+</ol>
+<h1 id="pragma-hdrstop"><a href="#pragma-hdrstop" class="headerlink" title="#pragma hdrstop"></a>#pragma hdrstop</h1>]]></content>
+      <categories>
+        <category>C宏定义</category>
+        <category>pragma</category>
+      </categories>
+      <tags>
+        <tag>C宏定义</tag>
       </tags>
   </entry>
   <entry>
@@ -67,7 +103,8 @@
 <h3 id="正交调制"><a href="#正交调制" class="headerlink" title="正交调制"></a>正交调制</h3><p>正交调制则是一种间接调制的方法。该方法将数字信号进行高斯低通滤波并作适当的相位积分运算后,分成同相和正交两部分，分别对载波的同相和正交分量相乘,再合成GFSK信号。相对而言，这种方法物理概念清晰,也避免了直接调制时信号频谱特性的损害。另一方面，GFSK参数控制可以在一个带有标定因子的高斯滤波器中实现,而不受后续调频电路的影响，因而参数的控制要简单一些。正因为如此,GFSK正交调制解调器的基带信号处理特别适合于用数字方法实现。</p>
 ]]></content>
       <categories>
-        <category>-无线 -无线模式</category>
+        <category>无线</category>
+        <category>无线模式</category>
       </categories>
       <tags>
         <tag>无线</tag>
@@ -2220,7 +2257,7 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
 </blockquote>
 <ul>
 <li>GoupOS嵌入式实时操作系统:目前只支持ARM架构下Cortex-M3、M4、M7内核的处理器，双核处于开发中；有关GoupOS嵌入式实时操作系统移植，在每个文件夹下readme.txt文件,根据选项便可以移植。</li>
-<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#103;&#x6d;&#x63;&#x72;&#101;&#97;&#x74;&#101;&#64;&#x66;&#111;&#120;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#120;&#103;&#x6d;&#x63;&#x72;&#101;&#97;&#x74;&#101;&#64;&#x66;&#111;&#120;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a>；将第一时间修复操作系统；</li>
+<li>使用GoupOS嵌入式实时操作系统中，如遇系统报错或者系统导致程序错误可以通过邮箱联系作者：<a href="mailto:&#120;&#x67;&#109;&#x63;&#114;&#x65;&#x61;&#116;&#101;&#64;&#x66;&#x6f;&#x78;&#109;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#120;&#x67;&#109;&#x63;&#114;&#x65;&#x61;&#116;&#101;&#64;&#x66;&#x6f;&#x78;&#109;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;</a>；将第一时间修复操作系统；</li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS">GoupOS嵌入式实时操作系统项目地址导航</a></li>
 <li><a href="https://gitee.com/xgm-embedded-os/GoupOS/tree/master/Go_up/os/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E">GoupOS嵌入式实时操作系统说明文档导航</a> 文档目前还有部分未写完成，还在继续完善中。</li>
 </ul>
