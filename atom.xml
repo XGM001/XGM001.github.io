@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2023-03-15T17:17:41.722Z</updated>
+  <updated>2023-05-28T08:21:03.588Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,71 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>USB复合和组合设备</title>
+    <link href="https://goupos.top/2023/05/27/USB%E8%AE%BE%E5%A4%87%E5%BC%80%E5%8F%91/USB%E5%A4%8D%E5%90%88%E5%92%8C%E7%BB%84%E5%90%88%E8%AE%BE%E5%A4%87/"/>
+    <id>https://goupos.top/2023/05/27/USB%E8%AE%BE%E5%A4%87%E5%BC%80%E5%8F%91/USB%E5%A4%8D%E5%90%88%E5%92%8C%E7%BB%84%E5%90%88%E8%AE%BE%E5%A4%87/</id>
+    <published>2023-05-26T21:22:10.000Z</published>
+    <updated>2023-05-28T08:21:03.588Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>文章参考源<br>1.<a href="1">STM32 USB复合设备编写</a><br>2.<a href="2">USB组合设备 Interface Association Descriptor (IAD)</a><br>3.<a href="3">STM32 USB复合设备(VCP虚拟串口+HID键盘)详解</a></p></blockquote><p>Communication Device Class，简称CDC<br>USB Compound Device，USB复合设备<br>USB Composite Device，USB组合设备</p>]]></content>
+    
+    
+    <summary type="html">USB复合和组合设备配置和描述</summary>
+    
+    
+    
+    <category term="USB" scheme="https://goupos.top/categories/USB/"/>
+    
+    
+    <category term="USB" scheme="https://goupos.top/tags/USB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>单片机hex和bin​文件有什么区别</title>
+    <link href="https://goupos.top/2023/04/12/%E5%8D%95%E7%89%87%E6%9C%BAhex%E5%92%8Cbin%E2%80%8B%E6%96%87%E4%BB%B6%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/"/>
+    <id>https://goupos.top/2023/04/12/%E5%8D%95%E7%89%87%E6%9C%BAhex%E5%92%8Cbin%E2%80%8B%E6%96%87%E4%BB%B6%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/</id>
+    <published>2023-04-12T13:10:26.000Z</published>
+    <updated>2023-04-12T15:32:48.461Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>参考源：<br><a href="https://developer.arm.com/search#q=intel%20hex%20file%20format&cf[navigationhierarchiesproducts]=Tools%20and%20Software">Hex文件格式</a><br><a href="https://developer.arm.com/search#q=axf%20file%20format&cf[navigationhierarchiesproducts]=Tools%20and%20Software">axf文件格式</a><br><a href="https://developer.arm.com/search#q=bin&cf[navigationhierarchiesproducts]=Tools%20and%20Software">Bin文件格式</a></p></blockquote><p>1.这里就不介绍Hex和bin文件了。</p><hr><h1 id="bin文件"><a href="#bin文件" class="headerlink" title="bin文件"></a>bin文件</h1><ol><li><p>bin 是 binary 的缩写，直白的翻译即为二进制文件，在这里理解为可执行的机器代码（程序）文件，因为计算机存储只有 0 和 1。</p></li><li><p>bin 除了是程序文件的含义，还有其他含义，比如虚拟光驱文件，我们下载的一个 Windows 镜像文件后缀就可能是bin。</p></li><li><p>bin 相对于hex、axf是一种最简单的程序文件，只有程序数据，程序文件有多大，程序也就多大。</p></li><li><p>因此，你下载 bin 程序文件的时候，必须要设置起始地址，比如：通过STM32 ST-LINK Utility工具下载bin文件：</p></li></ol><p><a href="https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOkMLjBwcVQ6LmJaqhEmLL6o6dwibeB5eDiceouM2qbhNugEltFZoAXFyPWjzFywviaLw0ianMvtCOvpKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1">STM32 ST-LINK</a></p><p>而hex则不可修改（文件中包含地址信息）：<br><a href="https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOkMLjBwcVQ6LmJaqhEmLL6oVnG0tjcX5pbDfnY0xh5ICRjOYqdaZ9a9iaxnzxDaWUFC3MzAvYylicvg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1">STM32 ST-LINK</a></p><hr><h1 id="Hex文件"><a href="#Hex文件" class="headerlink" title="Hex文件"></a>Hex文件</h1><ol><li>hex 格式文件由 Intel 制定的一种十六进制标准文件格式，是由编译器转换而成的一种用于下载到处理器里面的ASCII文本文件。</li></ol><p><a href="https://en.wikipedia.org/wiki/Intel_HEX">维基百科解释</a></p><blockquote><p>Intel HEX is a file format that conveys binary information in ASCII text form. It is commonly used for programming microcontrollers, EPROMs, and other types of programmable logic devices. In a typical application, a compiler or assembler converts a program’s source code (such as in C or assembly language) to machine code and outputs it into a HEX file. The HEX file is then imported by a programmer to “burn” the machine code into a ROM, or is transferred to the target system for loading and execution.<br>IntelHEX 是一种以 ASCII 文本格式传递二进制信息的文件格式。它通常用于编程微控制器，EPROM 和其他类型的可编程逻辑器件。在典型的应用程序中，编译器或汇编器将程序的源代码(如 C 或汇编语言)转换为机器代码并输出到 HEX 文件中。HEX 文件然后由程序员导入，将机器代码“刻录”到 ROM 中，或者传输到目标系统进行加载和执行。</p></blockquote><p><a href="https://www.keil.com/support/docs/1584/">Keil官网解释</a></p><blockquote><p>The Intel HEX file is an ASCII text file with lines of text that follow the Intel HEX file format. Each line in an Intel HEX file contains one HEX record. These records are made up of hexadecimal numbers that represent machine language code and&#x2F;or constant data. Intel HEX files are often used to transfer the program and data that would be stored in a ROM or EPROM. Most EPROM programmers or emulators can use Intel HEX files.<br>英特尔十六进制文件是一个 ASCII 文本文件，文本行遵循英特尔十六进制文件格式。英特尔十六进制文件中的每一行都包含一条十六进制记录。这些记录由表示机器语言代码和&#x2F;或常量数据的十六进制数组成。英特尔十六进制文件往往是用来传输程序和数据，将存储在 ROM 或 EPROM。大多数 EPROM 程序员或模拟器可以使用 Intel HEX 文件。</p></blockquote><h2 id="Hex格式"><a href="#Hex格式" class="headerlink" title="Hex格式"></a>Hex格式</h2><p>:BBAAAATT 【D···D】CC</p><table><thead><tr><th align="center">行开始</th><th align="center">数据长度</th><th align="center">地址</th><th align="center">数据类型</th><th align="center">数据</th><th align="center">校验和</th></tr></thead><tbody><tr><td align="center">..</td><td align="center">BB</td><td align="center">AAAA</td><td align="center">TT</td><td align="center">【D···D】</td><td align="center">CC</td></tr><tr><td align="center"></td><td align="center">1字节</td><td align="center">2字节</td><td align="center">1字节</td><td align="center">n字节</td><td align="center">1字节</td></tr></tbody></table><dl><dt>其中：</dt><dd>代表行开始，固定为冒号:</dd></dl><p>BB代表Bytes，数据长度</p><p>AAAA代表Address，地址</p><p>TT代表Type，数据类型（标识）</p><p>D···D代表Date，数据</p><p>CC代表CheckSum，校验和</p><p>说明：</p><p>BB数据长度，也就是D···D这个字段的数据长度；</p><p>AAAA地址，起始地址、偏移地址，根据数据类型(TT)有关；</p><p>TT数据类型（标识）：</p><p>00：数据标识</p><p>01：文件结束标识</p><p>02：扩展段地址</p><p>04：线性地址</p><p>05：线性开始地址</p><p>（地址代表高16位地址，也就是要向左移16bit）这里指的是数据类型中 02 04 05中的地址。</p><p>CC校验和计算公式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CheckSum = 0x100 - (Sum &amp; 0xFF)</span><br></pre></td></tr></table></figure><h1 id="实例描述Hex"><a href="#实例描述Hex" class="headerlink" title="实例描述Hex"></a>实例描述Hex</h1><p>下面通过一个例子来说明hex。<br>说明一下：不同数据类型的数据略有差异，先再看下00（数据类型）的格式：<br><a href="https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOkMLjBwcVQ6LmJaqhEmLL6og5Gw843S1aV9TgwuHcVuGyn6IG4hc4FD9kcbRasVo1yp5gb5JKAZlQ/640?wx_fmt=png">00数据类型格式</a></p><p>一个常见hex文件：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">:020000040800F2</span><br><span class="line">:1000000000040020B1010008FD020008BD02000844</span><br><span class="line">:10001000F902000801020008350400080000000091</span><br><span class="line">:1000200000000000000000000000000021030008A4</span><br><span class="line">···省略数行</span><br><span class="line">:100470000000024084040008000000200004000086</span><br><span class="line">:040480004804000824</span><br><span class="line">:040000050800019955</span><br><span class="line">:00000001FF</span><br></pre></td></tr></table></figure><ol><li>04类型：线性地址行</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:020000040800F2</span><br></pre></td></tr></table></figure><p>02：数据长度，这里是（0800）地址的2字节长度；<br>0000：偏移地址，这里数据其实无效；<br>04：线性地址数据类型；<br>0800：线性起始地址，左移16位，即：0x0800 0000；<br>F2：校验和<br>F2 &#x3D;  0x100 - (0x02 + 0x04 + 0x08)&amp;0xFF;</p><p>比如，修改起始地址为0600：<br><a href="https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOkMLjBwcVQ6LmJaqhEmLL6oPicDyjzRKRcKkPHXNIyo8jK4I2GPYgRoYvjNwDuJtJZqgYTyibVQnAWQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1">修改起始地址</a></p><ol start="2"><li>00类型：数据行</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:1000000000040020B1010008FD020008BD02000844</span><br></pre></td></tr></table></figure><p>10：数据长度，这里是16字节（程序）数据的长度；</p><p>0000：偏移地址，数据第一行偏移0000地址，第二行就是偏移0010，第二行就是偏移0020，依次偏移到FFF0；<br>如果偏移到FFF0，则会重新下一个起始地址，一段程序你就明白了：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">:10FFD000D0C5CFA20D0A00003052010810B50A4862</span><br><span class="line">:10FFE00002F0FEFC09A002F0FBFC14A002F0F8FCF9</span><br><span class="line">:10FFF0001EA221A123A002F0F3FC2CA002F0F0FC31</span><br><span class="line">:020000040801F1</span><br><span class="line">:10000000394802F0EDFC10BD3C5301080D0A2A20CE</span><br><span class="line">:1000100020202020202020202020202020202020E0</span><br><span class="line">:100020002020202020202020202020414756D6C7F5</span><br></pre></td></tr></table></figure><p>00：线性地址数据类型；</p><p>00040020B1010008FD020008BD020008：程序数据，就是bin文件里面的纯程序数据；</p><p>44：校验和</p><p>44 &#x3D;  0x100 - (0x10 + 0x04 + 0x20 + 0xB1 + 0x01 + 0x08 + 0xFD + 0x02 + 0x08 + 0xBD + 0x02 + 0x08 + 0x44) &amp; 0xFF;</p><ol start="3"><li>01类型：文件结束行</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:00000001FF</span><br></pre></td></tr></table></figure><p>00：数据长度；</p><p>0000：偏移地址，这里数据其实无效；</p><p>01：代表文件结束；</p><p>FF：校验和</p><p>更多细节内容，可以参看链接：<br>[参考源][7]</p><h1 id="bin和Hex区别"><a href="#bin和Hex区别" class="headerlink" title="bin和Hex区别"></a>bin和Hex区别</h1><p>bin文件只是单纯的程序数据，hex除程序数据之外还有一定格式数据。<br>在hex之上，还有一种axf文件，而 axf 和 bin、 hex 同样也属于程序文件，差别在于 axf 具有更多的调试信息。<br>用一个表格来区分bin、hex和axf三者的关系：</p><table><thead><tr><th align="left">bin</th><th align="left">hex</th><th align="left">axf</th></tr></thead><tbody><tr><td align="left">程序数据</td><td align="left">程序数据</td><td align="left">程序数据</td></tr><tr><td align="left"></td><td align="left">地址、类型、校验等标记信息</td><td align="left">地址、类型、校验等标记信息</td></tr><tr><td align="left"></td><td align="left"></td><td align="left">调试信息</td></tr></tbody></table><hr><p>[7]:</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;参考源：&lt;br&gt;&lt;a href=&quot;https://developer.arm.com/search#q=intel%20hex%20file%20format&amp;cf[navigationhierarchiesproducts]=Tools%20an</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>磁珠</title>
+    <link href="https://goupos.top/2023/03/17/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1/%E7%A3%81%E7%8F%A0/"/>
+    <id>https://goupos.top/2023/03/17/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1/%E7%A3%81%E7%8F%A0/</id>
+    <published>2023-03-17T14:46:14.000Z</published>
+    <updated>2023-03-18T01:04:20.290Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="磁珠的主要参数："><a href="#磁珠的主要参数：" class="headerlink" title="磁珠的主要参数："></a>磁珠的主要参数：</h1><ol><li>阻抗：磁珠阻抗是在100MHz时测得的阻抗所确定的。常表示为22R@100MHz，即为磁珠在100MHz下，其阻抗为22Ω。阻抗越大，抑制噪声的效果越好，我理解为阻抗越大，消耗在阻抗上的能量则越大，更容易让噪声以热量形式散出，从而达到抑制效果。</li></ol><p> 100MHz在某种意义上只是一个标准，此频率并不是磁珠阻抗最大的时刻，因为磁珠在实际的应用中，随着频率的改变，随着电流的变化，阻抗都会相应的发生变化。</p><ol start="2"><li><p>DCR(直流电阻)：指直流电流通过磁珠时，磁珠呈现的电阻值，DCR一般越小越好，对有用信号的衰减越小。</p></li><li><p>额定电流：指磁珠正常工作时允许的最大电流。</p></li></ol><hr><h1 id="磁珠的选型"><a href="#磁珠的选型" class="headerlink" title="磁珠的选型"></a>磁珠的选型</h1><ol><li>磁珠频率阻抗曲线中 Z R X分别代表什么意义?<br> Z是阻抗曲线，R是直流电阻曲线，X是电抗曲线。磁珠主要用在高频滤波领域，主要关注阻抗和额定电流。在100MHz电抗达到峰值，阻抗越大，衰减越强滤波效果越好，但是直流损耗也就越大，这里主要看使用的效果，普通磁珠阻抗100到600欧姆，同时要保证电流不能超过额定值。</li></ol>]]></content>
+    
+    
+    <summary type="html">磁珠</summary>
+    
+    
+    
+    <category term="硬件设计" scheme="https://goupos.top/categories/%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+    <category term="磁珠" scheme="https://goupos.top/categories/%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1/%E7%A3%81%E7%8F%A0/"/>
+    
+    
+    <category term="硬件设计" scheme="https://goupos.top/tags/%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>TVS选择</title>
@@ -384,63 +449,6 @@
     
     
     <category term="STM32" scheme="https://goupos.top/tags/STM32/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于翻译pdf文档</title>
-    <link href="https://goupos.top/2022/07/09/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8E%E7%BF%BB%E8%AF%91pdf%E6%96%87%E6%A1%A3/"/>
-    <id>https://goupos.top/2022/07/09/pdf%E8%AE%BE%E7%BD%AE/%E5%85%B3%E4%BA%8E%E7%BF%BB%E8%AF%91pdf%E6%96%87%E6%A1%A3/</id>
-    <published>2022-07-08T19:33:08.000Z</published>
-    <updated>2022-07-08T19:37:35.338Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>翻译pdf文档</p></blockquote><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;翻译pdf文档&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="翻译pdf文档" scheme="https://goupos.top/categories/%E7%BF%BB%E8%AF%91pdf%E6%96%87%E6%A1%A3/"/>
-    
-    
-    <category term="PDF" scheme="https://goupos.top/tags/PDF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IEEE官网下载文档</title>
-    <link href="https://goupos.top/2022/07/01/%E4%B8%8B%E8%BD%BD%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/IEEE%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD%E6%96%87%E6%A1%A3/"/>
-    <id>https://goupos.top/2022/07/01/%E4%B8%8B%E8%BD%BD%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/IEEE%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD%E6%96%87%E6%A1%A3/</id>
-    <published>2022-06-30T17:13:21.000Z</published>
-    <updated>2023-02-11T06:32:35.541Z</updated>
-    
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="9bc2fdca15d2b44a1333bb3944544cd5298d6a029ddeb528a6c80a1655257a06">afcdb3620860c3a0683a221e215fc71132669467eb4b18a94e282e8dc37ed5c4c4084ac6b5f21e9ef391bf7fa4a5dd07e4d298b1cad3ecb753cacd3c5b8246e3e527b93eeefda9da6d095c5b2caa274bff3f673c06ae9fc0e1c6251ef086b1d7b03bcfda2f80a6144a06e7806a43bcd2cb282c5c87bba2dea16bf1df003897c00ab0dbdddb351f943052763463003d6e1bf469f6f8d53a0acb9c90b40c305af867fad21d63ba6ad06502a875cb0f06d5583a57c1205dbe0e00b970dc4150f27c49ff0f12db00d4ae32f364122d9f14f17fdc219497106207ae21e3904afd04e2aebb540f1cbcbef9f51aab66001bcba70a8509d5aa1455324580dd1eec469ac0f10f123bf38d89af6a3c45d9f256bb618bb2493c1143142449e04a19af7642e97eccdaa008f9e2356c189619619141036ce5f2e44e0b1a1975299a2062cf15aa0f9dd1a69cb1a7d60c360927a9d110a43ea50981d1f1eac2924065daf81b02f48dbf9cd3163111bb54491cf524b455f8ace5f3c1b40ae2ae84c15b1efd3ef333e6c97e45279f04adb71e33e84e236691a1424e96e64777db38140c8eb610b477b4324b26a0b49c824312f3d1805fae99b7c1ce1e6fbe8f09e681aea67197cf1f46c897a9373efda9debfb58d0481b67fd6e3399c568a7c1eb145c46b46635e3f08be71c499729de33f89ce28fd7931dcdf81fd472bd438d19fa9ee08b58089434cd07fce24f777ac1094114b8e925f5fea8fc811a8007b31d9218dbb84b05882980f59e33872624e0fe21f17eff7c5919aa9ba7cfc375b0f01c0d07372eae5d0f2d534a19ece2cd5d5c816ef58cd74a0f1b2a9b1a8fb9debbe24c2531f178be7668b338961c9bbe706c6735233487b7e5a368ff3e3f60b584bdb2be126179423d4a55237636793625031fdd5303d5744ddde0034f72e8ec0f4299c3e3e3e3859fb99038ba2ef92095c3d7615b156ccb7f54e7d7a7cbddf5ace64a4c9c6466297507e92a4e11bc05938a89948bd2f6cfc</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-flip">      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">个人使用的，未使用的未记录 密码:“IEEE”</summary>
-    
-    
-    
-    <category term="IEEE" scheme="https://goupos.top/categories/IEEE/"/>
-    
-    
-    <category term="IEEE" scheme="https://goupos.top/tags/IEEE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JTAG协议文档</title>
-    <link href="https://goupos.top/2022/06/16/%E7%83%A7%E5%BD%95%E5%99%A8/JTAG%E5%8D%8F%E8%AE%AE%E6%96%87%E6%A1%A3/"/>
-    <id>https://goupos.top/2022/06/16/%E7%83%A7%E5%BD%95%E5%99%A8/JTAG%E5%8D%8F%E8%AE%AE%E6%96%87%E6%A1%A3/</id>
-    <published>2022-06-15T16:52:30.000Z</published>
-    <updated>2022-06-15T16:52:30.252Z</updated>
-    
-    
-    
-    
     
   </entry>
   
