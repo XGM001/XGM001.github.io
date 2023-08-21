@@ -51,6 +51,8 @@
     <content><![CDATA[<blockquote>
 <p>参考源：<br><a href="https://developer.arm.com/search#q=intel%20hex%20file%20format&cf[navigationhierarchiesproducts]=Tools%20and%20Software">Hex文件格式</a><br><a href="https://developer.arm.com/search#q=axf%20file%20format&cf[navigationhierarchiesproducts]=Tools%20and%20Software">axf文件格式</a><br><a href="https://developer.arm.com/search#q=bin&cf[navigationhierarchiesproducts]=Tools%20and%20Software">Bin文件格式</a></p>
 </blockquote>
+<span id="more"></span>
+
 <p>1.这里就不介绍Hex和bin文件了。</p>
 <hr>
 <h1 id="bin文件"><a href="#bin文件" class="headerlink" title="bin文件"></a>bin文件</h1><ol>
@@ -2657,15 +2659,21 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
       </tags>
   </entry>
   <entry>
-    <title>一台电脑上的git同时使用两个github账户</title>
-    <url>/2022/04/27/gitee&amp;&amp;github/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84git%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8%E4%B8%A4%E4%B8%AAgithub%E8%B4%A6%E6%88%B7/</url>
-    <content><![CDATA[<h1 id="同一台电脑有两个github账号"><a href="#同一台电脑有两个github账号" class="headerlink" title="同一台电脑有两个github账号"></a>同一台电脑有两个github账号</h1><blockquote>
-<p>本blog中图片采用网络图片，如果侵权，请联系本博客博主删除，博客主页有邮箱，可以直接联系，使用电脑可以查看到本博客邮箱</p>
+    <title>同一台电脑上多个github或gitee账户</title>
+    <url>/2022/04/27/gitee&amp;&amp;github/%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%A4%9A%E4%B8%AAgithub%E6%88%96gitee%E8%B4%A6%E6%88%B7/</url>
+    <content><![CDATA[<blockquote>
+<p>同一台电脑有两个github账号或者两个gitee账号，配置如下都相同</p>
 </blockquote>
+<span id="more"></span>
+<ol>
+<li>请参考<a href="https://help.gitee.com/repository/ssh-key/configure-multiple-ssh-keys">gitee文档</a> 配置文件如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitee xxxxxx@qq.com </span><br><span class="line">Host gitee.com</span><br><span class="line">HostName gitee.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/giteeqq_id_rsa</span><br><span class="line"></span><br><span class="line"># gitee xxxxxxx@189.cn</span><br><span class="line">Host xxxx.gitee.com		#此处xxxx需要修改为你的gitee名称</span><br><span class="line">HostName gitee.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/gitee189_id_rsa</span><br><span class="line"></span><br><span class="line"># github aaaaa@189.cn</span><br><span class="line">Host aaaaa.github.com	#此处aaaaa需要修改为你的github名称</span><br><span class="line">HostName github.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/github189_id_rsa</span><br><span class="line"></span><br><span class="line"># github   xxxx@qq.com</span><br><span class="line">#Host xxxx.github.com	#此处xxxx需要修改为你的github名称</span><br><span class="line">#HostName github.com</span><br><span class="line">#PreferredAuthentications publickey</span><br><span class="line">#IdentityFile ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure></li>
+<li>文件中有多个<code>xxx</code>或<code>aaaaa</code>都是需要修改处，如果需要验证添加SSH是否成功，测试代码如下，对应上面配置文件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@gitee.com</span><br><span class="line">ssh -T git@xxxx.gitee.com</span><br><span class="line">ssh -T git@aaaaa.github.com</span><br><span class="line">ssh -T git@xxxx.github.com</span><br></pre></td></tr></table></figure>
+依此类推有多少个gitee或github就配置多少个，特别注意 xxxx_ir_rsa 不能配置为相同文件名。</li>
+</ol>
 ]]></content>
       <tags>
         <tag>git</tag>
-        <tag>双Github账号同时存在</tag>
+        <tag>多Github或Gitee账号同时存在</tag>
       </tags>
   </entry>
   <entry>
