@@ -31,6 +31,70 @@
       </tags>
   </entry>
   <entry>
+    <title>win纯净系统安装注册等</title>
+    <url>/2023/08/27/win%E7%94%B5%E8%84%91%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/win%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<span id="more"></span>
+<blockquote>
+<p>由于图库存在问题，暂时没有图片<br>需要准备的，需要准备一台电脑和一个U盘，建议选择USB3.0或以上的，这样插在USB3.0接口上，安装系统更快，U盘大小选择8G</p>
+</blockquote>
+<h1 id="1-原装-windows-点击此处进入：windows系统"><a href="#1-原装-windows-点击此处进入：windows系统" class="headerlink" title="1. 原装 windows 点击此处进入：windows系统"></a>1. 原装 <code>windows</code> 点击此处进入：<a href="https://www.microsoft.com/zh-cn/software-download/">windows系统</a></h1><ol>
+<li>安装教程如下视频：（引用别人视频，可以登入bilbil账号查看高清）</li>
+<li>选择想要安装的系统点击进入，选择立即下载工具，然后安装工具，根据安装提示操作，制作操作系统选择U盘制作，下面是视频(个别地方可以根据自己需求修改)<iframe src="//player.bilibili.com/player.html?aid=342656275&bvid=BV1e94y1y7zS&cid=752740223&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></li>
+</ol>
+<h1 id="2-windows注册"><a href="#2-windows注册" class="headerlink" title="2.windows注册"></a>2.windows注册</h1><ol>
+<li>注册成专业版，以 <code>管理员身份</code> 启动 &#96;cmd.exe（命令提示符）,依次输入如下代码(注意一定要用管理员启动，否则可能注册失败)<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX</span><br><span class="line">slmgr /skms kms.03k.org</span><br><span class="line">WINslmgr /ato</span><br></pre></td></tr></table></figure></li>
+<li>关于如何使用使用 <code>管理员身份</code> 启动 <code>cmd.exe（命令提示符）</code>：<br> 方法一、可以在win左下角搜索框中输入 <code>cmd.exe</code> 然后右击会提示管理员启动；<br> 方法二、按下<code>win</code> + <code>r</code>按键（如下视频中会有），然后在任务栏中找到 <code>cmd.exe（命令提示符）</code>鼠标右击可以看到命令提示符，然后选择命令提示符再次右击，就可以看到以管理员身份运行，然后再输入上面的命令。</li>
+<li>相关参考视频可以参考如下<iframe src="//player.bilibili.com/player.html?aid=637362623&bvid=BV1jb4y1p7mr&cid=549239255&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></li>
+</ol>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GD32芯片索引</title>
+    <url>/2023/08/22/GD32%E8%8A%AF%E7%89%87%E7%B4%A2%E5%BC%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>GD32芯片索引</title>
+    <url>/2023/08/22/GD32/GD32%E8%8A%AF%E7%89%87%E7%B4%A2%E5%BC%95/</url>
+    <content><![CDATA[<blockquote>
+<p>此文件只是问题索引，不展示任何数据</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="1-问题索引"><a href="#1-问题索引" class="headerlink" title="1.问题索引"></a>1.问题索引</h1><h1 id="2-笔记索引"><a href="#2-笔记索引" class="headerlink" title="2.笔记索引"></a>2.笔记索引</h1>]]></content>
+      <categories>
+        <category>FPGA</category>
+      </categories>
+      <tags>
+        <tag>FPGA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GD32芯片故障与原因</title>
+    <url>/2023/08/22/GD32%E8%8A%AF%E7%89%87%E6%95%85%E9%9A%9C%E4%B8%8E%E5%8E%9F%E5%9B%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>GD32芯片故障与原因</title>
+    <url>/2023/08/22/GD32/GD32%E8%8A%AF%E7%89%87%E6%95%85%E9%9A%9C%E4%B8%8E%E5%8E%9F%E5%9B%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>GD32芯片笔记</title>
+    <url>/2023/08/22/GD32%E8%8A%AF%E7%89%87%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>GD32芯片笔记</title>
+    <url>/2023/08/22/GD32/GD32%E8%8A%AF%E7%89%87%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>USB复合和组合设备</title>
     <url>/2023/05/27/USB%E8%AE%BE%E5%A4%87%E5%BC%80%E5%8F%91/USB%E5%A4%8D%E5%90%88%E5%92%8C%E7%BB%84%E5%90%88%E8%AE%BE%E5%A4%87/</url>
     <content><![CDATA[<blockquote>
@@ -479,7 +543,7 @@
   </entry>
   <entry>
     <title>C语言#pragma的使用</title>
-    <url>/2023/02/11/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/C%E8%AF%AD%E8%A8%80-pragma%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <url>/2023/02/11/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80-pragma%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<blockquote>
 <p>参考源：<a href="https://baike.baidu.com/item/%23pragma/706691?fr=aladdin">https://baike.baidu.com/item/%23pragma/706691?fr=aladdin</a><br>如下是个人使用的，未使用的未记录</p>
 </blockquote>
@@ -1518,7 +1582,7 @@ body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-botto
   </entry>
   <entry>
     <title>C语言中#和##的作用</title>
-    <url>/2022/06/04/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/C%E8%AF%AD%E8%A8%80%E4%B8%AD-%E5%92%8C--%E7%9A%84%E4%BD%9C%E7%94%A8/</url>
+    <url>/2022/06/04/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%AD-%E5%92%8C--%E7%9A%84%E4%BD%9C%E7%94%A8/</url>
     <content><![CDATA[<blockquote>
 <ol>
 <li>C语言中#和##的作用</li>
@@ -1585,7 +1649,7 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
   </entry>
   <entry>
     <title>宏替换printf_printf打印指定长度字符串</title>
-    <url>/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8EC%E5%BA%93%E5%87%BD%E6%95%B0/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf_printf%E6%89%93%E5%8D%B0%E6%8C%87%E5%AE%9A%E9%95%BF%E5%BA%A6%E5%AD%97%E7%AC%A6%E4%B8%B2/</url>
+    <url>/2022/06/03/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E5%AE%8F%E6%9B%BF%E6%8D%A2printf_printf%E6%89%93%E5%8D%B0%E6%8C%87%E5%AE%9A%E9%95%BF%E5%BA%A6%E5%AD%97%E7%AC%A6%E4%B8%B2/</url>
     <content><![CDATA[<blockquote>
 <p>宏替换printf、printf打印指定长度字符串</p>
 </blockquote>
@@ -1842,7 +1906,7 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
   </entry>
   <entry>
     <title>GCC编译器关键字</title>
-    <url>/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%81%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/GCC%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <url>/2022/05/10/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/GCC%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97/</url>
     <content><![CDATA[<blockquote>
 <p>GCC编译器关键字 <code>__attribute__ ((__packed__))</code> </p>
 </blockquote>
