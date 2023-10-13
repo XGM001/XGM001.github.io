@@ -22,15 +22,17 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"goupos.top","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="article">
+    <meta name="description" content="ARM汇编指令">
+<meta property="og:type" content="article">
 <meta property="og:title" content="ARM汇编指令">
 <meta property="og:url" content="https://goupos.top/2022/06/11/ARM%E5%86%85%E6%A0%B8/ARM%E6%B1%87%E7%BC%96%E6%8C%87%E4%BB%A4/index.html">
 <meta property="og:site_name" content="个人博客">
+<meta property="og:description" content="ARM汇编指令">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-11T02:39:07.000Z">
-<meta property="article:modified_time" content="2022-06-11T02:39:07.463Z">
+<meta property="article:modified_time" content="2023-09-17T13:07:48.510Z">
 <meta property="article:author" content="构造">
-<meta property="article:tag" content="嵌入式、嵌入式实时操作系统、FPGA">
+<meta property="article:tag" content="ARM内核">
 <meta name="twitter:card" content="summary">
 
 
@@ -159,7 +161,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">72</span>
+          <span class="site-state-item-count">73</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -262,7 +264,7 @@
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
       <meta itemprop="name" content="ARM汇编指令 | 个人博客">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="ARM汇编指令">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -279,6 +281,22 @@
       <span class="post-meta-item-text">发表于</span>
 
       <time title="创建时间：2022-06-11 10:39:07" itemprop="dateCreated datePublished" datetime="2022-06-11T10:39:07+08:00">2022-06-11</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-09-17 21:07:48" itemprop="dateModified" datetime="2023-09-17T21:07:48+08:00">2023-09-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/ARM%E5%86%85%E6%A0%B8/" itemprop="url" rel="index"><span itemprop="name">ARM内核</span></a>
+        </span>
     </span>
 
   
@@ -309,7 +327,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>0</span>
+      <span>236</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -320,6 +338,7 @@
     </span>
 </div>
 
+            <div class="post-description">ARM汇编指令</div>
         </div>
       </header>
 
@@ -327,7 +346,18 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        
+        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="a930876eedcdea4b180444585bd8ad4250ceb59415cd5b886249e8c33a5eef84">f496cd034c8aee30e043308baebb9aa1749c213bc84bf71ed4b391462c9cbd2439b82bd456529492e7e8a4b9ac0a7cd8041c03633aca5c6c7cdadf967519cec31f02bd9a136643327b2f0d9180a36bc74887a541326325b4befe5bb92ab64be1b821b658f3a8386a2f1c4eced1b101e3d355e24066048fe2aeade680c683610ba2590295cf5a4ad1e210ae37a3edcd1a86fbc59580074d3a42ac5dadc0b0267c9c459e2d87a855a2841c997987bd4c86db680d7b5cf5d6e7856bbf675f3332f9d9f61abb5bf0c43e26ed7e508a1f24afa9a23153195895a1dea15e61308d6ef8e3823ad62076ed90a7889cf6cd8130cca30799ee9d2943f360625601dd787f1d62355d58ccf8278d5e4282cc53f6f43e0918a2d36387d47a320dec2bc5c8bd0cfae4ee5b76c060ce566910f104ec527bef42f0e99bb30a6bc8a126aa6beb9374a2a3d13c26fbaf58744b3bf6adc5f28c820a2f72ff07edcdf0fdbef6c29b0940afed9cbe7e8acd5894b6e3d084bf64df1cf8bb908ee87ef63fd1d752b30d1ce251963dec0c7f74ed1d7217f5736cf2d4bbc9fecc48b80b47eaf0ae946c3fdb856105a2273c1437c2fe2d06ba6bfa8ce919d424e3ec3316f44d41277539e8d02261288acb4eb05d2e06655586308ad55e7c99553d24755db70d6f7e819ebb25f67354f9a814cd63053ff6884a61426cfb8c782b330ab4eb887e639f219f2fd68aed937d53a85b2117f7e17e6f55942782f1d9457a76290a7aa29f9d7838f71a555a11719c322ebaa074bee071c8abad531658986bd77f2203807b979422f3007484666485031e67ca930090203434543a6a908beeaacb15a9f9d189525b441b3960ebf0d6589e310520996c0c3b7d13d30eebd52422227320d6e0d97df5b2a1d5dc58255ecde18f1a44f7fa11113bdca53b913f9e01242fcf628ac7be48b9c197083085146b5af41ed338a48630fefbeca8f8f457e1d52e0db089a8e23ca2da4d01fdce0bec5b28973d4114b5082ef85585e7cfc4986d34fe42292fd2ebf7cedca8c44ab435a5c687cfcf5e3bf603a0b33db4d3fddef775497051c1b53d922dcc40da3a1c23d352352e92dee5668d09f62b380408a3a477a83a2d6131a651956e743f9d3f53785a682975ae8b5da1cbb6976f25e2fb83a916a168d6f8b3d1880f9e816042b2fc484e1e7e2905f13352fdbd60c07f9f6d8a3e062d5ab0f4204401c65ef491c45c68c33865da7b07f987df4daca35d22ba0204c76979445a5153d307c29d70d7dac8d270c6c842c58ad40c7918295f1fe344f3edb87c8dc5657f51009c4b9d25a3d5ef686defa3fb6172b6428430502137d2cd86b09f9e09943c749f58daf7ecd3e0a05c364af057fe574b1a725b15f65a918e4367df48ccccfd5af872ad1dc4598caa9b11a62bc5e17077571406e30f2fb4de5822c4819c1085168b898e8cf5363676ec98992b88fc2c4a446f325531040075c58f59cceba6c626ca6aa5137fd6cc0927d4b163ff553370eb034f2e13556a9c0669d4ef267cb955dcb3ed37ddfd220299c9d2475177e6a6ae339763e794492941b52e816ab73ecd4e08a64a77e2f3f0004e8f6d9ed494d5a02f728c3bcd5f4c1b491166c89129207c295f8abe6eeeb089032f01a6170f33d99df40e90068bf9909c16b364ca4cee528caec6e3393443b234b97a5cfb68e45f2ecbe63d18db82170daa478ebd797325fe7a8044f1a9a6a09b644fb058e73ad358a6797888fe231c80eea87bc687938db79e55a5790162695d01f96b5e77f54afcf9b46b31825605745df4b23effc5299d545a3ea471e98561ee33f780b97b73373d3edb685339231e7d2bbb3347f0b7931519fc3e63b88b0b1b66eaad40b6f1e55118f153e0c8f8e1695b959f790dd3201226060a862b92f0eda9f1df198c711be9115c699a5c311b4d184c79405469d09d20abc7fd07dd6bdb9e3e7f571a8deb2689b2ca051350710c3ff494ac757e49fd4552e6f76bab062e169ec9436c99f7b206d31e1c3d83d6b070ab80cbeeb8c0b8fe80b6f013ef33da0263505f3b0cda19366e37680631222f9da631657fb4b395baf9439a007bb6d2e7514934b3a05c85304bf9a9cf69aace9c8e695767e6b5c07024b07567f88836c146db09c5fcaad8239bc2dce859c8fb300823b9696b57e0162ebf807f6fec08949197a50a5ee5ae870b5ab94f497cb8769dfa7041cdd8bc5fedfc8840fe3f119ec6d682334ee323354de5d2ed13fafb28017b0c262980423d4c74bb8dea5278055ff3408fd8462e0ed8d000a303eda0ecc4033e2142124858702db30b9ca408c422d6c35852e085a6beee7cf06b1e7b3a5ea2c3782bbbdd21e2158c096381c87486bbd987cee1ec389a35a76b80c2d61da4d029d214dfdeed7566602aa4b08d27f8633c8aa3a29d5e5b0c8538288d076a872ac5256e16a979a3247f55d22b2a26c2f5193d9f418ebd772d316bc961251a2fa1a5540598d1a955abd126904cc5bafddac74cd873ed95ebc2bac9d2dd225ec5ac4c3d6dc5884d3c96d989aaed64c7dca3a10adac9261d082e99993dfe475373a289415804fafcf6b6809f62dab9c4f3d2a1a403e4ebfa45e7ad381c5c732d45750eab82c7cd3c80a814f62bfa532b788f03c06a77a657d012973909dbc34cab68137039e2445c6d95572f5e7172185dd15fb9a378aea1c83127e38347f34fec0c3b5d6c0fc65ae66e0ed29d11e463d2ac2210be806723579ea1818c8f721f3106f90d4758b5a609a1db059640572db4c726e76c51f0fb332412f61372441d6065b65b56ccc63efc4e0e7ff8fa1bfaafcd2245311081a96bb8e1c28a84ddc27c54b662</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
     </div>
 
     
@@ -349,6 +379,9 @@
   </div>
 </div>
 
+          <div class="post-tags">
+              <a href="/tags/ARM%E5%86%85%E6%A0%B8/" rel="tag"><i class="fa fa-tag"></i> ARM内核</a>
+          </div>
 
         
 
@@ -398,14 +431,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">157k</span>
+    <span title="站点总字数">159k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">2:23</span>
+    <span title="站点阅读时长">2:24</span>
   </span>
 </div>
 <div class="busuanzi-count">
