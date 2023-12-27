@@ -30,7 +30,7 @@
 <meta property="og:description" content="C++学习笔记">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-09-21T09:15:14.000Z">
-<meta property="article:modified_time" content="2023-11-05T14:25:29.107Z">
+<meta property="article:modified_time" content="2023-11-22T16:42:12.083Z">
 <meta property="article:author" content="构造">
 <meta property="article:tag" content="C++">
 <meta name="twitter:card" content="summary">
@@ -162,18 +162,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">76</span>
+          <span class="site-state-item-count">82</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">57</span>
+        <span class="site-state-item-count">58</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">36</span>
+        <span class="site-state-item-count">37</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -288,7 +288,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-11-05 22:25:29" itemprop="dateModified" datetime="2023-11-05T22:25:29+08:00">2023-11-05</time>
+      <time title="修改时间：2023-11-23 00:42:12" itemprop="dateModified" datetime="2023-11-23T00:42:12+08:00">2023-11-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -389,6 +389,9 @@
 
 <h4 id="17-typeid运算符和type-info类"><a href="#17-typeid运算符和type-info类" class="headerlink" title="17. typeid运算符和type_info类"></a>17. typeid运算符和type_info类</h4><p>typeid 用于获取数据类型的信息</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">// expre_typeid_Operator.cpp</span><br><span class="line">// compile with: /GR /EHsc</span><br><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;typeinfo&gt;</span><br><span class="line"></span><br><span class="line">class Base &#123;</span><br><span class="line">public:</span><br><span class="line">   virtual void vvfunc() &#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">class Derived : public Base &#123;&#125;;</span><br><span class="line"></span><br><span class="line">using namespace std;</span><br><span class="line">int main() &#123;</span><br><span class="line">   Derived* pd = new Derived;</span><br><span class="line">   Base* pb = pd;</span><br><span class="line">   cout &lt;&lt; typeid( pb ).name() &lt;&lt; endl;   //prints &quot;class Base *&quot;</span><br><span class="line">   cout &lt;&lt; typeid( *pb ).name() &lt;&lt; endl;   //prints &quot;class Derived&quot;</span><br><span class="line">   cout &lt;&lt; typeid( pd ).name() &lt;&lt; endl;   //prints &quot;class Derived *&quot;</span><br><span class="line">   cout &lt;&lt; typeid( *pd ).name() &lt;&lt; endl;   //prints &quot;class Derived&quot;</span><br><span class="line">   delete pd;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">class Base *</span><br><span class="line">class Derived</span><br><span class="line">class Derived *</span><br><span class="line">class Derived</span><br></pre></td></tr></table></figure>
+
 
 <h4 id="18-关于-auto-的一些用法"><a href="#18-关于-auto-的一些用法" class="headerlink" title="18. 关于 auto 的一些用法"></a>18. 关于 <code>auto</code> 的一些用法</h4><p>方法一：代替冗长复杂的变量声明。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">double func(int a,int b , char *c ,int d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; &quot;a = &quot; &lt;&lt; a &lt;&lt;&quot;  b = &quot; &lt;&lt; b &lt;&lt;&quot;  c = &quot;&lt;&lt; c &lt;&lt; &quot;   d = &quot; &lt;&lt; d &lt;&lt; endl;</span><br><span class="line">	return 1.0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	auto funcp = func;</span><br><span class="line">	funcp(10,20,&quot;小婷&quot;,40); </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -575,14 +578,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">219k</span>
+    <span title="站点总字数">255k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">3:19</span>
+    <span title="站点阅读时长">3:52</span>
   </span>
 </div>
 <div class="busuanzi-count">
