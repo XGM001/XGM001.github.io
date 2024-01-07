@@ -31,6 +31,54 @@
       </tags>
   </entry>
   <entry>
+    <title>C++的STL容器1</title>
+    <url>/2024/01/08/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C++/C++%E7%9A%84STL%E5%AE%B9%E5%99%A81/</url>
+    <content><![CDATA[<span id="more"></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言算法</title>
     <url>/2023/12/19/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F/C%E8%AF%AD%E8%A8%80%E7%AE%97%E6%B3%95/</url>
     <content><![CDATA[<span id="more"></span>
@@ -77,7 +125,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">QMultiMap&lt;QStringint&gt; map1,map2,map3;</span><br><span class="line">map1.insert(&quot;plenty&quot;,100);</span><br><span class="line">map1.insert(&quot;plenty&quot;,2000);</span><br><span class="line">map2.insert(&quot;plenty&quot;,5000);</span><br><span class="line">map3=map1+map2;				//键值可以重复，所以这里map1和map2加在一起给map3</span><br><span class="line">qDebug()&lt;&lt;map3.size();//3</span><br><span class="line">QList&lt;int&gt; values=map3.values(&quot;plenty&quot;);//将plenty的值存储到values数组表中</span><br><span class="line">foreach(int i,values) //values 一个一个放入i中，然后打印出来</span><br><span class="line">	qDebug()&lt;&lt;i; //5000 2000 100</span><br></pre></td></tr></table></figure>
 
 <p>QHash必须提供”&#x3D;&#x3D;”于QMap用法类似，QMultiHash与QMultiMap用法类似</p>
-<p>3.4容器类的迭代</p>
+<p>3.4容器类的迭代(iterator)<br>迭代器就是为访问容器里面的数据，提供的一种方法。QT有两种迭代器：java类型的迭代器（易于使用）和STL类型的迭代器（效率高）</p>
 ]]></content>
       <categories>
         <category>QT</category>
@@ -152,7 +200,23 @@
 <p>容器容量一定大于或等于元素个数，元素个数可能是不是满的</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void printVector(vector&lt;int&gt; &amp; v)</span><br><span class="line">&#123;</span><br><span class="line">	for (vector&lt;int&gt;::iterator it = v.begin(); it != v.end(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; &quot; &quot;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void test01()</span><br><span class="line">&#123;</span><br><span class="line">	vector&lt;int&gt; v1;</span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		v1.push_back(i);</span><br><span class="line">	&#125;</span><br><span class="line">	printVector(v1);</span><br><span class="line"></span><br><span class="line">	if (v1.empty())	//为真 代表容器为空</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;v1 容器为空&quot; &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	else </span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;v1 容器不为空&quot; &lt;&lt; endl;</span><br><span class="line">		cout &lt;&lt; &quot;v1的容量为: &quot; &lt;&lt; v1.capacity() &lt;&lt; endl;</span><br><span class="line">		cout &lt;&lt; &quot;v1元素个数: &quot; &lt;&lt; v1.size() &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	//重新指定大小</span><br><span class="line">	v1.resize(15);</span><br><span class="line">	printVector(v1);	//0 1 2 3 4 5 6 7 8 9 0 0 0 0 0</span><br><span class="line">	//如果重新指定比的比原来长了，新增加的位置使用默认值0填充新的位置</span><br><span class="line">	cout &lt;&lt; &quot;v1的容量为: &quot; &lt;&lt; v1.capacity() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;v1元素个数: &quot; &lt;&lt; v1.size() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	v1.resize(20,100);		//指定默认填充值</span><br><span class="line">	printVector(v1);	//0 1 2 3 4 5 6 7 8 9 0 0 0 0 0 100 100 100 100 100</span><br><span class="line">	//如果重新指定比的比原来长了，新增加的位置使用指定的值填充新的位置</span><br><span class="line">	cout &lt;&lt; &quot;v1的容量为: &quot; &lt;&lt; v1.capacity() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;v1元素个数: &quot; &lt;&lt; v1.size() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	v1.resize(5);		//如果重新指定的长度比原来短了，超出部分会删除掉</span><br><span class="line">	printVector(v1);	//0 1 2 3 4</span><br><span class="line">	cout &lt;&lt; &quot;v1的容量为: &quot; &lt;&lt; v1.capacity() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;v1元素个数: &quot; &lt;&lt; v1.size() &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	test01();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h1 id="vector-插入和删除"><a href="#vector-插入和删除" class="headerlink" title="vector 插入和删除"></a>vector 插入和删除</h1>]]></content>
+<h1 id="vector-插入和删除"><a href="#vector-插入和删除" class="headerlink" title="vector 插入和删除"></a>vector 插入和删除</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">push_back(ele);										//尾部插入元素ele</span><br><span class="line">pop_back();											//删除最后一个元素</span><br><span class="line">insert(const_iterator pos,ele);						//迭代器指向位置pos插入元素ele</span><br><span class="line">insert(const_iterator pos,int count,ele);			//迭代器指向位置pos插入count个元素ele</span><br><span class="line">erase(const_iterator pos);							//删除迭代器指向的元素</span><br><span class="line">erase(const_iterator start,const_iterator end);		//删除迭代器从start到end之间的元素,删除包含其实地址，不包含结束地址区域数据</span><br><span class="line">clear();											//删除容器中的所有元素</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void printVector(vector&lt;int&gt; &amp;v)</span><br><span class="line">&#123;</span><br><span class="line">	for (vector&lt;int&gt;::iterator it = v.begin(); it != v.end(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; &quot;  &quot;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void test01(void)</span><br><span class="line">&#123;</span><br><span class="line">	vector&lt;int&gt; v1;</span><br><span class="line"></span><br><span class="line">	v1.push_back(10);</span><br><span class="line">	v1.push_back(20);</span><br><span class="line">	v1.push_back(30);</span><br><span class="line">	v1.push_back(40);</span><br><span class="line">	v1.push_back(50);</span><br><span class="line"></span><br><span class="line">	printVector(v1);</span><br><span class="line"></span><br><span class="line">	v1.pop_back();</span><br><span class="line">	printVector(v1);</span><br><span class="line"></span><br><span class="line">	v1.insert(v1.begin() + 2, 100);</span><br><span class="line">	printVector(v1);</span><br><span class="line"></span><br><span class="line">	v1.insert(v1.begin() + 2, 3,0xFF);</span><br><span class="line">	printVector(v1);</span><br><span class="line"></span><br><span class="line">	v1.erase(v1.begin() + 2);</span><br><span class="line">	printVector(v1);</span><br><span class="line"></span><br><span class="line">	v1.erase(v1.begin() + 2, v1.begin() + 5);</span><br><span class="line">	printVector(v1);</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;clear&quot; &lt;&lt; endl;</span><br><span class="line">	v1.clear();</span><br><span class="line">	printVector(v1);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	test01();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="vector-数据存取"><a href="#vector-数据存取" class="headerlink" title="vector 数据存取"></a>vector 数据存取</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">at(int idx);					//返回索引idx所指的数据</span><br><span class="line">operator[];						//返回索引idx所指的数据</span><br><span class="line">front();						//返回容器中第一个数据元素</span><br><span class="line">back();							//返回容器中最后一个数据元素					</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void test01()</span><br><span class="line">&#123;</span><br><span class="line">	vector&lt;int&gt; v1;</span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		v1.push_back(i);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	for (size_t i = 0; i &lt; v1.size(); i++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; v1[i] &lt;&lt; &quot;  &quot;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	for (size_t i = 0; i &lt; v1.size(); i++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; v1.at(i) &lt;&lt; &quot;  &quot;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;返回第一个元素：&quot; &lt;&lt; v1.front() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;返回最后一个元素：&quot; &lt;&lt; v1.back() &lt;&lt; endl;</span><br><span class="line">&#125;	</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	test01();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="vector互换容器"><a href="#vector互换容器" class="headerlink" title="vector互换容器"></a>vector互换容器</h1><p>实现两个容器内元素进行互换<br>巧用swap可以收缩内存空间</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">swap(vec);					//将vec与本身的元素互换</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void printVector(vector&lt;int&gt; &amp;v)</span><br><span class="line">&#123;</span><br><span class="line">	for (vector&lt;int&gt;::iterator it = v.begin(); it != v.end(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; &quot;\t&quot;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void test01()</span><br><span class="line">&#123;</span><br><span class="line">	vector&lt;int&gt; v1;</span><br><span class="line">	vector&lt;int&gt; v2;</span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		v1.push_back(i);</span><br><span class="line">		v2.push_back(9-i);</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; &quot;v1 与 v2数据交换前&quot; &lt;&lt; endl;</span><br><span class="line">	printVector(v1);</span><br><span class="line">	printVector(v2);</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;v1 与 v2数据交换后&quot; &lt;&lt; endl;</span><br><span class="line">	v1.swap(v2);</span><br><span class="line">	printVector(v1);</span><br><span class="line">	printVector(v2);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//实际用途</span><br><span class="line">//巧用swap可以收缩内存空间</span><br><span class="line">void test02()</span><br><span class="line">&#123;</span><br><span class="line">	vector&lt;int&gt; v;</span><br><span class="line">	for (size_t i = 0; i &lt; 100000; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		v.push_back(i);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;v的容量为：&quot; &lt;&lt; v.capacity() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;v的大小：&quot; &lt;&lt; v.size() &lt;&lt; endl;</span><br><span class="line">	</span><br><span class="line">	v.resize(3);//重新指定大小，容量不变 现在是容量很大，但是没有使用</span><br><span class="line">	cout &lt;&lt; &quot;v的容量为：&quot; &lt;&lt; v.capacity() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;v的大小：&quot; &lt;&lt; v.size() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	//巧用swap收缩内存</span><br><span class="line">	vector&lt;int&gt;(v).swap(v);</span><br><span class="line">	//vector&lt;int&gt;(v) </span><br><span class="line">	//这里是一部分，这里叫做匿名对象，相当用v构造了一个新的对象									\</span><br><span class="line">	（相当于调用了拷贝构造函数，将v中的数据拷贝到匿名对象中），新对象名字是匿名的，没有名字；	\</span><br><span class="line">	按照v来给匿名对象进行初始化操作，会按照v所用的元素个数来初始化匿名对象元素个数</span><br><span class="line">	//.swap(v)</span><br><span class="line">	//相当于匿名对象调用了交换函数，然后他们的数据空间，互相指向对方，这样子就交换完成了。内存也收缩了，\</span><br><span class="line">	匿名对象空间指会在函数结束后，进行释放空间，这里系统进行了操作</span><br><span class="line">	cout &lt;&lt; &quot;v的容量为：&quot; &lt;&lt; v.capacity() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;v的大小：&quot; &lt;&lt; v.size() &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	test01();</span><br><span class="line">	test02();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>swap可以使两个容器互换，可以达到实用的收缩内存效果</p>
+<h1 id="vector-预留空间"><a href="#vector-预留空间" class="headerlink" title="vector 预留空间"></a>vector 预留空间</h1><p>减少vector在动态扩展容量时的扩展次数,就是一开始就分配这么大的一个空间出来，</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">reserve(int len);			//容器预留len个元素长度，预留位置不初始化，元素不可访问</span><br></pre></td></tr></table></figure>
+<p>预留你指定的长度，但是预留空间是没有数据的，只是分配内存，未初始化内存</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void test01()</span><br><span class="line">&#123;</span><br><span class="line">	vector&lt;int&gt; v;</span><br><span class="line"></span><br><span class="line">	int num = 0;//统计开辟次数</span><br><span class="line">	int *p = NULL;</span><br><span class="line"></span><br><span class="line">	for (size_t i = 0; i &lt; 100000; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		v.push_back(i);</span><br><span class="line">		if (p != &amp;v[0])</span><br><span class="line">		&#123;</span><br><span class="line">			p = &amp;v[0];</span><br><span class="line">			num++;</span><br><span class="line">			cout &lt;&lt; &quot;v.capacity = &quot; &lt;&lt; v.capacity() &lt;&lt; endl;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; &quot;v动态扩展次数:&quot; &lt;&lt; num &lt;&lt; endl;//分配30次，每次扩展1.5倍</span><br><span class="line"></span><br><span class="line">	vector&lt;int&gt; v1;</span><br><span class="line">	v1.reserve(30000);</span><br><span class="line">	num = 0;</span><br><span class="line">	for (size_t i = 0; i &lt; 100000; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		v1.push_back(i);</span><br><span class="line">		if (p != &amp;v1[0])</span><br><span class="line">		&#123;</span><br><span class="line">			p = &amp;v1[0];</span><br><span class="line">			num++;</span><br><span class="line">			cout &lt;&lt; &quot;v1.capacity = &quot; &lt;&lt; v1.capacity() &lt;&lt; endl;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; &quot;v1动态扩展次数:&quot; &lt;&lt; num &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	test01();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如果数据量较大，可以一开始利用reserve预留空间</p>
+]]></content>
       <categories>
         <category>C++</category>
       </categories>
