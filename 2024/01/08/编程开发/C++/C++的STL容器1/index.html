@@ -31,8 +31,9 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://s2.loli.net/2024/01/09/z9gi6fowZ7J1qKj.png">
 <meta property="og:image" content="https://s2.loli.net/2024/01/09/yi9FMjVlfSoWEUr.png">
+<meta property="og:image" content="https://s2.loli.net/2024/01/14/8m1cDnxHWRfjStv.png">
 <meta property="article:published_time" content="2024-01-07T17:42:29.000Z">
-<meta property="article:modified_time" content="2024-01-11T17:43:43.613Z">
+<meta property="article:modified_time" content="2024-01-14T16:18:18.438Z">
 <meta property="article:author" content="构造">
 <meta property="article:tag" content="C++">
 <meta name="twitter:card" content="summary">
@@ -150,7 +151,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E5%AE%B9%E5%99%A8"><span class="nav-text">deque容器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0"><span class="nav-text">deque构造函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque-%E5%AE%B9%E5%99%A8%E8%B5%8B%E5%80%BC%E6%93%8D%E4%BD%9C"><span class="nav-text">deque 容器赋值操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E5%A4%A7%E5%B0%8F%E6%93%8D%E4%BD%9C"><span class="nav-text">deque大小操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E5%AE%B9%E5%99%A8%E6%8F%92%E5%85%A5%E5%92%8C%E5%88%A0%E9%99%A4"><span class="nav-text">deque容器插入和删除</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8"><span class="nav-text">deque数据存储</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E5%AE%B9%E5%99%A8"><span class="nav-text">deque容器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0"><span class="nav-text">deque构造函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque-%E5%AE%B9%E5%99%A8%E8%B5%8B%E5%80%BC%E6%93%8D%E4%BD%9C"><span class="nav-text">deque 容器赋值操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E5%A4%A7%E5%B0%8F%E6%93%8D%E4%BD%9C"><span class="nav-text">deque大小操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E5%AE%B9%E5%99%A8%E6%8F%92%E5%85%A5%E5%92%8C%E5%88%A0%E9%99%A4"><span class="nav-text">deque容器插入和删除</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8"><span class="nav-text">deque数据存储</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#deque%E6%8E%92%E5%BA%8F"><span class="nav-text">deque排序</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#stack%E5%AE%B9%E5%99%A8"><span class="nav-text">stack容器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#stack%E5%B8%B8%E7%94%A8%E6%8E%A5%E5%8F%A3"><span class="nav-text">stack常用接口</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#queue%E5%AE%B9%E5%99%A8"><span class="nav-text">queue容器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#list%E5%AE%B9%E5%99%A8"><span class="nav-text">list容器</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -165,7 +166,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">84</span>
+          <span class="site-state-item-count">85</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -176,7 +177,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">38</span>
+        <span class="site-state-item-count">39</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -291,7 +292,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-01-12 01:43:43" itemprop="dateModified" datetime="2024-01-12T01:43:43+08:00">2024-01-12</time>
+      <time title="修改时间：2024-01-15 00:18:18" itemprop="dateModified" datetime="2024-01-15T00:18:18+08:00">2024-01-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -331,14 +332,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>5.1k</span>
+      <span>8.9k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>5 分钟</span>
+      <span>8 分钟</span>
     </span>
 </div>
 
@@ -378,33 +379,49 @@
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;deque&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void printDeque(string str, const deque&lt;int&gt; &amp;d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; str + &#x27;:&#x27; &lt;&lt; endl;</span><br><span class="line">	for (deque&lt;int&gt;::const_iterator it = d.begin(); it != d.end(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; &#x27;\t&#x27;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	deque&lt;int&gt; d1;</span><br><span class="line">	d1.push_back(10);</span><br><span class="line">	d1.push_back(20);</span><br><span class="line"></span><br><span class="line">	d1.push_front(100);</span><br><span class="line">	d1.push_front(200);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	d1.pop_back();</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line">	d1.pop_front();</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	d1.push_back(20);</span><br><span class="line">	d1.push_front(200);</span><br><span class="line"></span><br><span class="line">	d1.insert(d1.begin() + 1, 1000);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	d1.insert(d1.begin() + 1, 2, 10000);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	deque&lt;int&gt; d2;</span><br><span class="line">	d2.push_back(1);</span><br><span class="line">	d2.push_back(2);</span><br><span class="line">	d2.push_back(3);</span><br><span class="line">	//按照区间插入</span><br><span class="line">	d1.insert(d1.begin(),d2.begin(),d2.end()-1);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	//删除</span><br><span class="line">	deque&lt;int&gt;::iterator it = d1.begin();</span><br><span class="line">	it++;</span><br><span class="line">	it = d1.erase(it);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	d1.erase(it, it + 2);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line">	</span><br><span class="line">	d1.clear();</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>总结：<br>插入和删除提供的位置是迭代器</p>
-<h1 id="deque数据存储"><a href="#deque数据存储" class="headerlink" title="deque数据存储"></a>deque数据存储</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">at(int idx);							//返回索引idx所指的数据</span><br><span class="line">operator [];							//返回索引idx所指的数据</span><br></pre></td></tr></table></figure>
+<h1 id="deque数据存储"><a href="#deque数据存储" class="headerlink" title="deque数据存储"></a>deque数据存储</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">at(int idx);							//返回索引idx所指的数据</span><br><span class="line">operator [];							//返回索引idx所指的数据</span><br><span class="line">front();								//返回容器中第一个数据元素</span><br><span class="line">back();									//返回容器中最后一个数据元素</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;deque&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	deque&lt;int&gt; d1;</span><br><span class="line"></span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		d1.push_back(i);</span><br><span class="line">	&#125;</span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; d1.at(i) &lt;&lt; &#x27;\t&#x27;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	d1[3] = 1000;</span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; d1[i] &lt;&lt; &#x27;\t&#x27;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;第一个元素：&quot; &lt;&lt; d1.front() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;最后一个元素:&quot; &lt;&lt; d1.back() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="deque排序"><a href="#deque排序" class="headerlink" title="deque排序"></a>deque排序</h1><p>利用算法实现deque容器进行排序</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sort(iterator beg,iterator end);			//对beg和end区间元素进行排序(默认排序规则，从小到大 升序)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;deque&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">#include &lt;algorithm&gt;	//标准算法头文件</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void printDeque(const string str, deque&lt;int&gt; &amp;deq)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; str + &#x27;:&#x27; &lt;&lt; endl;</span><br><span class="line">	for (deque&lt;int&gt;::const_iterator it = deq.begin(); it != deq.end(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; &#x27;\t&#x27;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	deque&lt;int&gt; d1;</span><br><span class="line">	d1.push_back(10);</span><br><span class="line">	d1.push_back(20);</span><br><span class="line">	d1.push_back(30);</span><br><span class="line">	d1.push_front(100);</span><br><span class="line">	d1.push_front(200);</span><br><span class="line">	d1.push_front(300);</span><br><span class="line">	printDeque(&quot;d1&quot;,d1);</span><br><span class="line"></span><br><span class="line">	sort(d1.begin(), d1.end());</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>对于支持水机访问的迭代器的容器，都可以利用sort算法直接对其进行排序</p>
+<h1 id="stack容器"><a href="#stack容器" class="headerlink" title="stack容器"></a>stack容器</h1><p>先进后出 push pop</p>
+<h1 id="stack常用接口"><a href="#stack常用接口" class="headerlink" title="stack常用接口"></a>stack常用接口</h1><p>构造函数：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">stack&lt;T&gt; stk;					//stack采用模板类实现，stack对象的默认构造形式</span><br><span class="line">stack(const stack &amp; stk);		//拷贝构造函数</span><br></pre></td></tr></table></figure>
+
+<p>赋值操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">stack &amp; operator=(const stack &amp;stk);			//重载等号操作符</span><br></pre></td></tr></table></figure>
+
+<p>数据存储</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">push(elem);					//向栈顶添加元素</span><br><span class="line">pop();						//从栈顶一处第一元素</span><br><span class="line">top();						//返回栈顶元素</span><br></pre></td></tr></table></figure>
+
+<p>大小操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">empty();					//判断堆栈是否为空</span><br><span class="line">size();						//返回栈的大小</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;stack&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	stack&lt;int&gt; s;</span><br><span class="line">	s.push(10);</span><br><span class="line">	s.push(20);</span><br><span class="line">	s.push(30);</span><br><span class="line">	s.push(40);</span><br><span class="line"></span><br><span class="line">	stack&lt;int&gt; s1(s);</span><br><span class="line"></span><br><span class="line">	while (!s.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;栈顶元素:&quot; &lt;&lt; s.top() &lt;&lt; endl;</span><br><span class="line">		s.pop();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;栈大小:&quot; &lt;&lt; s.size() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	s = s1;</span><br><span class="line"></span><br><span class="line">	while (!s.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;s栈顶元素:&quot; &lt;&lt; s.top() &lt;&lt; endl;</span><br><span class="line">		s.pop();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	while (!s1.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;s1栈顶元素:&quot; &lt;&lt; s1.top() &lt;&lt; endl;</span><br><span class="line">		s1.pop();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
+<h1 id="queue容器"><a href="#queue容器" class="headerlink" title="queue容器"></a>queue容器</h1><p>是一种先进先出(First In First Out,FIFO)的数据结构，它有两个出口</p>
+<img data-src="https://s2.loli.net/2024/01/14/8m1cDnxHWRfjStv.png"/>
 
+<p>队尾只能插入数据(push)；队头只能取数据(pop) ;队尾back();队头front();队头队尾看个人指定</p>
+<p>队列容器允许从一端新增元素，从另一端移除元素<br>队列中只有队头和队尾才可以被外界使用，因此队列不允许有遍历行为；</p>
+<p>构造函数：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">queue&lt;T&gt; stk;					//queue采用模板类实现，queue对象的默认构造形式</span><br><span class="line">queue(const queue &amp; stk);		//拷贝构造函数</span><br></pre></td></tr></table></figure>
 
+<p>赋值操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">queue &amp; operator=(const queue &amp;stk);			//重载等号操作符</span><br></pre></td></tr></table></figure>
 
+<p>数据存储</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">push(elem);					//向队尾添加元素</span><br><span class="line">pop();						//从队头移除第一元素</span><br><span class="line">front();					//返回第一个元素</span><br><span class="line">back();						//返回最后一个元素</span><br></pre></td></tr></table></figure>
 
+<p>大小操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">empty();					//判断队列是否为空</span><br><span class="line">size();						//返回队列的大小</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;queue&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">class Person</span><br><span class="line">&#123;</span><br><span class="line">public:</span><br><span class="line">	Person(string name, int age) :m_name(name), m_age(age)</span><br><span class="line">	&#123;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	~Person();</span><br><span class="line"></span><br><span class="line">	string readname(void)</span><br><span class="line">	&#123;</span><br><span class="line">		return this-&gt;m_name;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	int readage(void)</span><br><span class="line">	&#123;</span><br><span class="line">		return this-&gt;m_age;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">private:</span><br><span class="line">	string m_name;</span><br><span class="line">	int m_age;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Person::~Person()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	queue&lt;Person&gt; q;</span><br><span class="line"></span><br><span class="line">	//准备数据</span><br><span class="line">	Person p1(&quot;唐僧&quot;,30);</span><br><span class="line">	Person p2(&quot;孙悟空&quot;, 1000);</span><br><span class="line">	Person p3(&quot;猪八戒&quot;, 900);</span><br><span class="line">	Person p4(&quot;沙僧&quot;, 800);</span><br><span class="line"></span><br><span class="line">	//入队</span><br><span class="line">	q.push(p1);</span><br><span class="line">	q.push(p2);</span><br><span class="line">	q.push(p3);</span><br><span class="line">	q.push(p4);</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;容量&quot; &lt;&lt; q.size() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	//判断只要队列不为空，查看队头，查看队尾，出队</span><br><span class="line">	while (!q.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		//查看队头</span><br><span class="line">		cout &lt;&lt; &quot;队头元素 ----- 姓名&quot; &lt;&lt; q.front().readname() &lt;&lt; &quot;    年龄：&quot; &lt;&lt; q.front().readage() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">		//查看队尾</span><br><span class="line">		cout &lt;&lt; &quot;队尾元素 ----- 姓名&quot; &lt;&lt; q.back().readname() &lt;&lt; &quot;    年龄：&quot; &lt;&lt; q.back().readage() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">		//出队</span><br><span class="line">		q.pop();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;容量&quot; &lt;&lt; q.size() &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h1 id="list容器"><a href="#list容器" class="headerlink" title="list容器"></a>list容器</h1><p>STL中的链表是一个双向循环链表</p>
 
     </div>
 
@@ -440,8 +457,8 @@
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2024/01/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/ASCII%E7%A0%81%E8%A1%A8/" rel="next" title="ASCII码表">
-                  ASCII码表 <i class="fa fa-chevron-right"></i>
+                <a href="/2024/01/09/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/ADC%E5%8F%82%E6%95%B0%E8%AF%A6%E8%A7%A3/" rel="next" title="ADC参数详解">
+                  ADC参数详解 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -479,14 +496,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">265k</span>
+    <span title="站点总字数">269k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">4:01</span>
+    <span title="站点阅读时长">4:05</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -2320,6 +2320,23 @@ function fnUpdateTabs()
       </tags>
   </entry>
   <entry>
+    <title>ADC参数详解</title>
+    <url>/2024/01/09/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/ADC%E5%8F%82%E6%95%B0%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="基本参数"><a href="#基本参数" class="headerlink" title="基本参数"></a>基本参数</h1><h2 id="分辨率（Resolution）"><a href="#分辨率（Resolution）" class="headerlink" title="分辨率（Resolution）"></a>分辨率（Resolution）</h2><p>其实就是对一个标准电压(就是供电给ADC芯片的电压)可以分成多少等份。例如8位的ADC就可以对标准电压分成256等份，表示256个不同的模拟信号值</p>
+<h2 id="采样速率（Sampling-Time）"><a href="#采样速率（Sampling-Time）" class="headerlink" title="采样速率（Sampling Time）"></a>采样速率（Sampling Time）</h2><p>采样速率就是我们最高的ADC采样频率，也就是数据手册中的<code>Maximum Sampling Frequency</code>。常用单位是 ksps 和 Msps，表示每秒 采样千&#x2F;百万次（kilo &#x2F; Million Samples per Second）</p>
+<p>奈奎斯特采样定理:<br>在进行模拟&#x2F;数字信号的转换过程中，当采样频率fs.max大于信号中最高频率fmax的2倍时（fs.max＞&#x3D;2fmax）,采样之后的数字信号完整地保留了原始信号中的信息，一般实际应用中保证采样频率为信号最高频率的2.56～4倍；采样定理又称奈奎斯特定理。</p>
+<h2 id="转换时间（Conversion-Time）"><a href="#转换时间（Conversion-Time）" class="headerlink" title="转换时间（Conversion Time）"></a>转换时间（Conversion Time）</h2><p>转换时间的导数就是转换速率。因为将一个模拟信号值转换成一个数字量不能瞬间完成，这个过程需要一定的时间。<br>积分型 AD 的转换时间是毫秒级属于低速 AD，逐次比较型 AD 是微秒级属中速 AD，全并行&#x2F; 串并行型 AD 可达到纳秒级。转换时间是衡量一个ADC是不是高速的主要指标，高速ADC转换时间小于1us，低速ADC转换时间大于300us。</p>
+]]></content>
+      <categories>
+        <category>硬件开发</category>
+      </categories>
+      <tags>
+        <tag>ADC参数详解</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C++的STL容器1</title>
     <url>/2024/01/08/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C++/C++%E7%9A%84STL%E5%AE%B9%E5%99%A81/</url>
     <content><![CDATA[<span id="more"></span>
@@ -2350,33 +2367,49 @@ function fnUpdateTabs()
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;deque&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void printDeque(string str, const deque&lt;int&gt; &amp;d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; str + &#x27;:&#x27; &lt;&lt; endl;</span><br><span class="line">	for (deque&lt;int&gt;::const_iterator it = d.begin(); it != d.end(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; &#x27;\t&#x27;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	deque&lt;int&gt; d1;</span><br><span class="line">	d1.push_back(10);</span><br><span class="line">	d1.push_back(20);</span><br><span class="line"></span><br><span class="line">	d1.push_front(100);</span><br><span class="line">	d1.push_front(200);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	d1.pop_back();</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line">	d1.pop_front();</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	d1.push_back(20);</span><br><span class="line">	d1.push_front(200);</span><br><span class="line"></span><br><span class="line">	d1.insert(d1.begin() + 1, 1000);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	d1.insert(d1.begin() + 1, 2, 10000);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	deque&lt;int&gt; d2;</span><br><span class="line">	d2.push_back(1);</span><br><span class="line">	d2.push_back(2);</span><br><span class="line">	d2.push_back(3);</span><br><span class="line">	//按照区间插入</span><br><span class="line">	d1.insert(d1.begin(),d2.begin(),d2.end()-1);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	//删除</span><br><span class="line">	deque&lt;int&gt;::iterator it = d1.begin();</span><br><span class="line">	it++;</span><br><span class="line">	it = d1.erase(it);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	d1.erase(it, it + 2);</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line">	</span><br><span class="line">	d1.clear();</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>总结：<br>插入和删除提供的位置是迭代器</p>
-<h1 id="deque数据存储"><a href="#deque数据存储" class="headerlink" title="deque数据存储"></a>deque数据存储</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">at(int idx);							//返回索引idx所指的数据</span><br><span class="line">operator [];							//返回索引idx所指的数据</span><br></pre></td></tr></table></figure>
+<h1 id="deque数据存储"><a href="#deque数据存储" class="headerlink" title="deque数据存储"></a>deque数据存储</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">at(int idx);							//返回索引idx所指的数据</span><br><span class="line">operator [];							//返回索引idx所指的数据</span><br><span class="line">front();								//返回容器中第一个数据元素</span><br><span class="line">back();									//返回容器中最后一个数据元素</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;deque&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	deque&lt;int&gt; d1;</span><br><span class="line"></span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		d1.push_back(i);</span><br><span class="line">	&#125;</span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; d1.at(i) &lt;&lt; &#x27;\t&#x27;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	d1[3] = 1000;</span><br><span class="line">	for (size_t i = 0; i &lt; 10; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; d1[i] &lt;&lt; &#x27;\t&#x27;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;第一个元素：&quot; &lt;&lt; d1.front() &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; &quot;最后一个元素:&quot; &lt;&lt; d1.back() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="deque排序"><a href="#deque排序" class="headerlink" title="deque排序"></a>deque排序</h1><p>利用算法实现deque容器进行排序</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sort(iterator beg,iterator end);			//对beg和end区间元素进行排序(默认排序规则，从小到大 升序)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;deque&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">#include &lt;algorithm&gt;	//标准算法头文件</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void printDeque(const string str, deque&lt;int&gt; &amp;deq)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; str + &#x27;:&#x27; &lt;&lt; endl;</span><br><span class="line">	for (deque&lt;int&gt;::const_iterator it = deq.begin(); it != deq.end(); it++)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; *it &lt;&lt; &#x27;\t&#x27;;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	deque&lt;int&gt; d1;</span><br><span class="line">	d1.push_back(10);</span><br><span class="line">	d1.push_back(20);</span><br><span class="line">	d1.push_back(30);</span><br><span class="line">	d1.push_front(100);</span><br><span class="line">	d1.push_front(200);</span><br><span class="line">	d1.push_front(300);</span><br><span class="line">	printDeque(&quot;d1&quot;,d1);</span><br><span class="line"></span><br><span class="line">	sort(d1.begin(), d1.end());</span><br><span class="line">	printDeque(&quot;d1&quot;, d1);</span><br><span class="line"></span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>对于支持水机访问的迭代器的容器，都可以利用sort算法直接对其进行排序</p>
+<h1 id="stack容器"><a href="#stack容器" class="headerlink" title="stack容器"></a>stack容器</h1><p>先进后出 push pop</p>
+<h1 id="stack常用接口"><a href="#stack常用接口" class="headerlink" title="stack常用接口"></a>stack常用接口</h1><p>构造函数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">stack&lt;T&gt; stk;					//stack采用模板类实现，stack对象的默认构造形式</span><br><span class="line">stack(const stack &amp; stk);		//拷贝构造函数</span><br></pre></td></tr></table></figure>
+
+<p>赋值操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">stack &amp; operator=(const stack &amp;stk);			//重载等号操作符</span><br></pre></td></tr></table></figure>
+
+<p>数据存储</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">push(elem);					//向栈顶添加元素</span><br><span class="line">pop();						//从栈顶一处第一元素</span><br><span class="line">top();						//返回栈顶元素</span><br></pre></td></tr></table></figure>
+
+<p>大小操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">empty();					//判断堆栈是否为空</span><br><span class="line">size();						//返回栈的大小</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;stack&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	stack&lt;int&gt; s;</span><br><span class="line">	s.push(10);</span><br><span class="line">	s.push(20);</span><br><span class="line">	s.push(30);</span><br><span class="line">	s.push(40);</span><br><span class="line"></span><br><span class="line">	stack&lt;int&gt; s1(s);</span><br><span class="line"></span><br><span class="line">	while (!s.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;栈顶元素:&quot; &lt;&lt; s.top() &lt;&lt; endl;</span><br><span class="line">		s.pop();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;栈大小:&quot; &lt;&lt; s.size() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	s = s1;</span><br><span class="line"></span><br><span class="line">	while (!s.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;s栈顶元素:&quot; &lt;&lt; s.top() &lt;&lt; endl;</span><br><span class="line">		s.pop();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	while (!s1.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; &quot;s1栈顶元素:&quot; &lt;&lt; s1.top() &lt;&lt; endl;</span><br><span class="line">		s1.pop();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
+<h1 id="queue容器"><a href="#queue容器" class="headerlink" title="queue容器"></a>queue容器</h1><p>是一种先进先出(First In First Out,FIFO)的数据结构，它有两个出口</p>
+<img data-src="https://s2.loli.net/2024/01/14/8m1cDnxHWRfjStv.png"/>
 
+<p>队尾只能插入数据(push)；队头只能取数据(pop) ;队尾back();队头front();队头队尾看个人指定</p>
+<p>队列容器允许从一端新增元素，从另一端移除元素<br>队列中只有队头和队尾才可以被外界使用，因此队列不允许有遍历行为；</p>
+<p>构造函数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">queue&lt;T&gt; stk;					//queue采用模板类实现，queue对象的默认构造形式</span><br><span class="line">queue(const queue &amp; stk);		//拷贝构造函数</span><br></pre></td></tr></table></figure>
 
+<p>赋值操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">queue &amp; operator=(const queue &amp;stk);			//重载等号操作符</span><br></pre></td></tr></table></figure>
 
+<p>数据存储</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">push(elem);					//向队尾添加元素</span><br><span class="line">pop();						//从队头移除第一元素</span><br><span class="line">front();					//返回第一个元素</span><br><span class="line">back();						//返回最后一个元素</span><br></pre></td></tr></table></figure>
 
+<p>大小操作：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">empty();					//判断队列是否为空</span><br><span class="line">size();						//返回队列的大小</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;queue&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">class Person</span><br><span class="line">&#123;</span><br><span class="line">public:</span><br><span class="line">	Person(string name, int age) :m_name(name), m_age(age)</span><br><span class="line">	&#123;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	~Person();</span><br><span class="line"></span><br><span class="line">	string readname(void)</span><br><span class="line">	&#123;</span><br><span class="line">		return this-&gt;m_name;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	int readage(void)</span><br><span class="line">	&#123;</span><br><span class="line">		return this-&gt;m_age;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">private:</span><br><span class="line">	string m_name;</span><br><span class="line">	int m_age;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Person::~Person()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	queue&lt;Person&gt; q;</span><br><span class="line"></span><br><span class="line">	//准备数据</span><br><span class="line">	Person p1(&quot;唐僧&quot;,30);</span><br><span class="line">	Person p2(&quot;孙悟空&quot;, 1000);</span><br><span class="line">	Person p3(&quot;猪八戒&quot;, 900);</span><br><span class="line">	Person p4(&quot;沙僧&quot;, 800);</span><br><span class="line"></span><br><span class="line">	//入队</span><br><span class="line">	q.push(p1);</span><br><span class="line">	q.push(p2);</span><br><span class="line">	q.push(p3);</span><br><span class="line">	q.push(p4);</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;容量&quot; &lt;&lt; q.size() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	//判断只要队列不为空，查看队头，查看队尾，出队</span><br><span class="line">	while (!q.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		//查看队头</span><br><span class="line">		cout &lt;&lt; &quot;队头元素 ----- 姓名&quot; &lt;&lt; q.front().readname() &lt;&lt; &quot;    年龄：&quot; &lt;&lt; q.front().readage() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">		//查看队尾</span><br><span class="line">		cout &lt;&lt; &quot;队尾元素 ----- 姓名&quot; &lt;&lt; q.back().readname() &lt;&lt; &quot;    年龄：&quot; &lt;&lt; q.back().readage() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">		//出队</span><br><span class="line">		q.pop();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	cout &lt;&lt; &quot;容量&quot; &lt;&lt; q.size() &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h1 id="list容器"><a href="#list容器" class="headerlink" title="list容器"></a>list容器</h1><p>STL中的链表是一个双向循环链表</p>
 ]]></content>
       <categories>
         <category>C++</category>
