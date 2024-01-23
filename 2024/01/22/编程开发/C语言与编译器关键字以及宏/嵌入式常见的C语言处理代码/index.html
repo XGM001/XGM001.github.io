@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"goupos.top","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="嵌入式常见的C语言处理代码">
+<meta property="og:type" content="article">
+<meta property="og:title" content="嵌入式常见的C语言处理代码">
+<meta property="og:url" content="https://goupos.top/2024/01/22/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%B8%B8%E8%A7%81%E7%9A%84C%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E4%BB%A3%E7%A0%81/index.html">
+<meta property="og:site_name" content="个人博客">
+<meta property="og:description" content="嵌入式常见的C语言处理代码">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-01-22T02:19:18.000Z">
+<meta property="article:modified_time" content="2024-01-23T03:29:07.378Z">
+<meta property="article:author" content="构造">
+<meta property="article:tag" content="C语言与编译器关键字以及宏和代码">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://goupos.top/2024/01/22/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%B8%B8%E8%A7%81%E7%9A%84C%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E4%BB%A3%E7%A0%81/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://goupos.top/2024/01/22/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%B8%B8%E8%A7%81%E7%9A%84C%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E4%BB%A3%E7%A0%81/","path":"2024/01/22/编程开发/C语言与编译器关键字以及宏/嵌入式常见的C语言处理代码/","title":"嵌入式常见的C语言处理代码"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>嵌入式常见的C语言处理代码 | 个人博客</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="个人博客" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">个人博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <img class="custom-logo-image" src="https://s2.loli.net/2023/02/13/HuK2GO4lL76ZEFQ.gif" alt="个人博客">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97%EF%BC%88Circular-Buffer%EF%BC%89%EF%BC%9A"><span class="nav-text">循环队列（Circular Buffer）：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%AD%E8%A8%80%EF%BC%88Assertion%EF%BC%89%EF%BC%9A"><span class="nav-text">断言（Assertion）：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%8D%E5%9F%9F%E5%8F%8D%E8%BD%AC%EF%BC%88Bit-Reversal%EF%BC%89%EF%BC%9A"><span class="nav-text">位域反转（Bit Reversal）：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E8%8A%82%E5%BA%8F%E8%BD%AC%E6%8D%A2%EF%BC%88Endianness-Conversion%EF%BC%89%EF%BC%9A"><span class="nav-text">字节序转换（Endianness Conversion）：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%8D%E6%8E%A9%E7%A0%81%EF%BC%88Bit-Masks%EF%BC%89%EF%BC%9A"><span class="nav-text">位掩码（Bit Masks）：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%9F%A5%E6%89%BE%EF%BC%88Binary-Search%EF%BC%89%EF%BC%9A"><span class="nav-text">二进制查找（Binary Search）：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%8D%E9%9B%86%E5%90%88%EF%BC%88Bitset%EF%BC%89%EF%BC%9A"><span class="nav-text">位集合（Bitset）：</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="构造"
+      src="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
+  <p class="site-author-name" itemprop="name">构造</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">88</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">59</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="sidebar-button site-overview-item animated">
+    <button class="js-gitter-toggle-chat-button"><i class="fa fa-comment"></i>
+      在线讨论
+    </button>
+  </div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/XGM001" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;XGM001" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://gitee.com/xgm-embedded-os/GoupOS" title="Gitee → https:&#x2F;&#x2F;gitee.com&#x2F;xgm-embedded-os&#x2F;GoupOS" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>Gitee</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:xgmcreate@foxmail.com" title="E-Mail0 → mailto:xgmcreate@foxmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail0</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:xgmcreate@189.cn" title="E-Mail1 → mailto:xgmcreate@189.cn" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail1</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      技术帮助友情链接与网站导航
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://home.goupos.top/" title="https:&#x2F;&#x2F;home.goupos.top&#x2F;" rel="noopener" target="_blank">网站导航</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://blog.bubuzi.top/" title="http:&#x2F;&#x2F;blog.bubuzi.top&#x2F;" rel="noopener" target="_blank">布布子Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://home.bubuzi.top/" title="https:&#x2F;&#x2F;home.bubuzi.top&#x2F;" rel="noopener" target="_blank">布布子导航</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://home.bubuzi.top/" title="https:&#x2F;&#x2F;home.bubuzi.top&#x2F;" rel="noopener" target="_blank">导航对齐</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://goupos.top/2024/01/22/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%B8%B8%E8%A7%81%E7%9A%84C%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E4%BB%A3%E7%A0%81/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
+      <meta itemprop="name" content="构造">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="个人博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="嵌入式常见的C语言处理代码 | 个人博客">
+      <meta itemprop="description" content="嵌入式常见的C语言处理代码">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          嵌入式常见的C语言处理代码
+        </h1>
+
+        <div class="post-meta-container">
+          
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-01-22 10:19:18" itemprop="dateCreated datePublished" datetime="2024-01-22T10:19:18+08:00">2024-01-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-01-23 11:29:07" itemprop="dateModified" datetime="2024-01-23T11:29:07+08:00">2024-01-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F%E5%92%8C%E4%BB%A3%E7%A0%81/" itemprop="url" rel="index"><span itemprop="name">C语言与编译器关键字以及宏和代码</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F%E5%92%8C%E4%BB%A3%E7%A0%81/%E5%B8%B8%E8%A7%81%E7%9A%84C%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E4%BB%A3%E7%A0%81/" itemprop="url" rel="index"><span itemprop="name">常见的C语言处理代码</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Changyan：</span>
+    
+    <a title="嵌入式常见的C语言处理代码" href="/2024/01/22/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%B8%B8%E8%A7%81%E7%9A%84C%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E4%BB%A3%E7%A0%81/#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::cb5b545eea3c36702e36987b8b84e6c5" class="cy_cmt_count" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>6.8k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>6 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">嵌入式常见的C语言处理代码</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <blockquote>
+<p>以下为未调试代码，使用时候，请注意调试</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="循环队列（Circular-Buffer）："><a href="#循环队列（Circular-Buffer）：" class="headerlink" title="循环队列（Circular Buffer）："></a>循环队列（Circular Buffer）：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdint.h&gt;</span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line"></span><br><span class="line">#define RX_BUFF     500</span><br><span class="line">#define TX_BUFF     500</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">typedef struct _CircularBuffer__</span><br><span class="line">&#123;</span><br><span class="line">    uint8_t     RXbuffer[RX_BUFF];      /* 接收缓冲区 */</span><br><span class="line">    uint8_t     TXbuffer[TX_BUFF];      /* 发送缓冲区 */</span><br><span class="line">    uint32_t    RXhead;                 /* 接收数据头 */</span><br><span class="line">    uint32_t    RXtail;                 /* 接收数据尾部 */</span><br><span class="line">    uint32_t    RXlen;                  /* 本次接收数据的长度 */</span><br><span class="line">    uint32_t    RXbuffersize;           /* 接收数据缓冲区大小 */</span><br><span class="line">    uint32_t    TXhead;                 /* 发送数据头 */</span><br><span class="line">    uint32_t    TXtail;                 /* 发送数据尾部 */</span><br><span class="line">    uint32_t    TXlen;                  /* 本次发送数据的长度 */</span><br><span class="line">    uint32_t    TXbuffersize;           /* 发送数据缓冲区大小 */</span><br><span class="line">&#125; CircularBuffer;</span><br><span class="line"></span><br><span class="line">CircularBuffer XXDeviceData;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 循环器对象初始化</span><br><span class="line"> * </span><br><span class="line"> * @param Circularobject 循环器对象</span><br><span class="line"> * @param RXbuffersize 循环器接收数据缓冲区大小</span><br><span class="line"> * @param TXbuffersize 循环器发送数据缓冲区大小</span><br><span class="line"> */</span><br><span class="line">void Circular_Init(CircularBuffer *Circularobject,uint32_t RXbuffersize,uint32_t TXbuffersize)</span><br><span class="line">&#123;</span><br><span class="line">    memset(Circularobject,0,sizeof(Circularobject));</span><br><span class="line">    Circularobject-&gt;RXbuffersize = RXbuffersize;</span><br><span class="line">    Circularobject-&gt;TXbuffersize = TXbuffersize;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 循环器接收区域读取数据</span><br><span class="line"> * 数据量多时候使用该函数</span><br><span class="line"> * @param Circularobject 循环器对象</span><br><span class="line"> * @param ReadNData 读取数据个数</span><br><span class="line"> * @param Dst_data 读取数据存入目标</span><br><span class="line"> * @return uint8_t 1 读取成功 0读取失败</span><br><span class="line"> */</span><br><span class="line">uint8_t Circular_ReadData(CircularBuffer *Circularobject,uint32_t ReadNData,uint8_t * Dst_data)</span><br><span class="line">&#123;</span><br><span class="line">    uint32_t i = 0;</span><br><span class="line">    uint32_t temp_ReadNData = (Circularobject-&gt;RXlen &gt; ReadNData)? ReadNData:Circularobject-&gt;RXlen; /* 当读取数据小于现有数据长度时候，读取指定长度数据，当读取数据大于现有数据时候，读取现有数据长度 */</span><br><span class="line">    uint8_t * src_data = Circularobject-&gt;RXbuffer + Circularobject-&gt;RXhead; /* 读取数据起始地址 */</span><br><span class="line">    uint32_t CircularData_len1 = Circularobject-&gt;RXhead + temp_ReadNData;   /* 读取完数据后，起始地址位置到哪了 */</span><br><span class="line">    uint32_t CircularData_len2 = (Circularobject-&gt;RXbuffersize &gt; CircularData_len1)?CircularData_len1:Circularobject-&gt;RXbuffersize; /* 判断当前读取的数据是否超过了缓冲区最大的长度 */</span><br><span class="line"></span><br><span class="line">    if((!temp_ReadNData)||(!Dst_data)) /* 无数据 */</span><br><span class="line">    &#123;</span><br><span class="line">        return 0;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    Circularobject-&gt;RXlen -= temp_ReadNData;</span><br><span class="line"></span><br><span class="line">    if(CircularData_len1 != CircularData_len2)  /* 是否到了结束地址 */</span><br><span class="line">    &#123;</span><br><span class="line">        for(i = Circularobject-&gt;RXhead;i&lt;CircularData_len2;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            *Dst_data++ = *src_data++;</span><br><span class="line">        &#125;</span><br><span class="line">        CircularData_len1 -= CircularData_len2;</span><br><span class="line">        Circularobject-&gt;RXhead = 0;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    for(i = Circularobject-&gt;RXhead;i&lt;CircularData_len1;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        *Dst_data++ = *src_data++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    Circularobject-&gt;RXhead = i;</span><br><span class="line">    Circularobject-&gt;RXhead %= Circularobject-&gt;RXbuffersize;</span><br><span class="line">    return 1;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 读取循环器接收区域前面第一个数据</span><br><span class="line"> * </span><br><span class="line"> * @param Circularobject 循环器对象</span><br><span class="line"> * @return uint8_t 返回数据</span><br><span class="line"> */</span><br><span class="line">uint8_t Circular_popfront(CircularBuffer *Circularobject)</span><br><span class="line">&#123;</span><br><span class="line">    uint8_t data = 0;</span><br><span class="line">    if(Circularobject-&gt;RXlen)</span><br><span class="line">    &#123;</span><br><span class="line">        Circularobject-&gt;RXlen--;</span><br><span class="line">        Circularobject-&gt;RXhead %= Circularobject-&gt;RXbuffersize;</span><br><span class="line">        data =Circularobject-&gt;RXbuffer[Circularobject-&gt;RXhead++];</span><br><span class="line">        return data;</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 循环器接收区域写入数据</span><br><span class="line"> * 数据量多时候使用该函数</span><br><span class="line"> * @param Circularobject 循环器对象</span><br><span class="line"> * @param WriteNData 写入N个数据</span><br><span class="line"> * @param src_data 数据源</span><br><span class="line"> * @return uint8_t 1 写入成功 0写入失败</span><br><span class="line"> */</span><br><span class="line">uint8_t Circular_WriteData(CircularBuffer *Circularobject,uint32_t WriteNData,uint8_t * src_data)</span><br><span class="line">&#123;</span><br><span class="line">    uint32_t i = 0;</span><br><span class="line">    uint32_t temp_WriteNData = (Circularobject-&gt;RXbuffersize &gt; WriteNData)?WriteNData:Circularobject-&gt;RXbuffersize;</span><br><span class="line">    uint8_t * Dst_data = Circularobject-&gt;RXbuffer + Circularobject-&gt;RXtail; /* 写入数据起始地址 */</span><br><span class="line">    uint32_t CircularData_len1 = Circularobject-&gt;RXtail + temp_WriteNData;   /* 写入数据后，起始地址位置到哪了 */</span><br><span class="line">    uint32_t CircularData_len2 = (Circularobject-&gt;RXbuffersize &gt; CircularData_len1)?CircularData_len1:Circularobject-&gt;RXbuffersize; /* 判断当前写入的数据是否超过了缓冲区最大的长度 */</span><br><span class="line">    </span><br><span class="line">    if((!temp_WriteNData)||(!src_data)) /* 无数据 */</span><br><span class="line">    &#123;</span><br><span class="line">        return 0;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    Circularobject-&gt;RXlen = temp_WriteNData;</span><br><span class="line"></span><br><span class="line">    if(CircularData_len1 != CircularData_len2)</span><br><span class="line">    &#123;</span><br><span class="line">        for (i = Circularobject-&gt;RXtail; i &lt; CircularData_len2; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            *Dst_data++ =*src_data++;</span><br><span class="line">        &#125;</span><br><span class="line">        CircularData_len1 -= CircularData_len2;</span><br><span class="line">        Circularobject-&gt;RXtail = 0;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    for(i = Circularobject-&gt;RXtail;i&lt;CircularData_len1;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        *Dst_data++ = *src_data++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    Circularobject-&gt;RXtail = i;</span><br><span class="line">    Circularobject-&gt;RXtail %= Circularobject-&gt;RXbuffersize;</span><br><span class="line">    return 1;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 写入循环器接收区域下一个位置数据</span><br><span class="line"> * </span><br><span class="line"> * @param Circularobject 循环器对象</span><br><span class="line"> * @param src_data 待写入数据</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 写入循环器接收区域下一个位置数据</span><br><span class="line"> * </span><br><span class="line"> * @param Circularobject 循环器对象</span><br><span class="line"> * @param src_data 待写入数据</span><br><span class="line"> * @return uint8_t 写入是否成功 </span><br><span class="line"> */</span><br><span class="line">uint8_t Circular_pushback(CircularBuffer *Circularobject,uint8_t src_data)</span><br><span class="line">&#123;</span><br><span class="line">    if(Circularobject-&gt;RXlen &lt; Circularobject-&gt;RXbuffersize)</span><br><span class="line">    &#123;</span><br><span class="line">        Circularobject-&gt;RXtail %= Circularobject-&gt;RXbuffersize;</span><br><span class="line">        Circularobject-&gt;RXbuffer[Circularobject-&gt;RXtail++] = src_data;</span><br><span class="line">        Circularobject-&gt;RXlen++;</span><br><span class="line">        return 1;</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * @brief 循环器接收缓冲区是否为空</span><br><span class="line"> * </span><br><span class="line"> * @param Circularobject 循环器对象</span><br><span class="line"> * @return uint8_t 1 空 0非空</span><br><span class="line"> */</span><br><span class="line">uint8_t Circular_is_Empty(CircularBuffer *Circularobject)</span><br><span class="line">&#123;</span><br><span class="line">    if(!Circularobject-&gt;RXlen)</span><br><span class="line">    &#123;</span><br><span class="line">        return 1;</span><br><span class="line">    &#125;</span><br><span class="line">    else</span><br><span class="line">    &#123;</span><br><span class="line">        return 0;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ddd(CircularBuffer *Circularobject)</span><br><span class="line">&#123;</span><br><span class="line">    Circularobject-&gt;RXtail = Circularobject-&gt;RXbuffersize - NUMBER(某个设备传过来数据的长度，那个设备数据直接到缓冲区了);</span><br><span class="line">    if(Circularobject-&gt;RXtail &gt;= Circularobject-&gt;RXhead)</span><br><span class="line">    &#123;</span><br><span class="line">        Circularobject-&gt;RXlen = Circularobject-&gt;RXtail - Circularobject-&gt;RXhead;</span><br><span class="line">    &#125;</span><br><span class="line">    else</span><br><span class="line">    &#123;</span><br><span class="line">        Circularobject-&gt;RXlen = Circularobject-&gt;RXtail + Circularobject-&gt;RXbuffersize - Circularobject-&gt;RXhead;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if( Circularobject-&gt;RXlen &gt;=  Circularobject-&gt;RXbuffer )</span><br><span class="line">    &#123;</span><br><span class="line">        Circularobject-&gt;RXlen = 0;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="断言（Assertion）："><a href="#断言（Assertion）：" class="headerlink" title="断言（Assertion）："></a>断言（Assertion）：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#ifdef DEBUG</span><br><span class="line">#define assert(expression) ((expression) ? (void)0 : assert_failed(__FILE__, __LINE__))</span><br><span class="line">#elif</span><br><span class="line">#define assert(expression) ((void)0)</span><br><span class="line">#endif</span><br><span class="line"></span><br><span class="line">void assert_failed(const char *file, int line) &#123;</span><br><span class="line">    printf(&quot;Assertion failed at %s:%d\n&quot;, file, line);</span><br><span class="line">    // Additional error handling or logging can be added here</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>断言用于在程序中检查特定条件是否满足，如果条件为假，会触发断言失败，并输出相关信息</p>
+<h1 id="位域反转（Bit-Reversal）："><a href="#位域反转（Bit-Reversal）：" class="headerlink" title="位域反转（Bit Reversal）："></a>位域反转（Bit Reversal）：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdint.h&gt;</span><br><span class="line"></span><br><span class="line">uint32_t reverse_bits(uint32_t num) </span><br><span class="line">&#123;</span><br><span class="line">    uint32_t numOfBits = sizeof(num) * 8;</span><br><span class="line">    uint32_t reverseNum = 0;</span><br><span class="line">    uint32_t i = 0;</span><br><span class="line"></span><br><span class="line">    for (i = 0; i &lt; numOfBits; i++) </span><br><span class="line">    &#123;</span><br><span class="line">        if (num &amp; (1 &lt;&lt; i)) </span><br><span class="line">        &#123;</span><br><span class="line">            reverseNum |= (1 &lt;&lt; ((numOfBits - 1) - i));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return reverseNum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>该函数将给定的无符号整数的位进行反转，可以用于某些嵌入式系统中的位级操作需求。</p>
+<h1 id="字节序转换（Endianness-Conversion）："><a href="#字节序转换（Endianness-Conversion）：" class="headerlink" title="字节序转换（Endianness Conversion）："></a>字节序转换（Endianness Conversion）：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<p>用于在大端（Big-Endian）和小端（Little-Endian）字节序之间进行转换的函数。按照字节排序即可</p>
+<h1 id="位掩码（Bit-Masks）："><a href="#位掩码（Bit-Masks）：" class="headerlink" title="位掩码（Bit Masks）："></a>位掩码（Bit Masks）：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<p>用于创建一个只有指定位被置位的位掩码，可用于位操作。</p>
+<h1 id="二进制查找（Binary-Search）："><a href="#二进制查找（Binary-Search）：" class="headerlink" title="二进制查找（Binary Search）："></a>二进制查找（Binary Search）：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">int binary_search(int arr[], int size, int target) &#123;</span><br><span class="line">    int left = 0, right = size - 1;</span><br><span class="line"></span><br><span class="line">    while (left &lt;= right) &#123;</span><br><span class="line">        int mid = left + (right - left) / 2;</span><br><span class="line">        if (arr[mid] == target) &#123;</span><br><span class="line">            return mid;</span><br><span class="line">        &#125; else if (arr[mid] &lt; target) &#123;</span><br><span class="line">            left = mid + 1;</span><br><span class="line">        &#125; else &#123;</span><br><span class="line">            right = mid - 1;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return -1; // Not found</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>用于在已排序的数组中执行二进制查找的函数。</p>
+<h1 id="位集合（Bitset）："><a href="#位集合（Bitset）：" class="headerlink" title="位集合（Bitset）："></a>位集合（Bitset）：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdint.h&gt;</span><br><span class="line"></span><br><span class="line">typedef struct &#123;</span><br><span class="line">    uint32_t bits;</span><br><span class="line">&#125; Bitset;</span><br><span class="line"></span><br><span class="line">void set_bit(Bitset *bitset, int bit) &#123;</span><br><span class="line">    bitset-&gt;bits |= (1U &lt;&lt; bit);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int get_bit(Bitset *bitset, int bit) &#123;</span><br><span class="line">    return (bitset-&gt;bits &gt;&gt; bit) &amp; 1U;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>实现简单的位集合数据结构，用于管理一组位的状态。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>开源不易</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="https://s2.loli.net/2022/05/11/mgOt58vuhD3PYkE.png" alt="构造 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/C%E8%AF%AD%E8%A8%80%E4%B8%8E%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%B3%E9%94%AE%E5%AD%97%E4%BB%A5%E5%8F%8A%E5%AE%8F%E5%92%8C%E4%BB%A3%E7%A0%81/" rel="tag"><i class="fa fa-tag"></i> C语言与编译器关键字以及宏和代码</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/01/18/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%BC%96%E8%AF%91%E5%99%A8%E7%B3%BB%E5%88%97/pragma%20pack%E6%89%93%E5%8C%85%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="prev" title="pragma pack打包数据结构">
+                  <i class="fa fa-chevron-left"></i> pragma pack打包数据结构
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+  <div style="text-align:center;color: #ccc;font-size:16px;">-------------本文结束 <i class="fa fa-heart"></i> 感谢阅读-------------</div>
+
+
+
+    <div class="comments" id="SOHUCS" sid="cb5b545eea3c36702e36987b8b84e6c5"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2022 – 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">构造</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">278k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">4:12</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>本站访客数
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span> 人次
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>本站总访问量
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span> 次
+      </span>
+    </span>
+</div>
+
+
+
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+<script class="next-config" data-name="gitter" type="application/json">{"enable":true,"room":"hexo_Online_discussion/community"}</script>
+<script src="/js/third-party/chat/gitter.js"></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.7/pdfobject.min.js","integrity":"sha256-ph3Dk89VmuTVXG6x/RDzk53SU9LPdAh1tpv0UvnDZ2I="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.14.0/dist/mermaid.min.js","integrity":"sha256-7wT34TI0pEBeEFoi4z+vhuSddGh6vUTMWdqJ2SDe2jg="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cyw3VyumL","appkey":"e9ff69b1f44325f8c6d24a15fdf89113"}</script>
+<script src="/js/third-party/comments/changyan.js"></script>
+
+</body>
+</html>

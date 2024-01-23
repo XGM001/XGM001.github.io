@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://s2.loli.net/2022/05/05/gBXlLUE2i9YxOuT.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"goupos.top","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Verilog 基础语言1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Verilog HDL入门(1)">
+<meta property="og:url" content="https://goupos.top/2022/12/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/FPGA/Verilog%20HDL%E5%85%A5%E9%97%A8(1)/index.html">
+<meta property="og:site_name" content="个人博客">
+<meta property="og:description" content="Verilog 基础语言1">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-12-12T13:08:30.000Z">
+<meta property="article:modified_time" content="2023-08-22T07:16:42.037Z">
+<meta property="article:author" content="构造">
+<meta property="article:tag" content="FPGA">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://goupos.top/2022/12/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/FPGA/Verilog%20HDL%E5%85%A5%E9%97%A8(1)/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://goupos.top/2022/12/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/FPGA/Verilog%20HDL%E5%85%A5%E9%97%A8(1)/","path":"2022/12/12/编程开发/FPGA/Verilog HDL入门(1)/","title":"Verilog HDL入门(1)"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Verilog HDL入门(1) | 个人博客</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="个人博客" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">个人博客</p>
+      <i class="logo-line"></i>
+    </a>
+      <img class="custom-logo-image" src="https://s2.loli.net/2023/02/13/HuK2GO4lL76ZEFQ.gif" alt="个人博客">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%86%85%E5%AE%B9"><span class="nav-text">1.第一章内容</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="构造"
+      src="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
+  <p class="site-author-name" itemprop="name">构造</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">88</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">59</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="sidebar-button site-overview-item animated">
+    <button class="js-gitter-toggle-chat-button"><i class="fa fa-comment"></i>
+      在线讨论
+    </button>
+  </div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/XGM001" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;XGM001" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://gitee.com/xgm-embedded-os/GoupOS" title="Gitee → https:&#x2F;&#x2F;gitee.com&#x2F;xgm-embedded-os&#x2F;GoupOS" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>Gitee</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:xgmcreate@foxmail.com" title="E-Mail0 → mailto:xgmcreate@foxmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail0</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:xgmcreate@189.cn" title="E-Mail1 → mailto:xgmcreate@189.cn" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail1</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      技术帮助友情链接与网站导航
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://home.goupos.top/" title="https:&#x2F;&#x2F;home.goupos.top&#x2F;" rel="noopener" target="_blank">网站导航</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://blog.bubuzi.top/" title="http:&#x2F;&#x2F;blog.bubuzi.top&#x2F;" rel="noopener" target="_blank">布布子Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://home.bubuzi.top/" title="https:&#x2F;&#x2F;home.bubuzi.top&#x2F;" rel="noopener" target="_blank">布布子导航</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://home.bubuzi.top/" title="https:&#x2F;&#x2F;home.bubuzi.top&#x2F;" rel="noopener" target="_blank">导航对齐</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://goupos.top/2022/12/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/FPGA/Verilog%20HDL%E5%85%A5%E9%97%A8(1)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
+      <meta itemprop="name" content="构造">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="个人博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Verilog HDL入门(1) | 个人博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Verilog HDL入门(1)
+        </h1>
+
+        <div class="post-meta-container">
+          
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-12-12 21:08:30" itemprop="dateCreated datePublished" datetime="2022-12-12T21:08:30+08:00">2022-12-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-08-22 15:16:42" itemprop="dateModified" datetime="2023-08-22T15:16:42+08:00">2023-08-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/FPGA/" itemprop="url" rel="index"><span itemprop="name">FPGA</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Changyan：</span>
+    
+    <a title="Verilog HDL入门(1)" href="/2022/12/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/FPGA/Verilog%20HDL%E5%85%A5%E9%97%A8(1)/#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::a9eaabc13b275c71360bb2100eb9d4b0" class="cy_cmt_count" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>14k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>13 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <blockquote>
+<p>Verilog 基础语言1 </p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="1-第一章内容"><a href="#1-第一章内容" class="headerlink" title="1.第一章内容"></a>1.第一章内容</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br><span class="line">408</span><br><span class="line">409</span><br><span class="line">410</span><br><span class="line">411</span><br><span class="line">412</span><br><span class="line">413</span><br><span class="line">414</span><br><span class="line">415</span><br><span class="line">416</span><br><span class="line">417</span><br><span class="line">418</span><br><span class="line">419</span><br><span class="line">420</span><br><span class="line">421</span><br><span class="line">422</span><br><span class="line">423</span><br><span class="line">424</span><br><span class="line">425</span><br><span class="line">426</span><br><span class="line">427</span><br><span class="line">428</span><br><span class="line">429</span><br><span class="line">430</span><br><span class="line">431</span><br><span class="line">432</span><br><span class="line">433</span><br><span class="line">434</span><br><span class="line">435</span><br><span class="line">436</span><br><span class="line">437</span><br><span class="line">438</span><br><span class="line">439</span><br><span class="line">440</span><br><span class="line">441</span><br><span class="line">442</span><br><span class="line">443</span><br><span class="line">444</span><br><span class="line">445</span><br><span class="line">446</span><br><span class="line">447</span><br><span class="line">448</span><br><span class="line">449</span><br><span class="line">450</span><br><span class="line">451</span><br><span class="line">452</span><br><span class="line">453</span><br><span class="line">454</span><br><span class="line">455</span><br><span class="line">456</span><br><span class="line">457</span><br><span class="line">458</span><br><span class="line">459</span><br><span class="line">460</span><br><span class="line">461</span><br><span class="line">462</span><br><span class="line">463</span><br><span class="line">464</span><br><span class="line">465</span><br><span class="line">466</span><br><span class="line">467</span><br><span class="line">468</span><br><span class="line">469</span><br><span class="line">470</span><br><span class="line">471</span><br><span class="line">472</span><br><span class="line">473</span><br><span class="line">474</span><br><span class="line">475</span><br><span class="line">476</span><br><span class="line">477</span><br><span class="line">478</span><br><span class="line">479</span><br><span class="line">480</span><br><span class="line">481</span><br><span class="line">482</span><br><span class="line">483</span><br><span class="line">484</span><br><span class="line">485</span><br><span class="line">486</span><br><span class="line">487</span><br><span class="line">488</span><br><span class="line">489</span><br><span class="line">490</span><br><span class="line">491</span><br><span class="line">492</span><br><span class="line">493</span><br><span class="line">494</span><br><span class="line">495</span><br><span class="line">496</span><br><span class="line">497</span><br><span class="line">498</span><br><span class="line">499</span><br><span class="line">500</span><br><span class="line">501</span><br><span class="line">502</span><br><span class="line">503</span><br><span class="line">504</span><br><span class="line">505</span><br><span class="line">506</span><br><span class="line">507</span><br><span class="line">508</span><br><span class="line">509</span><br><span class="line">510</span><br><span class="line">511</span><br><span class="line">512</span><br><span class="line">513</span><br><span class="line">514</span><br><span class="line">515</span><br><span class="line">516</span><br><span class="line">517</span><br><span class="line">518</span><br><span class="line">519</span><br><span class="line">520</span><br><span class="line">521</span><br><span class="line">522</span><br><span class="line">523</span><br><span class="line">524</span><br><span class="line">525</span><br><span class="line">526</span><br><span class="line">527</span><br><span class="line">528</span><br><span class="line">529</span><br><span class="line">530</span><br><span class="line">531</span><br><span class="line">532</span><br><span class="line">533</span><br><span class="line">534</span><br><span class="line">535</span><br><span class="line">536</span><br><span class="line">537</span><br><span class="line">538</span><br><span class="line">539</span><br><span class="line">540</span><br><span class="line">541</span><br><span class="line">542</span><br><span class="line">543</span><br><span class="line">544</span><br><span class="line">545</span><br><span class="line">546</span><br><span class="line">547</span><br><span class="line">548</span><br><span class="line">549</span><br><span class="line">550</span><br><span class="line">551</span><br><span class="line">552</span><br><span class="line">553</span><br><span class="line">554</span><br><span class="line">555</span><br><span class="line">556</span><br><span class="line">557</span><br><span class="line">558</span><br><span class="line">559</span><br><span class="line">560</span><br><span class="line">561</span><br><span class="line">562</span><br><span class="line">563</span><br><span class="line">564</span><br><span class="line">565</span><br><span class="line">566</span><br><span class="line">567</span><br><span class="line">568</span><br><span class="line">569</span><br><span class="line">570</span><br><span class="line">571</span><br><span class="line">572</span><br><span class="line">573</span><br><span class="line">574</span><br><span class="line">575</span><br><span class="line">576</span><br><span class="line">577</span><br><span class="line">578</span><br><span class="line">579</span><br><span class="line">580</span><br><span class="line">581</span><br><span class="line">582</span><br><span class="line">583</span><br><span class="line">584</span><br><span class="line">585</span><br><span class="line">586</span><br><span class="line">587</span><br><span class="line">588</span><br><span class="line">589</span><br><span class="line">590</span><br><span class="line">591</span><br><span class="line">592</span><br><span class="line">593</span><br><span class="line">594</span><br><span class="line">595</span><br><span class="line">596</span><br><span class="line">597</span><br><span class="line">598</span><br><span class="line">599</span><br></pre></td><td class="code"><pre><span class="line">编译器指令:</span><br><span class="line"></span><br><span class="line">`define ,`undef  </span><br><span class="line">指令与C类似，可以在多个文件中使用，但是</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">`ifdef ,`ifndef,`else,`elseif,`endif</span><br><span class="line"></span><br><span class="line">`default_nettype</span><br><span class="line">该指令用于为隐式线网指定线网类型，就是为那些没有被声明类型的线网定义类型</span><br><span class="line">`default_nettype wand</span><br><span class="line"></span><br><span class="line">`include </span><br><span class="line">类似于C语言，在代码红肿包含任何其他文件的内容。包含的文件，可以使用相对路径和绝对路径</span><br><span class="line">`include &quot;../../primitives.v&quot;  </span><br><span class="line">编译时，这一行由文件 &quot;../../primitives.v&quot;的内容替换 </span><br><span class="line"></span><br><span class="line">`resetall</span><br><span class="line">将所有的编译指令重新设置为缺省值</span><br><span class="line"></span><br><span class="line">`timescale  </span><br><span class="line">这个是用在测试文件中的，该值是设置时间单位和时间精度</span><br><span class="line">`timescale  1ns/100ps  这里时间延时是1ns  精度是100ps</span><br><span class="line">测试文件使用方法 #100  即延时100纳秒</span><br><span class="line"></span><br><span class="line">`unconnected_drive , `nounconnected_drive</span><br><span class="line"></span><br><span class="line">`unconnected_drive pull1</span><br><span class="line">/* 位于这两个编译器指令之间的所有未连接的输入端口 设置上拉（既连接到1）关键字（pull1） */</span><br><span class="line">`nounconnected_drive</span><br><span class="line"></span><br><span class="line">`unconnected_drive pull0</span><br><span class="line">/* 位于这两个编译器指令之间的所有未连接的输入端口 设置下拉（既连接到0）关键字（pull0） */</span><br><span class="line">`nounconnected_drive</span><br><span class="line"></span><br><span class="line">`celldefine,`endcelldefine	(未使用过)</span><br><span class="line">编译器指令用于把模块标记为单元（Cell）模块。它们一般包含模块的定义</span><br><span class="line"></span><br><span class="line">`line</span><br><span class="line"></span><br><span class="line">整型数</span><br><span class="line">两种格式：简单十进制  基数格式</span><br><span class="line">基数格式 	指定位数 指定进制 数值</span><br><span class="line">例: 5&#x27;D25	</span><br><span class="line"></span><br><span class="line">实数（浮点数） 会采用四舍五入的方法隐式的转换成整数</span><br><span class="line"></span><br><span class="line">字符串 字符串不能分多行书写，其他和C语言相同</span><br><span class="line">&quot;INTER REACHED-&gt;HERE&quot;</span><br><span class="line">存储字符串</span><br><span class="line">reg [1:8*4] message = &quot;abcd&quot;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">数据类型 ： 线网类型 变量类型</span><br><span class="line">线网类型 实际的物理连线 线网类型没有被驱动，那么就处于高阻态</span><br><span class="line">变量类型 与C语言类似</span><br><span class="line"></span><br><span class="line">线网数据类型</span><br><span class="line">wire		trior		trireg</span><br><span class="line">tri			wand		tri1</span><br><span class="line">wor			triand		tri0</span><br><span class="line">supply0		supply1</span><br><span class="line"></span><br><span class="line">注释：有tri的都是三态，既 0 1 x</span><br><span class="line">声明线网的简单语法</span><br><span class="line">net_kind [signed] [[msb:lsb]] net1, net2... netN;</span><br><span class="line"></span><br><span class="line">net_kind: 是一种线网数据类型</span><br><span class="line">signed：是一个关键字，声明具有符号值的线网 ；在声明线网类型时，缺省该值，线网时没有符号值的</span><br><span class="line">msb、lsb：是用于指定线网位宽，当没有指定时，位宽为1</span><br><span class="line"></span><br><span class="line">wire signed [7:0] pwdata;	线网类型 8根有符号 其数的形式为2的补码</span><br><span class="line">wire  [7:0] prdata;	线网类型 无符号 其数的形式为原码</span><br><span class="line"></span><br><span class="line">wire 和 tri （语法语义完全相同）</span><br><span class="line">用于连接电路原件；tri类型线网可用于描述多个信号源驱动的线网；</span><br><span class="line">若wire类型（或者tri类型）的线网由多个源驱动，则线网的有效值如下表</span><br><span class="line">--------------------------------------------------</span><br><span class="line">|	wire (tri)	|	0	|	1	|	x	|	z	|</span><br><span class="line">|		0		|	0	|	x	|	x	|	0	|</span><br><span class="line">|       1       |	x   |	1   |	x   |	1   |</span><br><span class="line">|       x       |	x   |	x   |	x   |	x   |</span><br><span class="line">|       z       |	0   |	z   |	x   |	z   |</span><br><span class="line">--------------------------------------------------</span><br><span class="line">例如：</span><br><span class="line">wire [2:0] mode_endable,clk_enable,clk_mode;	假设 clk_enable 的值 01x; clk_mode的值 11z</span><br><span class="line">assign mode_endable = clk_enable &amp; clk_mode;	=&gt; 01x</span><br><span class="line">assign mode_endable = clk_enable | clk_mode;	=&gt; 11x</span><br><span class="line">则 mode_endable 的有效值时 x1x</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">wor和trior线网 与或逻辑相似</span><br><span class="line">线或，线或（wor）和三态线或（trior）在语法和功能上一致</span><br><span class="line">若多个驱动源驱动该线网，则线网的有效值由下表决定</span><br><span class="line">--------------------------------------------------</span><br><span class="line">|	wor (trior)	|	0	|	1	|	x	|	z	|</span><br><span class="line">|		0		|	0	|	1	|	x	|	0	|</span><br><span class="line">|       1       |	1   |	1   |	1   |	1   |</span><br><span class="line">|       x       |	x   |	1   |	x   |	x   |</span><br><span class="line">|       z       |	0   |	1   |	x   |	z   |</span><br><span class="line">--------------------------------------------------</span><br><span class="line"></span><br><span class="line">wand和triand线网 与与逻辑相似</span><br><span class="line">线与（wand）和三态线与（triand） 在语法和功能上一致</span><br><span class="line">若多个驱动源驱动该线网，则线网的有效值由下表决定</span><br><span class="line">-----------------------------------------------------</span><br><span class="line">|	wand (triand)	|	0	|	1	|	x	|	z	|</span><br><span class="line">|		0			|	0	|	0	|	0	|	0	|</span><br><span class="line">|       1       	|	0   |	1   |	x   |	1   |</span><br><span class="line">|       x       	|	0   |	x   |	x   |	x   |</span><br><span class="line">|       z       	|	0   |	1   |	x   |	z   |</span><br><span class="line">-----------------------------------------------------</span><br><span class="line"></span><br><span class="line">trireg 线网		&#123;建模只能用于测试平台&#125;</span><br><span class="line">该类线网类型能储存数值（类似于变量）（可用于电容节点的建模（没理解））</span><br><span class="line">当三态变量的驱动源都属于z时，三态变量类型的线网保存该线网上的最后一个值；三态变量线网的缺省初始化为x(未知)</span><br><span class="line"></span><br><span class="line">tri0和tri1线网</span><br><span class="line">可以用于线逻辑线网的建模，可以多个源驱动线网，tri0(tri1)特征无驱动则其值为0(1)</span><br><span class="line">若多个驱动源驱动该线网，tri0或tri1类型线网的有效值</span><br><span class="line">-----------------------------------------------------</span><br><span class="line">|	tri0 (tri1)		|	0	|	1	|	x	|	z	|</span><br><span class="line">|		0			|	0	|	x	|	x	|	0	|</span><br><span class="line">|       1       	|	x   |	1   |	x   |	1   |</span><br><span class="line">|       x       	|	x   |	x   |	x   |	x   |</span><br><span class="line">|       z       	|	0   |	1   |	x   |	0(1)|</span><br><span class="line">-----------------------------------------------------</span><br><span class="line"></span><br><span class="line">supply0和supply1线网</span><br><span class="line">supply0线网用于对地建模，低电平；supply1线网用于对电源线网建模，高电平</span><br><span class="line"></span><br><span class="line">未声明的线网</span><br><span class="line"></span><br><span class="line">向量线网和标量线网</span><br><span class="line">定义向量线网时可选用关键词 scalared(标量) 或 vectored(向量)</span><br><span class="line">vectored定义线网，不允许选择该向量的某位或部分位赋值，必须整体赋值；若没有指定关键字，则缺省值是 scalared</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">变量类型</span><br><span class="line">reg		integer		time</span><br><span class="line">real	realtime</span><br><span class="line"></span><br><span class="line">reg变量</span><br><span class="line">reg [signed][msb:lsb] reg1;</span><br><span class="line">msb:lsb 指定了范围，且均是常数表达值，范围是可选的；若没有定义范围，则缺省值是1位的reg变量</span><br><span class="line">reg变量的值通常被解释无符号数；除非用关键字signed,则是有符号和C语言类似</span><br><span class="line">未初始化的reg变量的缺省值为x</span><br><span class="line"></span><br><span class="line">存储器(memories)</span><br><span class="line">由reg变量组成的数组，如下形式声明</span><br><span class="line">reg [msb:lsb] memory1[upper1:lower1];</span><br><span class="line">举例</span><br><span class="line">reg[0:3]ebi_mem[0:63];	/* ebi_mem 由64个4位reg变量组成的数组 */</span><br><span class="line"></span><br><span class="line">将一个存储器内容复制到另一个存储器,可用循环语句每次复制一条</span><br><span class="line">举例：</span><br><span class="line">parameter WORD_LENTH = 8, NUM_WORDS = 64;</span><br><span class="line">reg [WORD_LENTH-1:0]</span><br><span class="line">	mem_a[NUM_WORDS-1:0],</span><br><span class="line">	mem_b[NUM_WORDS-1:0];</span><br><span class="line">	integer i;</span><br><span class="line">	for(i = 0 ;i &lt; NUM_WORDS; i = i + 1) begin</span><br><span class="line">		mem_a[i] = mem_b[i];</span><br><span class="line">	end</span><br><span class="line"></span><br><span class="line">整数型（integer）变量	&#123;建模使用，只能用在测试文件中&#125;</span><br><span class="line">可以作普通变量使用 一个整形数至少32位，可以存储有符号</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">时间变量（time） </span><br><span class="line">用于存储时间和处理时间值；</span><br><span class="line">time time_idn[msb:lsb];</span><br><span class="line">若定义位宽，为指定位宽，未定义位宽，则每个标识存储至少64位。</span><br><span class="line">时间变量只能存储无符号值。</span><br><span class="line">[msb:lsb]是指数组</span><br><span class="line"></span><br><span class="line">实型（real）和实型时间（realtime）变量</span><br><span class="line">这两个定义变量完全相同</span><br><span class="line">real swing_margin;</span><br><span class="line">realtime curr_time_in_real;</span><br><span class="line">实型（real）变量缺省值0，声明中不允许对位宽或字界做任何指定。</span><br><span class="line">若将x、z赋予实型变量，则这些值将被当作0处理</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">数组</span><br><span class="line"></span><br><span class="line">reg与tri的不同点</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">参数（parameter）</span><br><span class="line">是常量，通常用于指定延时和变量的位宽，用参数声明语句，只能对参数赋一次值，</span><br><span class="line">参数值可以在编译时被改变，参数值的改变可以使用 defparam(既重新定义参数)语句实现；</span><br><span class="line">参数声明可以选择指定一种类型，有(integer real realtime time),不允许参数指定范围和使用 signed关键字</span><br><span class="line"></span><br><span class="line">parameter 与 define 不同之处 （作用范围不同）</span><br><span class="line">参数是局部的，只在其定义的模块内部起作用；</span><br><span class="line">而宏定义对同时编译的多个文件起作用，既使在某一模块内指定的宏定义，在编译过程中仍旧对多个文件起作用，直到遇到重新定义为止。</span><br><span class="line">建议：`define严格用于全局变量和全局文本替换；而将参数用于某个模块内部所需要的常数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">局部参数（localparam） （模块内部参数）</span><br><span class="line">在模块例化（引用）时不能通过 参数传递或重新定义参数值（defparam）语句对局部参数进行修改；不同于parameter；</span><br><span class="line">局部参数与普通参数声明语句完全相同。</span><br><span class="line">若局部参数是用其他非局部参数定义的，则外部赋值使得参数值发生变化时，局部参数值间接地发生改变，例：</span><br><span class="line"></span><br><span class="line">parameter BYTE = 8;	//(非局部参数)</span><br><span class="line">localparam NIBBLE = 2 * BYTE;//局部参数</span><br><span class="line"></span><br><span class="line">在编译期间，参数BYTE发生改变，则局部参数NIBBLE也将随之发生改变</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">表达式</span><br><span class="line"></span><br><span class="line">操作数可以是以下类型</span><br><span class="line">常数				参数</span><br><span class="line">线网				变量</span><br><span class="line">位选（Bit-select）	部分位选（Part-select）</span><br><span class="line">存储器和数组元素	函数调用</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">常数</span><br><span class="line">12			有符号数</span><br><span class="line">5&#x27;b01100	无符号数</span><br><span class="line"></span><br><span class="line">-44和-6&#x27;o54 存储形式相同，但是处理方式不同，例如：</span><br><span class="line">reg1 = -44/4 	=&gt; -11			//作为有符号数处理</span><br><span class="line">reg2 = -6&#x27;o54/4 =&gt; 1073741813	//作为无符号数处理 即当作32位数据处理</span><br><span class="line"></span><br><span class="line">线网</span><br><span class="line">标量现网（1位） 向量线网（多位）</span><br><span class="line">assign gpio_prot = -3; //gpio_prot被赋予向量 1011 ，即十进制数13</span><br><span class="line">assign gpio_prot = 4&#x27;hA;//gpio_prot被赋予向量 1010 ，即十进制数A</span><br><span class="line"></span><br><span class="line">变量 （标量变量 向量变量）</span><br><span class="line">整型变量的值被解释为有符号二进制数；</span><br><span class="line">若reg声明语句中有signed,则变量中的值被解释为有符号数；否则无符号数</span><br><span class="line"></span><br><span class="line">位选（Bit-select）（单个位就是位选，多个位就是部分位选）</span><br><span class="line">从一个向量中抽取特定的位，语法</span><br><span class="line">net_or_reg_vextor[bit_select_expr]</span><br><span class="line">表达式中如何进行位选</span><br><span class="line">mis_state[1] &amp;&amp; mis_state[4]		//变量的位选</span><br><span class="line">gpio_prot[0] | intr					//线网位选</span><br><span class="line">LIMIT[5]							//参数位选</span><br><span class="line"></span><br><span class="line">部分位选（Part-select）</span><br><span class="line">在向量中选取相邻的若干位，部分位选语法格式：</span><br><span class="line">net_or_reg_vextor[msb_const_expr:lsb_const_expr]</span><br><span class="line">msb_const_expr:lsb_const_expr：范围必须是常数表达式</span><br><span class="line"></span><br><span class="line">用索引的部分位选的格式</span><br><span class="line">net_or_reg_vextor[base_expr+:const_width_expr]</span><br><span class="line">net_or_reg_vextor[base_expr+:const_width_expr]</span><br><span class="line"></span><br><span class="line">base_expr不必是常数， 但宽度必须是常熟</span><br><span class="line">位选的范围是由基表达式加上或减去宽度（const_width_expr）所表示的位的个数。</span><br><span class="line">+：表示部分位选以基表达式作为起点增加若干位。</span><br><span class="line">-：表示部分位选以基表达式作为起点减小若干位</span><br><span class="line"></span><br><span class="line">例：</span><br><span class="line">reg [0:15]mark;</span><br><span class="line">reg [0:15]inst_code;</span><br><span class="line">wire [0:31]gpio_data;</span><br><span class="line"></span><br><span class="line">inst_code[mark+,2]		//选择mark、mark+1位</span><br><span class="line">gpio_data[mark-:4]		//选择mark、mark-1、mark-2、mark-3位</span><br><span class="line">若索引越界或计算时遇到x或z,则值为x</span><br><span class="line"></span><br><span class="line">存储器和数组元素</span><br><span class="line">格式：  memory[word_address]</span><br><span class="line">存储器和数组元素 部分位选 或 位选是允许的。</span><br><span class="line">hdlc_ram[20][2]		//第20个元素第2位的值 第2位就是位选</span><br><span class="line">hdlc_ram[20][2:4]	//第20个元素部分位选在[2:4]位范围内</span><br><span class="line">hdlc_ram[0:2]		//非法</span><br><span class="line">按照格式，在数组中，下标在前，位选 在后</span><br><span class="line"></span><br><span class="line">符号</span><br><span class="line">表达式中所有操作数都是有符号，则结果也是有符号，否则无符号数</span><br><span class="line">8&#x27;d2+8sb0101			//结果无符号，因为8&#x27;d2是一个无符号</span><br><span class="line">4&#x27;sb0110-4&#x27;sd1			//结果有符号，所有操作数都是有符号</span><br><span class="line"></span><br><span class="line">操作符 （Verilog HDL中操作符有9类）</span><br><span class="line">算术操作符			关系操作符</span><br><span class="line">相等操作符			逻辑操作符</span><br><span class="line">按位操作符			缩减操作符</span><br><span class="line">移位操作符			条件操作符</span><br><span class="line">拼接和复制操作</span><br><span class="line"></span><br><span class="line">------------|---------------|	|-------------------------------|</span><br><span class="line">操作符		|	名称     	| 	|	操作符		|	名称      	|</span><br><span class="line">+           |	一元加(正	| 	|	&lt;			|	小于      	|</span><br><span class="line">-           |	一元减(负	| 	|	&lt;=          |	小于等于  	|</span><br><span class="line">！          |	一元逻辑非	|  	|	&gt;           |	大于      	|</span><br><span class="line">~           |	一元按位取	|  	|	&gt;=          |	大于等于  	|</span><br><span class="line">&amp;           |	缩减与   	| 	|	==          |	逻辑相等  	|</span><br><span class="line">~&amp;          |	缩减与非 	| 	|	!=          |	逻辑不等  	|</span><br><span class="line">^           |	缩减异或 	| 	|	===         |	全等      	|</span><br><span class="line">^~或~^      |	缩减同或 	| 	|	!==         |	非全等    	|</span><br><span class="line">|			|	缩减或   	| 	|	&amp;           |	按位与    	|</span><br><span class="line">~|          |	缩减或非 	| 	|	^           |	按位异或  	|</span><br><span class="line">**          |	指数幂   	| 	|	^~　~^      |	按位同或  	|</span><br><span class="line">*           |	乘       	| 	|	｜          |	按位或    	|</span><br><span class="line">/           |	除       	| 	|	&amp;&amp;          |	逻辑与    	|</span><br><span class="line">%           |	求模     	| 	|	||          |	逻辑或    	|</span><br><span class="line">+           |	二元加   	| 	|	?:          |	条件判断  	|</span><br><span class="line">-           |	二元减   	| 	|	&#123;&#125;          |	拼接      	|</span><br><span class="line">&lt;&lt;&lt;         |	算术左移 	| 	|	&#123;&#123;&#125;&#125;        |	重复      	|</span><br><span class="line">&gt;&gt;&gt;         |	算术右移 	| 	|-------------------------------|</span><br><span class="line">&lt;&lt;          |	逻辑左移 	|</span><br><span class="line">&gt;&gt;          |	逻辑右移 	|</span><br><span class="line">------------|---------------|</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">条件操作符是从右向左处理，其他都是从左至有处理</span><br><span class="line">a?b:c?d:f == &gt; a?b:(c?d:f) </span><br><span class="line"></span><br><span class="line">算术操作符(其余操作与C语言类似，除去幂运算)</span><br><span class="line">+(一元加和二元加)				-(一元减和二元减)</span><br><span class="line">*(乘)							/(除)</span><br><span class="line">％(取模)						**(幂运算)</span><br><span class="line"></span><br><span class="line">整数除法截断任何小数部分，例如：7/4的运算结果为1</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">**是求幂运算符：a**b表示a的b次方，即a表示底数，b表示指数；</span><br><span class="line">%是取模运算符：a % b 按照a 和 b中的长度长的补齐。</span><br><span class="line">除法只能取整数；</span><br><span class="line"></span><br><span class="line">算数操作符中任意操作数中只要有一位为x 或 z ,则整个结果为x 。例如：4’b10x1+5&#x27;b01111 结果为不确定数 5&#x27;bxxxxx</span><br><span class="line"></span><br><span class="line">算术运算结果的位宽</span><br><span class="line">算术运算结果的位宽由最大操作数的位宽决定。赋值语句下，算术运算结果的位宽也由赋值等号左边目标变量的位宽决定</span><br><span class="line">reg [0B:3] mask_intr,test_ctrl,raw_intr;	//位宽为四，0B的代表，二进制标识，0位</span><br><span class="line">reg [0:5] int_req;</span><br><span class="line"></span><br><span class="line">mask_intr = test_ctrl+raw_intr;	//结果位宽由 mask_intr test_ctrl raw_intr 位宽决定 ，加法操作的溢出部分被丢弃</span><br><span class="line">int_req = test_ctrl+raw_intr;	//结果位宽由 int_req test_ctrl raw_intr 位宽决定，位宽为6，任何一处的位将被存储在结果位int_req[5]中</span><br><span class="line"></span><br><span class="line">较大表达式中，运算中间结果的位宽确定的规则：表达中的所有中间结果应取最大操作数的位宽(在赋值时，此规则也包括赋值等号左端的目标变量)</span><br><span class="line">wire [4:1]intra_ena,test_reg;</span><br><span class="line">wire [1:5]next_iev;</span><br><span class="line">wire [1:6]peg_intr;</span><br><span class="line">wire [1:8]adt_sense;</span><br><span class="line"></span><br><span class="line">assign adt_sense = (intra_ena+next_iev)+(test_reg + peg_intr);</span><br><span class="line">//赋值等号右边表达式最大位宽6 ，包含左边时。最大变量位宽8.所以加法运算使用8位进行</span><br><span class="line"></span><br><span class="line">有符号和无符号数</span><br><span class="line">执行算术和赋值时，哪些操作当无符号操作，哪些操作当有符号操作非常重要</span><br><span class="line"></span><br><span class="line">无符号数值存储：线网中、reg(寄存器)变量中、用普通(没有有符号标记s)的基数格式表示的整型中</span><br><span class="line"></span><br><span class="line">有符号数值存储：用s(有符号)标记的基数格式表示的整型中、十进制形式的整数中、有符号的reg变量中、有符号线网中</span><br><span class="line"></span><br><span class="line">reg[0:5]burst_data;</span><br><span class="line">integer mtx_addr;</span><br><span class="line"></span><br><span class="line">burst_data = -4&#x27;d12;		//reg变量burst_data的十进制数为52 既向量 110100 	(有符号赋值到无符号)</span><br><span class="line">mtx_addr = -4&#x27;d12;			//整型数mtx_addr的十进制数为-12，二进制表示110100	(有符号赋值到有符号)</span><br><span class="line">-4&#x27;d12/4					//结果是1073741821  （-4&#x27;d12转换成32位数，以无符号显示 取最大的位宽进行运算）</span><br><span class="line">-12/4						//结果为 -3 都是有符号数据</span><br><span class="line"></span><br><span class="line">burst_data 是无符号寄存器，右边表达式值为 6’d110100(-12二进制补码)，因此赋值后，burst_data存储的是十进制52。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">关系运算符 (&gt; &lt; &gt;= &lt;=) </span><br><span class="line">若操作数中有一位为x或z,则结果为x</span><br><span class="line">52&lt;16&#x27;hxFF //结果为x,</span><br><span class="line"></span><br><span class="line">操作数位宽不同，所有操作数都是无符号 ，则位宽较小的操作数高位补0对齐</span><br><span class="line">&#x27;b1000 &gt;= &#x27;b01100 ==》 &#x27;b01000 &gt;= &#x27;b01100 </span><br><span class="line">若两个操作数都是有符号数，则用符号位将位数较小的操作数的位数补齐</span><br><span class="line">4&#x27;sb1011 &lt;=8&#x27;sh1A ==&gt; 8&#x27;sb11111011 &lt;= 8&#x27;sb00011010 结果为真</span><br><span class="line">若表达式中一个操作数是无符号，则该表达式的其余操作数均被当作无符号数处理</span><br><span class="line">(8&#x27;sb9*4&#x27;d2) &lt; 4   ==&gt; 假（18 &lt; 4）</span><br><span class="line">(4&#x27;sd9*2)&lt;4  ==&gt;		真(-14&lt;4)</span><br><span class="line"></span><br><span class="line">相等操作符号（结果假为0 结果真为1）</span><br><span class="line">==（逻辑相等）				！=（逻辑不等）</span><br><span class="line">===（全等，case equality）	!===(非全等，)	</span><br><span class="line">全等比较中，把x和z当作数值（而不考虑其物理含义）严格地按字符值进行比较，结果不是1就是0	，不会出现其他地值。</span><br><span class="line">逻辑比较中,值x和z具有物理含义(物理含义：有大小区别)，结果可能出现不确定值（==）参与比较的两个操作数必须逐位相对，其结果才为1，如果某些值是不定态X或高阻态Z，那么得到的结果是不定值X；</span><br><span class="line">例：</span><br><span class="line">sw_data = &#x27;b11x0;	//没有指定位数，默认32位数据比较</span><br><span class="line">sw_addr = &#x27;b11x0;</span><br><span class="line">sw_data == sw_addr; //结果为x，按照规定，</span><br><span class="line">sw_data === sw_addr; //结果为1，按照规定，</span><br><span class="line"></span><br><span class="line">&#x27;b010x != &#x27;b11x0</span><br><span class="line">上式中的两个操作数中都有x,但比较结果为真，是因为第一位不同</span><br><span class="line">若操作数的位宽不相等，位宽较小的操作数在左侧以0补齐，例：</span><br><span class="line">2’b10 == 4&#x27;b0010 ==&gt; 4&#x27;b0010 == 4&#x27;b0010 ==&gt;结果为真</span><br><span class="line"></span><br><span class="line">若操作数位宽不同，两个操作数都是有符号数，较小的操作数用符号位扩位补齐，例</span><br><span class="line">`define WIDTH	8</span><br><span class="line">wire [WIDTH:0] mux_bus,byte_a,byte_b,byte_c,byte_d;</span><br><span class="line">wire [1:0] select;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">reg [4:0] a = 5&#x27;b11x01;</span><br><span class="line">reg [4:0] b = 5&#x27;b11x01;</span><br><span class="line">a == b 返回的结果是X; a===b 的返回结果为 1</span><br><span class="line">（!=）和（!==）的用法类似；</span><br><span class="line"></span><br><span class="line">归约运算符：归约与（&amp;）    归约与非（~&amp;）     归约或（|）     归约或非（~|）    归约异或（~^）</span><br><span class="line">注意：归约运算符的操作数只有一个，并只产生一位结果：举例a=0101，则&amp;a=0（a中的所有位进行与操作）； |a=1（a中的所有位进行或操作）；</span><br><span class="line"></span><br><span class="line">逻辑操作符	（逻辑与 或 非）</span><br><span class="line">&amp;&amp;		</span><br><span class="line">||</span><br><span class="line">！</span><br><span class="line">对逻辑值0或1进行操作，逻辑操作产生的结果为0或1</span><br><span class="line">mlock = &#x27;b0</span><br><span class="line">mport = &#x27;b1</span><br><span class="line">mlock &amp;&amp; mport ==&gt;结果为0（假）</span><br><span class="line">mlock || mport ==&gt;结果为1（真）</span><br><span class="line">!mport 		   ==&gt;结果为0（假）</span><br><span class="line"></span><br><span class="line">对向量操作数而言，非0向量被当作1处理</span><br><span class="line">rdy_bus = &#x27;b0110;</span><br><span class="line">intr_bus = &#x27;b0100;</span><br><span class="line"></span><br><span class="line">rdy_bus || intr_bus 的结果为1</span><br><span class="line">rdy_bus &amp;&amp; intr_bus 的结果为1</span><br><span class="line">并且!rdy_bus !intr_bus的结果相同，均为0</span><br><span class="line"></span><br><span class="line">操作数内某一位为x 或 z,若逻辑操作的结果是未定的，则运算的结果为x</span><br><span class="line">1&#x27;b1&amp; 1&#x27;bx		结果 x</span><br><span class="line">&#x27;b1 || &#x27;bx		结果1</span><br><span class="line">&#x27;b0 &amp;&amp; &#x27;bZ		结果0</span><br><span class="line">!x  			的结果x</span><br><span class="line"></span><br><span class="line">按位操作符 （5种）</span><br><span class="line">~		(一元非)</span><br><span class="line">&amp;		(二元与)</span><br><span class="line">|		(二元或)</span><br><span class="line">^		(二元异或)</span><br><span class="line">~^,^~	(二元同或)</span><br><span class="line">这些操作符对输入的操作数进行逐位操作，逐位操作就对应位进行操作，产生一个向量的结果</span><br><span class="line">	与 逐位操作结果				或 逐位操作结果</span><br><span class="line">-------------------			---------------------</span><br><span class="line">&amp; | 0 | 1 | x | z |         | | | 0 | 1 | x | z |</span><br><span class="line">0 | 0 | 0 | 0 | 0 |         | 0 | 0 | 1 | x | x |</span><br><span class="line">1 | 0 | 1 | x | x |         | 1 | 1 | 1 | 1 | 1 |</span><br><span class="line">x | 0 | x | x | x |         | x | x | 1 | x | x |</span><br><span class="line">z | 0 | x | x | x |         | z | x | 1 | x | x |</span><br><span class="line">-------------------         ---------------------</span><br><span class="line"></span><br><span class="line">异或 逐位操作结果			同或 逐位操作结果</span><br><span class="line">-------------------			---------------------</span><br><span class="line">^ | 0 | 1 | x | z |         | ^~| 0 | 1 | x | z |</span><br><span class="line">0 | 0 | 1 | x | x |         | 0 | 1 | 0 | x | x |</span><br><span class="line">1 | 1 | 0 | x | x |         | 1 | 0 | 1 | x | x |</span><br><span class="line">x | x | x | x | x |         | x | x | x | x | x |</span><br><span class="line">z | x | x | x | x |         | z | x | x | x | x |</span><br><span class="line">-------------------         ---------------------</span><br><span class="line"></span><br><span class="line">取反逐位操作结果</span><br><span class="line">------------------</span><br><span class="line">~| 0 | 1 | x | z |</span><br><span class="line"> | 1 | 0 | x | x |</span><br><span class="line">------------------</span><br><span class="line"></span><br><span class="line">按位运算中，两个操作数的位宽不等，且其中一个操作数是无符号操作数，则位宽较小的操作数高位补0对齐；（最终奥义就是不改变值的大小）</span><br><span class="line">若两个操作数为有符号数，则位宽小的操作数用符号位在高位进行补齐，然后再操作</span><br><span class="line">&#x27;b0110^&#x27;b10000 ==&gt; &#x27;b00110^&#x27;b10000 =&gt;&#x27;b10110</span><br><span class="line"></span><br><span class="line">4&#x27;sb1010 &amp; 8&#x27;sb 01100010 ==&gt; 8&#x27;b11111010 &amp; 8&#x27;b01100010 =&gt; 8&#x27;b01100010</span><br><span class="line"></span><br><span class="line">缩减操作符（对单个操作数进行操作）</span><br><span class="line">对单一操作数上的所有位进行操作，产生1位的操作结果，缩减操作符有6种。</span><br><span class="line">1）&amp;（缩减与）操作数只要有任意一位的值为0，则结果为0，操作数中只要有任意一位为x或z,则结果为x;否则操作结果为0；</span><br><span class="line"></span><br><span class="line">2）~&amp;（缩减与非） 缩减与操作结果取反</span><br><span class="line"></span><br><span class="line">3）|(缩减或)操作数中只要有任意一位的值为1，则该操作的结果便为1，操作数中只要有任意一位为x或z,则结果为x;否则操作结果为1；</span><br><span class="line"></span><br><span class="line">4）~|(缩减或非)缩减或操作结果取反</span><br><span class="line"> </span><br><span class="line">5）^(缩减异或) 操作数中只要有任意一位为x或z,则结果为x; 若操作数中有偶数个1，则结果为0 ，否则结果为1</span><br><span class="line"></span><br><span class="line">6）~^(缩减同或)缩减异或操作结果取反</span><br><span class="line"></span><br><span class="line">a= &#x27;b0110;</span><br><span class="line">b =&#x27;b0100;</span><br><span class="line"></span><br><span class="line">|b //结果1</span><br><span class="line">&amp;b //结果0</span><br><span class="line">~^a //结果1</span><br><span class="line"></span><br><span class="line">缩减异或操作符可以用来确定向量中是否存在值x得位</span><br><span class="line">addr_port = 4&#x27;b01x0;  //对addr_port异或结果为x</span><br><span class="line">对上述功能，可以使用如下的if语句进行检查；</span><br><span class="line">if(addr_port === 1&#x27;bx) begin</span><br><span class="line"></span><br><span class="line">end</span><br><span class="line"></span><br><span class="line">移位操作符</span><br><span class="line">&lt;&lt;	(逻辑左移)</span><br><span class="line">&gt;&gt;	(逻辑右移)</span><br><span class="line">&lt;&lt;&lt;	(算术左移)</span><br><span class="line">&gt;&gt;&gt;	(算术右移)</span><br><span class="line">移位操作符右侧操作数是一个无符号数，若右侧操作数值为x或z,则移位操作结果为x。</span><br><span class="line">逻辑移位，移动的位置总是填0；算术移位，左移空出位置填0，右移位，若操作数为无符号数，空出来位填0，若操作数为有符号数，则空出来的位总是填写符号位。</span><br><span class="line"></span><br><span class="line">reg[7:0] qreg = 8&#x27;h17;  //0001 0111</span><br><span class="line">reg signed [3:0] pmaster = 4&#x27;b1011;</span><br><span class="line"></span><br><span class="line">qreg &gt;&gt; 2 结果为 0000 0101</span><br><span class="line">qreg &lt;&lt; 2 结果01011100</span><br><span class="line">qreg &lt;&lt;&lt;4 结果 0111 0000</span><br><span class="line">qreg &lt;&lt;-2 //因为右操作数总是一个无符号数，因此向左移位了2**31-2 2的31次方数-2</span><br><span class="line"></span><br><span class="line">qreg &gt;&gt; 4 结果 0000 0001</span><br><span class="line">qreg &gt;&gt;&gt;2 结果 0000 0101</span><br><span class="line">pmaster &gt;&gt;&gt;2 结果 1110</span><br><span class="line"></span><br><span class="line">移位操作符可以用来完成指数（幂运算）；</span><br><span class="line">例如，若计算2的 num_bits 幂，</span><br><span class="line">32&#x27;b1&lt;&lt; num_bits	//num_bits必须小于32</span><br><span class="line">//指数（幂）操作符也可以用 2** num_bits</span><br><span class="line"></span><br><span class="line">也可以用移位操作符为2-4译码器建立verilog模型</span><br><span class="line">wire [3:0]decode_out = 4&#x27;b1 &lt;&lt; address[1:0];</span><br><span class="line">address分别可取值 0			1		2		3</span><br><span class="line">decode_out对应值  4&#x27;d0001	4&#x27;d0010	4&#x27;d0100	4&#x27;d1000</span><br><span class="line"></span><br><span class="line">算术右移是有符号的除2运算，分数部分被移位到下一个最低位的整型中。</span><br><span class="line">qreg&gt;&gt;&gt;2		//运算结果5（23/4）</span><br><span class="line">pmaster&gt;&gt;&gt;2		//结果是-2（-5/2）</span><br><span class="line"></span><br><span class="line">算术移位操作符场合，存在一种特殊情况，操作数是有符号，移位却是0，</span><br><span class="line">这是一个操作符有符号，一个无符号，按无符号数处理</span><br><span class="line">reg signed [3:0]xfer_port;</span><br><span class="line">3&#x27;d4+xfer_port&gt;&gt;&gt;1 //因为xfer_port当作无符号处理，所以移位空出位补0</span><br><span class="line"></span><br><span class="line">条件操作符</span><br><span class="line">cond_expr?expr1:expr2;</span><br><span class="line">和C语言类似，不同处若cond_expr为x或z,则操作结果按以下逻辑执行 expr1与expr2按位操作；0与0得到结果0，1与1得到结果1，其余情况下的结果为x；</span><br><span class="line">例：</span><br><span class="line">wire [2:0] student = (marks&gt;18)?grade_a:grade_c;</span><br><span class="line">计算(marks&gt;18) 为真则赋值grade_a ，若 marks &lt;= 18 则赋值grade_c</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">拼接和复制操作符</span><br><span class="line">拼接（concatenation）是将小表达式中的位拼接起来形成一个由多个位组成的大表达式的操作,语法：</span><br><span class="line">&#123;expr1,expr2,...,exprn&#125;</span><br><span class="line">例：</span><br><span class="line">wire [7:0]dbus;</span><br><span class="line">wire [11:0]abus;</span><br><span class="line"></span><br><span class="line">assign dbus[7:4] = &#123;dbus[0],dbus[1],dbus[2],dbus[3]&#125;; //dbus的第四位值以颠倒的顺序，赋值给其高四位</span><br><span class="line">assign abus[7:0] = &#123;dbus[3:0],dbus[7:4]&#125;;//dbus的高4位与低4位交换后赋值给abus[7:0]</span><br><span class="line"></span><br><span class="line">未指定位宽的常数其位数是未知的，拼接不允许出现未指定位宽的常数。</span><br><span class="line">&#123;dbus,5&#125;	//不允许在拼接操作中出现5,这样未指定位宽的常数</span><br><span class="line">拼接是非法的。</span><br><span class="line"></span><br><span class="line">abus = &#123;3&#123;4&#x27;b1011&#125;&#125;;	//位向量12‘b101110111011 就是3个4位数拼接</span><br><span class="line">abus = &#123;&#123;4&#123;dbus[7]&#125;&#125;,dbus&#125;	/*符号扩展*/</span><br><span class="line"></span><br><span class="line">&#123;3&#123;1&#x27;b1&#125;&#125;	//结果为111</span><br><span class="line">&#123;3&#123;ack&#125;&#125;	//结果与&#123;ack,ack,ack&#125;等效</span><br><span class="line"></span><br><span class="line">重复操作也可以被参数化，</span><br><span class="line">parameter LENGTH = 8;</span><br><span class="line">&#123;LENGTH&#123;1&#x27;b0&#125;&#125;	//一个由8个0组成的字符串</span><br><span class="line"></span><br><span class="line">拼接操作计算2的幂指数、符号的扩展以及0的扩展</span><br><span class="line">parameter POWER_OF = 4, PAD_BY = 5;</span><br><span class="line">wire[7:0]cgr_reg;</span><br><span class="line"></span><br><span class="line">wire [31:0] power_of_two = &#123;1&#x27;b1,&#123;POWER_OF&#123;1&#x27;b0&#125;&#125;&#125;;				//二次幂</span><br><span class="line">wire [12:0] sign_extension = &#123;&#123;PAD_BY&#123;cgr_reg[7]&#125;&#125;,cgr_reg&#125;;	//标志扩展</span><br><span class="line">wire [11:0] zero_extension = &#123;&#123;4&#123;1&#x27;b0&#125;&#125;,cgr_reg&#125;;				//符号扩展</span><br><span class="line"></span><br><span class="line">表达式的类型</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">操作符对操作数进行逐位操作，</span><br><span class="line">()[https://www.runoob.com/w3cnote/verilog-expression.html]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">缩减操作符</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>开源不易</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="https://s2.loli.net/2022/05/11/mgOt58vuhD3PYkE.png" alt="构造 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/FPGA/" rel="tag"><i class="fa fa-tag"></i> FPGA</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/12/07/%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91/%E6%99%B6%E6%8C%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev" title="晶振学习笔记">
+                  <i class="fa fa-chevron-left"></i> 晶振学习笔记
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/12/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/FPGA/Verilog-HDL%E5%85%A5%E9%97%A8(2)/" rel="next" title="Verilog HDL入门(2)">
+                  Verilog HDL入门(2) <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+  <div style="text-align:center;color: #ccc;font-size:16px;">-------------本文结束 <i class="fa fa-heart"></i> 感谢阅读-------------</div>
+
+
+
+    <div class="comments" id="SOHUCS" sid="a9eaabc13b275c71360bb2100eb9d4b0"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2022 – 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">构造</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">278k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">4:12</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>本站访客数
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span> 人次
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>本站总访问量
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span> 次
+      </span>
+    </span>
+</div>
+
+
+
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+<script class="next-config" data-name="gitter" type="application/json">{"enable":true,"room":"hexo_Online_discussion/community"}</script>
+<script src="/js/third-party/chat/gitter.js"></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.7/pdfobject.min.js","integrity":"sha256-ph3Dk89VmuTVXG6x/RDzk53SU9LPdAh1tpv0UvnDZ2I="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.14.0/dist/mermaid.min.js","integrity":"sha256-7wT34TI0pEBeEFoi4z+vhuSddGh6vUTMWdqJ2SDe2jg="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cyw3VyumL","appkey":"e9ff69b1f44325f8c6d24a15fdf89113"}</script>
+<script src="/js/third-party/comments/changyan.js"></script>
+
+</body>
+</html>
