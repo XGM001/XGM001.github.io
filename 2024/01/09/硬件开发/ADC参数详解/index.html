@@ -30,7 +30,7 @@
 <meta property="og:description" content="ADC参数详解">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-01-09T09:22:00.000Z">
-<meta property="article:modified_time" content="2024-01-12T09:53:05.182Z">
+<meta property="article:modified_time" content="2024-01-16T07:46:29.257Z">
 <meta property="article:author" content="构造">
 <meta property="article:tag" content="ADC参数详解">
 <meta name="twitter:card" content="summary">
@@ -147,7 +147,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E5%8F%82%E6%95%B0"><span class="nav-text">基本参数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E8%BE%A8%E7%8E%87%EF%BC%88Resolution%EF%BC%89"><span class="nav-text">分辨率（Resolution）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%87%E6%A0%B7%E9%80%9F%E7%8E%87%EF%BC%88Sampling-Time%EF%BC%89"><span class="nav-text">采样速率（Sampling Time）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BD%AC%E6%8D%A2%E6%97%B6%E9%97%B4%EF%BC%88Conversion-Time%EF%BC%89"><span class="nav-text">转换时间（Conversion Time）</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E5%8F%82%E6%95%B0"><span class="nav-text">基本参数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E8%BE%A8%E7%8E%87%EF%BC%88Resolution%EF%BC%89"><span class="nav-text">分辨率（Resolution）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%87%E6%A0%B7%E9%80%9F%E7%8E%87%EF%BC%88Sampling-Time%EF%BC%89"><span class="nav-text">采样速率（Sampling Time）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BD%AC%E6%8D%A2%E6%97%B6%E9%97%B4%EF%BC%88Conversion-Time%EF%BC%89"><span class="nav-text">转换时间（Conversion Time）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%87%8F%E7%A8%8B"><span class="nav-text">量程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%80%E4%BD%8E%E6%9C%89%E6%95%88%E4%BD%8D-One-least-significant-bit-LSB"><span class="nav-text">最低有效位(One least significant bit, LSB)</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -162,18 +162,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">85</span>
+          <span class="site-state-item-count">89</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">59</span>
+        <span class="site-state-item-count">61</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-count">40</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -288,7 +288,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-01-12 17:53:05" itemprop="dateModified" datetime="2024-01-12T17:53:05+08:00">2024-01-12</time>
+      <time title="修改时间：2024-01-16 15:46:29" itemprop="dateModified" datetime="2024-01-16T15:46:29+08:00">2024-01-16</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -328,7 +328,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>561</span>
+      <span>806</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -350,9 +350,11 @@
         <span id="more"></span>
 
 <h1 id="基本参数"><a href="#基本参数" class="headerlink" title="基本参数"></a>基本参数</h1><h2 id="分辨率（Resolution）"><a href="#分辨率（Resolution）" class="headerlink" title="分辨率（Resolution）"></a>分辨率（Resolution）</h2><p>其实就是对一个标准电压(就是供电给ADC芯片的电压)可以分成多少等份。例如8位的ADC就可以对标准电压分成256等份，表示256个不同的模拟信号值</p>
-<h2 id="采样速率（Sampling-Time）"><a href="#采样速率（Sampling-Time）" class="headerlink" title="采样速率（Sampling Time）"></a>采样速率（Sampling Time）</h2><p>采样速率就是我们最高的ADC采样频率，也就是数据手册中的<code>Maximum Sampling Frequency</code>。常用单位是 ksps 和 Msps，表示每秒 采样千&#x2F;百万次（kilo &#x2F; Million Samples per Second）</p>
+<h2 id="采样速率（Sampling-Time）"><a href="#采样速率（Sampling-Time）" class="headerlink" title="采样速率（Sampling Time）"></a>采样速率（Sampling Time）</h2><p>采样速率就是我们最高的ADC采样频率，也就是数据手册中的<code>Maximum Sampling Frequency</code>。ADC的采样速率必须小于转换速率，常用单位是 ksps 和 Msps，表示每秒 采样千&#x2F;百万次（kilo &#x2F; Million Samples per Second）</p>
 <p>奈奎斯特采样定理:<br>在进行模拟&#x2F;数字信号的转换过程中，当采样频率fs.max大于信号中最高频率fmax的2倍时（fs.max＞&#x3D;2fmax）,采样之后的数字信号完整地保留了原始信号中的信息，一般实际应用中保证采样频率为信号最高频率的2.56～4倍；采样定理又称奈奎斯特定理。</p>
 <h2 id="转换时间（Conversion-Time）"><a href="#转换时间（Conversion-Time）" class="headerlink" title="转换时间（Conversion Time）"></a>转换时间（Conversion Time）</h2><p>转换时间的导数就是转换速率。因为将一个模拟信号值转换成一个数字量不能瞬间完成，这个过程需要一定的时间。<br>积分型 AD 的转换时间是毫秒级属于低速 AD，逐次比较型 AD 是微秒级属中速 AD，全并行&#x2F; 串并行型 AD 可达到纳秒级。转换时间是衡量一个ADC是不是高速的主要指标，高速ADC转换时间小于1us，低速ADC转换时间大于300us。</p>
+<h1 id="量程"><a href="#量程" class="headerlink" title="量程"></a>量程</h1><p>指的是允许输入的模拟信号范围。</p>
+<h1 id="最低有效位-One-least-significant-bit-LSB"><a href="#最低有效位-One-least-significant-bit-LSB" class="headerlink" title="最低有效位(One least significant bit, LSB)"></a>最低有效位(One least significant bit, LSB)</h1><p>又称最小分辨率，要记住这个参数的英文LSB，满量程值除以ADC的分辨率就是LSB，很好理解，就比如说一个4位的ADC，数字量最高可以表示2的4次方也就是16，满量程5V，那么最小的分辨率就是5&#x2F;16&#x3D;0.31V，也就是说这个ADC最小辨认的电压是0.31V，可以用数字量0001表示0.31V这个模拟量。LSB越小表明ADC的精度越高。</p>
 
     </div>
 
@@ -427,14 +429,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">269k</span>
+    <span title="站点总字数">278k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">4:05</span>
+    <span title="站点阅读时长">4:13</span>
   </span>
 </div>
 <div class="busuanzi-count">
