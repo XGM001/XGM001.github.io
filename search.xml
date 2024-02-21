@@ -31,6 +31,22 @@
       </tags>
   </entry>
   <entry>
+    <title>Qt一些问题解决笔记</title>
+    <url>/2024/02/21/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/Qt%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<span id="more"></span>
+<h1 id="一、Qt解决中文显示乱码问题"><a href="#一、Qt解决中文显示乱码问题" class="headerlink" title="一、Qt解决中文显示乱码问题"></a>一、Qt解决中文显示乱码问题</h1><p>方法一：简单粗暴</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ui.label-&gt;setText(u8&quot;林夕爱吃面皮肉夹馍&quot;);//使用方式</span><br></pre></td></tr></table></figure>
+
+<p>其他方法请参考：<a href="https://developer.aliyun.com/article/1256040">https://developer.aliyun.com/article/1256040</a></p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>BKP备份寄存器笔记</title>
     <url>/2024/02/21/%E7%AC%94%E8%AE%B0/BKP%E5%A4%87%E4%BB%BD%E5%AF%84%E5%AD%98%E5%99%A8%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<span id="more"></span>

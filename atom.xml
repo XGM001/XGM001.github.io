@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2024-02-21T07:55:19.019Z</updated>
+  <updated>2024-02-21T15:20:53.994Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Qt一些问题解决笔记</title>
+    <link href="https://goupos.top/2024/02/21/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/Qt%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E7%AC%94%E8%AE%B0/"/>
+    <id>https://goupos.top/2024/02/21/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/Qt%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E7%AC%94%E8%AE%B0/</id>
+    <published>2024-02-21T15:06:03.000Z</published>
+    <updated>2024-02-21T15:20:53.994Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="一、Qt解决中文显示乱码问题"><a href="#一、Qt解决中文显示乱码问题" class="headerlink" title="一、Qt解决中文显示乱码问题"></a>一、Qt解决中文显示乱码问题</h1><p>方法一：简单粗暴</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ui.label-&gt;setText(u8&quot;林夕爱吃面皮肉夹馍&quot;);//使用方式</span><br></pre></td></tr></table></figure><p>其他方法请参考：<a href="https://developer.aliyun.com/article/1256040">https://developer.aliyun.com/article/1256040</a></p>]]></content>
+    
+    
+    <summary type="html">Qt一些问题解决笔记</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://goupos.top/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://goupos.top/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>BKP备份寄存器笔记</title>
@@ -396,27 +417,6 @@
     
     
     <category term="C++" scheme="https://goupos.top/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MDK KEIL添加自定义XXX</title>
-    <link href="https://goupos.top/2023/09/11/MDK%20KEIL/MDK%20KEIL%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89XXX/"/>
-    <id>https://goupos.top/2023/09/11/MDK%20KEIL/MDK%20KEIL%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89XXX/</id>
-    <published>2023-09-11T06:44:55.000Z</published>
-    <updated>2023-09-13T09:13:19.549Z</updated>
-    
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">  <script id="hbeData" type="hbeData" data-hmacdigest="da79ac6a7feec0eba324834689bb30212634e26506091f56cdea35ed465fd846">22af57287ee59bb36a4c5a3674ae7175e9ba87d1b08e855353ff04e6b3f142ed3fe92962bd9945ad32baab4a86d2aeaf890858386b4c8561844fb391a78ccac21f7c3f4524d4d35e347f2581cd69cefc3ea69f65e84c8eb6d827fcf6ae1e43637778d9e26aea85307bb31afd4dddd5d9b8694e46b51f72bd6c6b8688a253ee0c9acd2ba1ccdfeb7a87c53fcab56529bee2ae650f4dd8750dd5979f0d3945bd878d8f8ce02626f1a1d316fbe8908f1fcce813454d89fa26802c40a7b572ec30c63119db6d50c65dc80a6f2b8fb910f3104617a624ba832acd702911354aafa7106f3c5a2ddfea5515c5475499a182883cd94734f21eadfcd1ab5541d6c31245fdbccce44d2cc76301d5d89801cbb62c4264fd9b01085922af3fc1c6cb21c72d0b76ac1033154353644e37827794f878424b70e436ad0600d4226042eb5eb536f0d44b19033313e2803a06234640fe0a37265831d86c8e308a165d1235c768d48b819fd3f409eaac31de435ccc232b9e7c4a077c219a74813d19829d740b1732eb47218bf98b9f4fc03cf9148dff09e07669d5a7b7848c6d440ae396b9e42e830969c902c20dd18aea5fab907b779cb3207850a424b05a826beb91f939a94acdacdb10a2dca847f78dff8241a8a02c46d8081cf167aabab773106128a1dd3d61e8a368e8fdd64700005a3b3b5a52f51885d6da93b8d0522e1c518b25eb0f5e5dc181ded6684b33f196b57499579943cac5c8fdcb190c603f369fd15d5093fc8c504ecba220182dcff20ff946d540b2a71fe6e963e8d7ee8acaa4eee180d61e2ac3130f1120143e9df8ee5466c471693a836289415491076d8a1ff3ec1e87c9a5e1325d5a0ed9dd4a8659dab27b1e988cdb03bc3b9acaee07f090afd37d5cbfa15f835694ed226fa7e0faf4efce2f678895c03b7a53f154c0dc98cea3fbd95822036f3fb94a6d077b6306529f33f78d2f37e8608d6f08ffd61ba84668b7e9c94bc9bbbcda32604a0540cba108bc72faf5fbebb18b234744fdd7f683ffacf1e656a5a743a51271864535fb1f87587515e60833fc6c0afc6ef73b4e244da406bc2ac476146687a580ef1c804c90293959969f5026b2e3172afdfa403d7e25a8fadc4fff9aa6554efbab5f70cb9b695ca6588a15053042efad3d048acd66a50e6614fa46afe9351bdd462d81e157d8e6070a4f9fa1f9bf6b523e4a993cc5835aa9c7733eb7ff8404d124cae3f6376822f0c116daa9f9f869f7014830739256e73cfe944710f1ffe47b279e921a4a6e20bee2beb7ffb0ff518539c4a52a06f63c4ecd3fa4eee852ea8ad1766d03670de06c9102185e661fbeb2e0c78025259ba87446142a23ef81008ad923678376d0228729cf8005451ee54357e5dd428708f706d0f05fdb1a3a5489d433adce12b08721164baf31167b712a53bb532865d25486a6be50c85ba829b7d55789c5d00b0ebbbcd4ab091fa6dbaeab5d008e55ae30740d3089133c29596e475c4cdc48ee0995ed4c5a59f4cb1dff4a3f6fe65c019d4aa2e2f966bc6628eeb8f4955c205504cd50d3b7c376a42583f5de45128d5a1bf32fcdbe3066eb1d24daa7de21e3c36bde3c2f270b488ec35b4484c6108dc66db1cd011f6a21b8f64ebb61d68725de08d74f59fcd55dc24265b2e77ab5e801abe77a1ac7c2d03974e6b7d5b8bd72d94787dfa67d54bd84474ea11fa227ef7eac3075bcac90baacbf40efb4d719f383817d5b0047e280daa808ea75db5e260a70f534900c8e3292c46127caa2354949e8f00ea30f26e5734b0fca9bd56b4086bcded5f6327b8a14392422350426a669f564cd778519bdb5fd5f94d5e25bf546be52f733ec5549ac395caecf70a43bb79a28e259a2bfa209b8e86740a793c442135f7a54db5cb7f35c38921a051f70006bc2c16ea7e2bf09e46ae21c0c81a26ce4e7c656a8d06bfae484c7193280832a9f53e48dc5251d097fe1ee63195f578599af2498c8da9279d389005b5e3dc36160c75150e70dbb542671af54a119aa464821a5f45c7087b6e0f5dfc80b6ea7604f073afd00fff5360cfbcfb00b39a55dcde0cad94c17d2639db17dac04ee78a786e7bc37da690a09a68a97279e52fb018b89ef016bfc702407d7f0d2739a247d65850195ac17126a5e8326aa0e950ed9cd2d75a80ffefe9f13898b9ea63f57812598f47c08f3191cfffbbd0aacefb16029833730a3f8f33ef93602aba7cb787ba0bea4d08686a5145784db86ca1d352f1fad18eb5e16aa75053f2211d633aed8a4109edf8b46f615220ac0201021f47ec6682cbec40dc0d39744156d68031b632c4628c1d0630f8cf1577b49dc5882d068e99a09e1e1df1a74d8c8b6883a5b10ce55e0adfe7ac7a6bebd38190df64ed741f07704852c6f4312d0f5ef4ee4036a5d452abe63e56abf97c4d2f67af9905e5005065082d6dda78c797ccd263a642ae50e7c687109741c2fc65f460abb0e2fc0cbf25c35bcf1b07e35b1ce57cb2965d8cd1187823d90d8bc37f5968661e9e8609e378fc145dfb0b36d4180a6490bebdd8fd68a33638355c7e6a738b552fcf6924ea5f42cf2f26e1ddf93e3ad5672f99e90d80cba9c2a00e15909688f9bd403f210e1e749c9613490253a6b22ac5874d449ef5034c4722434f410608dfd43edd1433bb74e1377b1cdcfaf71c648b31ab8dd1a89a51ccfee0d222fa4340863dff4cb5c13401f2d85e4414cd641657319db368fcc251017b1d7325cf7f72834fbc56a22c2b74b81946b5112d605a21205355f3a425fb7310655c89dc5b3d4c18d2497911bb8f021594a18792138fc7b7e24e8dfec1c211ede1223420973c792ea360a4926bcd3bce09b46e295a0999955e6010cfeb62a104f566a0b825b5bc91402da338b8e32e4f5f98a49f1bf5ad0726bc2fc0e63cc5709e6a7867f7097fccd53e437b973896233ab567e76343ba2a9027ede1be089030e872de3628896e3233162a86579b93d4e640ba5efbf14ea6c438650a1033ebd4c62e529b556bd6b989ed1b8ecd1463886f419bd5915a055670df5d619d89b60417e41036afd598a43b437357b19035fb37c86463246de863ac51bf7b4903678b51d4e14ae165c9573284d86354b0f8cbad2dd86110f60162e43d97cad44e1a2623d45457abb78e6580419ffd5a541393d0a4a3390dc5d32080199e7e90166f806451103072ff0dcc5fb90f18b643054494608e0cb7b4402daeb91a641ae47af9c8fadf4dd7cac98df4e9dd1e9fa3022288f42f056e2e68063979aea41f6cb04d7fd703a322b391f7c86ded2fc42cca7ece9df7a7e79f694632f713dbb8d6186b8934384d3636e8d21c4b2cca35b51b4b6ab7a2054204e6bd0424b0295068d4c081ec26652066ba2e9134abc936f7cb408f5a3ed7a3f799a6b9ff8e758d94c5adfe64841e92f3c754a2496d6271c5ea6d983cbd5b66509d64a33fa043cedcf73e484fed3a46cc377137d554867cdf658f94db2e56192835f8469b874227136426cb50d99235724ce332b514d0c4f03df1aa4ad1105e08d9f4989c79ca27119cb31f36fb5af615c591b647e87ae8f07a067b5a576e0fcae7da5e9163bef8b4d69109b60222aadf4d0791d5c011ad8035740fc1af293521a2411ff9313e98807d8abd6a7cd0d58221c70e8b494d301de03886608ba7df77aa35b4a589fedf5b053c3f84e5f66dad259d0bbdb9afea3a43d9bbd67ed62055b0ef28825bc84159fe5963a6018a9de5b0c16c26e3b9f05d12b028a30e92218d81f941d1d3857a680b154c858441632183d569303b290f408c5ab3f2593afef697b269ca2b378f22b82d98e61b798dd1ccac5c1a2eb5fe7d9fefdcd10bc0914d510f3e532d4e5c2c863ab79935dc4e7e60ba0332b0d87d4ffa04f0fc66129ad263f96a14e3fc0d9c83743b9a1cc1c321a314d0c9c378485bb616864006948fc7e5b1fa31b45a2</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请在此处输入密码</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">MDK KEIL添加自定义XXX</summary>
-    
-    
-    
-    <category term="MDK KEIL" scheme="https://goupos.top/categories/MDK-KEIL/"/>
-    
-    
-    <category term="MDK KEIL" scheme="https://goupos.top/tags/MDK-KEIL/"/>
     
   </entry>
   
