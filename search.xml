@@ -9,25 +9,17 @@
 ]]></content>
   </entry>
   <entry>
-    <title>博客作者个人简历</title>
-    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="e099d68fa4fc1e25d1eec6d7a2f7d0c0e86a3c60d5ea174d6e970229436846f4">33b6c39d002ebceceb3e747ef576ef82efd06357e8f183a69e435032de79e80d472ffa5747c886765ba8745f4bb62fa67a1a991fdf8931c9dac47ed1ad2294db8b7b001c19bdc633d36b1199b4787c2bd3a18f52802ccd85d804043d725d86fabb9b35ba21b05c09b8f34fbc70e598be4514d2d77b3ef0df28e0d233cca23faaa8bca178e5db7e4238f9115c95fd42fb3339e7cb849ed20d5aedb3b25e3bde7cebc71c48c953ffc93cf73775f3ccb78b38abe9cd5cbfbfdee3c6612e5d33bdb4c8d8b714f59d87eaa6cc02d6a11fc85534a6cfad0d334b91a63544143929dfe36c02fd17045bc8132d45f00d0655b524980517fa5df664b51364f95192681827a3c99082527cbaf98298e162a12c3651aa2b0dce91816381e25c2e6a28b6048056b2fb7864c969f8ffead37b2e59fae61cf90a349967ea76784464f26faa762c518365c39a187c9f70740c3c0172a236a4b05d6c16ee1ba4fed0121066fa051d2839711c6ff031fa029edbcc24634eb82d4ac43f5830d8add7d1f1cd78b9790ec435a84ca730feff619ba2b6783a44b9b913823dd9ffb9f3b01bbd41cb8b32ef0f5da7526cedb59f04ae944aa14567a2d80c47d731460fba98dc9308c2342e72bb5b7ce57b4ea98bf7072bf9177f072a06dbfb05915b4b136d4bec192b80bb5be309ca416136eebab1d24b8a58219b76b8726d91dc27c09d2971e7fde469d2f8938af1e60d82e8a3df1f76b34883c10ae6d46b322f1c4d1ad359c6709e5faa8b0c718d588b2485a7273b108544c82a9911b4c590a48a5af6e6e3d8764c321b82fcc5dc20e30580d6512a3c0c593b17f32ed7b8ade9907b21dcfce9c3229469171808bf4d331e069d5f1b1293f458ee2acc0d475ad21a47b75fb0c894f1cdc5b50d38048a8c4a77134f00a918080c65ea44986fd1316036485aa981ce373667bfee1ec03b8312842ab781e4da9b81157003eedcbf8e6c0359e2732e5f93c278d671f56528d1ea52e02d493f361e16da5de3688db58e8deec14706f3b8d177b4b5abd24a9aaf70d42c12791d46eb8e764975fcbb75abef928be534b376595adcdb7495199144b305f66d43a52874bde58f5dfa0d3ac771eda774fd5eaa84d922bb4139104c9d230ab301ba405f47c37c40566aa95e7aa99e50bd2c3e59d59720e81bfd916397ece81697528b851a2821111a7a11d7bd431dce79d869cfa57ef60f394c0461970ef41797c845886e002aef</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-flip">
-      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>QT界面组件</title>
+    <url>/2024/02/27/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/QT%E7%95%8C%E9%9D%A2%E7%BB%84%E4%BB%B6/</url>
+    <content><![CDATA[<span id="more"></span>
+<h1 id="一、字符串与输入输出"><a href="#一、字符串与输入输出" class="headerlink" title="一、字符串与输入输出"></a>一、字符串与输入输出</h1><h3 id="设置布局整个窗口"><a href="#设置布局整个窗口" class="headerlink" title="设置布局整个窗口"></a>设置布局整个窗口</h3><pre><code>`setCentralWidget`
+</code></pre>
+]]></content>
       <categories>
-        <category>简历</category>
+        <category>QT</category>
       </categories>
       <tags>
-        <tag>个人简历</tag>
+        <tag>QT</tag>
       </tags>
   </entry>
   <entry>
@@ -159,8 +151,15 @@
   </entry>
   <entry>
     <title>QT生成一个动态链接库</title>
-    <url>/2024/01/17/QT%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93DLL/</url>
-    <content><![CDATA[]]></content>
+    <url>/2024/01/17/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/QT%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93DLL/</url>
+    <content><![CDATA[<span id="more"></span>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
   </entry>
   <entry>
     <title>ASCII码表</title>
@@ -6346,6 +6345,28 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
       </categories>
       <tags>
         <tag>个人服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客作者个人简历</title>
+    <url>/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="e099d68fa4fc1e25d1eec6d7a2f7d0c0e86a3c60d5ea174d6e970229436846f4">33b6c39d002ebceceb3e747ef576ef82efd06357e8f183a69e435032de79e80d472ffa5747c886765ba8745f4bb62fa67a1a991fdf8931c9dac47ed1ad2294db8b7b001c19bdc633d36b1199b4787c2bd3a18f52802ccd85d804043d725d86fabb9b35ba21b05c09b8f34fbc70e598be4514d2d77b3ef0df28e0d233cca23faaa8bca178e5db7e4238f9115c95fd42fb3339e7cb849ed20d5aedb3b25e3bde7cebc71c48c953ffc93cf73775f3ccb78b38abe9cd5cbfbfdee3c6612e5d33bdb4c8d8b714f59d87eaa6cc02d6a11fc85534a6cfad0d334b91a63544143929dfe36c02fd17045bc8132d45f00d0655b524980517fa5df664b51364f95192681827a3c99082527cbaf98298e162a12c3651aa2b0dce91816381e25c2e6a28b6048056b2fb7864c969f8ffead37b2e59fae61cf90a349967ea76784464f26faa762c518365c39a187c9f70740c3c0172a236a4b05d6c16ee1ba4fed0121066fa051d2839711c6ff031fa029edbcc24634eb82d4ac43f5830d8add7d1f1cd78b9790ec435a84ca730feff619ba2b6783a44b9b913823dd9ffb9f3b01bbd41cb8b32ef0f5da7526cedb59f04ae944aa14567a2d80c47d731460fba98dc9308c2342e72bb5b7ce57b4ea98bf7072bf9177f072a06dbfb05915b4b136d4bec192b80bb5be309ca416136eebab1d24b8a58219b76b8726d91dc27c09d2971e7fde469d2f8938af1e60d82e8a3df1f76b34883c10ae6d46b322f1c4d1ad359c6709e5faa8b0c718d588b2485a7273b108544c82a9911b4c590a48a5af6e6e3d8764c321b82fcc5dc20e30580d6512a3c0c593b17f32ed7b8ade9907b21dcfce9c3229469171808bf4d331e069d5f1b1293f458ee2acc0d475ad21a47b75fb0c894f1cdc5b50d38048a8c4a77134f00a918080c65ea44986fd1316036485aa981ce373667bfee1ec03b8312842ab781e4da9b81157003eedcbf8e6c0359e2732e5f93c278d671f56528d1ea52e02d493f361e16da5de3688db58e8deec14706f3b8d177b4b5abd24a9aaf70d42c12791d46eb8e764975fcbb75abef928be534b376595adcdb7495199144b305f66d43a52874bde58f5dfa0d3ac771eda774fd5eaa84d922bb4139104c9d230ab301ba405f47c37c40566aa95e7aa99e50bd2c3e59d59720e81bfd916397ece81697528b851a2821111a7a11d7bd431dce79d869cfa57ef60f394c0461970ef41797c845886e002aef</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-flip">
+      <input class="hbe hbe-input-field hbe-input-field-flip" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-flip" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-flip" data-content="请在此处输入密码">请在此处输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>简历</category>
+      </categories>
+      <tags>
+        <tag>个人简历</tag>
       </tags>
   </entry>
   <entry>

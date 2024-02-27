@@ -6,7 +6,7 @@
   <link href="https://goupos.top/atom.xml" rel="self"/>
   
   <link href="https://goupos.top/"/>
-  <updated>2024-02-23T17:53:40.106Z</updated>
+  <updated>2024-02-27T06:44:55.379Z</updated>
   <id>https://goupos.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>QT界面组件</title>
+    <link href="https://goupos.top/2024/02/27/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/QT%E7%95%8C%E9%9D%A2%E7%BB%84%E4%BB%B6/"/>
+    <id>https://goupos.top/2024/02/27/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/QT%E7%95%8C%E9%9D%A2%E7%BB%84%E4%BB%B6/</id>
+    <published>2024-02-27T00:44:21.000Z</published>
+    <updated>2024-02-27T06:44:55.379Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="一、字符串与输入输出"><a href="#一、字符串与输入输出" class="headerlink" title="一、字符串与输入输出"></a>一、字符串与输入输出</h1><h3 id="设置布局整个窗口"><a href="#设置布局整个窗口" class="headerlink" title="设置布局整个窗口"></a>设置布局整个窗口</h3><pre><code>`setCentralWidget`</code></pre>]]></content>
+    
+    
+    <summary type="html">QT界面组件</summary>
+    
+    
+    
+    <category term="QT" scheme="https://goupos.top/categories/QT/"/>
+    
+    
+    <category term="QT" scheme="https://goupos.top/tags/QT/"/>
+    
+  </entry>
   
   <entry>
     <title>C语言好的处理代码</title>
@@ -155,14 +176,22 @@
   
   <entry>
     <title>QT生成一个动态链接库</title>
-    <link href="https://goupos.top/2024/01/17/QT%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93DLL/"/>
-    <id>https://goupos.top/2024/01/17/QT%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93DLL/</id>
+    <link href="https://goupos.top/2024/01/17/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/QT%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93DLL/"/>
+    <id>https://goupos.top/2024/01/17/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/QT%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5%E5%BA%93DLL/</id>
     <published>2024-01-16T17:58:51.000Z</published>
-    <updated>2024-01-16T17:58:51.606Z</updated>
+    <updated>2024-02-27T00:46:44.561Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    
+    
+    <summary type="html">QT生成一个动态链接库</summary>
     
     
     
+    <category term="QT" scheme="https://goupos.top/categories/QT/"/>
     
+    
+    <category term="QT" scheme="https://goupos.top/tags/QT/"/>
     
   </entry>
   
@@ -392,27 +421,6 @@
     
     
     <category term="C++" scheme="https://goupos.top/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MDK KEIL创建多项目-多工程编译</title>
-    <link href="https://goupos.top/2023/10/31/MDK%20KEIL/MDK%20KEIL%E5%88%9B%E5%BB%BA%E5%A4%9A%E5%B7%A5%E7%A8%8B-%E5%A4%9A%E5%B7%A5%E7%A8%8B%E7%BC%96%E8%AF%91/"/>
-    <id>https://goupos.top/2023/10/31/MDK%20KEIL/MDK%20KEIL%E5%88%9B%E5%BB%BA%E5%A4%9A%E5%B7%A5%E7%A8%8B-%E5%A4%9A%E5%B7%A5%E7%A8%8B%E7%BC%96%E8%AF%91/</id>
-    <published>2023-10-31T03:30:34.000Z</published>
-    <updated>2023-11-01T09:29:07.305Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><ol><li><p>首先说明一下多工程的作用：<br>假如你写了一个boot和一个app等好几个工程，当如果这几个工程同用一个文件，你修改了以后，意味着所有的工程都需要重新编译，一个一个工程编译就带来了困难。</p></li><li><p>开始创建多工程</p></li></ol><p>1)你已经创建了两个以及以上的前提上<br>2)创建多工程（多工程其实也是一个工程）<br>方法：点击 <code>Project</code> -&gt; <code>New Multi-Project Workspace...</code> -&gt; 填写工程名字，放置在选择的文件夹,然后保存 -&gt; 会弹出提示框 <code>Create New xxxx-Project Workspace </code> 在 <code>uVision Projects</code>添加项目路径（如果不添加路径无法保存） -&gt; 点击 <code>OK</code><br>3)如果还想继续添加工程到当前项目中，可以找到界面上这个图标，如下是路径：<br>方法：点击 <code>Project</code> -&gt; <code>manage</code> -&gt; <code>New Multi-Project Workspace...</code><br>4）所有工程全编译<br>方法：找到界面中 <code>Batch Build</code> 下拉 -&gt; <code>Batch Setup</code> -&gt; <code>Select All</code> -&gt; <code>Close</code><br>再次点击<code>Batch Build</code> 下拉 -&gt; <code>Batch Rebuild</code><br>5）选择工程目录<br>方法：界面中点击 <code>Project</code> 目录中需要选中的项目，右击鼠标 -&gt; <code>Set as Active Project</code>  </p>]]></content>
-    
-    
-    <summary type="html">MDK KEIL创建多工程-多工程编译</summary>
-    
-    
-    
-    <category term="MDK KEIL" scheme="https://goupos.top/categories/MDK-KEIL/"/>
-    
-    
-    <category term="MDK KEIL" scheme="https://goupos.top/tags/MDK-KEIL/"/>
     
   </entry>
   
