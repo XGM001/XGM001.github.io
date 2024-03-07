@@ -22,29 +22,26 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"goupos.top","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="同一台电脑有两个github账号或者两个gitee账号，配置如下都相同">
-<meta property="og:type" content="article">
-<meta property="og:title" content="同一台电脑上多个github或gitee账户">
-<meta property="og:url" content="https://goupos.top/2022/04/27/gitee&&github/%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%A4%9A%E4%B8%AAgithub%E6%88%96gitee%E8%B4%A6%E6%88%B7/index.html">
+    <meta property="og:type" content="article">
+<meta property="og:title" content="关于git操作">
+<meta property="og:url" content="https://goupos.top/2022/04/24/gitee&&github/%E5%85%B3%E4%BA%8Egit%E6%93%8D%E4%BD%9C/index.html">
 <meta property="og:site_name" content="个人博客">
-<meta property="og:description" content="同一台电脑有两个github账号或者两个gitee账号，配置如下都相同">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-04-27T15:37:13.000Z">
-<meta property="article:modified_time" content="2023-08-21T02:31:12.863Z">
+<meta property="article:published_time" content="2022-04-23T22:05:35.000Z">
+<meta property="article:modified_time" content="2024-03-07T17:42:10.733Z">
 <meta property="article:author" content="构造">
 <meta property="article:tag" content="git">
-<meta property="article:tag" content="多Github或Gitee账号同时存在">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://goupos.top/2022/04/27/gitee&&github/%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%A4%9A%E4%B8%AAgithub%E6%88%96gitee%E8%B4%A6%E6%88%B7/">
+<link rel="canonical" href="https://goupos.top/2022/04/24/gitee&&github/%E5%85%B3%E4%BA%8Egit%E6%93%8D%E4%BD%9C/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://goupos.top/2022/04/27/gitee&&github/%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%A4%9A%E4%B8%AAgithub%E6%88%96gitee%E8%B4%A6%E6%88%B7/","path":"2022/04/27/gitee&&github/同一台电脑上多个github或gitee账户/","title":"同一台电脑上多个github或gitee账户"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://goupos.top/2022/04/24/gitee&&github/%E5%85%B3%E4%BA%8Egit%E6%93%8D%E4%BD%9C/","path":"2022/04/24/gitee&&github/关于git操作/","title":"关于git操作"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>同一台电脑上多个github或gitee账户 | 个人博客</title>
+<title>关于git操作 | 个人博客</title>
   
 
 
@@ -135,7 +132,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -148,6 +145,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E6%9C%AC%E5%9C%B0%E6%98%AF%E5%90%A6%E5%B7%B2%E6%9C%89SSH"><span class="nav-text">查看本地是否已有SSH</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA-SSH-key"><span class="nav-text">创建 SSH key</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SSH%E9%AA%8C%E8%AF%81"><span class="nav-text">SSH验证</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%A4%9A%E4%B8%AAgithub%E6%88%96gitee%E8%B4%A6%E6%88%B7"><span class="nav-text">同一台电脑上多个github或gitee账户</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#GitHub-Desktop-%E4%BD%BF%E7%94%A8ssh%E6%8E%A8%E9%80%81%E6%88%96%E8%80%85%E4%B8%8B%E6%8B%89%E6%97%B6%E5%80%99%E6%8A%A5%E9%94%99-Authentication-failed-Some-common-reasons-include"><span class="nav-text">GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -162,7 +160,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">93</span>
+          <span class="site-state-item-count">94</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -173,7 +171,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">40</span>
+        <span class="site-state-item-count">38</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -251,7 +249,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://goupos.top/2022/04/27/gitee&&github/%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%A4%9A%E4%B8%AAgithub%E6%88%96gitee%E8%B4%A6%E6%88%B7/">
+    <link itemprop="mainEntityOfPage" href="https://goupos.top/2022/04/24/gitee&&github/%E5%85%B3%E4%BA%8Egit%E6%93%8D%E4%BD%9C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://img-qn-2.51miz.com/preview/element/00/01/25/80/E-1258046-80796AAA.gif">
@@ -264,12 +262,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="同一台电脑上多个github或gitee账户 | 个人博客">
+      <meta itemprop="name" content="关于git操作 | 个人博客">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          同一台电脑上多个github或gitee账户
+          关于git操作
         </h1>
 
         <div class="post-meta-container">
@@ -281,14 +279,23 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2022-04-27 23:37:13" itemprop="dateCreated datePublished" datetime="2022-04-27T23:37:13+08:00">2022-04-27</time>
+      <time title="创建时间：2022-04-24 06:05:35" itemprop="dateCreated datePublished" datetime="2022-04-24T06:05:35+08:00">2022-04-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-08-21 10:31:12" itemprop="dateModified" datetime="2023-08-21T10:31:12+08:00">2023-08-21</time>
+      <time title="修改时间：2024-03-08 01:42:10" itemprop="dateModified" datetime="2024-03-08T01:42:10+08:00">2024-03-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a>
+        </span>
     </span>
 
   
@@ -307,8 +314,8 @@
       </span>
       <span class="post-meta-item-text">Changyan：</span>
     
-    <a title="同一台电脑上多个github或gitee账户" href="/2022/04/27/gitee&&github/%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%A4%9A%E4%B8%AAgithub%E6%88%96gitee%E8%B4%A6%E6%88%B7/#SOHUCS" itemprop="discussionUrl">
-      <span id="sourceId::c301985ed0bd9a76cec851e5ca27df1c" class="cy_cmt_count" itemprop="commentCount"></span>
+    <a title="关于git操作" href="/2022/04/24/gitee&&github/%E5%85%B3%E4%BA%8Egit%E6%93%8D%E4%BD%9C/#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::ab333f35b01b5840115561c113a51f68" class="cy_cmt_count" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -319,14 +326,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>835</span>
+      <span>2.3k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -337,14 +344,52 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <blockquote>
+         <!-- <center> <font face="宋体"  size="6">关于git命令 </font></center> -->
+
+
+
+<span id="more"></span>
+<h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><ol>
+<li><p>在本地打开 git bash 命令行窗口，输入以下命令<br><code>cd ~/.ssh</code></p>
+</li>
+<li><p>如果没有，显示<br><code>bash: cd: /c/Users/Administrator/.ssh: No such file or directory</code></p>
+</li>
+<li><p>否则表示本地以创建 SSH key 了</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls</span><br><span class="line">id_rsa  id_rsa.pub  known_hosts</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="创建-SSH-key"><a href="#创建-SSH-key" class="headerlink" title="创建 SSH key"></a>创建 SSH key</h1><!-- more -->
+
+<ol>
+<li>最后一个参数替换为自己的 <a href="gitee.com">Gitee</a> || <a href="github.com">Github</a> 注册邮箱<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br></pre></td></tr></table></figure></li>
+<li>接下来会提示输入生成的key存放的路径，不设置直接回车的话会默认创建在C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter file in which to save the key (/c/Users/Him/.ssh/id_rsa):</span><br><span class="line">Created directory &#x27;/c/Users/userpath/.ssh&#x27;.</span><br></pre></td></tr></table></figure></li>
+<li>再接下来会提示你输入密码，这个密码是用来每次提交的时候输入确认，可以不设置，直接回车两次<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></li>
+<li>最后成功后会看到类似如下的输出，表示成功生成SSH key了，可以到C:&#x2F;Users&#x2F;你的用户账号&#x2F;.ssh文件夹下查看<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">Your identification has been saved in /c/Users/Him/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /c/Users/Him/.ssh/id_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:RwvBINgH8CEt2KniltmykeyDsOseUYcwMzehFeyT86s xxxxxx@qq.com</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+---[RSA 2048]----+</span><br><span class="line">| o+%OO+o.        |</span><br><span class="line">|..=+%*+ ..       |</span><br><span class="line">| ..+o+o.. .      |</span><br><span class="line">|o.  o=.  o .     |</span><br><span class="line">|o oolalala S o      |</span><br><span class="line">| +.+.. . .       |</span><br><span class="line">|. .o    .        |</span><br><span class="line">|  . .  .         |</span><br><span class="line">|   . E.          |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="SSH验证"><a href="#SSH验证" class="headerlink" title="SSH验证"></a>SSH验证</h1><!-- more -->
+
+<ol>
+<li><p>验证本地生成的ssh，github或者gitee端密钥是否添加成功，输入如下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br><span class="line">ssh -T git@gitee.com </span><br></pre></td></tr></table></figure></li>
+<li><p>如果添加成功就会显示如下语句</p>
+<blockquote>
+<p>Hi Username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>Hi Username! You’ve successfully authenticated, but GITEE.COM does not provide shell access.</p>
+</blockquote>
+</li>
+<li><p>Username:是你的在git端的名称</p>
+</li>
+</ol>
+<hr>
+<h1 id="同一台电脑上多个github或gitee账户"><a href="#同一台电脑上多个github或gitee账户" class="headerlink" title="同一台电脑上多个github或gitee账户"></a>同一台电脑上多个github或gitee账户</h1><blockquote>
 <p>同一台电脑有两个github账号或者两个gitee账号，配置如下都相同</p>
 </blockquote>
-<span id="more"></span>
+<!-- more -->
 <ol>
 <li>请参考：<a target="_blank" rel="noopener" href="https://help.gitee.com/repository/ssh-key/configure-multiple-ssh-keys">gitee文档</a>    配置文件如下<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"># gitee xxxxxx@qq.com </span><br><span class="line">Host gitee.com</span><br><span class="line">HostName gitee.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/giteeqq_id_rsa</span><br><span class="line"></span><br><span class="line"># gitee xxxxxxx@189.cn</span><br><span class="line">Host xxxx.gitee.com		#此处xxxx需要修改为你的gitee名称</span><br><span class="line">HostName gitee.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/gitee189_id_rsa</span><br><span class="line"></span><br><span class="line"># github aaaaa@189.cn</span><br><span class="line">Host aaaaa.github.com	#此处aaaaa需要修改为你的github名称</span><br><span class="line">HostName github.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/github189_id_rsa</span><br><span class="line"></span><br><span class="line"># github   xxxx@qq.com</span><br><span class="line">#Host xxxx.github.com	#此处xxxx需要修改为你的github名称</span><br><span class="line">#HostName github.com</span><br><span class="line">#PreferredAuthentications publickey</span><br><span class="line">#IdentityFile ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure></li>
 <li>文件中有多个<code>xxx</code>或<code>aaaaa</code>都是需要修改处，如果需要验证添加SSH是否成功，测试代码如下，对应上面配置文件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@gitee.com</span><br><span class="line">ssh -T git@xxxx.gitee.com</span><br><span class="line">ssh -T git@aaaaa.github.com</span><br><span class="line">ssh -T git@xxxx.github.com</span><br></pre></td></tr></table></figure>
 依此类推有多少个gitee或github就配置多少个，特别注意 xxxx_id_rsa 不能配置为相同文件名。</li>
+</ol>
+<h1 id="GitHub-Desktop-使用ssh推送或者下拉时候报错-Authentication-failed-Some-common-reasons-include"><a href="#GitHub-Desktop-使用ssh推送或者下拉时候报错-Authentication-failed-Some-common-reasons-include" class="headerlink" title="GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:"></a>GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:</h1><ol>
+<li>可以尝试关闭路径 <code>File</code>-&gt;<code>Options</code>-&gt;<code>Advanced</code>-&gt;<code>SSH的选项</code>-&gt;<code>Use system OpenSSH 选项</code></li>
 </ol>
 
     </div>
@@ -370,20 +415,19 @@
 
           <div class="post-tags">
               <a href="/tags/git/" rel="tag"><i class="fa fa-tag"></i> git</a>
-              <a href="/tags/%E5%A4%9AGithub%E6%88%96Gitee%E8%B4%A6%E5%8F%B7%E5%90%8C%E6%97%B6%E5%AD%98%E5%9C%A8/" rel="tag"><i class="fa fa-tag"></i> 多Github或Gitee账号同时存在</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/" rel="prev" title="双核NUCLEO-H745ZI-Q开发(1)">
-                  <i class="fa fa-chevron-left"></i> 双核NUCLEO-H745ZI-Q开发(1)
+                <a href="/2022/04/23/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" rel="prev" title="第一篇文章">
+                  <i class="fa fa-chevron-left"></i> 第一篇文章
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2022/04/28/%E4%B8%AA%E4%BA%BA%E5%A4%A7%E4%BA%8B/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/" rel="next" title="博客作者个人简历">
-                  博客作者个人简历 <i class="fa fa-chevron-right"></i>
+                <a href="/2022/04/24/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/GoupOS%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" rel="next" title="GoupOS嵌入式实时操作系统介绍">
+                  GoupOS嵌入式实时操作系统介绍 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -399,7 +443,7 @@
 
 
 
-    <div class="comments" id="SOHUCS" sid="c301985ed0bd9a76cec851e5ca27df1c"></div>
+    <div class="comments" id="SOHUCS" sid="ab333f35b01b5840115561c113a51f68"></div>
 </div>
   </main>
 
@@ -421,14 +465,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">283k</span>
+    <span title="站点总字数">285k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">4:18</span>
+    <span title="站点阅读时长">4:19</span>
   </span>
 </div>
 <div class="busuanzi-count">

@@ -9,11 +9,40 @@
 ]]></content>
   </entry>
   <entry>
+    <title>QSPI笔记</title>
+    <url>/2024/02/29/QSPI%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<span id="more"></span>
+<h1 id="初次学习QSPI"><a href="#初次学习QSPI" class="headerlink" title="初次学习QSPI"></a>初次学习QSPI</h1><p>QSPI单主机模式，可以在间接和内存映射2种模式下工作。</p>
+<p>DDR:双数据速率(double data rate)，即一个时钟周期内发送两个bit，因为使用了两个QSPI接口，所以同一个<br>SDR:</p>
+<h1 id="Quad-SPI：四线SPI-接口描述"><a href="#Quad-SPI：四线SPI-接口描述" class="headerlink" title="Quad SPI：四线SPI 接口描述"></a>Quad SPI：四线SPI 接口描述</h1><h2 id="QSPI四种模式"><a href="#QSPI四种模式" class="headerlink" title="QSPI四种模式"></a>QSPI四种模式</h2><p>&#x2F;Standard SPI：标准SPI指令<br>&#x2F;Dual SPI：二线SPI<br>&#x2F;Quad SPI：四线SPI<br>&#x2F;QSPI XIP 内存映射模式</p>
+<h2 id="帧格式（frame-format）"><a href="#帧格式（frame-format）" class="headerlink" title="帧格式（frame format）"></a>帧格式（frame format）</h2><p>Quad-SPI接口提供了一个完全可配置的帧格式，最大包含五个阶段并且每个阶段都可以完全配置（也就是说每个阶段的数据长度和数据线数完全可以独立配置）。<br>五个阶段分别为指令阶段、地址阶段、交替（可选）字节阶段、空指令阶段、数据阶段。一般情况下都是会有指令阶段。进行数据读写时一般包括指令、地址、数据阶段l；特殊情况下尤其是高速数据读写时需要设置空指令周期（和外部Flash芯片强相关）。</p>
+<h2 id="SDR与DDR区别"><a href="#SDR与DDR区别" class="headerlink" title="SDR与DDR区别"></a>SDR与DDR区别</h2><h3 id="SDR模式"><a href="#SDR模式" class="headerlink" title="SDR模式"></a>SDR模式</h3><p>在SDR模式下，当 QSPI 驱动 QSPI_IO0，QSPI__IO1，QSPI__IO2，QSPI__IO3信号时，这些信号<code>仅在 CLK 的下降沿发生转变</code>。</p>
+<h3 id="DDR模式"><a href="#DDR模式" class="headerlink" title="DDR模式"></a>DDR模式</h3><p>在DDR模式下，当 QSPI 驱动 QSPI_IO0，QSPI__IO1，QSPI__IO2，QSPI__IO3信号时，这些信号在<code>CLK 的上升沿和下降沿发生转变</code>。</p>
+<h2 id="间接模式"><a href="#间接模式" class="headerlink" title="间接模式"></a>间接模式</h2><p>间接模式是指通过寄存器方式来访问外设，就跟我们操作串口外设一样。</p>
+<p>间接模式用于读写、擦除操作；所有的操作都是通过Quad-SPI数据寄存器来执行，可以使用CPU也可以使用中断和DMA；也用于配置Quad-SPI Flash内存。<br>QSPI在同一时刻只能使用读取或者写入，只有标准模式下才可以使用接收和发送</p>
+<p>传输的数据通过数据寄存器和FIFO。</p>
+<p>自动轮询模式用于检测Flash内存中的状态寄存器的改变并产生中断，在检查擦除或者编程操作时特别有用（检查擦除或者编程是否完成）。</p>
+<h2 id="双-BANK（双-Flash）"><a href="#双-BANK（双-Flash）" class="headerlink" title="双 BANK（双 Flash）"></a>双 BANK（双 Flash）</h2><p>双闪存就是将QSPI的两个 BANK 分别接一个 QSPI Flash，然后时钟公用，片选公用（也可以不公用），从而实现 8 线模式。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Qt笔记</title>
+    <url>/2024/02/29/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/Qt%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="一、AbstractButton（抽象按钮）"><a href="#一、AbstractButton（抽象按钮）" class="headerlink" title="一、AbstractButton（抽象按钮）"></a>一、<code>AbstractButton（抽象按钮）</code></h1><p><code>clicked</code>  点击了<br><code>pressed</code>	按下<br><code>released</code>	释放<br><code>toggled</code>	切换的<br><code>triggered</code> 触发的</p>
+<h1 id="二、-QT-设置应用程序名称和主窗口标题"><a href="#二、-QT-设置应用程序名称和主窗口标题" class="headerlink" title="二、 QT | 设置应用程序名称和主窗口标题"></a>二、 <code>QT | 设置应用程序名称和主窗口标题</code></h1><p><code>w.setWindowTitle(&quot;qt程序&quot;);</code></p>
+]]></content>
+      <categories>
+        <category>QT</category>
+      </categories>
+      <tags>
+        <tag>QT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>QT界面组件</title>
     <url>/2024/02/27/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/QT/QT%E7%95%8C%E9%9D%A2%E7%BB%84%E4%BB%B6/</url>
     <content><![CDATA[<span id="more"></span>
-<h1 id="一、字符串与输入输出"><a href="#一、字符串与输入输出" class="headerlink" title="一、字符串与输入输出"></a>一、字符串与输入输出</h1><h3 id="设置布局整个窗口"><a href="#设置布局整个窗口" class="headerlink" title="设置布局整个窗口"></a>设置布局整个窗口</h3><pre><code>`setCentralWidget`
-</code></pre>
+<h1 id="一、字符串与输入输出"><a href="#一、字符串与输入输出" class="headerlink" title="一、字符串与输入输出"></a>一、字符串与输入输出</h1><h1 id="QTreeWidget-和-QDockWidget"><a href="#QTreeWidget-和-QDockWidget" class="headerlink" title="QTreeWidget 和 QDockWidget"></a>QTreeWidget 和 QDockWidget</h1><h3 id="设置布局整个窗口"><a href="#设置布局整个窗口" class="headerlink" title="设置布局整个窗口"></a>设置布局整个窗口</h3><p><code>setCentralWidget(ui-&gt;)</code></p>
 ]]></content>
       <categories>
         <category>QT</category>
@@ -81,9 +110,23 @@
   <entry>
     <title>编程开发中的一些关键字及含义</title>
     <url>/2024/02/21/%E7%AC%94%E8%AE%B0/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E5%85%B3%E9%94%AE%E5%AD%97%E5%8F%8A%E5%90%AB%E4%B9%89/</url>
-    <content><![CDATA[<p>ARM芯片中断：</p>
-<p><code>NVIC_IRQChannelPreemptionPriority</code>	：抢占优先级(抢占优先级权限更高)<br><code>NVIC_IRQChannelSubPriority</code>		：响应（子）优先级（）</p>
-]]></content>
+    <content><![CDATA[<h1 id="ARM芯片中断："><a href="#ARM芯片中断：" class="headerlink" title="ARM芯片中断："></a>ARM芯片中断：</h1><p><code>NVIC_IRQChannelPreemptionPriority</code>	：抢占优先级(抢占优先级权限更高)<br><code>NVIC_IRQChannelSubPriority</code>		：响应（子）优先级（）</p>
+<h1 id="接口关键字的含义"><a href="#接口关键字的含义" class="headerlink" title="接口关键字的含义"></a>接口关键字的含义</h1><h2 id="1-DMA-Direct-Memory-Access，直接存储器访问"><a href="#1-DMA-Direct-Memory-Access，直接存储器访问" class="headerlink" title="1.DMA:Direct Memory Access，直接存储器访问"></a>1.DMA:Direct Memory Access，直接存储器访问</h2><p>DMA 控制器由 CPU 控制以执行从源到目的的快速数据移动。配置完成后，无需 CPU 干预即可传输数据。</p>
+<hr>
+<h2 id="2-ADC-Analog-to-digital-converter-模拟数字转换器"><a href="#2-ADC-Analog-to-digital-converter-模拟数字转换器" class="headerlink" title="2.ADC:Analog to digital converter, 模拟数字转换器"></a>2.ADC:Analog to digital converter, 模拟数字转换器</h2><p>是指一个将模拟信号转变为数字信号的电子元件。</p>
+<hr>
+<h2 id="3-DAC-Digital-to-Analog-Converter，数字模拟转换器"><a href="#3-DAC-Digital-to-Analog-Converter，数字模拟转换器" class="headerlink" title="3.DAC:Digital to Analog Converter，数字模拟转换器"></a>3.DAC:Digital to Analog Converter，数字模拟转换器</h2><p>它是一种电子设备，能够将数字数据转换为模拟信号。</p>
+<h2 id="4-TIM-Timer，定时器"><a href="#4-TIM-Timer，定时器" class="headerlink" title="4.TIM:Timer，定时器"></a>4.TIM:Timer，定时器</h2><p>定时器可以对输入的时钟进行计数,并在计数值达到设定值时触发中断。 </p>
+<hr>
+<h2 id="5-RTC-Real-Time-Clock，时钟芯片"><a href="#5-RTC-Real-Time-Clock，时钟芯片" class="headerlink" title="5.RTC:Real Time Clock，时钟芯片"></a>5.RTC:Real Time Clock，时钟芯片</h2><p>实时时钟</p>
+<hr>
+<h2 id="6-IWDG-Independent-Watchdog-独立看门狗"><a href="#6-IWDG-Independent-Watchdog-独立看门狗" class="headerlink" title="6.IWDG: Independent Watchdog,独立看门狗"></a>6.IWDG: Independent Watchdog,独立看门狗</h2><p>独立于系统之外,因为有独立时钟,所以不受系统影 响的系统故障探测器,主要用于监视硬件错误。</p>
+<hr>
+<h2 id="7-WWDG-Window-Watchdog-即窗口看门狗"><a href="#7-WWDG-Window-Watchdog-即窗口看门狗" class="headerlink" title="7.WWDG:Window Watchdog,即窗口看门狗"></a>7.WWDG:Window Watchdog,即窗口看门狗</h2><p>用于监控因外部干扰或无法预见的逻辑条件导致应用程序偏离其正常操作顺序的软件故障。</p>
+<hr>
+<h2 id="8-SDIO-Secure-Digital-Input-x2F-Output-安全数字输入输出"><a href="#8-SDIO-Secure-Digital-Input-x2F-Output-安全数字输入输出" class="headerlink" title="8.SDIO:Secure Digital Input&#x2F;Output,安全数字输入输出"></a>8.SDIO:Secure Digital Input&#x2F;Output,安全数字输入输出</h2><h2 id="9-USB-HS"><a href="#9-USB-HS" class="headerlink" title="9.USB_HS:"></a>9.USB_HS:</h2><h2 id="10-USB-FS"><a href="#10-USB-FS" class="headerlink" title="10.USB_FS:"></a>10.USB_FS:</h2><h2 id="11-CAN"><a href="#11-CAN" class="headerlink" title="11.CAN:"></a>11.CAN:</h2><h2 id="12-SPI"><a href="#12-SPI" class="headerlink" title="12.SPI:"></a>12.SPI:</h2><h2 id="13-IIS"><a href="#13-IIS" class="headerlink" title="13.IIS:"></a>13.IIS:</h2><h2 id="14-QSPI"><a href="#14-QSPI" class="headerlink" title="14.QSPI:"></a>14.QSPI:</h2><h2 id="15-QPI-QuickPath-Interconnect-速通道互联"><a href="#15-QPI-QuickPath-Interconnect-速通道互联" class="headerlink" title="15.QPI:QuickPath Interconnect,速通道互联"></a>15.QPI:QuickPath Interconnect,速通道互联</h2><p>官方名字叫做CSI,Common System Interface公共系统界面，用来实现芯片之间的直接互联，</p>
+<h2 id="16-USART"><a href="#16-USART" class="headerlink" title="16.USART:"></a>16.USART:</h2><h2 id="17-IIC"><a href="#17-IIC" class="headerlink" title="17.IIC:"></a>17.IIC:</h2><h2 id="18-ETH"><a href="#18-ETH" class="headerlink" title="18.ETH:"></a>18.ETH:</h2><h2 id="19-DVP"><a href="#19-DVP" class="headerlink" title="19.DVP:"></a>19.DVP:</h2><h2 id="20-OPAMP"><a href="#20-OPAMP" class="headerlink" title="20.OPAMP:"></a>20.OPAMP:</h2><h2 id="21-FSMC"><a href="#21-FSMC" class="headerlink" title="21.FSMC"></a>21.FSMC</h2><hr>
+<h2 id="22-FMC"><a href="#22-FMC" class="headerlink" title="22.FMC"></a>22.FMC</h2>]]></content>
       <categories>
         <category>笔记</category>
       </categories>
@@ -6370,24 +6413,6 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
       </tags>
   </entry>
   <entry>
-    <title>同一台电脑上多个github或gitee账户</title>
-    <url>/2022/04/27/gitee&amp;&amp;github/%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E5%A4%9A%E4%B8%AAgithub%E6%88%96gitee%E8%B4%A6%E6%88%B7/</url>
-    <content><![CDATA[<blockquote>
-<p>同一台电脑有两个github账号或者两个gitee账号，配置如下都相同</p>
-</blockquote>
-<span id="more"></span>
-<ol>
-<li>请参考：<a href="https://help.gitee.com/repository/ssh-key/configure-multiple-ssh-keys">gitee文档</a>    配置文件如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitee xxxxxx@qq.com </span><br><span class="line">Host gitee.com</span><br><span class="line">HostName gitee.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/giteeqq_id_rsa</span><br><span class="line"></span><br><span class="line"># gitee xxxxxxx@189.cn</span><br><span class="line">Host xxxx.gitee.com		#此处xxxx需要修改为你的gitee名称</span><br><span class="line">HostName gitee.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/gitee189_id_rsa</span><br><span class="line"></span><br><span class="line"># github aaaaa@189.cn</span><br><span class="line">Host aaaaa.github.com	#此处aaaaa需要修改为你的github名称</span><br><span class="line">HostName github.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/github189_id_rsa</span><br><span class="line"></span><br><span class="line"># github   xxxx@qq.com</span><br><span class="line">#Host xxxx.github.com	#此处xxxx需要修改为你的github名称</span><br><span class="line">#HostName github.com</span><br><span class="line">#PreferredAuthentications publickey</span><br><span class="line">#IdentityFile ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure></li>
-<li>文件中有多个<code>xxx</code>或<code>aaaaa</code>都是需要修改处，如果需要验证添加SSH是否成功，测试代码如下，对应上面配置文件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@gitee.com</span><br><span class="line">ssh -T git@xxxx.gitee.com</span><br><span class="line">ssh -T git@aaaaa.github.com</span><br><span class="line">ssh -T git@xxxx.github.com</span><br></pre></td></tr></table></figure>
-依此类推有多少个gitee或github就配置多少个，特别注意 xxxx_id_rsa 不能配置为相同文件名。</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>git</tag>
-        <tag>多Github或Gitee账号同时存在</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>双核NUCLEO-H745ZI-Q开发(1)</title>
     <url>/2022/04/24/STM32/%E5%8F%8C%E6%A0%B8NUCLEO-H745ZI-Q%E5%BC%80%E5%8F%91-1/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="哦，这些解密后的内容无法验证，不过你还是可以看看的。">
@@ -6438,13 +6463,14 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
       </tags>
   </entry>
   <entry>
-    <title>关于git命令</title>
-    <url>/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E5%91%BD%E4%BB%A4/</url>
+    <title>关于git操作</title>
+    <url>/2022/04/24/gitee&amp;&amp;github/%E5%85%B3%E4%BA%8Egit%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[ <!-- <center> <font face="宋体"  size="6">关于git命令 </font></center> -->
 
-<h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><span id="more"></span>
 
-<ol>
+
+<span id="more"></span>
+<h1 id="查看本地是否已有SSH"><a href="#查看本地是否已有SSH" class="headerlink" title="查看本地是否已有SSH"></a>查看本地是否已有SSH</h1><ol>
 <li><p>在本地打开 git bash 命令行窗口，输入以下命令<br><code>cd ~/.ssh</code></p>
 </li>
 <li><p>如果没有，显示<br><code>bash: cd: /c/Users/Administrator/.ssh: No such file or directory</code></p>
@@ -6474,13 +6500,24 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
 </li>
 </ol>
 <hr>
+<h1 id="同一台电脑上多个github或gitee账户"><a href="#同一台电脑上多个github或gitee账户" class="headerlink" title="同一台电脑上多个github或gitee账户"></a>同一台电脑上多个github或gitee账户</h1><blockquote>
+<p>同一台电脑有两个github账号或者两个gitee账号，配置如下都相同</p>
+</blockquote>
+<!-- more -->
+<ol>
+<li>请参考：<a href="https://help.gitee.com/repository/ssh-key/configure-multiple-ssh-keys">gitee文档</a>    配置文件如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># gitee xxxxxx@qq.com </span><br><span class="line">Host gitee.com</span><br><span class="line">HostName gitee.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/giteeqq_id_rsa</span><br><span class="line"></span><br><span class="line"># gitee xxxxxxx@189.cn</span><br><span class="line">Host xxxx.gitee.com		#此处xxxx需要修改为你的gitee名称</span><br><span class="line">HostName gitee.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/gitee189_id_rsa</span><br><span class="line"></span><br><span class="line"># github aaaaa@189.cn</span><br><span class="line">Host aaaaa.github.com	#此处aaaaa需要修改为你的github名称</span><br><span class="line">HostName github.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/github189_id_rsa</span><br><span class="line"></span><br><span class="line"># github   xxxx@qq.com</span><br><span class="line">#Host xxxx.github.com	#此处xxxx需要修改为你的github名称</span><br><span class="line">#HostName github.com</span><br><span class="line">#PreferredAuthentications publickey</span><br><span class="line">#IdentityFile ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure></li>
+<li>文件中有多个<code>xxx</code>或<code>aaaaa</code>都是需要修改处，如果需要验证添加SSH是否成功，测试代码如下，对应上面配置文件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@gitee.com</span><br><span class="line">ssh -T git@xxxx.gitee.com</span><br><span class="line">ssh -T git@aaaaa.github.com</span><br><span class="line">ssh -T git@xxxx.github.com</span><br></pre></td></tr></table></figure>
+依此类推有多少个gitee或github就配置多少个，特别注意 xxxx_id_rsa 不能配置为相同文件名。</li>
+</ol>
+<h1 id="GitHub-Desktop-使用ssh推送或者下拉时候报错-Authentication-failed-Some-common-reasons-include"><a href="#GitHub-Desktop-使用ssh推送或者下拉时候报错-Authentication-failed-Some-common-reasons-include" class="headerlink" title="GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:"></a>GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:</h1><ol>
+<li>可以尝试关闭路径 <code>File</code>-&gt;<code>Options</code>-&gt;<code>Advanced</code>-&gt;<code>SSH的选项</code>-&gt;<code>Use system OpenSSH 选项</code></li>
+</ol>
 ]]></content>
       <categories>
         <category>git</category>
       </categories>
       <tags>
         <tag>git</tag>
-        <tag>git命令</tag>
       </tags>
   </entry>
   <entry>
