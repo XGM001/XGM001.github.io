@@ -6509,7 +6509,8 @@ INTPTR_MAX和A都不会展开然而解决这个问题方法很多，加一层中
 <li>文件中有多个<code>xxx</code>或<code>aaaaa</code>都是需要修改处，如果需要验证添加SSH是否成功，测试代码如下，对应上面配置文件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@gitee.com</span><br><span class="line">ssh -T git@xxxx.gitee.com</span><br><span class="line">ssh -T git@aaaaa.github.com</span><br><span class="line">ssh -T git@xxxx.github.com</span><br></pre></td></tr></table></figure>
 依此类推有多少个gitee或github就配置多少个，特别注意 xxxx_id_rsa 不能配置为相同文件名。</li>
 </ol>
-<h1 id="GitHub-Desktop-使用ssh推送或者下拉时候报错-Authentication-failed-Some-common-reasons-include"><a href="#GitHub-Desktop-使用ssh推送或者下拉时候报错-Authentication-failed-Some-common-reasons-include" class="headerlink" title="GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:"></a>GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:</h1><ol>
+<hr>
+<h1 id="git-问题"><a href="#git-问题" class="headerlink" title="git 问题"></a>git 问题</h1><h2 id="GitHub-Desktop-使用ssh推送或者下拉时候报错-Authentication-failed-Some-common-reasons-include"><a href="#GitHub-Desktop-使用ssh推送或者下拉时候报错-Authentication-failed-Some-common-reasons-include" class="headerlink" title="GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:"></a>GitHub Desktop 使用ssh推送或者下拉时候报错 Authentication failed. Some common reasons include:</h2><ol>
 <li>可以尝试关闭路径 <code>File</code>-&gt;<code>Options</code>-&gt;<code>Advanced</code>-&gt;<code>SSH的选项</code>-&gt;<code>Use system OpenSSH 选项</code></li>
 </ol>
 ]]></content>
