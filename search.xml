@@ -11,7 +11,7 @@
   <entry>
     <title>杂项笔记</title>
     <url>/2024/03/18/%E7%AC%94%E8%AE%B0/%E6%9D%82%E9%A1%B9%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="芯片通讯时，有外部中断线参与读取通讯芯片状态时，在中断来临后，要延时一定时间再去读取数据"><a href="#芯片通讯时，有外部中断线参与读取通讯芯片状态时，在中断来临后，要延时一定时间再去读取数据" class="headerlink" title="芯片通讯时，有外部中断线参与读取通讯芯片状态时，在中断来临后，要延时一定时间再去读取数据"></a>芯片通讯时，有外部中断线参与读取通讯芯片状态时，在中断来临后，要延时一定时间再去读取数据</h1><p>例如CH376T芯片通讯时候，显示无法连接U盘等，那么就要在中断来临后，等待一定时间，再去读取数据和状态</p>
+    <content><![CDATA[<h1 id="芯片通讯时，有外部中断线参与读取通讯芯片状态时，在中断来临后，要延时一定时间再去读取数据"><a href="#芯片通讯时，有外部中断线参与读取通讯芯片状态时，在中断来临后，要延时一定时间再去读取数据" class="headerlink" title="芯片通讯时，有外部中断线参与读取通讯芯片状态时，在中断来临后，要延时一定时间再去读取数据"></a>芯片通讯时，有外部中断线参与读取通讯芯片状态时，在中断来临后，要延时一定时间再去读取数据</h1><p>注意：通讯线上防反射电阻时，也需要增加延时再去读取数据<br>例如CH376T芯片通讯时候，显示无法连接U盘等，那么就要在中断来临后，等待一定时间，再去读取数据和状态</p>
 ]]></content>
       <categories>
         <category>笔记</category>
@@ -29,7 +29,7 @@
 <h1 id="Quad-SPI：四线SPI-接口描述"><a href="#Quad-SPI：四线SPI-接口描述" class="headerlink" title="Quad SPI：四线SPI 接口描述"></a>Quad SPI：四线SPI 接口描述</h1><h2 id="QSPI四种模式"><a href="#QSPI四种模式" class="headerlink" title="QSPI四种模式"></a>QSPI四种模式</h2><p>&#x2F;Standard SPI：标准SPI指令<br>&#x2F;Dual SPI：二线SPI<br>&#x2F;Quad SPI：四线SPI<br>&#x2F;QSPI XIP 内存映射模式</p>
 <h2 id="帧格式（frame-format）"><a href="#帧格式（frame-format）" class="headerlink" title="帧格式（frame format）"></a>帧格式（frame format）</h2><p>Quad-SPI接口提供了一个完全可配置的帧格式，最大包含五个阶段并且每个阶段都可以完全配置（也就是说每个阶段的数据长度和数据线数完全可以独立配置）。<br>五个阶段分别为指令阶段、地址阶段、交替（可选）字节阶段、空指令阶段、数据阶段。一般情况下都是会有指令阶段。进行数据读写时一般包括指令、地址、数据阶段l；特殊情况下尤其是高速数据读写时需要设置空指令周期（和外部Flash芯片强相关）。</p>
 <h2 id="SDR与DDR区别"><a href="#SDR与DDR区别" class="headerlink" title="SDR与DDR区别"></a>SDR与DDR区别</h2><h3 id="SDR模式"><a href="#SDR模式" class="headerlink" title="SDR模式"></a>SDR模式</h3><p>在SDR模式下，当 QSPI 驱动 QSPI_IO0，QSPI__IO1，QSPI__IO2，QSPI__IO3信号时，这些信号<code>仅在 CLK 的下降沿发生转变</code>。</p>
-<h3 id="DDR模式"><a href="#DDR模式" class="headerlink" title="DDR模式"></a>DDR模式</h3><p>在DDR模式下，当 QSPI 驱动 QSPI_IO0，QSPI__IO1，QSPI__IO2，QSPI__IO3信号时，这些信号在<code>CLK 的上升沿和下降沿发生转变</code>。</p>
+<h3 id="DDR模式-Double"><a href="#DDR模式-Double" class="headerlink" title="DDR模式 Double"></a>DDR模式 Double</h3><p>在DDR模式下，当 QSPI 驱动 QSPI_IO0，QSPI__IO1，QSPI__IO2，QSPI__IO3信号时，这些信号在<code>CLK 的上升沿和下降沿发生转变</code>。</p>
 <h2 id="间接模式"><a href="#间接模式" class="headerlink" title="间接模式"></a>间接模式</h2><p>间接模式是指通过寄存器方式来访问外设，就跟我们操作串口外设一样。</p>
 <p>间接模式用于读写、擦除操作；所有的操作都是通过Quad-SPI数据寄存器来执行，可以使用CPU也可以使用中断和DMA；也用于配置Quad-SPI Flash内存。<br>QSPI在同一时刻只能使用读取或者写入，只有标准模式下才可以使用接收和发送</p>
 <p>传输的数据通过数据寄存器和FIFO。</p>
